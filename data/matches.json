@@ -9,11 +9,19 @@
   "batted_first": true,
   "result": "W",
   "margin": "by 28 Runs",
-  "us": null,
-  "them": null,
+  "us": {
+   "r": 126,
+   "w": 10,
+   "o": 20.0
+  },
+  "them": {
+   "r": 98,
+   "w": 10,
+   "o": 18.3
+  },
   "batting": [
    {
-    "name": "SREEKANTH REDDY KYPA c Shanthan K b Ashok Reddy B",
+    "name": "Sreekanth Reddy Kypa",
     "r": 50,
     "b": 32,
     "f4": 3,
@@ -22,7 +30,7 @@
     "dis": "c Shanthan K b Ashok Reddy B"
    },
    {
-    "name": "Srikanth Jaina c Rushyendrasai M b Sandeep P",
+    "name": "Srikanth Jaina",
     "r": 19,
     "b": 27,
     "f4": 3,
@@ -31,7 +39,7 @@
     "dis": "c \u2020 Rushyendrasai M b Sandeep P"
    },
    {
-    "name": "Raja Vasamsetty c Rushyendrasai M b Sandeep P",
+    "name": "Raja Vasamsetty",
     "r": 2,
     "b": 6,
     "f4": 0,
@@ -40,7 +48,7 @@
     "dis": "c \u2020 Rushyendrasai M b Sandeep P"
    },
    {
-    "name": "Gowtham Reddy Cheedepudi b Tushar H",
+    "name": "Gowtham Reddy Cheedepudi",
     "r": 7,
     "b": 19,
     "f4": 0,
@@ -49,7 +57,7 @@
     "dis": "b Tushar H"
    },
    {
-    "name": "Mithun Dama c Rushyendrasai M b Ashok Reddy B",
+    "name": "Mithun Dama",
     "r": 15,
     "b": 14,
     "f4": 0,
@@ -58,7 +66,7 @@
     "dis": "c \u2020 Rushyendrasai M b Ashok Reddy B"
    },
    {
-    "name": "Sai Thota c Rushyendrasai M b Vijay B",
+    "name": "Sai Thota",
     "r": 5,
     "b": 6,
     "f4": 0,
@@ -67,7 +75,7 @@
     "dis": "c Rushyendrasai M b Vijay B"
    },
    {
-    "name": "Ajith Kumaar Ayna Sankar c Rushyendrasai M b Vijay B",
+    "name": "Ajith Kumaar Ayna Sankar",
     "r": 12,
     "b": 10,
     "f4": 1,
@@ -76,7 +84,7 @@
     "dis": "c \u2020 Rushyendrasai M b Vijay B"
    },
    {
-    "name": "Gowtham P b Vijay B",
+    "name": "Gowtham P",
     "r": 1,
     "b": 5,
     "f4": 0,
@@ -85,7 +93,7 @@
     "dis": "b Vijay B"
    },
    {
-    "name": "Naveen Jagadeesan c Ashok Reddy B b Vijay B",
+    "name": "Naveen Jagadeesan",
     "r": 0,
     "b": 1,
     "f4": 0,
@@ -94,7 +102,7 @@
     "dis": "c Ashok Reddy B b Vijay B"
    },
    {
-    "name": "Sriram Kumar Maddu c Shanthan K b Vijay B",
+    "name": "Sriram Kumar Maddu",
     "r": 1,
     "b": 2,
     "f4": 0,
@@ -103,7 +111,7 @@
     "dis": "c Shanthan K b Vijay B"
    },
    {
-    "name": "Ashok Kumar Kotagari not out",
+    "name": "Ashok Kumar Kotagari",
     "r": 1,
     "b": 1,
     "f4": 0,
@@ -112,16 +120,59 @@
     "dis": "not out"
    }
   ],
-  "bowling": [],
+  "bowling": [
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "o": 3.0,
+    "m": 0,
+    "r": 11,
+    "w": 0
+   },
+   {
+    "name": "Mithun Dama",
+    "o": 4.0,
+    "m": 0,
+    "r": 20,
+    "w": 4
+   },
+   {
+    "name": "Pavan K Reddy Yannam",
+    "o": 3.0,
+    "m": 0,
+    "r": 25,
+    "w": 1
+   },
+   {
+    "name": "Ajith Kumaar Ayna Sankar",
+    "o": 4.0,
+    "m": 0,
+    "r": 23,
+    "w": 3
+   },
+   {
+    "name": "Sriram Kumar Maddu",
+    "o": 3.3,
+    "m": 0,
+    "r": 14,
+    "w": 2
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "o": 1.0,
+    "m": 0,
+    "r": 5,
+    "w": 0
+   }
+  ],
   "fielding": [
    {
-    "name": "Gowtham P b Vijay B",
+    "name": "Gowtham P",
     "ct": 4,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Srikanth Jaina c Rushyendrasai M b Sandeep P",
+    "name": "Srikanth Jaina",
     "ct": 1,
     "st": 0,
     "ro": 0
@@ -150,7 +201,7 @@
   },
   "batting": [
    {
-    "name": "Sreekanth Reddy Kypa c Nahid H b Samad H",
+    "name": "Sreekanth Reddy Kypa",
     "r": 36,
     "b": 26,
     "f4": 3,
@@ -159,7 +210,7 @@
     "dis": "c Nahid H b Samad H"
    },
    {
-    "name": "Mahesh Peddiredla c Rayhan A b Samad H",
+    "name": "Mahesh Peddiredla",
     "r": 10,
     "b": 14,
     "f4": 0,
@@ -168,7 +219,7 @@
     "dis": "c Rayhan A b Samad H"
    },
    {
-    "name": "Srinath Mirdoddi c Samad H b Abu R",
+    "name": "Srinath Mirdoddi",
     "r": 7,
     "b": 7,
     "f4": 0,
@@ -177,7 +228,7 @@
     "dis": "c Samad H b Abu R"
    },
    {
-    "name": "Raja Vasamsetty c Rayhan A b Nahid H",
+    "name": "Raja Vasamsetty",
     "r": 25,
     "b": 23,
     "f4": 1,
@@ -186,7 +237,7 @@
     "dis": "c Rayhan A b Nahid H"
    },
    {
-    "name": "Srikanth Jaina not out",
+    "name": "Srikanth Jaina",
     "r": 35,
     "b": 31,
     "f4": 3,
@@ -195,7 +246,7 @@
     "dis": "not out"
    },
    {
-    "name": "Sanjeev Murali c Abu R b Muned A",
+    "name": "Sanjeev Murali",
     "r": 6,
     "b": 13,
     "f4": 0,
@@ -204,7 +255,7 @@
     "dis": "c Abu R b Muned A"
    },
    {
-    "name": "Mithun Dama b Abu R",
+    "name": "Mithun Dama",
     "r": 3,
     "b": 5,
     "f4": 0,
@@ -213,7 +264,7 @@
     "dis": "b Abu R"
    },
    {
-    "name": "Ashok Kumar Kotagari not out",
+    "name": "Ashok Kumar Kotagari",
     "r": 1,
     "b": 1,
     "f4": 0,
@@ -224,49 +275,49 @@
   ],
   "bowling": [
    {
-    "name": "",
+    "name": "Prosenroyal Vellanki",
     "o": 2.0,
     "m": 0,
     "r": 26,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Mithun Dama",
     "o": 2.2,
     "m": 0,
     "r": 31,
     "w": 2
    },
    {
-    "name": "",
+    "name": "Gowtham Reddy Cheedepudi",
     "o": 2.0,
     "m": 0,
     "r": 29,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Mahesh Peddiredla",
     "o": 4.0,
     "m": 0,
     "r": 16,
     "w": 4
    },
    {
-    "name": "",
+    "name": "Ruturaj Patil",
     "o": 2.0,
     "m": 0,
     "r": 22,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Raja Vasamsetty",
     "o": 4.0,
     "m": 0,
     "r": 26,
     "w": 2
    },
    {
-    "name": "",
+    "name": "Lochan Akkaraju",
     "o": 3.0,
     "m": 0,
     "r": 26,
@@ -275,19 +326,243 @@
   ],
   "fielding": [
    {
-    "name": "Sanjeev Murali c Abu R b Muned A",
+    "name": "Sanjeev Murali",
     "ct": 1,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Sreekanth Reddy Kypa c Nahid H b Samad H",
+    "name": "Sreekanth Reddy Kypa",
     "ct": 1,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Srikanth Jaina not out",
+    "name": "Gowtham Reddy Cheedepudi",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Ruturaj Patil",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Lochan Akkaraju",
+    "ct": 1,
+    "st": 0,
+    "ro": 1
+   },
+   {
+    "name": "Prosenroyal Vellanki",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Srikanth Jaina",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   }
+  ]
+ },
+ {
+  "id": "farmingtoncc_6985",
+  "url": "https://cricclubs.com/farmingtoncc/viewScorecard.do?matchId=6985&clubId=27071",
+  "league": "Farmington CC",
+  "series": "FCC Colors Trophy 2026 - Contenders",
+  "date": "2026-10-10",
+  "opponent": "Pacers",
+  "batted_first": true,
+  "result": "W",
+  "margin": "by 12 Runs",
+  "us": {
+   "r": 76,
+   "w": 10,
+   "o": 17.1
+  },
+  "them": {
+   "r": 64,
+   "w": 10,
+   "o": 17.2
+  },
+  "batting": [
+   {
+    "name": "Srikanth Jaina",
+    "r": 34,
+    "b": 51,
+    "f4": 1,
+    "f6": 0,
+    "out": true,
+    "dis": "c Umair T b Niranjan B"
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "r": 1,
+    "b": 1,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "run out ( Akhil Reddy T )"
+   },
+   {
+    "name": "Mahesh Peddiredla",
+    "r": 22,
+    "b": 18,
+    "f4": 1,
+    "f6": 1,
+    "out": true,
+    "dis": "St Shiv P b Niranjan B"
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "r": 5,
+    "b": 8,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c Teja M b Niranjan B"
+   },
+   {
+    "name": "Ashok Kumar Kotagari",
+    "r": 2,
+    "b": 3,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c Gopi N b Pavan K"
+   },
+   {
+    "name": "Naveen Jagadeesan",
+    "r": 5,
+    "b": 9,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c Gopi N b Pavan K"
+   },
+   {
+    "name": "Mithun Dama",
+    "r": 2,
+    "b": 4,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c Teja M b Gopi N"
+   },
+   {
+    "name": "Pavan K Reddy Yannam",
+    "r": 0,
+    "b": 1,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "b Niranjan B"
+   },
+   {
+    "name": "Srikanth Boyina",
+    "r": 0,
+    "b": 5,
+    "f4": 0,
+    "f6": 0,
+    "out": false,
+    "dis": "not out"
+   },
+   {
+    "name": "Sai Thota",
+    "r": 0,
+    "b": 1,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c \u2020 Shiv P b Gopi N"
+   },
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "r": 1,
+    "b": 2,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c Kannan V b Akhil Reddy T"
+   },
+   {
+    "name": "Lochan Akkaraju",
+    "r": 0,
+    "b": 0,
+    "f4": 0,
+    "f6": 0,
+    "out": false,
+    "dis": "not out"
+   }
+  ],
+  "bowling": [
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "o": 4.0,
+    "m": 0,
+    "r": 23,
+    "w": 3
+   },
+   {
+    "name": "Mithun Dama",
+    "o": 4.0,
+    "m": 2,
+    "r": 9,
+    "w": 3
+   },
+   {
+    "name": "Mahesh Peddiredla",
+    "o": 4.0,
+    "m": 0,
+    "r": 17,
+    "w": 1
+   },
+   {
+    "name": "Lochan Akkaraju",
+    "o": 3.2,
+    "m": 0,
+    "r": 10,
+    "w": 3
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "o": 2.0,
+    "m": 0,
+    "r": 5,
+    "w": 0
+   }
+  ],
+  "fielding": [
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "ct": 2,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Ashok Kumar Kotagari",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Mahesh Peddiredla",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Mithun Dama",
     "ct": 1,
     "st": 0,
     "ro": 0
@@ -316,7 +591,7 @@
   },
   "batting": [
    {
-    "name": "Srikanth Jaina c Bala hari krishna B b Phani R",
+    "name": "Srikanth Jaina",
     "r": 34,
     "b": 49,
     "f4": 0,
@@ -325,7 +600,7 @@
     "dis": "c Bala hari krishna B b Phani R"
    },
    {
-    "name": "SREEKANTH REDDY KYPA c Syam K b Rajgopal N",
+    "name": "Sreekanth Reddy Kypa",
     "r": 23,
     "b": 23,
     "f4": 0,
@@ -334,7 +609,7 @@
     "dis": "c Syam K b Rajgopal N"
    },
    {
-    "name": "Mahesh Peddiredla c Sai Kiran A b Phani R",
+    "name": "Mahesh Peddiredla",
     "r": 7,
     "b": 10,
     "f4": 0,
@@ -343,7 +618,7 @@
     "dis": "c \u2020 Sai Kiran A b Phani R"
    },
    {
-    "name": "Raja Vasamsetty not out",
+    "name": "Raja Vasamsetty",
     "r": 33,
     "b": 28,
     "f4": 0,
@@ -352,7 +627,7 @@
     "dis": "not out"
    },
    {
-    "name": "Ajith Kumaar Ayna Sankar c Sai Kiran A b Phani R",
+    "name": "Ajith Kumaar Ayna Sankar",
     "r": 0,
     "b": 1,
     "f4": 0,
@@ -361,7 +636,7 @@
     "dis": "c \u2020 Sai Kiran A b Phani R"
    },
    {
-    "name": "Mithun Dama b Rajgopal N",
+    "name": "Mithun Dama",
     "r": 10,
     "b": 7,
     "f4": 0,
@@ -370,7 +645,7 @@
     "dis": "b Rajgopal N"
    },
    {
-    "name": "Gowtham P not out",
+    "name": "Gowtham P",
     "r": 3,
     "b": 6,
     "f4": 0,
@@ -379,34 +654,77 @@
     "dis": "not out"
    }
   ],
-  "bowling": [],
+  "bowling": [
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "o": 4.0,
+    "m": 0,
+    "r": 15,
+    "w": 2
+   },
+   {
+    "name": "Mithun Dama",
+    "o": 4.0,
+    "m": 0,
+    "r": 24,
+    "w": 0
+   },
+   {
+    "name": "Ajith Kumaar Ayna Sankar",
+    "o": 4.0,
+    "m": 0,
+    "r": 14,
+    "w": 1
+   },
+   {
+    "name": "Mahesh Peddiredla",
+    "o": 3.0,
+    "m": 0,
+    "r": 19,
+    "w": 1
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "o": 2.5,
+    "m": 0,
+    "r": 21,
+    "w": 1
+   },
+   {
+    "name": "Sriram Kumar Maddu",
+    "o": 2.0,
+    "m": 0,
+    "r": 13,
+    "w": 1
+   }
+  ],
   "fielding": [
    {
-    "name": "Mithun Dama b Rajgopal N",
+    "name": "Mithun Dama",
     "ct": 1,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "SREEKANTH REDDY KYPA c Syam K b Rajgopal N",
+    "name": "Sreekanth Reddy Kypa",
     "ct": 1,
     "st": 0,
     "ro": 1
    },
    {
-    "name": "Srikanth Jaina c Bala hari krishna B b Phani R",
+    "name": "Srikanth Jaina",
     "ct": 2,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Ajith Kumaar Ayna Sankar c Sai Kiran A b Phani R",
+    "name": "Ajith Kumaar Ayna Sankar",
     "ct": 2,
     "st": 0,
     "ro": 2
    },
    {
-    "name": "Gowtham P not out",
+    "name": "Gowtham P",
     "ct": 0,
     "st": 0,
     "ro": 1
@@ -435,7 +753,7 @@
   },
   "batting": [
    {
-    "name": "Srikanth Jaina lbw b Farhaan S",
+    "name": "Srikanth Jaina",
     "r": 26,
     "b": 24,
     "f4": 1,
@@ -444,7 +762,7 @@
     "dis": "lbw b Farhaan S"
    },
    {
-    "name": "Sreekanth Reddy Kypa c Hamza A b Muneer K",
+    "name": "Sreekanth Reddy Kypa",
     "r": 50,
     "b": 39,
     "f4": 3,
@@ -453,7 +771,7 @@
     "dis": "c Hamza A b Muneer K"
    },
    {
-    "name": "Srinath Mirdoddi lbw b Zunair A",
+    "name": "Srinath Mirdoddi",
     "r": 9,
     "b": 7,
     "f4": 1,
@@ -462,7 +780,7 @@
     "dis": "lbw b Zunair A"
    },
    {
-    "name": "Mahesh Peddiredla c Fareed S b Zunair A",
+    "name": "Mahesh Peddiredla",
     "r": 0,
     "b": 3,
     "f4": 0,
@@ -471,7 +789,7 @@
     "dis": "c Fareed S b Zunair A"
    },
    {
-    "name": "Raja Vasamsetty b Zunair A",
+    "name": "Raja Vasamsetty",
     "r": 7,
     "b": 13,
     "f4": 0,
@@ -480,7 +798,7 @@
     "dis": "b Zunair A"
    },
    {
-    "name": "Sanjeev Murali run out ( Shahid Ali khan m )",
+    "name": "Sanjeev Murali",
     "r": 3,
     "b": 6,
     "f4": 0,
@@ -489,7 +807,7 @@
     "dis": "run out ( Shahid Ali khan m )"
    },
    {
-    "name": "Manoj Paul Dasari c Mohammed Rashid S b Zunair A",
+    "name": "Manoj Paul Dasari",
     "r": 2,
     "b": 3,
     "f4": 0,
@@ -498,7 +816,7 @@
     "dis": "c Mohammed Rashid S b Zunair A"
    },
    {
-    "name": "Ajith Kumaar Ayna Sankar b Zunair A",
+    "name": "Ajith Kumaar Ayna Sankar",
     "r": 8,
     "b": 4,
     "f4": 1,
@@ -507,7 +825,7 @@
     "dis": "b Zunair A"
    },
    {
-    "name": "Mithun Dama c Shahid Ali khan m b Ateeq A",
+    "name": "Mithun Dama",
     "r": 4,
     "b": 2,
     "f4": 1,
@@ -516,7 +834,7 @@
     "dis": "c \u2020 Shahid Ali khan m b Ateeq A"
    },
    {
-    "name": "Prosenroyal Vellanki not out",
+    "name": "Prosenroyal Vellanki",
     "r": 4,
     "b": 4,
     "f4": 1,
@@ -525,7 +843,7 @@
     "dis": "not out"
    },
    {
-    "name": "Gowtham Reddy Cheedepudi not out",
+    "name": "Gowtham Reddy Cheedepudi",
     "r": 0,
     "b": 4,
     "f4": 0,
@@ -536,42 +854,42 @@
   ],
   "bowling": [
    {
-    "name": "",
+    "name": "Prosenroyal Vellanki",
     "o": 3.0,
     "m": 0,
     "r": 25,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Gowtham Reddy Cheedepudi",
     "o": 4.0,
     "m": 0,
     "r": 24,
     "w": 2
    },
    {
-    "name": "",
+    "name": "Mithun Dama",
     "o": 3.0,
     "m": 0,
     "r": 28,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Mahesh Peddiredla",
     "o": 4.0,
     "m": 0,
     "r": 20,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Manoj Paul Dasari",
     "o": 3.0,
     "m": 0,
     "r": 13,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Ajith Kumaar Ayna Sankar",
     "o": 3.0,
     "m": 0,
     "r": 11,
@@ -580,37 +898,37 @@
   ],
   "fielding": [
    {
-    "name": "Srikanth Jaina lbw b Farhaan S",
+    "name": "Srikanth Jaina",
     "ct": 2,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Manoj Paul Dasari c Mohammed Rashid S b Zunair A",
+    "name": "Manoj Paul Dasari",
     "ct": 1,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Srinath Mirdoddi lbw b Zunair A",
+    "name": "Srinath Mirdoddi",
     "ct": 2,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Sreekanth Reddy Kypa c Hamza A b Muneer K",
+    "name": "Sreekanth Reddy Kypa",
     "ct": 1,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Mithun Dama c Shahid Ali khan m b Ateeq A",
+    "name": "Mithun Dama",
     "ct": 1,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Prosenroyal Vellanki not out",
+    "name": "Prosenroyal Vellanki",
     "ct": 0,
     "st": 0,
     "ro": 1
@@ -639,7 +957,7 @@
   },
   "batting": [
    {
-    "name": "Raja Vasamsetty c&b Shiva M",
+    "name": "Raja Vasamsetty",
     "r": 2,
     "b": 2,
     "f4": 0,
@@ -648,7 +966,7 @@
     "dis": "c&b Shiva M"
    },
    {
-    "name": "SREEKANTH REDDY KYPA c ajeet kumar s b Miral P",
+    "name": "Sreekanth Reddy Kypa",
     "r": 54,
     "b": 51,
     "f4": 3,
@@ -657,7 +975,7 @@
     "dis": "c \u2020 ajeet kumar s b Miral P"
    },
    {
-    "name": "Mahesh Peddiredla c ajeet kumar s b Miral P",
+    "name": "Mahesh Peddiredla",
     "r": 6,
     "b": 15,
     "f4": 0,
@@ -666,7 +984,7 @@
     "dis": "c \u2020 ajeet kumar s b Miral P"
    },
    {
-    "name": "Pranav Reddy Ala b Miral P",
+    "name": "Pranav Reddy Ala",
     "r": 0,
     "b": 2,
     "f4": 0,
@@ -675,7 +993,7 @@
     "dis": "b Miral P"
    },
    {
-    "name": "Mithun Dama c Miral P b Kuldeep Singh T",
+    "name": "Mithun Dama",
     "r": 4,
     "b": 4,
     "f4": 0,
@@ -684,7 +1002,7 @@
     "dis": "c Miral P b Kuldeep Singh T"
    },
    {
-    "name": "Ajith Kumaar Ayna Sankar c ajeet kumar s b Hemant B",
+    "name": "Ajith Kumaar Ayna Sankar",
     "r": 18,
     "b": 28,
     "f4": 0,
@@ -693,7 +1011,7 @@
     "dis": "c \u2020 ajeet kumar s b Hemant B"
    },
    {
-    "name": "Gowtham P not out",
+    "name": "Gowtham P",
     "r": 15,
     "b": 12,
     "f4": 1,
@@ -702,7 +1020,7 @@
     "dis": "not out"
    },
    {
-    "name": "Ashok Kumar Kotagari not out",
+    "name": "Ashok Kumar Kotagari",
     "r": 12,
     "b": 6,
     "f4": 1,
@@ -711,11 +1029,260 @@
     "dis": "not out"
    }
   ],
-  "bowling": [],
+  "bowling": [
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "o": 3.4,
+    "m": 0,
+    "r": 15,
+    "w": 3
+   },
+   {
+    "name": "Mithun Dama",
+    "o": 4.0,
+    "m": 0,
+    "r": 25,
+    "w": 2
+   },
+   {
+    "name": "Mahesh Peddiredla",
+    "o": 3.0,
+    "m": 0,
+    "r": 27,
+    "w": 1
+   },
+   {
+    "name": "Lochan Akkaraju",
+    "o": 1.0,
+    "m": 0,
+    "r": 6,
+    "w": 0
+   },
+   {
+    "name": "Ajith Kumaar Ayna Sankar",
+    "o": 3.0,
+    "m": 0,
+    "r": 20,
+    "w": 1
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "o": 3.0,
+    "m": 0,
+    "r": 12,
+    "w": 2
+   }
+  ],
   "fielding": [
    {
-    "name": "Gowtham P not out",
+    "name": "Lochan Akkaraju",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Gowtham P",
     "ct": 2,
+    "st": 0,
+    "ro": 0
+   }
+  ]
+ },
+ {
+  "id": "farmingtoncc_6908",
+  "url": "https://cricclubs.com/farmingtoncc/viewScorecard.do?matchId=6908&clubId=27071",
+  "league": "Farmington CC",
+  "series": "FCC Colors Trophy 2026 - Contenders",
+  "date": "2026-09-23",
+  "opponent": "Broncos",
+  "batted_first": false,
+  "result": "L",
+  "margin": "by 38 Runs",
+  "us": {
+   "r": 95,
+   "w": 10,
+   "o": 19.5
+  },
+  "them": {
+   "r": 133,
+   "w": 6,
+   "o": 20.0
+  },
+  "batting": [
+   {
+    "name": "Raja Vasamsetty",
+    "r": 3,
+    "b": 9,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "b Anish K"
+   },
+   {
+    "name": "Srikanth Jaina",
+    "r": 3,
+    "b": 7,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "lbw b Anish K"
+   },
+   {
+    "name": "Pranav Reddy Ala",
+    "r": 1,
+    "b": 6,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "b Durga prasad P"
+   },
+   {
+    "name": "Srinath Mirdoddi",
+    "r": 16,
+    "b": 29,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "b VIJAY S"
+   },
+   {
+    "name": "Mithun Dama",
+    "r": 18,
+    "b": 24,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "run out ( srikanth m / Vijay K )"
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "r": 6,
+    "b": 3,
+    "f4": 0,
+    "f6": 1,
+    "out": true,
+    "dis": "c Anish K b srikanth m"
+   },
+   {
+    "name": "Ajith Kumaar Ayna Sankar",
+    "r": 6,
+    "b": 7,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c Mohan R b Jaffer S"
+   },
+   {
+    "name": "Ashok Kumar Kotagari",
+    "r": 17,
+    "b": 17,
+    "f4": 1,
+    "f6": 0,
+    "out": true,
+    "dis": "St Ganesh P b srikanth m"
+   },
+   {
+    "name": "Pavan K Reddy Yannam",
+    "r": 0,
+    "b": 1,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c&b Jaffer S"
+   },
+   {
+    "name": "Sriram Kumar Maddu",
+    "r": 5,
+    "b": 5,
+    "f4": 1,
+    "f6": 0,
+    "out": true,
+    "dis": "c Mohan R b Jaffer S"
+   },
+   {
+    "name": "Srikanth Boyina",
+    "r": 0,
+    "b": 13,
+    "f4": 0,
+    "f6": 0,
+    "out": false,
+    "dis": "not out"
+   }
+  ],
+  "bowling": [
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "o": 4.0,
+    "m": 0,
+    "r": 21,
+    "w": 3
+   },
+   {
+    "name": "Mithun Dama",
+    "o": 4.0,
+    "m": 0,
+    "r": 14,
+    "w": 1
+   },
+   {
+    "name": "Pavan K Reddy Yannam",
+    "o": 2.0,
+    "m": 0,
+    "r": 16,
+    "w": 0
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "o": 1.0,
+    "m": 0,
+    "r": 12,
+    "w": 0
+   },
+   {
+    "name": "Ajith Kumaar Ayna Sankar",
+    "o": 3.0,
+    "m": 0,
+    "r": 14,
+    "w": 1
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "o": 3.0,
+    "m": 0,
+    "r": 27,
+    "w": 0
+   },
+   {
+    "name": "Sriram Kumar Maddu",
+    "o": 2.0,
+    "m": 0,
+    "r": 19,
+    "w": 0
+   },
+   {
+    "name": "Srikanth Boyina",
+    "o": 1.0,
+    "m": 0,
+    "r": 8,
+    "w": 0
+   }
+  ],
+  "fielding": [
+   {
+    "name": "Srikanth Jaina",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "ct": 0,
+    "st": 0,
+    "ro": 1
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "ct": 1,
     "st": 0,
     "ro": 0
    }
@@ -731,8 +1298,16 @@
   "batted_first": false,
   "result": "NR",
   "margin": "No result",
-  "us": null,
-  "them": null,
+  "us": {
+   "r": 0,
+   "w": 0,
+   "o": 0.0
+  },
+  "them": {
+   "r": 0,
+   "w": 0,
+   "o": 0.0
+  },
   "batting": [],
   "bowling": [],
   "fielding": []
@@ -759,7 +1334,7 @@
   },
   "batting": [
    {
-    "name": "Raja Vasamsetty c Abhinav G b Hari S",
+    "name": "Raja Vasamsetty",
     "r": 31,
     "b": 43,
     "f4": 1,
@@ -768,7 +1343,7 @@
     "dis": "c Abhinav G b Hari S"
    },
    {
-    "name": "Srikanth Jaina c Naveen Nishanth N b Hari S",
+    "name": "Srikanth Jaina",
     "r": 0,
     "b": 3,
     "f4": 0,
@@ -777,7 +1352,7 @@
     "dis": "c \u2020 Naveen Nishanth N b Hari S"
    },
    {
-    "name": "Mithun Dama b Hari S",
+    "name": "Mithun Dama",
     "r": 3,
     "b": 7,
     "f4": 0,
@@ -786,7 +1361,7 @@
     "dis": "b Hari S"
    },
    {
-    "name": "Mahesh Peddiredla c Abhinav G b Dinesh R",
+    "name": "Mahesh Peddiredla",
     "r": 9,
     "b": 15,
     "f4": 0,
@@ -795,7 +1370,7 @@
     "dis": "c Abhinav G b Dinesh R"
    },
    {
-    "name": "SREEKANTH REDDY KYPA b Praveen P",
+    "name": "Sreekanth Reddy Kypa",
     "r": 8,
     "b": 10,
     "f4": 0,
@@ -804,7 +1379,7 @@
     "dis": "b Praveen P"
    },
    {
-    "name": "Ashok Kumar Kotagari c Harish Reddy C b Praveen P",
+    "name": "Ashok Kumar Kotagari",
     "r": 0,
     "b": 2,
     "f4": 0,
@@ -813,7 +1388,7 @@
     "dis": "c Harish Reddy C b Praveen P"
    },
    {
-    "name": "Ajith Kumaar Ayna Sankar c Naveen Nishanth N b Praveen P",
+    "name": "Ajith Kumaar Ayna Sankar",
     "r": 13,
     "b": 26,
     "f4": 0,
@@ -822,7 +1397,7 @@
     "dis": "c \u2020 Naveen Nishanth N b Praveen P"
    },
    {
-    "name": "Gowtham P b Dhanabal A",
+    "name": "Gowtham P",
     "r": 6,
     "b": 10,
     "f4": 0,
@@ -831,7 +1406,7 @@
     "dis": "b Dhanabal A"
    },
    {
-    "name": "Pavan K Reddy Yannam not out",
+    "name": "Pavan K Reddy Yannam",
     "r": 5,
     "b": 5,
     "f4": 0,
@@ -842,42 +1417,42 @@
   ],
   "bowling": [
    {
-    "name": "",
+    "name": "Gowtham Reddy Cheedepudi",
     "o": 3.5,
     "m": 0,
     "r": 11,
     "w": 5
    },
    {
-    "name": "",
+    "name": "Mithun Dama",
     "o": 4.0,
     "m": 0,
     "r": 10,
     "w": 3
    },
    {
-    "name": "",
+    "name": "Mahesh Peddiredla",
     "o": 4.0,
     "m": 1,
     "r": 8,
     "w": 2
    },
    {
-    "name": "",
+    "name": "Lochan Akkaraju",
     "o": 2.0,
     "m": 0,
     "r": 14,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Sreekanth Reddy Kypa",
     "o": 3.0,
     "m": 0,
     "r": 18,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Srikanth Boyina",
     "o": 1.0,
     "m": 0,
     "r": 7,
@@ -886,19 +1461,19 @@
   ],
   "fielding": [
    {
-    "name": "Ajith Kumaar Ayna Sankar c Naveen Nishanth N b Praveen P",
+    "name": "Ajith Kumaar Ayna Sankar",
     "ct": 1,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Gowtham P b Dhanabal A",
+    "name": "Gowtham P",
     "ct": 1,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "SREEKANTH REDDY KYPA b Praveen P",
+    "name": "Sreekanth Reddy Kypa",
     "ct": 1,
     "st": 0,
     "ro": 0
@@ -927,7 +1502,7 @@
   },
   "batting": [
    {
-    "name": "Srinath Mirdoddi c Mashud A b Badrul A",
+    "name": "Srinath Mirdoddi",
     "r": 16,
     "b": 12,
     "f4": 0,
@@ -936,7 +1511,7 @@
     "dis": "c Mashud A b Badrul A"
    },
    {
-    "name": "Sreekanth Reddy Kypa c Ash H b Abdul M",
+    "name": "Sreekanth Reddy Kypa",
     "r": 0,
     "b": 1,
     "f4": 0,
@@ -945,7 +1520,7 @@
     "dis": "c Ash H b Abdul M"
    },
    {
-    "name": "Raja Vasamsetty c&b Atiqur R",
+    "name": "Raja Vasamsetty",
     "r": 29,
     "b": 33,
     "f4": 4,
@@ -954,7 +1529,7 @@
     "dis": "c&b Atiqur R"
    },
    {
-    "name": "Mahesh Peddiredla c Nur F b Abdul M",
+    "name": "Mahesh Peddiredla",
     "r": 40,
     "b": 28,
     "f4": 6,
@@ -963,7 +1538,7 @@
     "dis": "c \u2020 Nur F b Abdul M"
    },
    {
-    "name": "Mithun Dama c Raihan H b Mashud A",
+    "name": "Mithun Dama",
     "r": 3,
     "b": 4,
     "f4": 0,
@@ -972,7 +1547,7 @@
     "dis": "c Raihan H b Mashud A"
    },
    {
-    "name": "Prosenroyal Vellanki c Md Foysal A b Mashud A",
+    "name": "Prosenroyal Vellanki",
     "r": 10,
     "b": 10,
     "f4": 0,
@@ -981,7 +1556,7 @@
     "dis": "c Md Foysal A b Mashud A"
    },
    {
-    "name": "Srikanth Jaina c Atiqur R b Md Foysal A",
+    "name": "Srikanth Jaina",
     "r": 11,
     "b": 15,
     "f4": 0,
@@ -990,7 +1565,7 @@
     "dis": "c Atiqur R b Md Foysal A"
    },
    {
-    "name": "Madhu Jampala b Atiqur R",
+    "name": "Madhu Jampala",
     "r": 0,
     "b": 2,
     "f4": 0,
@@ -999,7 +1574,7 @@
     "dis": "b Atiqur R"
    },
    {
-    "name": "Gowtham Reddy Cheedepudi run out ( Badrul A )",
+    "name": "Gowtham Reddy Cheedepudi",
     "r": 6,
     "b": 7,
     "f4": 0,
@@ -1008,7 +1583,7 @@
     "dis": "run out ( Badrul A )"
    },
    {
-    "name": "Lochan Akkaraju b Badrul A",
+    "name": "Lochan Akkaraju",
     "r": 0,
     "b": 2,
     "f4": 0,
@@ -1017,7 +1592,7 @@
     "dis": "b Badrul A"
    },
    {
-    "name": "Ruturaj Patil not out",
+    "name": "Ruturaj Patil",
     "r": 0,
     "b": 1,
     "f4": 0,
@@ -1028,35 +1603,35 @@
   ],
   "bowling": [
    {
-    "name": "",
+    "name": "Mithun Dama",
     "o": 4.0,
     "m": 0,
     "r": 25,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Prosenroyal Vellanki",
     "o": 4.0,
     "m": 0,
     "r": 29,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Gowtham Reddy Cheedepudi",
     "o": 4.0,
     "m": 0,
     "r": 22,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Mahesh Peddiredla",
     "o": 3.5,
     "m": 0,
     "r": 32,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Sreekanth Reddy Kypa",
     "o": 3.0,
     "m": 0,
     "r": 25,
@@ -1065,19 +1640,19 @@
   ],
   "fielding": [
    {
-    "name": "Prosenroyal Vellanki c Md Foysal A b Mashud A",
+    "name": "Prosenroyal Vellanki",
     "ct": 1,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Srikanth Jaina c Atiqur R b Md Foysal A",
+    "name": "Srikanth Jaina",
     "ct": 0,
     "st": 1,
     "ro": 0
    },
    {
-    "name": "Mahesh Peddiredla c Nur F b Abdul M",
+    "name": "Mahesh Peddiredla",
     "ct": 0,
     "st": 0,
     "ro": 1
@@ -1106,7 +1681,7 @@
   },
   "batting": [
    {
-    "name": "Sanjeev Murali b Bhoopal Reddy N",
+    "name": "Sanjeev Murali",
     "r": 0,
     "b": 2,
     "f4": 0,
@@ -1115,7 +1690,7 @@
     "dis": "b Bhoopal Reddy N"
    },
    {
-    "name": "Srinath Mirdoddi not out",
+    "name": "Srinath Mirdoddi",
     "r": 71,
     "b": 65,
     "f4": 4,
@@ -1124,7 +1699,7 @@
     "dis": "not out"
    },
    {
-    "name": "Raja Vasamsetty not out",
+    "name": "Raja Vasamsetty",
     "r": 42,
     "b": 36,
     "f4": 2,
@@ -1135,49 +1710,62 @@
   ],
   "bowling": [
    {
-    "name": "",
+    "name": "Mithun Dama",
     "o": 4.0,
     "m": 0,
     "r": 35,
     "w": 2
    },
    {
-    "name": "",
+    "name": "Prosenroyal Vellanki",
     "o": 4.0,
     "m": 0,
     "r": 17,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Gowtham Reddy Cheedepudi",
     "o": 4.0,
     "m": 0,
     "r": 22,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Ruturaj Patil",
     "o": 3.0,
     "m": 0,
     "r": 24,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Jeevan Ciravandla",
     "o": 1.0,
     "m": 0,
     "r": 10,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Lochan Akkaraju",
     "o": 4.0,
     "m": 0,
     "r": 19,
     "w": 1
    }
   ],
-  "fielding": []
+  "fielding": [
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Ruturaj Patil",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   }
+  ]
  },
  {
   "id": "MichCA_5690",
@@ -1201,7 +1789,7 @@
   },
   "batting": [
    {
-    "name": "Raja Vasamsetty c Nayem A b Naeem H",
+    "name": "Raja Vasamsetty",
     "r": 0,
     "b": 1,
     "f4": 0,
@@ -1210,7 +1798,7 @@
     "dis": "c Nayem A b Naeem H"
    },
    {
-    "name": "Sreekanth Reddy Kypa c Tanim K b Tajel H",
+    "name": "Sreekanth Reddy Kypa",
     "r": 0,
     "b": 1,
     "f4": 0,
@@ -1219,7 +1807,7 @@
     "dis": "c Tanim K b Tajel H"
    },
    {
-    "name": "Mithun Dama c Imtiaz A b Naeem H",
+    "name": "Mithun Dama",
     "r": 5,
     "b": 10,
     "f4": 1,
@@ -1228,7 +1816,7 @@
     "dis": "c \u2020 Imtiaz A b Naeem H"
    },
    {
-    "name": "Srinath Mirdoddi c Nahid M b Shafi A",
+    "name": "Srinath Mirdoddi",
     "r": 17,
     "b": 10,
     "f4": 4,
@@ -1237,7 +1825,7 @@
     "dis": "c Nahid M b Shafi A"
    },
    {
-    "name": "Srikanth Jaina c Nahid M b Suhed A",
+    "name": "Srikanth Jaina",
     "r": 54,
     "b": 49,
     "f4": 6,
@@ -1246,7 +1834,7 @@
     "dis": "c Nahid M b Suhed A"
    },
    {
-    "name": "Pranav Reddy Ala b Abu R",
+    "name": "Pranav Reddy Ala",
     "r": 3,
     "b": 9,
     "f4": 0,
@@ -1255,7 +1843,7 @@
     "dis": "b Abu R"
    },
    {
-    "name": "Lochan Akkaraju run out ( Abu R )",
+    "name": "Lochan Akkaraju",
     "r": 0,
     "b": 4,
     "f4": 0,
@@ -1264,7 +1852,7 @@
     "dis": "run out ( Abu R )"
    },
    {
-    "name": "Ajith Kumaar Ayna Sankar b Suhed A",
+    "name": "Ajith Kumaar Ayna Sankar",
     "r": 10,
     "b": 5,
     "f4": 0,
@@ -1273,7 +1861,7 @@
     "dis": "b Suhed A"
    },
    {
-    "name": "Sai Abhiram Nibhanupudi St Imtiaz A b Abu R",
+    "name": "Sai Abhiram Nibhanupudi",
     "r": 14,
     "b": 24,
     "f4": 0,
@@ -1282,7 +1870,7 @@
     "dis": "St Imtiaz A b Abu R"
    },
    {
-    "name": "Jeevan Ciravandla c Tanim K b Suhed A",
+    "name": "Jeevan Ciravandla",
     "r": 0,
     "b": 1,
     "f4": 0,
@@ -1291,7 +1879,7 @@
     "dis": "c \u2020 Tanim K b Suhed A"
    },
    {
-    "name": "Srikanth Boyina not out",
+    "name": "Srikanth Boyina",
     "r": 0,
     "b": 1,
     "f4": 0,
@@ -1302,49 +1890,49 @@
   ],
   "bowling": [
    {
-    "name": "",
+    "name": "Lochan Akkaraju",
     "o": 4.0,
     "m": 0,
     "r": 36,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Srikanth Boyina",
     "o": 3.0,
     "m": 0,
     "r": 41,
     "w": 2
    },
    {
-    "name": "",
+    "name": "Mahesh Peddiredla",
     "o": 4.0,
     "m": 0,
     "r": 17,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Mithun Dama",
     "o": 1.0,
     "m": 0,
     "r": 12,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Raja Vasamsetty",
     "o": 3.0,
     "m": 0,
     "r": 24,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Ajith Kumaar Ayna Sankar",
     "o": 3.0,
     "m": 0,
     "r": 23,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Sreekanth Reddy Kypa",
     "o": 2.0,
     "m": 0,
     "r": 17,
@@ -1353,13 +1941,13 @@
   ],
   "fielding": [
    {
-    "name": "Raja Vasamsetty c Nayem A b Naeem H",
+    "name": "Raja Vasamsetty",
     "ct": 2,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Pranav Reddy Ala b Abu R",
+    "name": "Pranav Reddy Ala",
     "ct": 1,
     "st": 0,
     "ro": 0
@@ -1388,7 +1976,7 @@
   },
   "batting": [
    {
-    "name": "Raja Vasamsetty c Pruthvi S b Praneeth N",
+    "name": "Raja Vasamsetty",
     "r": 9,
     "b": 10,
     "f4": 1,
@@ -1397,7 +1985,7 @@
     "dis": "c Pruthvi S b Praneeth N"
    },
    {
-    "name": "Sreekanth Reddy Kypa not out",
+    "name": "Sreekanth Reddy Kypa",
     "r": 100,
     "b": 60,
     "f4": 6,
@@ -1406,7 +1994,7 @@
     "dis": "not out"
    },
    {
-    "name": "Madhu Jampala c Praneeth N b Brahmanaidu Y",
+    "name": "Madhu Jampala",
     "r": 7,
     "b": 14,
     "f4": 1,
@@ -1415,7 +2003,7 @@
     "dis": "c Praneeth N b Brahmanaidu Y"
    },
    {
-    "name": "Srinath Mirdoddi c Praneeth N b Bob P",
+    "name": "Srinath Mirdoddi",
     "r": 2,
     "b": 3,
     "f4": 0,
@@ -1424,7 +2012,7 @@
     "dis": "c Praneeth N b Bob P"
    },
    {
-    "name": "Srikanth Jaina c Nikhil R b Jaswanth D",
+    "name": "Srikanth Jaina",
     "r": 31,
     "b": 22,
     "f4": 0,
@@ -1433,7 +2021,7 @@
     "dis": "c Nikhil R b Jaswanth D"
    },
    {
-    "name": "Mithun Dama not out",
+    "name": "Mithun Dama",
     "r": 19,
     "b": 11,
     "f4": 0,
@@ -1444,42 +2032,42 @@
   ],
   "bowling": [
    {
-    "name": "",
+    "name": "Mithun Dama",
     "o": 4.0,
     "m": 0,
     "r": 36,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Prosenroyal Vellanki",
     "o": 4.0,
     "m": 0,
     "r": 26,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Raja Vasamsetty",
     "o": 4.0,
     "m": 0,
     "r": 22,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Ruturaj Patil",
     "o": 4.0,
     "m": 0,
     "r": 23,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Jeevan Ciravandla",
     "o": 2.0,
     "m": 0,
     "r": 13,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Srikanth Boyina",
     "o": 2.0,
     "m": 0,
     "r": 7,
@@ -1488,13 +2076,25 @@
   ],
   "fielding": [
    {
-    "name": "Sreekanth Reddy Kypa not out",
+    "name": "Sreekanth Reddy Kypa",
     "ct": 1,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Raja Vasamsetty c Pruthvi S b Praneeth N",
+    "name": "Prosenroyal Vellanki",
+    "ct": 0,
+    "st": 0,
+    "ro": 1
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Sai Abhiram Nibhanupudi",
     "ct": 1,
     "st": 0,
     "ro": 0
@@ -1523,7 +2123,7 @@
   },
   "batting": [
    {
-    "name": "Srinath Mirdoddi c Ahmed M b Saifur S",
+    "name": "Srinath Mirdoddi",
     "r": 3,
     "b": 8,
     "f4": 0,
@@ -1532,7 +2132,7 @@
     "dis": "c Ahmed M b Saifur S"
    },
    {
-    "name": "Srikanth Jaina b Ahmed M",
+    "name": "Srikanth Jaina",
     "r": 4,
     "b": 9,
     "f4": 0,
@@ -1541,7 +2141,7 @@
     "dis": "b Ahmed M"
    },
    {
-    "name": "Mahesh Peddiredla c Fahimul I b Tamzid K",
+    "name": "Mahesh Peddiredla",
     "r": 12,
     "b": 20,
     "f4": 1,
@@ -1550,7 +2150,7 @@
     "dis": "c Fahimul I b Tamzid K"
    },
    {
-    "name": "Raja Vasamsetty c Innas Al R b Saifur S",
+    "name": "Raja Vasamsetty",
     "r": 53,
     "b": 50,
     "f4": 5,
@@ -1559,7 +2159,7 @@
     "dis": "c Innas Al R b Saifur S"
    },
    {
-    "name": "Sreekanth Reddy Kypa run out ( Tayefur R )",
+    "name": "Sreekanth Reddy Kypa",
     "r": 16,
     "b": 18,
     "f4": 2,
@@ -1568,7 +2168,7 @@
     "dis": "run out ( Tayefur R )"
    },
    {
-    "name": "Ajith Kumaar Ayna Sankar c Tamzid K b Shafiur R",
+    "name": "Ajith Kumaar Ayna Sankar",
     "r": 28,
     "b": 12,
     "f4": 1,
@@ -1577,7 +2177,7 @@
     "dis": "c Tamzid K b Shafiur R"
    },
    {
-    "name": "Jeevan Ciravandla b Shafiur R",
+    "name": "Jeevan Ciravandla",
     "r": 3,
     "b": 5,
     "f4": 0,
@@ -1586,7 +2186,7 @@
     "dis": "b Shafiur R"
    },
    {
-    "name": "Mithun Dama not out",
+    "name": "Mithun Dama",
     "r": 19,
     "b": 23,
     "f4": 0,
@@ -1595,7 +2195,7 @@
     "dis": "not out"
    },
    {
-    "name": "Sai Abhiram Nibhanupudi b Shafiur R",
+    "name": "Sai Abhiram Nibhanupudi",
     "r": 0,
     "b": 1,
     "f4": 0,
@@ -1604,7 +2204,7 @@
     "dis": "b Shafiur R"
    },
    {
-    "name": "Gowtham Reddy Cheedepudi c Arif I b Ahmed M",
+    "name": "Gowtham Reddy Cheedepudi",
     "r": 3,
     "b": 5,
     "f4": 0,
@@ -1613,7 +2213,7 @@
     "dis": "c Arif I b Ahmed M"
    },
    {
-    "name": "Srikanth Boyina run out ( Saifur S )",
+    "name": "Srikanth Boyina",
     "r": 0,
     "b": 2,
     "f4": 0,
@@ -1624,56 +2224,56 @@
   ],
   "bowling": [
    {
-    "name": "",
+    "name": "Gowtham Reddy Cheedepudi",
     "o": 6.0,
     "m": 0,
     "r": 37,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Mithun Dama",
     "o": 6.0,
     "m": 0,
     "r": 51,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Lochan Akkaraju",
     "o": 4.0,
     "m": 0,
     "r": 36,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Raja Vasamsetty",
     "o": 2.0,
     "m": 0,
     "r": 17,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Mahesh Peddiredla",
     "o": 5.0,
     "m": 0,
     "r": 25,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Jeevan Ciravandla",
     "o": 2.0,
     "m": 0,
     "r": 26,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Sreekanth Reddy Kypa",
     "o": 2.0,
     "m": 0,
     "r": 19,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Ajith Kumaar Ayna Sankar",
     "o": 3.0,
     "m": 0,
     "r": 35,
@@ -1682,31 +2282,31 @@
   ],
   "fielding": [
    {
-    "name": "Gowtham Reddy Cheedepudi c Arif I b Ahmed M",
+    "name": "Gowtham Reddy Cheedepudi",
     "ct": 1,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Raja Vasamsetty c Innas Al R b Saifur S",
+    "name": "Raja Vasamsetty",
     "ct": 4,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Sreekanth Reddy Kypa run out ( Tayefur R )",
+    "name": "Sreekanth Reddy Kypa",
     "ct": 1,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Jeevan Ciravandla b Shafiur R",
+    "name": "Jeevan Ciravandla",
     "ct": 0,
     "st": 0,
     "ro": 1
    },
    {
-    "name": "Mithun Dama not out",
+    "name": "Mithun Dama",
     "ct": 0,
     "st": 0,
     "ro": 1
@@ -1735,7 +2335,7 @@
   },
   "batting": [
    {
-    "name": "Raja Vasamsetty b Sayed A",
+    "name": "Raja Vasamsetty",
     "r": 5,
     "b": 9,
     "f4": 0,
@@ -1744,7 +2344,7 @@
     "dis": "b Sayed A"
    },
    {
-    "name": "Srikanth Jaina c Abul H b Ali A",
+    "name": "Srikanth Jaina",
     "r": 8,
     "b": 14,
     "f4": 0,
@@ -1753,7 +2353,7 @@
     "dis": "c Abul H b Ali A"
    },
    {
-    "name": "Mahesh Peddiredla b Abul H",
+    "name": "Mahesh Peddiredla",
     "r": 8,
     "b": 8,
     "f4": 0,
@@ -1762,7 +2362,7 @@
     "dis": "b Abul H"
    },
    {
-    "name": "Srinath Mirdoddi c Saif U b Abul H",
+    "name": "Srinath Mirdoddi",
     "r": 7,
     "b": 6,
     "f4": 1,
@@ -1771,7 +2371,7 @@
     "dis": "c Saif U b Abul H"
    },
    {
-    "name": "Sai Abhiram Nibhanupudi b Abul H",
+    "name": "Sai Abhiram Nibhanupudi",
     "r": 2,
     "b": 11,
     "f4": 0,
@@ -1780,7 +2380,7 @@
     "dis": "b Abul H"
    },
    {
-    "name": "Sriram Kumar Maddu run out ( Mohammed S )",
+    "name": "Sriram Kumar Maddu",
     "r": 11,
     "b": 22,
     "f4": 0,
@@ -1789,7 +2389,7 @@
     "dis": "run out ( Mohammed S )"
    },
    {
-    "name": "Gowtham Reddy Cheedepudi c&b Sayed A",
+    "name": "Gowtham Reddy Cheedepudi",
     "r": 14,
     "b": 21,
     "f4": 0,
@@ -1798,7 +2398,7 @@
     "dis": "c&b Sayed A"
    },
    {
-    "name": "Srikanth Boyina b Mohammed S",
+    "name": "Srikanth Boyina",
     "r": 0,
     "b": 2,
     "f4": 0,
@@ -1807,7 +2407,7 @@
     "dis": "b Mohammed S"
    },
    {
-    "name": "Ajith Kumaar Ayna Sankar run out ( Ishtiak A )",
+    "name": "Ajith Kumaar Ayna Sankar",
     "r": 19,
     "b": 19,
     "f4": 0,
@@ -1816,7 +2416,7 @@
     "dis": "run out ( Ishtiak A )"
    },
    {
-    "name": "Mithun Dama b Sayed A",
+    "name": "Mithun Dama",
     "r": 7,
     "b": 6,
     "f4": 0,
@@ -1825,7 +2425,7 @@
     "dis": "b Sayed A"
    },
    {
-    "name": "Lochan Akkaraju not out",
+    "name": "Lochan Akkaraju",
     "r": 1,
     "b": 3,
     "f4": 0,
@@ -1836,56 +2436,56 @@
   ],
   "bowling": [
    {
-    "name": "",
+    "name": "Sachin Bamane",
     "o": 1.0,
     "m": 0,
     "r": 12,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Mahesh Peddiredla",
     "o": 1.0,
     "m": 0,
     "r": 12,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Gowtham Reddy Cheedepudi",
     "o": 2.0,
     "m": 0,
     "r": 10,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Mithun Dama",
     "o": 3.1,
     "m": 0,
     "r": 21,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Raja Vasamsetty",
     "o": 2.0,
     "m": 0,
     "r": 9,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Srikanth Boyina",
     "o": 1.0,
     "m": 0,
     "r": 19,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Lochan Akkaraju",
     "o": 2.0,
     "m": 0,
     "r": 10,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Ajith Kumaar Ayna Sankar",
     "o": 1.0,
     "m": 0,
     "r": 7,
@@ -1916,7 +2516,7 @@
   },
   "batting": [
    {
-    "name": "Sreekanth Reddy Kypa c Shashank K b Chandra T",
+    "name": "Sreekanth Reddy Kypa",
     "r": 78,
     "b": 58,
     "f4": 1,
@@ -1925,7 +2525,7 @@
     "dis": "c Shashank K b Chandra T"
    },
    {
-    "name": "Mahesh Peddiredla b Jagadeesh Reddy K",
+    "name": "Mahesh Peddiredla",
     "r": 16,
     "b": 11,
     "f4": 2,
@@ -1934,7 +2534,7 @@
     "dis": "b Jagadeesh Reddy K"
    },
    {
-    "name": "Raja Vasamsetty run out ( Kartheek D / Chandra T )",
+    "name": "Raja Vasamsetty",
     "r": 57,
     "b": 39,
     "f4": 3,
@@ -1943,7 +2543,7 @@
     "dis": "run out ( Kartheek D / Chandra T )"
    },
    {
-    "name": "Srinath Mirdoddi c Vamsi K b Chandra T",
+    "name": "Srinath Mirdoddi",
     "r": 0,
     "b": 1,
     "f4": 0,
@@ -1952,7 +2552,7 @@
     "dis": "c Vamsi K b Chandra T"
    },
    {
-    "name": "Ajith Kumaar Ayna Sankar b Chandra T",
+    "name": "Ajith Kumaar Ayna Sankar",
     "r": 0,
     "b": 1,
     "f4": 0,
@@ -1961,7 +2561,7 @@
     "dis": "b Chandra T"
    },
    {
-    "name": "Mithun Dama not out",
+    "name": "Mithun Dama",
     "r": 5,
     "b": 5,
     "f4": 0,
@@ -1970,7 +2570,7 @@
     "dis": "not out"
    },
    {
-    "name": "Gowtham Reddy Cheedepudi b Arun V",
+    "name": "Gowtham Reddy Cheedepudi",
     "r": 6,
     "b": 5,
     "f4": 1,
@@ -1981,56 +2581,56 @@
   ],
   "bowling": [
    {
-    "name": "",
+    "name": "Sachin Bamane",
     "o": 3.2,
     "m": 0,
     "r": 25,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Gowtham Reddy Cheedepudi",
     "o": 2.0,
     "m": 0,
     "r": 15,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Mithun Dama",
     "o": 3.0,
     "m": 0,
     "r": 35,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Mahesh Peddiredla",
     "o": 4.0,
     "m": 0,
     "r": 27,
     "w": 2
    },
    {
-    "name": "",
+    "name": "Ajith Kumaar Ayna Sankar",
     "o": 2.0,
     "m": 0,
     "r": 19,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Sanjeev Murali",
     "o": 1.0,
     "m": 0,
     "r": 12,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Lochan Akkaraju",
     "o": 1.0,
     "m": 0,
     "r": 12,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Raja Vasamsetty",
     "o": 3.0,
     "m": 0,
     "r": 26,
@@ -2039,7 +2639,7 @@
   ],
   "fielding": [
    {
-    "name": "Gowtham Reddy Cheedepudi b Arun V",
+    "name": "Gowtham Reddy Cheedepudi",
     "ct": 1,
     "st": 0,
     "ro": 0
@@ -2068,7 +2668,7 @@
   },
   "batting": [
    {
-    "name": "Srinath Mirdoddi c Tharun V b Satish Kumar B",
+    "name": "Srinath Mirdoddi",
     "r": 2,
     "b": 4,
     "f4": 0,
@@ -2077,7 +2677,7 @@
     "dis": "c Tharun V b Satish Kumar B"
    },
    {
-    "name": "Srikanth Jaina c Chin A b Akashreddy M",
+    "name": "Srikanth Jaina",
     "r": 25,
     "b": 37,
     "f4": 2,
@@ -2086,7 +2686,7 @@
     "dis": "c Chin A b Akashreddy M"
    },
    {
-    "name": "Mahesh Peddiredla c Tharun V b Anvesh E",
+    "name": "Mahesh Peddiredla",
     "r": 33,
     "b": 26,
     "f4": 5,
@@ -2095,7 +2695,7 @@
     "dis": "c Tharun V b Anvesh E"
    },
    {
-    "name": "Raja Vasamsetty lbw b Chin A",
+    "name": "Raja Vasamsetty",
     "r": 1,
     "b": 9,
     "f4": 0,
@@ -2104,7 +2704,7 @@
     "dis": "lbw b Chin A"
    },
    {
-    "name": "Ajith Kumaar Ayna Sankar c Murari G b Chin A",
+    "name": "Ajith Kumaar Ayna Sankar",
     "r": 32,
     "b": 26,
     "f4": 3,
@@ -2113,7 +2713,7 @@
     "dis": "c \u2020 Murari G b Chin A"
    },
    {
-    "name": "Sai Abhiram Nibhanupudi c Tharun V b Nayan P",
+    "name": "Sai Abhiram Nibhanupudi",
     "r": 4,
     "b": 8,
     "f4": 0,
@@ -2122,7 +2722,7 @@
     "dis": "c Tharun V b Nayan P"
    },
    {
-    "name": "Sriram Kumar Maddu c&b Akashreddy M",
+    "name": "Sriram Kumar Maddu",
     "r": 11,
     "b": 22,
     "f4": 0,
@@ -2131,7 +2731,7 @@
     "dis": "c&b Akashreddy M"
    },
    {
-    "name": "Sreekanth Reddy Kypa c Vikram S b Chin A",
+    "name": "Sreekanth Reddy Kypa",
     "r": 17,
     "b": 16,
     "f4": 2,
@@ -2140,7 +2740,7 @@
     "dis": "c Vikram S b Chin A"
    },
    {
-    "name": "Mithun Dama c Anvesh E b Subhakar B",
+    "name": "Mithun Dama",
     "r": 4,
     "b": 5,
     "f4": 0,
@@ -2149,7 +2749,7 @@
     "dis": "c Anvesh E b Subhakar B"
    },
    {
-    "name": "Gowtham Reddy Cheedepudi c Satish Kumar B b Akashreddy M",
+    "name": "Gowtham Reddy Cheedepudi",
     "r": 4,
     "b": 6,
     "f4": 0,
@@ -2158,7 +2758,7 @@
     "dis": "c Satish Kumar B b Akashreddy M"
    },
    {
-    "name": "Atharv Dalvi not out",
+    "name": "Atharv Dalvi",
     "r": 4,
     "b": 6,
     "f4": 0,
@@ -2169,49 +2769,49 @@
   ],
   "bowling": [
    {
-    "name": "",
+    "name": "Gowtham Reddy Cheedepudi",
     "o": 3.0,
     "m": 0,
     "r": 23,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Mithun Dama",
     "o": 6.0,
     "m": 0,
     "r": 44,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Sreekanth Reddy Kypa",
     "o": 5.0,
     "m": 0,
     "r": 24,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Sriram Kumar Maddu",
     "o": 5.0,
     "m": 0,
     "r": 32,
     "w": 2
    },
    {
-    "name": "",
+    "name": "Lochan Akkaraju",
     "o": 4.0,
     "m": 0,
     "r": 16,
     "w": 2
    },
    {
-    "name": "",
+    "name": "Mahesh Peddiredla",
     "o": 2.0,
     "m": 0,
     "r": 16,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Ajith Kumaar Ayna Sankar",
     "o": 5.0,
     "m": 0,
     "r": 26,
@@ -2220,31 +2820,37 @@
   ],
   "fielding": [
    {
-    "name": "Raja Vasamsetty lbw b Chin A",
+    "name": "Raja Vasamsetty",
     "ct": 2,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Sai Abhiram Nibhanupudi c Tharun V b Nayan P",
+    "name": "Sai Abhiram Nibhanupudi",
     "ct": 1,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Atharv Dalvi not out",
+    "name": "Atharv Dalvi",
     "ct": 1,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Sriram Kumar Maddu c&b Akashreddy M",
+    "name": "Lochan Akkaraju",
     "ct": 1,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Gowtham Reddy Cheedepudi c Satish Kumar B b Akashreddy M",
+    "name": "Sriram Kumar Maddu",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Gowtham Reddy Cheedepudi",
     "ct": 0,
     "st": 0,
     "ro": 1
@@ -2273,7 +2879,7 @@
   },
   "batting": [
    {
-    "name": "Srinath Mirdoddi b Bhoopal Reddy N",
+    "name": "Srinath Mirdoddi",
     "r": 8,
     "b": 14,
     "f4": 0,
@@ -2282,7 +2888,7 @@
     "dis": "b Bhoopal Reddy N"
    },
    {
-    "name": "Srikanth Jaina St Yash S b Hassan Q",
+    "name": "Srikanth Jaina",
     "r": 85,
     "b": 81,
     "f4": 6,
@@ -2291,7 +2897,7 @@
     "dis": "St Yash S b Hassan Q"
    },
    {
-    "name": "Mahesh Peddiredla c Yash S b Prashanth K",
+    "name": "Mahesh Peddiredla",
     "r": 14,
     "b": 11,
     "f4": 2,
@@ -2300,7 +2906,7 @@
     "dis": "c \u2020 Yash S b Prashanth K"
    },
    {
-    "name": "Raja Vasamsetty Retired Out",
+    "name": "Raja Vasamsetty",
     "r": 76,
     "b": 70,
     "f4": 5,
@@ -2309,7 +2915,7 @@
     "dis": "Retired Out"
    },
    {
-    "name": "Sreekanth Reddy Kypa not out",
+    "name": "Sreekanth Reddy Kypa",
     "r": 2,
     "b": 5,
     "f4": 0,
@@ -2318,7 +2924,7 @@
     "dis": "not out"
    },
    {
-    "name": "Mithun Dama run out ( Hassan Q )",
+    "name": "Mithun Dama",
     "r": 0,
     "b": 0,
     "f4": 0,
@@ -2329,77 +2935,77 @@
   ],
   "bowling": [
    {
-    "name": "",
+    "name": "Gowtham Reddy Cheedepudi",
     "o": 4.0,
     "m": 0,
     "r": 19,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Mithun Dama",
     "o": 3.0,
     "m": 0,
     "r": 8,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Mahesh Peddiredla",
     "o": 5.0,
     "m": 0,
     "r": 14,
     "w": 2
    },
    {
-    "name": "",
+    "name": "Atharv Dalvi",
     "o": 2.0,
     "m": 0,
     "r": 22,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Jeevan Ciravandla",
     "o": 4.0,
     "m": 0,
     "r": 21,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Raja Vasamsetty",
     "o": 1.0,
     "m": 0,
     "r": 9,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Brooke Shears",
     "o": 4.0,
     "m": 0,
     "r": 26,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Sreekanth Reddy Kypa",
     "o": 3.0,
     "m": 1,
     "r": 8,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Srikanth Boyina",
     "o": 3.0,
     "m": 0,
     "r": 16,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Sai Abhiram Nibhanupudi",
     "o": 0.3,
     "m": 0,
     "r": 5,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Srinath Mirdoddi",
     "o": 0.3,
     "m": 0,
     "r": 2,
@@ -2408,25 +3014,37 @@
   ],
   "fielding": [
    {
-    "name": "Mithun Dama run out ( Hassan Q )",
+    "name": "Mithun Dama",
     "ct": 2,
     "st": 0,
     "ro": 1
    },
    {
-    "name": "Mahesh Peddiredla c Yash S b Prashanth K",
+    "name": "Mahesh Peddiredla",
     "ct": 1,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Sreekanth Reddy Kypa not out",
+    "name": "Sai Abhiram Nibhanupudi",
     "ct": 1,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Srikanth Jaina St Yash S b Hassan Q",
+    "name": "Sreekanth Reddy Kypa",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Atharv Dalvi",
+    "ct": 0,
+    "st": 0,
+    "ro": 1
+   },
+   {
+    "name": "Srikanth Jaina",
     "ct": 0,
     "st": 1,
     "ro": 0
@@ -2455,7 +3073,7 @@
   },
   "batting": [
    {
-    "name": "Sreekanth Reddy Kypa c Pratik N b Gautam B",
+    "name": "Sreekanth Reddy Kypa",
     "r": 17,
     "b": 8,
     "f4": 2,
@@ -2464,7 +3082,7 @@
     "dis": "c \u2020 Pratik N b Gautam B"
    },
    {
-    "name": "Mahesh Peddiredla c Janak P b Bharath M",
+    "name": "Mahesh Peddiredla",
     "r": 18,
     "b": 17,
     "f4": 2,
@@ -2473,7 +3091,7 @@
     "dis": "c Janak P b Bharath M"
    },
    {
-    "name": "Srikanth Boyina c Satish N b Bharath M",
+    "name": "Srikanth Boyina",
     "r": 1,
     "b": 4,
     "f4": 0,
@@ -2482,7 +3100,7 @@
     "dis": "c Satish N b Bharath M"
    },
    {
-    "name": "Srinath Mirdoddi c Gautam B b Mahesh M",
+    "name": "Srinath Mirdoddi",
     "r": 7,
     "b": 8,
     "f4": 0,
@@ -2491,7 +3109,7 @@
     "dis": "c Gautam B b Mahesh M"
    },
    {
-    "name": "Sanjeev Murali c Mitesh P b Satish N",
+    "name": "Sanjeev Murali",
     "r": 7,
     "b": 20,
     "f4": 0,
@@ -2500,7 +3118,7 @@
     "dis": "c Mitesh P b Satish N"
    },
    {
-    "name": "Ajith Kumaar Ayna Sankar c Nilesh S b Bharath M",
+    "name": "Ajith Kumaar Ayna Sankar",
     "r": 27,
     "b": 16,
     "f4": 0,
@@ -2509,7 +3127,7 @@
     "dis": "c Nilesh S b Bharath M"
    },
    {
-    "name": "Gowtham Reddy Palnati b Mahesh M",
+    "name": "Gowtham Reddy Palnati",
     "r": 6,
     "b": 13,
     "f4": 0,
@@ -2518,7 +3136,7 @@
     "dis": "b Mahesh M"
    },
    {
-    "name": "Mithun Dama c&b Mahesh M",
+    "name": "Mithun Dama",
     "r": 1,
     "b": 9,
     "f4": 0,
@@ -2527,7 +3145,7 @@
     "dis": "c&b Mahesh M"
    },
    {
-    "name": "Gowtham Reddy Cheedepudi run out ( Satish N / Pratik N )",
+    "name": "Gowtham Reddy Cheedepudi",
     "r": 0,
     "b": 1,
     "f4": 0,
@@ -2536,7 +3154,7 @@
     "dis": "run out ( Satish N / Pratik N )"
    },
    {
-    "name": "Sriram Kumar Maddu not out",
+    "name": "Sriram Kumar Maddu",
     "r": 7,
     "b": 4,
     "f4": 1,
@@ -2545,7 +3163,7 @@
     "dis": "not out"
    },
    {
-    "name": "Lochan Akkaraju c Janak P b Bharath M",
+    "name": "Lochan Akkaraju",
     "r": 0,
     "b": 1,
     "f4": 0,
@@ -2556,42 +3174,42 @@
   ],
   "bowling": [
    {
-    "name": "",
+    "name": "Gowtham Reddy Cheedepudi",
     "o": 4.0,
     "m": 0,
     "r": 27,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Mithun Dama",
     "o": 4.0,
     "m": 0,
     "r": 19,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Ajith Kumaar Ayna Sankar",
     "o": 4.0,
     "m": 0,
     "r": 32,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Lochan Akkaraju",
     "o": 2.0,
     "m": 0,
     "r": 21,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Mahesh Peddiredla",
     "o": 4.0,
     "m": 0,
     "r": 25,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Brooke Shears",
     "o": 2.0,
     "m": 0,
     "r": 20,
@@ -2600,25 +3218,25 @@
   ],
   "fielding": [
    {
-    "name": "Ajith Kumaar Ayna Sankar c Nilesh S b Bharath M",
+    "name": "Ajith Kumaar Ayna Sankar",
     "ct": 0,
     "st": 0,
     "ro": 1
    },
    {
-    "name": "Srinath Mirdoddi c Gautam B b Mahesh M",
+    "name": "Srinath Mirdoddi",
     "ct": 1,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Lochan Akkaraju c Janak P b Bharath M",
+    "name": "Lochan Akkaraju",
     "ct": 0,
     "st": 0,
     "ro": 1
    },
    {
-    "name": "Gowtham Reddy Cheedepudi run out ( Satish N / Pratik N )",
+    "name": "Gowtham Reddy Cheedepudi",
     "ct": 0,
     "st": 0,
     "ro": 2
@@ -2647,7 +3265,7 @@
   },
   "batting": [
    {
-    "name": "Srinath Mirdoddi c Sai Goutham R b Amarendra N",
+    "name": "Srinath Mirdoddi",
     "r": 12,
     "b": 23,
     "f4": 0,
@@ -2656,7 +3274,7 @@
     "dis": "c Sai Goutham R b Amarendra N"
    },
    {
-    "name": "Sreekanth Reddy Kypa c Nithin Reddy M b Rohith M",
+    "name": "Sreekanth Reddy Kypa",
     "r": 5,
     "b": 6,
     "f4": 0,
@@ -2665,7 +3283,7 @@
     "dis": "c Nithin Reddy M b Rohith M"
    },
    {
-    "name": "Mahesh Peddiredla c Saran D b Suman Reddy G",
+    "name": "Mahesh Peddiredla",
     "r": 20,
     "b": 19,
     "f4": 2,
@@ -2674,7 +3292,7 @@
     "dis": "c Saran D b Suman Reddy G"
    },
    {
-    "name": "Srikanth Jaina c Rupendra Chowdary P b Ravi Kumar P",
+    "name": "Srikanth Jaina",
     "r": 46,
     "b": 51,
     "f4": 2,
@@ -2683,7 +3301,7 @@
     "dis": "c \u2020 Rupendra Chowdary P b Ravi Kumar P"
    },
    {
-    "name": "Sriram Kumar Maddu c Naveen Kumar P b Amarendra N",
+    "name": "Sriram Kumar Maddu",
     "r": 14,
     "b": 32,
     "f4": 0,
@@ -2692,7 +3310,7 @@
     "dis": "c Naveen Kumar P b Amarendra N"
    },
    {
-    "name": "Ajith Kumaar Ayna Sankar not out",
+    "name": "Ajith Kumaar Ayna Sankar",
     "r": 43,
     "b": 30,
     "f4": 2,
@@ -2701,7 +3319,7 @@
     "dis": "not out"
    },
    {
-    "name": "Jeevan Ciravandla not out",
+    "name": "Jeevan Ciravandla",
     "r": 1,
     "b": 2,
     "f4": 0,
@@ -2712,56 +3330,56 @@
   ],
   "bowling": [
    {
-    "name": "",
+    "name": "Gowtham Reddy Cheedepudi",
     "o": 3.0,
     "m": 0,
     "r": 22,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Lochan Akkaraju",
     "o": 1.0,
     "m": 0,
     "r": 21,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Ajith Kumaar Ayna Sankar",
     "o": 5.0,
     "m": 0,
     "r": 29,
     "w": 2
    },
    {
-    "name": "",
+    "name": "Sreekanth Reddy Kypa",
     "o": 4.0,
     "m": 0,
     "r": 35,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Mahesh Peddiredla",
     "o": 6.0,
     "m": 1,
     "r": 20,
     "w": 2
    },
    {
-    "name": "",
+    "name": "Jeevan Ciravandla",
     "o": 3.1,
     "m": 0,
     "r": 13,
     "w": 2
    },
    {
-    "name": "",
+    "name": "Brooke Shears",
     "o": 2.0,
     "m": 0,
     "r": 13,
     "w": 2
    },
    {
-    "name": "",
+    "name": "Atharv Dalvi",
     "o": 1.0,
     "m": 0,
     "r": 2,
@@ -2770,20 +3388,218 @@
   ],
   "fielding": [
    {
-    "name": "Sreekanth Reddy Kypa c Nithin Reddy M b Rohith M",
+    "name": "Gowtham Reddy Palnati",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
     "ct": 2,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Srinath Mirdoddi c Sai Goutham R b Amarendra N",
+    "name": "Srinath Mirdoddi",
     "ct": 1,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Srikanth Jaina c Rupendra Chowdary P b Ravi Kumar P",
+    "name": "Brooke Shears",
     "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Srikanth Jaina",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Atharv Dalvi",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   }
+  ]
+ },
+ {
+  "id": "MichCA_5397",
+  "url": "https://cricclubs.com/MichCA/viewScorecard.do?matchId=5397&clubId=2119",
+  "league": "Michigan Cricket Association",
+  "series": "2026 T20 - Division II",
+  "date": "2026-06-21",
+  "opponent": "Royal Knights CC Terminators RKTE",
+  "batted_first": true,
+  "result": "L",
+  "margin": "by 6 Wickets",
+  "us": {
+   "r": 76,
+   "w": 10,
+   "o": 19.4
+  },
+  "them": {
+   "r": 77,
+   "w": 4,
+   "o": 11.2
+  },
+  "batting": [
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "r": 2,
+    "b": 4,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c Avinas M b Pradeep K"
+   },
+   {
+    "name": "Srinath Mirdoddi",
+    "r": 4,
+    "b": 9,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "b Avinas M"
+   },
+   {
+    "name": "Srikanth Boyina",
+    "r": 8,
+    "b": 12,
+    "f4": 1,
+    "f6": 0,
+    "out": true,
+    "dis": "b Avinas M"
+   },
+   {
+    "name": "Sanjeev Murali",
+    "r": 0,
+    "b": 4,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c Ankit S b Pradeep K"
+   },
+   {
+    "name": "Srikanth Jaina",
+    "r": 7,
+    "b": 16,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "lbw b Srikanth Reddy R"
+   },
+   {
+    "name": "Mithun Dama",
+    "r": 20,
+    "b": 22,
+    "f4": 1,
+    "f6": 2,
+    "out": true,
+    "dis": "c Pradeep K b Srikanth Reddy R"
+   },
+   {
+    "name": "Ajith Kumaar Ayna Sankar",
+    "r": 0,
+    "b": 1,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "b Srikanth Reddy R"
+   },
+   {
+    "name": "Sriram Kumar Maddu",
+    "r": 0,
+    "b": 2,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "b Aditya K"
+   },
+   {
+    "name": "Sai Abhiram Nibhanupudi",
+    "r": 16,
+    "b": 25,
+    "f4": 1,
+    "f6": 0,
+    "out": true,
+    "dis": "run out ( Ashok K )"
+   },
+   {
+    "name": "Lochan Akkaraju",
+    "r": 1,
+    "b": 7,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c Giridhar P b Aditya K"
+   },
+   {
+    "name": "Brooke Shears",
+    "r": 7,
+    "b": 16,
+    "f4": 0,
+    "f6": 0,
+    "out": false,
+    "dis": "not out"
+   }
+  ],
+  "bowling": [
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "o": 2.0,
+    "m": 0,
+    "r": 14,
+    "w": 0
+   },
+   {
+    "name": "Sachin Bamane",
+    "o": 1.0,
+    "m": 0,
+    "r": 15,
+    "w": 0
+   },
+   {
+    "name": "Lochan Akkaraju",
+    "o": 2.0,
+    "m": 0,
+    "r": 19,
+    "w": 1
+   },
+   {
+    "name": "Mithun Dama",
+    "o": 3.0,
+    "m": 1,
+    "r": 11,
+    "w": 3
+   },
+   {
+    "name": "Ajith Kumaar Ayna Sankar",
+    "o": 3.0,
+    "m": 0,
+    "r": 16,
+    "w": 0
+   },
+   {
+    "name": "Brooke Shears",
+    "o": 0.2,
+    "m": 0,
+    "r": 1,
+    "w": 0
+   }
+  ],
+  "fielding": [
+   {
+    "name": "Ajith Kumaar Ayna Sankar",
+    "ct": 2,
     "st": 0,
     "ro": 0
    }
@@ -2799,8 +3615,16 @@
   "batted_first": true,
   "result": "NR",
   "margin": "No result",
-  "us": null,
-  "them": null,
+  "us": {
+   "r": 0,
+   "w": 0,
+   "o": 0.0
+  },
+  "them": {
+   "r": 0,
+   "w": 0,
+   "o": 0.0
+  },
   "batting": [],
   "bowling": [],
   "fielding": []
@@ -2827,7 +3651,7 @@
   },
   "batting": [
    {
-    "name": "Raja Vasamsetty c Syed A b Amad U",
+    "name": "Raja Vasamsetty",
     "r": 5,
     "b": 11,
     "f4": 0,
@@ -2836,7 +3660,7 @@
     "dis": "c Syed A b Amad U"
    },
    {
-    "name": "Sreekanth Reddy Kypa c Rejaul K b Amad U",
+    "name": "Sreekanth Reddy Kypa",
     "r": 35,
     "b": 30,
     "f4": 4,
@@ -2845,7 +3669,7 @@
     "dis": "c \u2020 Rejaul K b Amad U"
    },
    {
-    "name": "Srinath Mirdoddi c Rahim U b Amad U",
+    "name": "Srinath Mirdoddi",
     "r": 6,
     "b": 2,
     "f4": 0,
@@ -2854,7 +3678,7 @@
     "dis": "c Rahim U b Amad U"
    },
    {
-    "name": "Sanjeev Murali b Emon K",
+    "name": "Sanjeev Murali",
     "r": 24,
     "b": 28,
     "f4": 1,
@@ -2863,7 +3687,7 @@
     "dis": "b Emon K"
    },
    {
-    "name": "Srikanth Boyina b Amad U",
+    "name": "Srikanth Boyina",
     "r": 0,
     "b": 1,
     "f4": 0,
@@ -2872,7 +3696,7 @@
     "dis": "b Amad U"
    },
    {
-    "name": "Srikanth Jaina c Iqbal A b Ekram H",
+    "name": "Srikanth Jaina",
     "r": 8,
     "b": 16,
     "f4": 0,
@@ -2881,7 +3705,7 @@
     "dis": "c Iqbal A b Ekram H"
    },
    {
-    "name": "Ajith Kumaar Ayna Sankar b Joman H",
+    "name": "Ajith Kumaar Ayna Sankar",
     "r": 0,
     "b": 3,
     "f4": 0,
@@ -2890,7 +3714,7 @@
     "dis": "b Joman H"
    },
    {
-    "name": "Sriram Kumar Maddu c Rahim U b Emon K",
+    "name": "Sriram Kumar Maddu",
     "r": 10,
     "b": 15,
     "f4": 0,
@@ -2899,7 +3723,7 @@
     "dis": "c Rahim U b Emon K"
    },
    {
-    "name": "Gowtham Reddy Palnati not out",
+    "name": "Gowtham Reddy Palnati",
     "r": 10,
     "b": 9,
     "f4": 0,
@@ -2908,7 +3732,7 @@
     "dis": "not out"
    },
    {
-    "name": "Mithun Dama not out",
+    "name": "Mithun Dama",
     "r": 12,
     "b": 6,
     "f4": 0,
@@ -2919,35 +3743,35 @@
   ],
   "bowling": [
    {
-    "name": "",
+    "name": "Gowtham Reddy Cheedepudi",
     "o": 4.0,
     "m": 0,
     "r": 27,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Mithun Dama",
     "o": 4.0,
     "m": 0,
     "r": 38,
     "w": 3
    },
    {
-    "name": "",
+    "name": "Lochan Akkaraju",
     "o": 4.0,
     "m": 0,
     "r": 39,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Ajith Kumaar Ayna Sankar",
     "o": 4.0,
     "m": 0,
     "r": 36,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Raja Vasamsetty",
     "o": 4.0,
     "m": 0,
     "r": 20,
@@ -2956,19 +3780,19 @@
   ],
   "fielding": [
    {
-    "name": "Srikanth Jaina c Iqbal A b Ekram H",
+    "name": "Srikanth Jaina",
     "ct": 1,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Sanjeev Murali b Emon K",
+    "name": "Sanjeev Murali",
     "ct": 4,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Gowtham Reddy Palnati not out",
+    "name": "Gowtham Reddy Palnati",
     "ct": 1,
     "st": 0,
     "ro": 0
@@ -2997,7 +3821,7 @@
   },
   "batting": [
    {
-    "name": "Srinath Mirdoddi c Aditya V b Thiagarajan C",
+    "name": "Srinath Mirdoddi",
     "r": 49,
     "b": 31,
     "f4": 4,
@@ -3006,7 +3830,7 @@
     "dis": "c Aditya V b Thiagarajan C"
    },
    {
-    "name": "Sreekanth Reddy Kypa c Bhavesh K b Naveen Kumar P",
+    "name": "Sreekanth Reddy Kypa",
     "r": 1,
     "b": 2,
     "f4": 0,
@@ -3015,7 +3839,7 @@
     "dis": "c Bhavesh K b Naveen Kumar P"
    },
    {
-    "name": "Madhu Babu Jampala c Aditya V b Rohith sharma C",
+    "name": "Madhu Babu Jampala",
     "r": 4,
     "b": 10,
     "f4": 0,
@@ -3024,7 +3848,7 @@
     "dis": "c Aditya V b Rohith sharma C"
    },
    {
-    "name": "Sai Abhiram Nibhanupudi not out",
+    "name": "Sai Abhiram Nibhanupudi",
     "r": 15,
     "b": 26,
     "f4": 1,
@@ -3033,7 +3857,7 @@
     "dis": "not out"
    },
    {
-    "name": "Gowtham Reddy Palnati not out",
+    "name": "Gowtham Reddy Palnati",
     "r": 7,
     "b": 11,
     "f4": 0,
@@ -3044,49 +3868,49 @@
   ],
   "bowling": [
    {
-    "name": "",
+    "name": "Gowtham Reddy Cheedepudi",
     "o": 6.0,
     "m": 1,
     "r": 18,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Mithun Dama",
     "o": 6.0,
     "m": 4,
     "r": 6,
     "w": 3
    },
    {
-    "name": "",
+    "name": "Srikanth Boyina",
     "o": 3.0,
     "m": 0,
     "r": 26,
     "w": 2
    },
    {
-    "name": "",
+    "name": "Raja Vasamsetty",
     "o": 4.0,
     "m": 0,
     "r": 17,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Lokesh Dahiya",
     "o": 2.0,
     "m": 0,
     "r": 6,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Sreekanth Reddy Kypa",
     "o": 2.2,
     "m": 0,
     "r": 9,
     "w": 2
    },
    {
-    "name": "",
+    "name": "Brooke Shears",
     "o": 1.0,
     "m": 0,
     "r": 5,
@@ -3095,7 +3919,188 @@
   ],
   "fielding": [
    {
-    "name": "Sreekanth Reddy Kypa c Bhavesh K b Naveen Kumar P",
+    "name": "Raja Vasamsetty",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Brooke Shears",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   }
+  ]
+ },
+ {
+  "id": "MichCA_5293",
+  "url": "https://cricclubs.com/MichCA/viewScorecard.do?matchId=5293&clubId=2119",
+  "league": "Michigan Cricket Association",
+  "series": "2026 T20 - Division II",
+  "date": "2026-05-31",
+  "opponent": "Troy CA Stars TCAS",
+  "batted_first": true,
+  "result": "W",
+  "margin": "by 93 Runs",
+  "us": {
+   "r": 171,
+   "w": 5,
+   "o": 20.0
+  },
+  "them": {
+   "r": 78,
+   "w": 10,
+   "o": 14.5
+  },
+  "batting": [
+   {
+    "name": "Raja Vasamsetty",
+    "r": 59,
+    "b": 46,
+    "f4": 3,
+    "f6": 2,
+    "out": true,
+    "dis": "c Suman Reddy P b Haseeb K"
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "r": 38,
+    "b": 24,
+    "f4": 2,
+    "f6": 3,
+    "out": true,
+    "dis": "c Sai Vardhan R b Krishna Chaitanya D"
+   },
+   {
+    "name": "Srikanth Boyina",
+    "r": 14,
+    "b": 16,
+    "f4": 1,
+    "f6": 0,
+    "out": true,
+    "dis": "c Suman Reddy P b Krishna Chaitanya D"
+   },
+   {
+    "name": "Srinath Mirdoddi",
+    "r": 2,
+    "b": 4,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c Suman Reddy P b Jeevan C"
+   },
+   {
+    "name": "Sanjeev Murali",
+    "r": 2,
+    "b": 6,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c Rajesh K b Krishna Chaitanya D"
+   },
+   {
+    "name": "Ajith Kumaar Ayna Sankar",
+    "r": 22,
+    "b": 18,
+    "f4": 1,
+    "f6": 1,
+    "out": false,
+    "dis": "not out"
+   },
+   {
+    "name": "Mithun Dama",
+    "r": 11,
+    "b": 6,
+    "f4": 1,
+    "f6": 0,
+    "out": false,
+    "dis": "not out"
+   }
+  ],
+  "bowling": [
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "o": 2.0,
+    "m": 1,
+    "r": 6,
+    "w": 1
+   },
+   {
+    "name": "Mithun Dama",
+    "o": 2.0,
+    "m": 0,
+    "r": 9,
+    "w": 0
+   },
+   {
+    "name": "Sachin Bamane",
+    "o": 3.0,
+    "m": 0,
+    "r": 18,
+    "w": 2
+   },
+   {
+    "name": "Sriram Kumar Maddu",
+    "o": 2.0,
+    "m": 0,
+    "r": 23,
+    "w": 0
+   },
+   {
+    "name": "Srikanth Boyina",
+    "o": 1.0,
+    "m": 0,
+    "r": 6,
+    "w": 1
+   },
+   {
+    "name": "Ajith Kumaar Ayna Sankar",
+    "o": 2.5,
+    "m": 0,
+    "r": 7,
+    "w": 3
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "o": 2.0,
+    "m": 0,
+    "r": 9,
+    "w": 2
+   }
+  ],
+  "fielding": [
+   {
+    "name": "Gowtham Reddy Palnati",
+    "ct": 0,
+    "st": 0,
+    "ro": 1
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Sachin Bamane",
     "ct": 1,
     "st": 0,
     "ro": 0
@@ -3124,7 +4129,7 @@
   },
   "batting": [
    {
-    "name": "Raja Vasamsetty St Rakesh P b Praveer A",
+    "name": "Raja Vasamsetty",
     "r": 37,
     "b": 61,
     "f4": 1,
@@ -3133,7 +4138,7 @@
     "dis": "St Rakesh P b Praveer A"
    },
    {
-    "name": "Srinath Mirdoddi c Santosh S b Abhishek S",
+    "name": "Srinath Mirdoddi",
     "r": 27,
     "b": 28,
     "f4": 1,
@@ -3142,7 +4147,7 @@
     "dis": "c Santosh S b Abhishek S"
    },
    {
-    "name": "Sreekanth Reddy Kypa c Santosh S b Praveer A",
+    "name": "Sreekanth Reddy Kypa",
     "r": 1,
     "b": 4,
     "f4": 0,
@@ -3151,7 +4156,7 @@
     "dis": "c Santosh S b Praveer A"
    },
    {
-    "name": "Madhu Babu Jampala c Raj D b Praveer A",
+    "name": "Madhu Babu Jampala",
     "r": 0,
     "b": 1,
     "f4": 0,
@@ -3160,7 +4165,7 @@
     "dis": "c Raj D b Praveer A"
    },
    {
-    "name": "Srikanth Jaina c Rakesh P b Praveer A",
+    "name": "Srikanth Jaina",
     "r": 1,
     "b": 10,
     "f4": 0,
@@ -3169,7 +4174,7 @@
     "dis": "c \u2020 Rakesh P b Praveer A"
    },
    {
-    "name": "Ajith Kumaar Ayna Sankar b Subbu G",
+    "name": "Ajith Kumaar Ayna Sankar",
     "r": 39,
     "b": 37,
     "f4": 3,
@@ -3178,7 +4183,7 @@
     "dis": "b Subbu G"
    },
    {
-    "name": "Jeevan Ciravandla lbw b Abhishek S",
+    "name": "Jeevan Ciravandla",
     "r": 0,
     "b": 7,
     "f4": 0,
@@ -3187,7 +4192,7 @@
     "dis": "lbw b Abhishek S"
    },
    {
-    "name": "Gowtham Reddy Palnati c Nani Y b Abhishek S",
+    "name": "Gowtham Reddy Palnati",
     "r": 0,
     "b": 3,
     "f4": 0,
@@ -3196,7 +4201,7 @@
     "dis": "c Nani Y b Abhishek S"
    },
    {
-    "name": "Brooke Shears c Subbu G b Abhishek S",
+    "name": "Brooke Shears",
     "r": 0,
     "b": 4,
     "f4": 0,
@@ -3205,7 +4210,7 @@
     "dis": "c Subbu G b Abhishek S"
    },
    {
-    "name": "Mithun Dama c Anil B b Abhishek S",
+    "name": "Mithun Dama",
     "r": 0,
     "b": 2,
     "f4": 0,
@@ -3214,7 +4219,7 @@
     "dis": "c Anil B b Abhishek S"
    },
    {
-    "name": "Gowtham Reddy Cheedepudi not out",
+    "name": "Gowtham Reddy Cheedepudi",
     "r": 6,
     "b": 14,
     "f4": 0,
@@ -3225,56 +4230,56 @@
   ],
   "bowling": [
    {
-    "name": "",
+    "name": "Gowtham Reddy Cheedepudi",
     "o": 3.0,
     "m": 0,
     "r": 29,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Mithun Dama",
     "o": 2.0,
     "m": 0,
     "r": 19,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Raja Vasamsetty",
     "o": 1.0,
     "m": 0,
     "r": 15,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Sreekanth Reddy Kypa",
     "o": 1.0,
     "m": 0,
     "r": 16,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Brooke Shears",
     "o": 2.0,
     "m": 0,
     "r": 15,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Charan Teja Kothakonda",
     "o": 2.0,
     "m": 0,
     "r": 11,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Ajith Kumaar Ayna Sankar",
     "o": 1.2,
     "m": 0,
     "r": 13,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Jeevan Ciravandla",
     "o": 1.0,
     "m": 0,
     "r": 14,
@@ -3293,8 +4298,16 @@
   "batted_first": false,
   "result": "NR",
   "margin": "No result",
-  "us": null,
-  "them": null,
+  "us": {
+   "r": 0,
+   "w": 0,
+   "o": 0.0
+  },
+  "them": {
+   "r": 0,
+   "w": 0,
+   "o": 0.0
+  },
   "batting": [],
   "bowling": [],
   "fielding": []
@@ -3321,7 +4334,7 @@
   },
   "batting": [
    {
-    "name": "Raja Vasamsetty not out",
+    "name": "Raja Vasamsetty",
     "r": 52,
     "b": 54,
     "f4": 3,
@@ -3330,7 +4343,7 @@
     "dis": "not out"
    },
    {
-    "name": "Sreekanth Reddy Kypa c Kalyan N b Anish K",
+    "name": "Sreekanth Reddy Kypa",
     "r": 35,
     "b": 25,
     "f4": 2,
@@ -3339,7 +4352,7 @@
     "dis": "c \u2020 Kalyan N b Anish K"
    },
    {
-    "name": "Srinath Mirdoddi c Agrim D b Anish K",
+    "name": "Srinath Mirdoddi",
     "r": 3,
     "b": 4,
     "f4": 0,
@@ -3348,7 +4361,7 @@
     "dis": "c Agrim D b Anish K"
    },
    {
-    "name": "Srikanth Boyina c Nani Y b Anish K",
+    "name": "Srikanth Boyina",
     "r": 0,
     "b": 4,
     "f4": 0,
@@ -3357,7 +4370,7 @@
     "dis": "c Nani Y b Anish K"
    },
    {
-    "name": "Ajith Kumaar Ayna Sankar not out",
+    "name": "Ajith Kumaar Ayna Sankar",
     "r": 1,
     "b": 2,
     "f4": 0,
@@ -3368,42 +4381,42 @@
   ],
   "bowling": [
    {
-    "name": "",
+    "name": "Gowtham Reddy Cheedepudi",
     "o": 4.0,
     "m": 0,
     "r": 15,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Sachin Bamane",
     "o": 4.0,
     "m": 0,
     "r": 20,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Mithun Dama",
     "o": 4.0,
     "m": 0,
     "r": 18,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Raja Vasamsetty",
     "o": 3.0,
     "m": 0,
     "r": 15,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Lochan Akkaraju",
     "o": 3.0,
     "m": 0,
     "r": 13,
     "w": 2
    },
    {
-    "name": "",
+    "name": "Srikanth Boyina",
     "o": 2.0,
     "m": 0,
     "r": 14,
@@ -3412,8 +4425,26 @@
   ],
   "fielding": [
    {
-    "name": "Sreekanth Reddy Kypa c Kalyan N b Anish K",
+    "name": "Mithun Dama",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Gowtham Reddy Palnati",
+    "ct": 1,
+    "st": 0,
+    "ro": 1
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
     "ct": 2,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Sriram Kumar Maddu",
+    "ct": 1,
     "st": 0,
     "ro": 0
    }
@@ -3441,7 +4472,7 @@
   },
   "batting": [
    {
-    "name": "Srinath Mirdoddi c Laxmi ganapathi S b Deepak S",
+    "name": "Srinath Mirdoddi",
     "r": 0,
     "b": 3,
     "f4": 0,
@@ -3450,7 +4481,7 @@
     "dis": "c \u2020 Laxmi ganapathi S b Deepak S"
    },
    {
-    "name": "Pranav Reddy Ala c&b Srikanth M",
+    "name": "Pranav Reddy Ala",
     "r": 18,
     "b": 37,
     "f4": 3,
@@ -3459,7 +4490,7 @@
     "dis": "c&b Srikanth M"
    },
    {
-    "name": "Raja Vasamsetty c Laxmi ganapathi S b Deepak S",
+    "name": "Raja Vasamsetty",
     "r": 14,
     "b": 8,
     "f4": 2,
@@ -3468,7 +4499,7 @@
     "dis": "c \u2020 Laxmi ganapathi S b Deepak S"
    },
    {
-    "name": "Gowtham Reddy Palnati c Abhilash M b Srikanth M",
+    "name": "Gowtham Reddy Palnati",
     "r": 5,
     "b": 23,
     "f4": 0,
@@ -3477,7 +4508,7 @@
     "dis": "c Abhilash M b Srikanth M"
    },
    {
-    "name": "Sreekanth Reddy Kypa c Vijay R b Srikanth M",
+    "name": "Sreekanth Reddy Kypa",
     "r": 0,
     "b": 4,
     "f4": 0,
@@ -3486,7 +4517,7 @@
     "dis": "c Vijay R b Srikanth M"
    },
    {
-    "name": "Ajith Kumaar Ayna Sankar c Vijay R b Vinoth P",
+    "name": "Ajith Kumaar Ayna Sankar",
     "r": 5,
     "b": 12,
     "f4": 0,
@@ -3495,7 +4526,7 @@
     "dis": "c Vijay R b Vinoth P"
    },
    {
-    "name": "Sriram Kumar Maddu b Vijay R",
+    "name": "Sriram Kumar Maddu",
     "r": 3,
     "b": 25,
     "f4": 0,
@@ -3504,7 +4535,7 @@
     "dis": "b Vijay R"
    },
    {
-    "name": "Srikanth Boyina c Laxmi ganapathi S b Vinoth P",
+    "name": "Srikanth Boyina",
     "r": 3,
     "b": 6,
     "f4": 0,
@@ -3513,7 +4544,7 @@
     "dis": "c \u2020 Laxmi ganapathi S b Vinoth P"
    },
    {
-    "name": "Mithun Dama c Goutham Reddy S b Srikanth M",
+    "name": "Mithun Dama",
     "r": 1,
     "b": 8,
     "f4": 0,
@@ -3522,7 +4553,7 @@
     "dis": "c Goutham Reddy S b Srikanth M"
    },
    {
-    "name": "Gowtham Reddy Cheedepudi c Hemanth N b Vijay R",
+    "name": "Gowtham Reddy Cheedepudi",
     "r": 7,
     "b": 15,
     "f4": 1,
@@ -3531,7 +4562,7 @@
     "dis": "c Hemanth N b Vijay R"
    },
    {
-    "name": "Lochan Akkaraju not out",
+    "name": "Lochan Akkaraju",
     "r": 3,
     "b": 9,
     "f4": 0,
@@ -3542,56 +4573,56 @@
   ],
   "bowling": [
    {
-    "name": "",
+    "name": "Gowtham Reddy Cheedepudi",
     "o": 5.0,
     "m": 0,
     "r": 49,
     "w": 3
    },
    {
-    "name": "",
+    "name": "Mithun Dama",
     "o": 5.0,
     "m": 0,
     "r": 50,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Raja Vasamsetty",
     "o": 6.0,
     "m": 0,
     "r": 35,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Ajith Kumaar Ayna Sankar",
     "o": 3.0,
     "m": 0,
     "r": 24,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Sreekanth Reddy Kypa",
     "o": 5.0,
     "m": 0,
     "r": 44,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Lochan Akkaraju",
     "o": 3.0,
     "m": 0,
     "r": 26,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Sriram Kumar Maddu",
     "o": 1.0,
     "m": 0,
     "r": 13,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Charan Teja Kothakonda",
     "o": 2.0,
     "m": 0,
     "r": 19,
@@ -3600,13 +4631,13 @@
   ],
   "fielding": [
    {
-    "name": "Pranav Reddy Ala c&b Srikanth M",
+    "name": "Pranav Reddy Ala",
     "ct": 1,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Raja Vasamsetty c Laxmi ganapathi S b Deepak S",
+    "name": "Raja Vasamsetty",
     "ct": 1,
     "st": 0,
     "ro": 0
@@ -3635,7 +4666,7 @@
   },
   "batting": [
    {
-    "name": "Pranav Reddy Ala b Chaitanya K",
+    "name": "Pranav Reddy Ala",
     "r": 17,
     "b": 34,
     "f4": 1,
@@ -3644,7 +4675,7 @@
     "dis": "b Chaitanya K"
    },
    {
-    "name": "Srinath Mirdoddi b Vineel D",
+    "name": "Srinath Mirdoddi",
     "r": 37,
     "b": 34,
     "f4": 1,
@@ -3653,7 +4684,7 @@
     "dis": "b Vineel D"
    },
    {
-    "name": "Raja Vasamsetty c Chaitanya K b Vineel D",
+    "name": "Raja Vasamsetty",
     "r": 2,
     "b": 8,
     "f4": 0,
@@ -3662,7 +4693,7 @@
     "dis": "c Chaitanya K b Vineel D"
    },
    {
-    "name": "Ajith Kumaar Ayna Sankar c Chaitanya K b Naveen Reddy D",
+    "name": "Ajith Kumaar Ayna Sankar",
     "r": 23,
     "b": 19,
     "f4": 0,
@@ -3671,7 +4702,7 @@
     "dis": "c Chaitanya K b Naveen Reddy D"
    },
    {
-    "name": "Brooke Shears Retired Out",
+    "name": "Brooke Shears",
     "r": 9,
     "b": 21,
     "f4": 0,
@@ -3680,7 +4711,7 @@
     "dis": "Retired Out"
    },
    {
-    "name": "Sreekanth Reddy Kypa c Abhishek Singh K b Devi raj s",
+    "name": "Sreekanth Reddy Kypa",
     "r": 4,
     "b": 6,
     "f4": 0,
@@ -3689,7 +4720,7 @@
     "dis": "c Abhishek Singh K b Devi raj s"
    },
    {
-    "name": "Mithun Dama not out",
+    "name": "Mithun Dama",
     "r": 6,
     "b": 7,
     "f4": 0,
@@ -3698,7 +4729,7 @@
     "dis": "not out"
    },
    {
-    "name": "Gowtham Reddy Palnati run out ( Saikiran G )",
+    "name": "Gowtham Reddy Palnati",
     "r": 3,
     "b": 4,
     "f4": 0,
@@ -3709,49 +4740,49 @@
   ],
   "bowling": [
    {
-    "name": "",
+    "name": "Gowtham Reddy Cheedepudi",
     "o": 5.0,
     "m": 0,
     "r": 23,
     "w": 2
    },
    {
-    "name": "",
+    "name": "Mithun Dama",
     "o": 5.0,
     "m": 0,
     "r": 24,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Raja Vasamsetty",
     "o": 2.0,
     "m": 0,
     "r": 18,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Sreekanth Reddy Kypa",
     "o": 2.1,
     "m": 0,
     "r": 13,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Charan Teja Kothakonda",
     "o": 2.0,
     "m": 0,
     "r": 12,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Brooke Shears",
     "o": 2.0,
     "m": 0,
     "r": 11,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Ajith Kumaar Ayna Sankar",
     "o": 3.0,
     "m": 0,
     "r": 12,
@@ -3760,25 +4791,25 @@
   ],
   "fielding": [
    {
-    "name": "Raja Vasamsetty c Chaitanya K b Vineel D",
+    "name": "Raja Vasamsetty",
     "ct": 2,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Mithun Dama not out",
+    "name": "Mithun Dama",
     "ct": 0,
     "st": 0,
     "ro": 2
    },
    {
-    "name": "Srinath Mirdoddi b Vineel D",
+    "name": "Srinath Mirdoddi",
     "ct": 1,
     "st": 0,
     "ro": 1
    },
    {
-    "name": "Sreekanth Reddy Kypa c Abhishek Singh K b Devi raj s",
+    "name": "Sreekanth Reddy Kypa",
     "ct": 0,
     "st": 0,
     "ro": 1
@@ -3807,7 +4838,7 @@
   },
   "batting": [
    {
-    "name": "SREEKANTH REDDY KYPA c Abhilash\ufffd P b Naveen G",
+    "name": "Sreekanth Reddy Kypa",
     "r": 19,
     "b": 14,
     "f4": 2,
@@ -3816,7 +4847,7 @@
     "dis": "c Abhilash\ufffd P b Naveen G"
    },
    {
-    "name": "Sriram Kumar Maddu c Venkata M b Vishraanth P",
+    "name": "Sriram Kumar Maddu",
     "r": 0,
     "b": 10,
     "f4": 0,
@@ -3825,7 +4856,7 @@
     "dis": "c Venkata M b Vishraanth P"
    },
    {
-    "name": "Srinath Mirdoddi c Naveen G b Subbu G",
+    "name": "Srinath Mirdoddi",
     "r": 21,
     "b": 32,
     "f4": 1,
@@ -3834,7 +4865,7 @@
     "dis": "c Naveen G b Subbu G"
    },
    {
-    "name": "Suman Reddy Pasunuri c Hemanth N b Vishraanth P",
+    "name": "Suman Reddy Pasunuri",
     "r": 0,
     "b": 1,
     "f4": 0,
@@ -3843,7 +4874,7 @@
     "dis": "c Hemanth N b Vishraanth P"
    },
    {
-    "name": "Pranav Reddy Ala c Karthik R b Prosenroyal V",
+    "name": "Pranav Reddy Ala",
     "r": 0,
     "b": 3,
     "f4": 0,
@@ -3852,7 +4883,7 @@
     "dis": "c \u2020 Karthik R b Prosenroyal V"
    },
    {
-    "name": "Gowtham P c Karthik R b Vishraanth P",
+    "name": "Gowtham P",
     "r": 6,
     "b": 5,
     "f4": 1,
@@ -3861,7 +4892,7 @@
     "dis": "c \u2020 Karthik R b Vishraanth P"
    },
    {
-    "name": "Raja Vasamsetty b Vishraanth P",
+    "name": "Raja Vasamsetty",
     "r": 1,
     "b": 4,
     "f4": 0,
@@ -3870,7 +4901,7 @@
     "dis": "b Vishraanth P"
    },
    {
-    "name": "Gowtham Reddy Cheedepudi c Naveen G b Vishraanth P",
+    "name": "Gowtham Reddy Cheedepudi",
     "r": 14,
     "b": 23,
     "f4": 0,
@@ -3879,7 +4910,7 @@
     "dis": "c Naveen G b Vishraanth P"
    },
    {
-    "name": "Ajith Kumaar Ayna Sankar c Prosenroyal V b Ram K",
+    "name": "Ajith Kumaar Ayna Sankar",
     "r": 2,
     "b": 5,
     "f4": 0,
@@ -3888,7 +4919,7 @@
     "dis": "c Prosenroyal V b Ram K"
    },
    {
-    "name": "Srikanth Boyina not out",
+    "name": "Srikanth Boyina",
     "r": 3,
     "b": 4,
     "f4": 0,
@@ -3897,7 +4928,7 @@
     "dis": "not out"
    },
    {
-    "name": "Mithun Dama run out ( Hemanth N / Naveen G )",
+    "name": "Mithun Dama",
     "r": 20,
     "b": 18,
     "f4": 2,
@@ -3908,63 +4939,63 @@
   ],
   "bowling": [
    {
-    "name": "",
+    "name": "Gowtham Reddy Cheedepudi",
     "o": 4.0,
     "m": 0,
     "r": 41,
     "w": 2
    },
    {
-    "name": "",
+    "name": "Mithun Dama",
     "o": 4.0,
     "m": 0,
     "r": 22,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Lochan Akkaraju",
     "o": 4.0,
     "m": 0,
     "r": 29,
     "w": 2
    },
    {
-    "name": "",
+    "name": "Srikanth Boyina",
     "o": 1.0,
     "m": 0,
     "r": 14,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Sriram Kumar Maddu",
     "o": 1.0,
     "m": 0,
     "r": 11,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Suman Reddy Pasunuri",
     "o": 1.0,
     "m": 0,
     "r": 18,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Ajith Kumaar Ayna Sankar",
     "o": 2.0,
     "m": 0,
     "r": 12,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Raja Vasamsetty",
     "o": 2.0,
     "m": 0,
     "r": 7,
     "w": 2
    },
    {
-    "name": "",
+    "name": "Sreekanth Reddy Kypa",
     "o": 1.0,
     "m": 0,
     "r": 5,
@@ -3973,22 +5004,28 @@
   ],
   "fielding": [
    {
-    "name": "Pranav Reddy Ala c Karthik R b Prosenroyal V",
+    "name": "Pranav Reddy Ala",
     "ct": 2,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "SREEKANTH REDDY KYPA c Abhilash\ufffd P b Naveen G",
+    "name": "Sreekanth Reddy Kypa",
     "ct": 1,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Raja Vasamsetty b Vishraanth P",
+    "name": "Raja Vasamsetty",
     "ct": 1,
     "st": 0,
     "ro": 1
+   },
+   {
+    "name": "Lochan Akkaraju",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
    }
   ]
  },
@@ -4014,7 +5051,7 @@
   },
   "batting": [
    {
-    "name": "Raja Vasamsetty not out",
+    "name": "Raja Vasamsetty",
     "r": 52,
     "b": 45,
     "f4": 3,
@@ -4023,7 +5060,7 @@
     "dis": "not out"
    },
    {
-    "name": "SREEKANTH REDDY KYPA c Mohammad R b Abhishek D",
+    "name": "Sreekanth Reddy Kypa",
     "r": 7,
     "b": 10,
     "f4": 0,
@@ -4032,7 +5069,7 @@
     "dis": "c \u2020 Mohammad R b Abhishek D"
    },
    {
-    "name": "Srikanth Boyina c Zaid S b Muhammad A",
+    "name": "Srikanth Boyina",
     "r": 13,
     "b": 11,
     "f4": 3,
@@ -4041,7 +5078,7 @@
     "dis": "c Zaid S b Muhammad A"
    },
    {
-    "name": "Pranav Reddy Ala c&b Zaid S",
+    "name": "Pranav Reddy Ala",
     "r": 22,
     "b": 16,
     "f4": 1,
@@ -4050,7 +5087,7 @@
     "dis": "c&b Zaid S"
    },
    {
-    "name": "Ajith Kumaar Ayna Sankar b Hamzah Ali A",
+    "name": "Ajith Kumaar Ayna Sankar",
     "r": 13,
     "b": 12,
     "f4": 0,
@@ -4059,7 +5096,7 @@
     "dis": "b Hamzah Ali A"
    },
    {
-    "name": "Mithun Dama not out",
+    "name": "Mithun Dama",
     "r": 1,
     "b": 1,
     "f4": 0,
@@ -4070,49 +5107,49 @@
   ],
   "bowling": [
    {
-    "name": "",
+    "name": "Sachin Bamane",
     "o": 2.0,
     "m": 0,
     "r": 13,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Mithun Dama",
     "o": 3.0,
     "m": 0,
     "r": 18,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Gowtham Reddy Cheedepudi",
     "o": 3.0,
     "m": 0,
     "r": 20,
     "w": 3
    },
    {
-    "name": "",
+    "name": "Lochan Akkaraju",
     "o": 3.0,
     "m": 0,
     "r": 25,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Srikanth Boyina",
     "o": 2.0,
     "m": 0,
     "r": 15,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Charan Teja Kothakonda",
     "o": 2.0,
     "m": 0,
     "r": 12,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Raja Vasamsetty",
     "o": 1.0,
     "m": 0,
     "r": 12,
@@ -4121,19 +5158,19 @@
   ],
   "fielding": [
    {
-    "name": "Ajith Kumaar Ayna Sankar b Hamzah Ali A",
+    "name": "Ajith Kumaar Ayna Sankar",
     "ct": 2,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Mithun Dama not out",
+    "name": "Mithun Dama",
     "ct": 2,
     "st": 0,
     "ro": 1
    },
    {
-    "name": "Raja Vasamsetty not out",
+    "name": "Raja Vasamsetty",
     "ct": 1,
     "st": 0,
     "ro": 1
@@ -4162,7 +5199,7 @@
   },
   "batting": [
    {
-    "name": "Raja Vasamsetty b Anirudh N",
+    "name": "Raja Vasamsetty",
     "r": 38,
     "b": 42,
     "f4": 3,
@@ -4171,7 +5208,7 @@
     "dis": "b Anirudh N"
    },
    {
-    "name": "SREEKANTH REDDY KYPA b Zohair K",
+    "name": "Sreekanth Reddy Kypa",
     "r": 35,
     "b": 35,
     "f4": 1,
@@ -4180,7 +5217,7 @@
     "dis": "b Zohair K"
    },
    {
-    "name": "Mithun Dama c Anirudh N b Zohair K",
+    "name": "Mithun Dama",
     "r": 10,
     "b": 15,
     "f4": 0,
@@ -4189,7 +5226,7 @@
     "dis": "c Anirudh N b Zohair K"
    },
    {
-    "name": "Pranav Reddy Ala run out ( Aamer H )",
+    "name": "Pranav Reddy Ala",
     "r": 2,
     "b": 2,
     "f4": 0,
@@ -4198,7 +5235,7 @@
     "dis": "run out ( Aamer H )"
    },
    {
-    "name": "Srinath Mirdoddi c Dhanush Kumar M b Mustafa A",
+    "name": "Srinath Mirdoddi",
     "r": 18,
     "b": 15,
     "f4": 1,
@@ -4207,7 +5244,7 @@
     "dis": "c Dhanush Kumar M b Mustafa A"
    },
    {
-    "name": "Sriram Kumar Maddu not out",
+    "name": "Sriram Kumar Maddu",
     "r": 6,
     "b": 7,
     "f4": 0,
@@ -4216,7 +5253,7 @@
     "dis": "not out"
    },
    {
-    "name": "Ajith Kumaar Ayna Sankar not out",
+    "name": "Ajith Kumaar Ayna Sankar",
     "r": 15,
     "b": 7,
     "f4": 1,
@@ -4227,56 +5264,56 @@
   ],
   "bowling": [
    {
-    "name": "",
+    "name": "Gowtham Reddy Cheedepudi",
     "o": 4.0,
     "m": 0,
     "r": 30,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Mithun Dama",
     "o": 4.0,
     "m": 0,
     "r": 29,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Raja Vasamsetty",
     "o": 4.0,
     "m": 0,
     "r": 19,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Sriram Kumar Maddu",
     "o": 1.0,
     "m": 0,
     "r": 10,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Charan Teja Kothakonda",
     "o": 1.0,
     "m": 0,
     "r": 7,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Lochan Akkaraju",
     "o": 2.0,
     "m": 0,
     "r": 14,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Ajith Kumaar Ayna Sankar",
     "o": 2.2,
     "m": 0,
     "r": 20,
     "w": 2
    },
    {
-    "name": "",
+    "name": "Sreekanth Reddy Kypa",
     "o": 1.0,
     "m": 0,
     "r": 14,
@@ -4285,7 +5322,19 @@
   ],
   "fielding": [
    {
-    "name": "SREEKANTH REDDY KYPA b Zohair K",
+    "name": "Charan Teja Kothakonda",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Lochan Akkaraju",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
     "ct": 1,
     "st": 0,
     "ro": 0
@@ -4314,7 +5363,7 @@
   },
   "batting": [
    {
-    "name": "SREEKANTH REDDY KYPA c Hardeep S b Deepak S",
+    "name": "Sreekanth Reddy Kypa",
     "r": 1,
     "b": 3,
     "f4": 0,
@@ -4323,7 +5372,7 @@
     "dis": "c Hardeep S b Deepak S"
    },
    {
-    "name": "Srinath Mirdoddi run out ( Deepak S )",
+    "name": "Srinath Mirdoddi",
     "r": 8,
     "b": 14,
     "f4": 0,
@@ -4332,7 +5381,7 @@
     "dis": "run out ( Deepak S )"
    },
    {
-    "name": "Srikanth Boyina Retired Hurt",
+    "name": "Srikanth Boyina",
     "r": 11,
     "b": 13,
     "f4": 1,
@@ -4341,7 +5390,7 @@
     "dis": "Retired Hurt"
    },
    {
-    "name": "Pranav Reddy Ala c Arkajit G b Deepak S",
+    "name": "Pranav Reddy Ala",
     "r": 24,
     "b": 27,
     "f4": 2,
@@ -4350,7 +5399,7 @@
     "dis": "c Arkajit G b Deepak S"
    },
    {
-    "name": "Ajith Kumaar Ayna Sankar c Deepak U b Vinoth P",
+    "name": "Ajith Kumaar Ayna Sankar",
     "r": 5,
     "b": 7,
     "f4": 0,
@@ -4359,7 +5408,7 @@
     "dis": "c Deepak U b Vinoth P"
    },
    {
-    "name": "Gowtham P run out ( Vinoth P )",
+    "name": "Gowtham P",
     "r": 7,
     "b": 8,
     "f4": 0,
@@ -4368,7 +5417,7 @@
     "dis": "run out ( Vinoth P )"
    },
    {
-    "name": "Mithun Dama lbw b Vinoth P",
+    "name": "Mithun Dama",
     "r": 1,
     "b": 2,
     "f4": 0,
@@ -4377,7 +5426,7 @@
     "dis": "lbw b Vinoth P"
    },
    {
-    "name": "Lochan Akkaraju not out",
+    "name": "Lochan Akkaraju",
     "r": 18,
     "b": 21,
     "f4": 0,
@@ -4386,7 +5435,7 @@
     "dis": "not out"
    },
    {
-    "name": "Charan Teja Kothakonda c Rishab K b Raj S",
+    "name": "Charan Teja Kothakonda",
     "r": 5,
     "b": 9,
     "f4": 0,
@@ -4395,7 +5444,7 @@
     "dis": "c Rishab K b Raj S"
    },
    {
-    "name": "Gowtham Reddy Cheedepudi c Laxmi ganapathi S b Raj S",
+    "name": "Gowtham Reddy Cheedepudi",
     "r": 0,
     "b": 1,
     "f4": 0,
@@ -4404,7 +5453,7 @@
     "dis": "c Laxmi ganapathi S b Raj S"
    },
    {
-    "name": "Brooke Shears not out",
+    "name": "Brooke Shears",
     "r": 2,
     "b": 4,
     "f4": 0,
@@ -4415,56 +5464,56 @@
   ],
   "bowling": [
    {
-    "name": "",
+    "name": "Gowtham Reddy Cheedepudi",
     "o": 3.0,
     "m": 0,
     "r": 20,
     "w": 2
    },
    {
-    "name": "",
+    "name": "Mithun Dama",
     "o": 4.0,
     "m": 0,
     "r": 23,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Sachin Bamane",
     "o": 3.0,
     "m": 0,
     "r": 9,
     "w": 2
    },
    {
-    "name": "",
+    "name": "Lochan Akkaraju",
     "o": 1.0,
     "m": 0,
     "r": 17,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Charan Teja Kothakonda",
     "o": 2.0,
     "m": 0,
     "r": 24,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Brooke Shears",
     "o": 2.0,
     "m": 0,
     "r": 12,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Ajith Kumaar Ayna Sankar",
     "o": 2.0,
     "m": 0,
     "r": 7,
     "w": 2
    },
    {
-    "name": "",
+    "name": "Sreekanth Reddy Kypa",
     "o": 1.0,
     "m": 0,
     "r": 9,
@@ -4473,43 +5522,43 @@
   ],
   "fielding": [
    {
-    "name": "SREEKANTH REDDY KYPA c Hardeep S b Deepak S",
+    "name": "Sreekanth Reddy Kypa",
     "ct": 1,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Brooke Shears not out",
+    "name": "Brooke Shears",
     "ct": 1,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Gowtham P run out ( Vinoth P )",
+    "name": "Gowtham P",
     "ct": 1,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Charan Teja Kothakonda c Rishab K b Raj S",
+    "name": "Charan Teja Kothakonda",
     "ct": 2,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Ajith Kumaar Ayna Sankar c Deepak U b Vinoth P",
+    "name": "Ajith Kumaar Ayna Sankar",
     "ct": 1,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Mithun Dama lbw b Vinoth P",
+    "name": "Mithun Dama",
     "ct": 0,
     "st": 0,
     "ro": 1
    },
    {
-    "name": "Pranav Reddy Ala c Arkajit G b Deepak S",
+    "name": "Pranav Reddy Ala",
     "ct": 1,
     "st": 0,
     "ro": 0
@@ -4538,7 +5587,7 @@
   },
   "batting": [
    {
-    "name": "Srinath Mirdoddi c Fazeel S b Wasiq ahmed m",
+    "name": "Srinath Mirdoddi",
     "r": 1,
     "b": 5,
     "f4": 0,
@@ -4547,7 +5596,7 @@
     "dis": "c Fazeel S b Wasiq ahmed m"
    },
    {
-    "name": "SREEKANTH REDDY KYPA b Hamza A",
+    "name": "Sreekanth Reddy Kypa",
     "r": 4,
     "b": 6,
     "f4": 0,
@@ -4556,7 +5605,7 @@
     "dis": "b Hamza A"
    },
    {
-    "name": "Srikanth Boyina b Ateeq A",
+    "name": "Srikanth Boyina",
     "r": 12,
     "b": 9,
     "f4": 1,
@@ -4565,7 +5614,7 @@
     "dis": "b Ateeq A"
    },
    {
-    "name": "Pranav Reddy Ala lbw b Hamza A",
+    "name": "Pranav Reddy Ala",
     "r": 0,
     "b": 1,
     "f4": 0,
@@ -4574,7 +5623,7 @@
     "dis": "lbw b Hamza A"
    },
    {
-    "name": "Gowtham P b Fazeel S",
+    "name": "Gowtham P",
     "r": 6,
     "b": 17,
     "f4": 0,
@@ -4583,7 +5632,7 @@
     "dis": "b Fazeel S"
    },
    {
-    "name": "Ajith Kumaar Ayna Sankar b Ateeq A",
+    "name": "Ajith Kumaar Ayna Sankar",
     "r": 27,
     "b": 34,
     "f4": 1,
@@ -4592,7 +5641,7 @@
     "dis": "b Ateeq A"
    },
    {
-    "name": "Sriram Kumar Maddu b Hamza A",
+    "name": "Sriram Kumar Maddu",
     "r": 15,
     "b": 25,
     "f4": 0,
@@ -4601,7 +5650,7 @@
     "dis": "b Hamza A"
    },
    {
-    "name": "Mani Rathnam Thigulla c Shahid Ali khan m b Hamza A",
+    "name": "Mani Rathnam Thigulla",
     "r": 6,
     "b": 10,
     "f4": 0,
@@ -4610,7 +5659,7 @@
     "dis": "c \u2020 Shahid Ali khan m b Hamza A"
    },
    {
-    "name": "Charan Teja Kothakonda not out",
+    "name": "Charan Teja Kothakonda",
     "r": 2,
     "b": 6,
     "f4": 0,
@@ -4619,7 +5668,7 @@
     "dis": "not out"
    },
    {
-    "name": "Lochan Akkaraju run out ( Fazeel S )",
+    "name": "Lochan Akkaraju",
     "r": 0,
     "b": 0,
     "f4": 0,
@@ -4628,7 +5677,7 @@
     "dis": "run out ( Fazeel S )"
    },
    {
-    "name": "Sachin Bamane b Hamza A",
+    "name": "Sachin Bamane",
     "r": 2,
     "b": 4,
     "f4": 0,
@@ -4639,49 +5688,49 @@
   ],
   "bowling": [
    {
-    "name": "",
+    "name": "Sachin Bamane",
     "o": 2.0,
     "m": 0,
     "r": 10,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Mani Rathnam Thigulla",
     "o": 3.0,
     "m": 0,
     "r": 19,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Sreekanth Reddy Kypa",
     "o": 2.0,
     "m": 0,
     "r": 27,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Charan Teja Kothakonda",
     "o": 3.0,
     "m": 0,
     "r": 15,
     "w": 2
    },
    {
-    "name": "",
+    "name": "Lochan Akkaraju",
     "o": 2.0,
     "m": 0,
     "r": 14,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Srikanth Boyina",
     "o": 1.0,
     "m": 0,
     "r": 6,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Ajith Kumaar Ayna Sankar",
     "o": 0.5,
     "m": 0,
     "r": 4,
@@ -4690,25 +5739,25 @@
   ],
   "fielding": [
    {
-    "name": "Mani Rathnam Thigulla c Shahid Ali khan m b Hamza A",
+    "name": "Mani Rathnam Thigulla",
     "ct": 1,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Lochan Akkaraju run out ( Fazeel S )",
+    "name": "Lochan Akkaraju",
     "ct": 1,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Pranav Reddy Ala lbw b Hamza A",
+    "name": "Pranav Reddy Ala",
     "ct": 2,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "SREEKANTH REDDY KYPA b Hamza A",
+    "name": "Sreekanth Reddy Kypa",
     "ct": 1,
     "st": 0,
     "ro": 0
@@ -4737,7 +5786,7 @@
   },
   "batting": [
    {
-    "name": "Sriram Kumar Maddu b Sriharsha M",
+    "name": "Sriram Kumar Maddu",
     "r": 12,
     "b": 15,
     "f4": 1,
@@ -4746,7 +5795,7 @@
     "dis": "b Sriharsha M"
    },
    {
-    "name": "SREEKANTH REDDY KYPA c SATHISH KUMAR M b Rahul S",
+    "name": "Sreekanth Reddy Kypa",
     "r": 12,
     "b": 11,
     "f4": 1,
@@ -4755,7 +5804,7 @@
     "dis": "c SATHISH KUMAR M b Rahul S"
    },
    {
-    "name": "Ramesh Pathlavat b Rahul S",
+    "name": "Ramesh Pathlavat",
     "r": 4,
     "b": 2,
     "f4": 1,
@@ -4764,7 +5813,7 @@
     "dis": "b Rahul S"
    },
    {
-    "name": "Syam Kuramsetti c Ravi Kumar P b Hiten M",
+    "name": "Syam Kuramsetti",
     "r": 4,
     "b": 12,
     "f4": 0,
@@ -4773,7 +5822,7 @@
     "dis": "c Ravi Kumar P b Hiten M"
    },
    {
-    "name": "Pranav Reddy Ala c Vijay G b Rahul S",
+    "name": "Pranav Reddy Ala",
     "r": 0,
     "b": 4,
     "f4": 0,
@@ -4782,7 +5831,7 @@
     "dis": "c \u2020 Vijay G b Rahul S"
    },
    {
-    "name": "Mithun Dama c Sriharsha M b Hiten M",
+    "name": "Mithun Dama",
     "r": 13,
     "b": 20,
     "f4": 0,
@@ -4791,7 +5840,7 @@
     "dis": "c Sriharsha M b Hiten M"
    },
    {
-    "name": "Raja Vasamsetty St Vijay G b Sriharsha M",
+    "name": "Raja Vasamsetty",
     "r": 34,
     "b": 29,
     "f4": 1,
@@ -4800,7 +5849,7 @@
     "dis": "St Vijay G b Sriharsha M"
    },
    {
-    "name": "Ajith Kumaar Ayna Sankar not out",
+    "name": "Ajith Kumaar Ayna Sankar",
     "r": 16,
     "b": 25,
     "f4": 1,
@@ -4809,7 +5858,7 @@
     "dis": "not out"
    },
    {
-    "name": "Gowtham P not out",
+    "name": "Gowtham P",
     "r": 1,
     "b": 2,
     "f4": 0,
@@ -4820,56 +5869,56 @@
   ],
   "bowling": [
    {
-    "name": "",
+    "name": "Mithun Dama",
     "o": 4.0,
     "m": 0,
     "r": 34,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Mani Rathnam Thigulla",
     "o": 1.0,
     "m": 0,
     "r": 19,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Syam Kuramsetti",
     "o": 3.0,
     "m": 0,
     "r": 29,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Sreekanth Reddy Kypa",
     "o": 4.0,
     "m": 0,
     "r": 24,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Raja Vasamsetty",
     "o": 4.0,
     "m": 0,
     "r": 31,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Ajith Kumaar Ayna Sankar",
     "o": 2.0,
     "m": 0,
     "r": 19,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Charan Teja Kothakonda",
     "o": 1.0,
     "m": 0,
     "r": 4,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Ramesh Pathlavat",
     "o": 1.0,
     "m": 0,
     "r": 19,
@@ -4878,19 +5927,19 @@
   ],
   "fielding": [
    {
-    "name": "Pranav Reddy Ala c Vijay G b Rahul S",
+    "name": "Pranav Reddy Ala",
     "ct": 1,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Gowtham P not out",
+    "name": "Gowtham P",
     "ct": 1,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "SREEKANTH REDDY KYPA c SATHISH KUMAR M b Rahul S",
+    "name": "Sreekanth Reddy Kypa",
     "ct": 1,
     "st": 0,
     "ro": 0
@@ -4919,7 +5968,7 @@
   },
   "batting": [
    {
-    "name": "SREEKANTH REDDY KYPA not out",
+    "name": "Sreekanth Reddy Kypa",
     "r": 109,
     "b": 60,
     "f4": 7,
@@ -4928,7 +5977,7 @@
     "dis": "not out"
    },
    {
-    "name": "Sriram Kumar Maddu c Sumit K b Sathish M",
+    "name": "Sriram Kumar Maddu",
     "r": 9,
     "b": 19,
     "f4": 1,
@@ -4937,7 +5986,7 @@
     "dis": "c Sumit K b Sathish M"
    },
    {
-    "name": "Srikanth Boyina lbw b Fahad B",
+    "name": "Srikanth Boyina",
     "r": 4,
     "b": 7,
     "f4": 0,
@@ -4946,7 +5995,7 @@
     "dis": "lbw b Fahad B"
    },
    {
-    "name": "Syam Kuramsetti c Anantha Rama Krishna V b Abdullah N",
+    "name": "Syam Kuramsetti",
     "r": 5,
     "b": 3,
     "f4": 1,
@@ -4955,7 +6004,7 @@
     "dis": "c Anantha Rama Krishna V b Abdullah N"
    },
    {
-    "name": "Pranav Reddy Ala run out ( Fahad B )",
+    "name": "Pranav Reddy Ala",
     "r": 5,
     "b": 5,
     "f4": 1,
@@ -4964,7 +6013,7 @@
     "dis": "run out ( Fahad B )"
    },
    {
-    "name": "Mithun Dama lbw b Sathish M",
+    "name": "Mithun Dama",
     "r": 14,
     "b": 18,
     "f4": 1,
@@ -4973,7 +6022,7 @@
     "dis": "lbw b Sathish M"
    },
    {
-    "name": "Raja Vasamsetty St Sumit K b AKSHAY R",
+    "name": "Raja Vasamsetty",
     "r": 12,
     "b": 8,
     "f4": 1,
@@ -4982,7 +6031,7 @@
     "dis": "St Sumit K b AKSHAY R"
    },
    {
-    "name": "Gowtham P b Sathish M",
+    "name": "Gowtham P",
     "r": 0,
     "b": 1,
     "f4": 0,
@@ -4991,28 +6040,78 @@
     "dis": "b Sathish M"
    }
   ],
-  "bowling": [],
+  "bowling": [
+   {
+    "name": "Mithun Dama",
+    "o": 4.0,
+    "m": 0,
+    "r": 25,
+    "w": 2
+   },
+   {
+    "name": "Syam Kuramsetti",
+    "o": 4.0,
+    "m": 0,
+    "r": 31,
+    "w": 2
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "o": 2.2,
+    "m": 0,
+    "r": 29,
+    "w": 2
+   },
+   {
+    "name": "Lochan Akkaraju",
+    "o": 4.0,
+    "m": 0,
+    "r": 25,
+    "w": 1
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "o": 3.0,
+    "m": 0,
+    "r": 17,
+    "w": 2
+   },
+   {
+    "name": "Sriram Kumar Maddu",
+    "o": 1.0,
+    "m": 0,
+    "r": 15,
+    "w": 0
+   },
+   {
+    "name": "Charan Teja Kothakonda",
+    "o": 1.0,
+    "m": 0,
+    "r": 9,
+    "w": 1
+   }
+  ],
   "fielding": [
    {
-    "name": "Pranav Reddy Ala run out ( Fahad B )",
+    "name": "Pranav Reddy Ala",
     "ct": 2,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "SREEKANTH REDDY KYPA not out",
+    "name": "Sreekanth Reddy Kypa",
     "ct": 2,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Gowtham P b Sathish M",
+    "name": "Gowtham P",
     "ct": 1,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Syam Kuramsetti c Anantha Rama Krishna V b Abdullah N",
+    "name": "Syam Kuramsetti",
     "ct": 1,
     "st": 0,
     "ro": 0
@@ -5041,7 +6140,7 @@
   },
   "batting": [
    {
-    "name": "SREEKANTH REDDY KYPA b Koushik C",
+    "name": "Sreekanth Reddy Kypa",
     "r": 7,
     "b": 5,
     "f4": 0,
@@ -5050,7 +6149,7 @@
     "dis": "b Koushik C"
    },
    {
-    "name": "Sriram Kumar Maddu b Deepak B",
+    "name": "Sriram Kumar Maddu",
     "r": 0,
     "b": 1,
     "f4": 0,
@@ -5059,7 +6158,7 @@
     "dis": "b Deepak B"
    },
    {
-    "name": "Raja Vasamsetty c Goutham B b Deepak B",
+    "name": "Raja Vasamsetty",
     "r": 2,
     "b": 3,
     "f4": 0,
@@ -5068,7 +6167,7 @@
     "dis": "c Goutham B b Deepak B"
    },
    {
-    "name": "Syam Kuramsetti c Varun R b Sudhakar D",
+    "name": "Syam Kuramsetti",
     "r": 20,
     "b": 28,
     "f4": 1,
@@ -5077,7 +6176,7 @@
     "dis": "c Varun R b Sudhakar D"
    },
    {
-    "name": "Pranav Reddy Ala b Deepak B",
+    "name": "Pranav Reddy Ala",
     "r": 15,
     "b": 29,
     "f4": 0,
@@ -5086,7 +6185,7 @@
     "dis": "b Deepak B"
    },
    {
-    "name": "Srinath Mirdoddi c Rohit C b Mohan R",
+    "name": "Srinath Mirdoddi",
     "r": 0,
     "b": 1,
     "f4": 0,
@@ -5095,7 +6194,7 @@
     "dis": "c Rohit C b Mohan R"
    },
    {
-    "name": "Gowtham P c Sudhakar D b Mohan R",
+    "name": "Gowtham P",
     "r": 22,
     "b": 29,
     "f4": 2,
@@ -5104,7 +6203,7 @@
     "dis": "c Sudhakar D b Mohan R"
    },
    {
-    "name": "Ajith Kumaar Ayna Sankar lbw b Sudhakar D",
+    "name": "Ajith Kumaar Ayna Sankar",
     "r": 7,
     "b": 5,
     "f4": 0,
@@ -5113,7 +6212,7 @@
     "dis": "lbw b Sudhakar D"
    },
    {
-    "name": "Sai Abhiram Nibhanupudi not out",
+    "name": "Sai Abhiram Nibhanupudi",
     "r": 7,
     "b": 16,
     "f4": 0,
@@ -5122,7 +6221,7 @@
     "dis": "not out"
    },
    {
-    "name": "Mithun Dama not out",
+    "name": "Mithun Dama",
     "r": 7,
     "b": 3,
     "f4": 0,
@@ -5133,49 +6232,49 @@
   ],
   "bowling": [
    {
-    "name": "",
+    "name": "Mithun Dama",
     "o": 2.0,
     "m": 0,
     "r": 12,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Syam Kuramsetti",
     "o": 1.0,
     "m": 0,
     "r": 11,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Lochan Akkaraju",
     "o": 1.3,
     "m": 0,
     "r": 25,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Sreekanth Reddy Kypa",
     "o": 4.0,
     "m": 0,
     "r": 30,
     "w": 2
    },
    {
-    "name": "",
+    "name": "Raja Vasamsetty",
     "o": 3.3,
     "m": 0,
     "r": 13,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Brooke Shears",
     "o": 4.0,
     "m": 0,
     "r": 26,
     "w": 2
    },
    {
-    "name": "",
+    "name": "Ajith Kumaar Ayna Sankar",
     "o": 4.0,
     "m": 1,
     "r": 28,
@@ -5184,19 +6283,189 @@
   ],
   "fielding": [
    {
-    "name": "SREEKANTH REDDY KYPA b Koushik C",
+    "name": "Sreekanth Reddy Kypa",
     "ct": 1,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Sriram Kumar Maddu b Deepak B",
+    "name": "Sriram Kumar Maddu",
     "ct": 1,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Raja Vasamsetty c Goutham B b Deepak B",
+    "name": "Raja Vasamsetty",
+    "ct": 0,
+    "st": 0,
+    "ro": 1
+   },
+   {
+    "name": "Lochan Akkaraju",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   }
+  ]
+ },
+ {
+  "id": "farmingtoncc_6428",
+  "url": "https://cricclubs.com/farmingtoncc/viewScorecard.do?matchId=6428&clubId=27071",
+  "league": "Farmington CC",
+  "series": "1947 FCC Winter Trophy 2025-26 - Winter Challengers 2026",
+  "date": "2026-02-07",
+  "opponent": "Motor City",
+  "batted_first": false,
+  "result": "W",
+  "margin": "by 5 Wickets",
+  "us": {
+   "r": 165,
+   "w": 5,
+   "o": 16.1
+  },
+  "them": {
+   "r": 161,
+   "w": 9,
+   "o": 20.0
+  },
+  "batting": [
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "r": 7,
+    "b": 4,
+    "f4": 0,
+    "f6": 1,
+    "out": true,
+    "dis": "b Dhanabal A"
+   },
+   {
+    "name": "Sriram Kumar Maddu",
+    "r": 5,
+    "b": 4,
+    "f4": 1,
+    "f6": 0,
+    "out": true,
+    "dis": "c \u2020 Dinesh D b Santosh R"
+   },
+   {
+    "name": "Mahesh Peddiredla",
+    "r": 12,
+    "b": 12,
+    "f4": 2,
+    "f6": 0,
+    "out": true,
+    "dis": "c Karthik K b Philip T"
+   },
+   {
+    "name": "Syam Kuramsetti",
+    "r": 46,
+    "b": 42,
+    "f4": 0,
+    "f6": 5,
+    "out": true,
+    "dis": "c Shivashankar D b Jai V"
+   },
+   {
+    "name": "Pranav Reddy Ala",
+    "r": 61,
+    "b": 27,
+    "f4": 3,
+    "f6": 7,
+    "out": true,
+    "dis": "c Naveen Nishanth N b Bargav S"
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "r": 20,
+    "b": 6,
+    "f4": 2,
+    "f6": 2,
+    "out": false,
+    "dis": "not out"
+   },
+   {
+    "name": "Sai Abhiram Nibhanupudi",
+    "r": 6,
+    "b": 2,
+    "f4": 0,
+    "f6": 1,
+    "out": false,
+    "dis": "not out"
+   }
+  ],
+  "bowling": [
+   {
+    "name": "Mithun Dama",
+    "o": 4.0,
+    "m": 0,
+    "r": 26,
+    "w": 2
+   },
+   {
+    "name": "Mani Rathnam Thigulla",
+    "o": 1.1,
+    "m": 0,
+    "r": 6,
+    "w": 0
+   },
+   {
+    "name": "Sai Abhiram Nibhanupudi",
+    "o": 0.1,
+    "m": 0,
+    "r": 5,
+    "w": 0
+   },
+   {
+    "name": "Lochan Akkaraju",
+    "o": 2.4,
+    "m": 0,
+    "r": 21,
+    "w": 1
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "o": 4.0,
+    "m": 1,
+    "r": 14,
+    "w": 2
+   },
+   {
+    "name": "Syam Kuramsetti",
+    "o": 3.0,
+    "m": 0,
+    "r": 33,
+    "w": 1
+   },
+   {
+    "name": "Srikanth Boyina",
+    "o": 2.0,
+    "m": 0,
+    "r": 27,
+    "w": 1
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "o": 3.0,
+    "m": 0,
+    "r": 24,
+    "w": 0
+   }
+  ],
+  "fielding": [
+   {
+    "name": "Pranav Reddy Ala",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Mithun Dama",
+    "ct": 1,
+    "st": 0,
+    "ro": 1
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
     "ct": 0,
     "st": 0,
     "ro": 1
@@ -5225,7 +6494,7 @@
   },
   "batting": [
    {
-    "name": "SREEKANTH REDDY KYPA not out",
+    "name": "Sreekanth Reddy Kypa",
     "r": 65,
     "b": 42,
     "f4": 2,
@@ -5234,7 +6503,7 @@
     "dis": "not out"
    },
    {
-    "name": "Sriram Kumar Maddu b Vikram Kumar Reddy G",
+    "name": "Sriram Kumar Maddu",
     "r": 3,
     "b": 7,
     "f4": 0,
@@ -5243,7 +6512,7 @@
     "dis": "b Vikram Kumar Reddy G"
    },
    {
-    "name": "Mahesh Peddiredla c Rajgopal N b Chandra Teja Reddy M",
+    "name": "Mahesh Peddiredla",
     "r": 44,
     "b": 36,
     "f4": 4,
@@ -5252,7 +6521,7 @@
     "dis": "c Rajgopal N b Chandra Teja Reddy M"
    },
    {
-    "name": "Syam Kuramsetti not out",
+    "name": "Syam Kuramsetti",
     "r": 6,
     "b": 5,
     "f4": 0,
@@ -5263,49 +6532,49 @@
   ],
   "bowling": [
    {
-    "name": "",
+    "name": "Mithun Dama",
     "o": 4.0,
     "m": 0,
     "r": 24,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Mani Rathnam Thigulla",
     "o": 1.0,
     "m": 0,
     "r": 9,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Syam Kuramsetti",
     "o": 4.0,
     "m": 0,
     "r": 30,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Sreekanth Reddy Kypa",
     "o": 4.0,
     "m": 0,
     "r": 10,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Ajith Kumaar Ayna Sankar",
     "o": 3.0,
     "m": 0,
     "r": 14,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Mahesh Peddiredla",
     "o": 1.0,
     "m": 0,
     "r": 10,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Raja Vasamsetty",
     "o": 3.0,
     "m": 0,
     "r": 19,
@@ -5314,7 +6583,13 @@
   ],
   "fielding": [
    {
-    "name": "SREEKANTH REDDY KYPA not out",
+    "name": "Raja Vasamsetty",
+    "ct": 0,
+    "st": 0,
+    "ro": 1
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
     "ct": 1,
     "st": 0,
     "ro": 1
@@ -5343,7 +6618,7 @@
   },
   "batting": [
    {
-    "name": "Saketh Perala c Krishna Mohan R b AKSHAY R",
+    "name": "Saketh Perala",
     "r": 0,
     "b": 1,
     "f4": 0,
@@ -5352,7 +6627,7 @@
     "dis": "c \u2020 Krishna Mohan R b AKSHAY R"
    },
    {
-    "name": "Sasidhar Reddy Kurre c Sai Chand G b Vijai k",
+    "name": "Sasidhar Reddy Kurre",
     "r": 7,
     "b": 21,
     "f4": 0,
@@ -5361,7 +6636,7 @@
     "dis": "c Sai Chand G b Vijai k"
    },
    {
-    "name": "Raja Vasamsetty b Vijai k",
+    "name": "Raja Vasamsetty",
     "r": 17,
     "b": 17,
     "f4": 2,
@@ -5370,7 +6645,7 @@
     "dis": "b Vijai k"
    },
    {
-    "name": "SREEKANTH REDDY KYPA b AKSHAY R",
+    "name": "Sreekanth Reddy Kypa",
     "r": 31,
     "b": 19,
     "f4": 1,
@@ -5379,7 +6654,7 @@
     "dis": "b AKSHAY R"
    },
    {
-    "name": "Sai Thota c Krishna Mohan R b Aditya C",
+    "name": "Sai Thota",
     "r": 5,
     "b": 10,
     "f4": 0,
@@ -5388,7 +6663,7 @@
     "dis": "c Krishna Mohan R b Aditya C"
    },
    {
-    "name": "Srinath Mirdoddi c Pruthvi S b Nikhil R",
+    "name": "Srinath Mirdoddi",
     "r": 7,
     "b": 12,
     "f4": 0,
@@ -5397,7 +6672,7 @@
     "dis": "c Pruthvi S b Nikhil R"
    },
    {
-    "name": "Gowtham Reddy Cheedepudi run out ( Bala hari krishna B )",
+    "name": "Gowtham Reddy Cheedepudi",
     "r": 1,
     "b": 3,
     "f4": 0,
@@ -5406,7 +6681,7 @@
     "dis": "run out ( Bala hari krishna B )"
    },
    {
-    "name": "Sanjay Kadithi not out",
+    "name": "Sanjay Kadithi",
     "r": 7,
     "b": 15,
     "f4": 0,
@@ -5415,7 +6690,7 @@
     "dis": "not out"
    },
    {
-    "name": "Gowtham P b Praneeth N",
+    "name": "Gowtham P",
     "r": 6,
     "b": 13,
     "f4": 1,
@@ -5424,7 +6699,7 @@
     "dis": "b Praneeth N"
    },
    {
-    "name": "Sriram Kumar Maddu b Praneeth N",
+    "name": "Sriram Kumar Maddu",
     "r": 0,
     "b": 1,
     "f4": 0,
@@ -5433,7 +6708,7 @@
     "dis": "b Praneeth N"
    },
    {
-    "name": "Srikanth Boyina lbw b Praneeth N",
+    "name": "Srikanth Boyina",
     "r": 0,
     "b": 2,
     "f4": 0,
@@ -5444,56 +6719,63 @@
   ],
   "bowling": [
    {
-    "name": "",
+    "name": "Raja Vasamsetty",
     "o": 2.0,
     "m": 0,
     "r": 11,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Gowtham P",
     "o": 2.0,
     "m": 0,
     "r": 11,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Mithun Dama",
     "o": 2.0,
     "m": 0,
     "r": 24,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Saketh Perala",
     "o": 2.0,
     "m": 0,
     "r": 12,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Sriram Kumar Maddu",
     "o": 1.0,
     "m": 0,
     "r": 20,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Srikanth Boyina",
     "o": 1.0,
     "m": 0,
     "r": 11,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Srinath Mirdoddi",
     "o": 0.1,
     "m": 0,
     "r": 3,
     "w": 0
    }
   ],
-  "fielding": []
+  "fielding": [
+   {
+    "name": "Mithun Dama",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   }
+  ]
  },
  {
   "id": "farmingtoncc_6214",
@@ -5517,7 +6799,7 @@
   },
   "batting": [
    {
-    "name": "Saketh Perala c&b Pravin D",
+    "name": "Saketh Perala",
     "r": 57,
     "b": 47,
     "f4": 4,
@@ -5526,7 +6808,7 @@
     "dis": "c&b Pravin D"
    },
    {
-    "name": "Mithun Dama b Pavan L",
+    "name": "Mithun Dama",
     "r": 6,
     "b": 8,
     "f4": 1,
@@ -5535,7 +6817,7 @@
     "dis": "b Pavan L"
    },
    {
-    "name": "Sriram Kumar Maddu b Parikshit T",
+    "name": "Sriram Kumar Maddu",
     "r": 15,
     "b": 22,
     "f4": 1,
@@ -5544,7 +6826,7 @@
     "dis": "b Parikshit T"
    },
    {
-    "name": "Gowtham P c Sandeep P b Pavan L",
+    "name": "Gowtham P",
     "r": 9,
     "b": 8,
     "f4": 2,
@@ -5553,7 +6835,7 @@
     "dis": "c Sandeep P b Pavan L"
    },
    {
-    "name": "SREEKANTH REDDY KYPA c Parikshit T b Karthik T",
+    "name": "Sreekanth Reddy Kypa",
     "r": 15,
     "b": 12,
     "f4": 0,
@@ -5562,7 +6844,7 @@
     "dis": "c Parikshit T b Karthik T"
    },
    {
-    "name": "Gowtham Reddy Cheedepudi c Ruturaj P b Sandeep P",
+    "name": "Gowtham Reddy Cheedepudi",
     "r": 0,
     "b": 2,
     "f4": 0,
@@ -5571,7 +6853,7 @@
     "dis": "c Ruturaj P b Sandeep P"
    },
    {
-    "name": "Raja Vasamsetty not out",
+    "name": "Raja Vasamsetty",
     "r": 15,
     "b": 16,
     "f4": 1,
@@ -5580,7 +6862,7 @@
     "dis": "not out"
    },
    {
-    "name": "Sasidhar Reddy Kurre St Ankesh P b Sandeep P",
+    "name": "Sasidhar Reddy Kurre",
     "r": 2,
     "b": 5,
     "f4": 0,
@@ -5589,7 +6871,7 @@
     "dis": "St Ankesh P b Sandeep P"
    },
    {
-    "name": "Sanjay Kadithi St Ankesh P b Sandeep P",
+    "name": "Sanjay Kadithi",
     "r": 1,
     "b": 2,
     "f4": 0,
@@ -5598,7 +6880,7 @@
     "dis": "St Ankesh P b Sandeep P"
    },
    {
-    "name": "Srikanth Boyina not out",
+    "name": "Srikanth Boyina",
     "r": 1,
     "b": 1,
     "f4": 0,
@@ -5609,42 +6891,42 @@
   ],
   "bowling": [
    {
-    "name": "",
+    "name": "Saketh Perala",
     "o": 4.0,
     "m": 0,
     "r": 27,
     "w": 2
    },
    {
-    "name": "",
+    "name": "Mithun Dama",
     "o": 4.0,
     "m": 0,
     "r": 21,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Gowtham Reddy Cheedepudi",
     "o": 3.0,
     "m": 0,
     "r": 31,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Sreekanth Reddy Kypa",
     "o": 2.0,
     "m": 0,
     "r": 22,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Sriram Kumar Maddu",
     "o": 3.0,
     "m": 0,
     "r": 26,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Srikanth Boyina",
     "o": 1.2,
     "m": 0,
     "r": 12,
@@ -5653,19 +6935,19 @@
   ],
   "fielding": [
    {
-    "name": "Sriram Kumar Maddu b Parikshit T",
+    "name": "Sriram Kumar Maddu",
     "ct": 1,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Sanjay Kadithi St Ankesh P b Sandeep P",
+    "name": "Sanjay Kadithi",
     "ct": 1,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "SREEKANTH REDDY KYPA c Parikshit T b Karthik T",
+    "name": "Sreekanth Reddy Kypa",
     "ct": 2,
     "st": 0,
     "ro": 1
@@ -5694,7 +6976,7 @@
   },
   "batting": [
    {
-    "name": "Sriram Kumar Maddu c Sai Eswar A b VENKATA SATYA GANGA SUJAN G",
+    "name": "Sriram Kumar Maddu",
     "r": 13,
     "b": 16,
     "f4": 1,
@@ -5703,7 +6985,7 @@
     "dis": "c Sai Eswar A b VENKATA SATYA GANGA SUJAN G"
    },
    {
-    "name": "Pranav Reddy Ala b Hemanthkumar C",
+    "name": "Pranav Reddy Ala",
     "r": 0,
     "b": 2,
     "f4": 0,
@@ -5712,7 +6994,7 @@
     "dis": "b Hemanthkumar C"
    },
    {
-    "name": "Mahesh Peddiredla c Nischal S b VENKATA SATYA GANGA SUJAN G",
+    "name": "Mahesh Peddiredla",
     "r": 12,
     "b": 11,
     "f4": 1,
@@ -5721,7 +7003,7 @@
     "dis": "c Nischal S b VENKATA SATYA GANGA SUJAN G"
    },
    {
-    "name": "Raja Vasamsetty c Nischal S b Hemanthkumar C",
+    "name": "Raja Vasamsetty",
     "r": 1,
     "b": 4,
     "f4": 0,
@@ -5730,7 +7012,7 @@
     "dis": "c Nischal S b Hemanthkumar C"
    },
    {
-    "name": "Gowtham Reddy Cheedepudi b Satish G",
+    "name": "Gowtham Reddy Cheedepudi",
     "r": 20,
     "b": 24,
     "f4": 0,
@@ -5739,7 +7021,7 @@
     "dis": "b Satish G"
    },
    {
-    "name": "Jay Mehta c Nischal S b VENKATA SATYA GANGA SUJAN G",
+    "name": "Jay Mehta",
     "r": 0,
     "b": 3,
     "f4": 0,
@@ -5748,7 +7030,7 @@
     "dis": "c Nischal S b VENKATA SATYA GANGA SUJAN G"
    },
    {
-    "name": "SREEKANTH REDDY KYPA lbw b VENKATA SATYA GANGA SUJAN G",
+    "name": "Sreekanth Reddy Kypa",
     "r": 17,
     "b": 20,
     "f4": 0,
@@ -5757,7 +7039,7 @@
     "dis": "lbw b VENKATA SATYA GANGA SUJAN G"
    },
    {
-    "name": "Mithun Dama c Hemanthkumar C b Rahul V",
+    "name": "Mithun Dama",
     "r": 19,
     "b": 17,
     "f4": 1,
@@ -5766,7 +7048,7 @@
     "dis": "c Hemanthkumar C b Rahul V"
    },
    {
-    "name": "Sasidhar Reddy Kurre run out ( Hemanthkumar C )",
+    "name": "Sasidhar Reddy Kurre",
     "r": 3,
     "b": 4,
     "f4": 0,
@@ -5775,7 +7057,7 @@
     "dis": "run out ( Hemanthkumar C )"
    },
    {
-    "name": "Sanjay Kadithi c Nischal S b Tejas S",
+    "name": "Sanjay Kadithi",
     "r": 9,
     "b": 15,
     "f4": 0,
@@ -5784,7 +7066,7 @@
     "dis": "c \u2020 Nischal S b Tejas S"
    },
    {
-    "name": "Lochan Akkaraju not out",
+    "name": "Lochan Akkaraju",
     "r": 3,
     "b": 4,
     "f4": 0,
@@ -5795,56 +7077,56 @@
   ],
   "bowling": [
    {
-    "name": "",
+    "name": "Gowtham Reddy Cheedepudi",
     "o": 4.0,
     "m": 0,
     "r": 29,
     "w": 2
    },
    {
-    "name": "",
+    "name": "Mithun Dama",
     "o": 4.0,
     "m": 0,
     "r": 20,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Jay Mehta",
     "o": 2.0,
     "m": 0,
     "r": 30,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Lochan Akkaraju",
     "o": 3.0,
     "m": 0,
     "r": 18,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Mahesh Peddiredla",
     "o": 3.0,
     "m": 0,
     "r": 27,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Sriram Kumar Maddu",
     "o": 2.0,
     "m": 0,
     "r": 13,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Sreekanth Reddy Kypa",
     "o": 1.0,
     "m": 0,
     "r": 7,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Srikanth Boyina",
     "o": 1.0,
     "m": 0,
     "r": 15,
@@ -5853,31 +7135,31 @@
   ],
   "fielding": [
    {
-    "name": "Gowtham Reddy Cheedepudi b Satish G",
+    "name": "Gowtham Reddy Cheedepudi",
     "ct": 0,
     "st": 0,
     "ro": 1
    },
    {
-    "name": "Raja Vasamsetty c Nischal S b Hemanthkumar C",
+    "name": "Raja Vasamsetty",
     "ct": 1,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Pranav Reddy Ala b Hemanthkumar C",
+    "name": "Pranav Reddy Ala",
     "ct": 1,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "SREEKANTH REDDY KYPA lbw b VENKATA SATYA GANGA SUJAN G",
+    "name": "Sreekanth Reddy Kypa",
     "ct": 1,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Sanjay Kadithi c Nischal S b Tejas S",
+    "name": "Sanjay Kadithi",
     "ct": 0,
     "st": 0,
     "ro": 1
@@ -5906,7 +7188,7 @@
   },
   "batting": [
    {
-    "name": "Raja Vasamsetty c Harish Reddy C b Dinesh K",
+    "name": "Raja Vasamsetty",
     "r": 6,
     "b": 14,
     "f4": 0,
@@ -5915,7 +7197,7 @@
     "dis": "c Harish Reddy C b Dinesh K"
    },
    {
-    "name": "Sriram Kumar Maddu lbw b Dhanabal A",
+    "name": "Sriram Kumar Maddu",
     "r": 10,
     "b": 8,
     "f4": 1,
@@ -5924,7 +7206,7 @@
     "dis": "lbw b Dhanabal A"
    },
    {
-    "name": "Sanjay Kadithi b Dhanabal A",
+    "name": "Sanjay Kadithi",
     "r": 12,
     "b": 31,
     "f4": 0,
@@ -5933,7 +7215,7 @@
     "dis": "b Dhanabal A"
    },
    {
-    "name": "Sasidhar Reddy Kurre c Keyur G b Hari S",
+    "name": "Sasidhar Reddy Kurre",
     "r": 3,
     "b": 4,
     "f4": 0,
@@ -5942,7 +7224,7 @@
     "dis": "c Keyur G b Hari S"
    },
    {
-    "name": "Jay Mehta run out ( Siranjeev V )",
+    "name": "Jay Mehta",
     "r": 16,
     "b": 23,
     "f4": 2,
@@ -5951,7 +7233,7 @@
     "dis": "run out ( Siranjeev V )"
    },
    {
-    "name": "Srikanth Boyina c Abhinav G b Hari S",
+    "name": "Srikanth Boyina",
     "r": 0,
     "b": 2,
     "f4": 0,
@@ -5960,7 +7242,7 @@
     "dis": "c Abhinav G b Hari S"
    },
    {
-    "name": "Gowtham P b Dinesh R",
+    "name": "Gowtham P",
     "r": 11,
     "b": 15,
     "f4": 0,
@@ -5969,7 +7251,7 @@
     "dis": "b Dinesh R"
    },
    {
-    "name": "Ajith Kumaar Ayna Sankar St Naveen Nishanth N b Dinesh R",
+    "name": "Ajith Kumaar Ayna Sankar",
     "r": 6,
     "b": 14,
     "f4": 0,
@@ -5978,7 +7260,7 @@
     "dis": "St Naveen Nishanth N b Dinesh R"
    },
    {
-    "name": "Mani Rathnam Thigulla not out",
+    "name": "Mani Rathnam Thigulla",
     "r": 10,
     "b": 7,
     "f4": 0,
@@ -5987,7 +7269,7 @@
     "dis": "not out"
    },
    {
-    "name": "Mithun Dama run out ( Dinesh R )",
+    "name": "Mithun Dama",
     "r": 4,
     "b": 2,
     "f4": 0,
@@ -5996,7 +7278,7 @@
     "dis": "run out ( Dinesh R )"
    },
    {
-    "name": "Lochan Akkaraju not out",
+    "name": "Lochan Akkaraju",
     "r": 0,
     "b": 0,
     "f4": 0,
@@ -6007,56 +7289,56 @@
   ],
   "bowling": [
    {
-    "name": "",
+    "name": "Mithun Dama",
     "o": 4.0,
     "m": 1,
     "r": 17,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Mani Rathnam Thigulla",
     "o": 4.0,
     "m": 0,
     "r": 14,
     "w": 3
    },
    {
-    "name": "",
+    "name": "Jay Mehta",
     "o": 2.0,
     "m": 0,
     "r": 10,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Ajith Kumaar Ayna Sankar",
     "o": 1.0,
     "m": 0,
     "r": 15,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Sriram Kumar Maddu",
     "o": 1.0,
     "m": 0,
     "r": 9,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Lochan Akkaraju",
     "o": 4.0,
     "m": 0,
     "r": 19,
     "w": 3
    },
    {
-    "name": "",
+    "name": "Srikanth Boyina",
     "o": 2.0,
     "m": 0,
     "r": 15,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Brooke Shears",
     "o": 2.0,
     "m": 0,
     "r": 9,
@@ -6065,25 +7347,25 @@
   ],
   "fielding": [
    {
-    "name": "Ajith Kumaar Ayna Sankar St Naveen Nishanth N b Dinesh R",
+    "name": "Ajith Kumaar Ayna Sankar",
     "ct": 2,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Raja Vasamsetty c Harish Reddy C b Dinesh K",
+    "name": "Raja Vasamsetty",
     "ct": 1,
     "st": 0,
     "ro": 1
    },
    {
-    "name": "Mithun Dama run out ( Dinesh R )",
+    "name": "Mithun Dama",
     "ct": 1,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Lochan Akkaraju not out",
+    "name": "Lochan Akkaraju",
     "ct": 1,
     "st": 0,
     "ro": 0
@@ -6112,7 +7394,7 @@
   },
   "batting": [
    {
-    "name": "Saketh Perala c Rushi P b Ronnie P",
+    "name": "Saketh Perala",
     "r": 9,
     "b": 14,
     "f4": 0,
@@ -6121,7 +7403,7 @@
     "dis": "c Rushi P b Ronnie P"
    },
    {
-    "name": "Pranav Reddy Ala lbw b Dhruv P",
+    "name": "Pranav Reddy Ala",
     "r": 0,
     "b": 5,
     "f4": 0,
@@ -6130,7 +7412,7 @@
     "dis": "lbw b Dhruv P"
    },
    {
-    "name": "Sanjay Kadithi c Purv P b Ayush P",
+    "name": "Sanjay Kadithi",
     "r": 2,
     "b": 8,
     "f4": 0,
@@ -6139,7 +7421,7 @@
     "dis": "c Purv P b Ayush P"
    },
    {
-    "name": "Sasidhar Reddy Kurre run out ( Ayush P )",
+    "name": "Sasidhar Reddy Kurre",
     "r": 0,
     "b": 5,
     "f4": 0,
@@ -6148,7 +7430,7 @@
     "dis": "run out ( Ayush P )"
    },
    {
-    "name": "Sriram Kumar Maddu b Ayush P",
+    "name": "Sriram Kumar Maddu",
     "r": 16,
     "b": 32,
     "f4": 1,
@@ -6157,7 +7439,7 @@
     "dis": "b Ayush P"
    },
    {
-    "name": "SREEKANTH REDDY KYPA c Ronak U P b Ayush P",
+    "name": "Sreekanth Reddy Kypa",
     "r": 7,
     "b": 3,
     "f4": 0,
@@ -6166,7 +7448,7 @@
     "dis": "c Ronak U P b Ayush P"
    },
    {
-    "name": "Brooke Shears run out ( Ronnie P )",
+    "name": "Brooke Shears",
     "r": 2,
     "b": 10,
     "f4": 0,
@@ -6175,7 +7457,7 @@
     "dis": "run out ( Ronnie P )"
    },
    {
-    "name": "Mithun Dama c Rushi P b Dhruv P",
+    "name": "Mithun Dama",
     "r": 14,
     "b": 27,
     "f4": 0,
@@ -6184,7 +7466,7 @@
     "dis": "c Rushi P b Dhruv P"
    },
    {
-    "name": "Gowtham Reddy Cheedepudi run out ( Ayush P )",
+    "name": "Gowtham Reddy Cheedepudi",
     "r": 1,
     "b": 5,
     "f4": 0,
@@ -6193,7 +7475,7 @@
     "dis": "run out ( Ayush P )"
    },
    {
-    "name": "Gowtham P not out",
+    "name": "Gowtham P",
     "r": 4,
     "b": 7,
     "f4": 0,
@@ -6202,7 +7484,7 @@
     "dis": "not out"
    },
    {
-    "name": "Sai Thota not out",
+    "name": "Sai Thota",
     "r": 2,
     "b": 5,
     "f4": 0,
@@ -6213,42 +7495,42 @@
   ],
   "bowling": [
    {
-    "name": "",
+    "name": "Gowtham Reddy Cheedepudi",
     "o": 4.0,
     "m": 0,
     "r": 19,
     "w": 2
    },
    {
-    "name": "",
+    "name": "Mithun Dama",
     "o": 4.0,
     "m": 0,
     "r": 22,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Sreekanth Reddy Kypa",
     "o": 2.0,
     "m": 0,
     "r": 20,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Saketh Perala",
     "o": 4.0,
     "m": 0,
     "r": 19,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Sriram Kumar Maddu",
     "o": 4.0,
     "m": 0,
     "r": 14,
     "w": 2
    },
    {
-    "name": "",
+    "name": "Brooke Shears",
     "o": 2.0,
     "m": 0,
     "r": 18,
@@ -6257,13 +7539,13 @@
   ],
   "fielding": [
    {
-    "name": "SREEKANTH REDDY KYPA c Ronak U P b Ayush P",
+    "name": "Sreekanth Reddy Kypa",
     "ct": 2,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Sriram Kumar Maddu b Ayush P",
+    "name": "Sriram Kumar Maddu",
     "ct": 1,
     "st": 0,
     "ro": 0
@@ -6292,7 +7574,7 @@
   },
   "batting": [
    {
-    "name": "Saketh Perala c Mahesh Babu B b Sreekanth G",
+    "name": "Saketh Perala",
     "r": 30,
     "b": 41,
     "f4": 1,
@@ -6301,7 +7583,7 @@
     "dis": "c Mahesh Babu B b Sreekanth G"
    },
    {
-    "name": "Pranav Reddy Ala run out ( Ravi Kumar P )",
+    "name": "Pranav Reddy Ala",
     "r": 0,
     "b": 5,
     "f4": 0,
@@ -6310,7 +7592,7 @@
     "dis": "run out ( Ravi Kumar P )"
    },
    {
-    "name": "Raja Vasamsetty b Sreekanth G",
+    "name": "Raja Vasamsetty",
     "r": 23,
     "b": 26,
     "f4": 2,
@@ -6319,7 +7601,7 @@
     "dis": "b Sreekanth G"
    },
    {
-    "name": "SREEKANTH REDDY KYPA b Mahesh Babu B",
+    "name": "Sreekanth Reddy Kypa",
     "r": 4,
     "b": 4,
     "f4": 0,
@@ -6328,7 +7610,7 @@
     "dis": "b Mahesh Babu B"
    },
    {
-    "name": "Ajith Kumaar Ayna Sankar c Bharath N b Mahesh Babu B",
+    "name": "Ajith Kumaar Ayna Sankar",
     "r": 0,
     "b": 1,
     "f4": 0,
@@ -6337,7 +7619,7 @@
     "dis": "c Bharath N b Mahesh Babu B"
    },
    {
-    "name": "Mithun Dama c Naveen Kumar P b Sreekanth G",
+    "name": "Mithun Dama",
     "r": 1,
     "b": 4,
     "f4": 0,
@@ -6346,7 +7628,7 @@
     "dis": "c \u2020 Naveen Kumar P b Sreekanth G"
    },
    {
-    "name": "Sasidhar Reddy Kurre run out ( Sreekanth G )",
+    "name": "Sasidhar Reddy Kurre",
     "r": 2,
     "b": 1,
     "f4": 0,
@@ -6355,7 +7637,7 @@
     "dis": "run out ( Sreekanth G )"
    },
    {
-    "name": "Sriram Kumar Maddu not out",
+    "name": "Sriram Kumar Maddu",
     "r": 1,
     "b": 1,
     "f4": 0,
@@ -6364,7 +7646,7 @@
     "dis": "not out"
    },
    {
-    "name": "Gowtham P not out",
+    "name": "Gowtham P",
     "r": 1,
     "b": 2,
     "f4": 0,
@@ -6375,42 +7657,42 @@
   ],
   "bowling": [
    {
-    "name": "",
+    "name": "Gowtham Reddy Cheedepudi",
     "o": 3.0,
     "m": 0,
     "r": 18,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Mithun Dama",
     "o": 4.0,
     "m": 0,
     "r": 12,
     "w": 3
    },
    {
-    "name": "",
+    "name": "Sreekanth Reddy Kypa",
     "o": 3.0,
     "m": 0,
     "r": 16,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Ajith Kumaar Ayna Sankar",
     "o": 2.0,
     "m": 0,
     "r": 21,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Sriram Kumar Maddu",
     "o": 4.0,
     "m": 0,
     "r": 17,
     "w": 2
    },
    {
-    "name": "",
+    "name": "Saketh Perala",
     "o": 4.0,
     "m": 0,
     "r": 22,
@@ -6419,19 +7701,25 @@
   ],
   "fielding": [
    {
-    "name": "Gowtham P not out",
+    "name": "Sanjay Kadithi",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Gowtham P",
     "ct": 3,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Mithun Dama c Naveen Kumar P b Sreekanth G",
+    "name": "Mithun Dama",
     "ct": 3,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Sriram Kumar Maddu not out",
+    "name": "Sriram Kumar Maddu",
     "ct": 0,
     "st": 0,
     "ro": 1
@@ -6460,7 +7748,7 @@
   },
   "batting": [
    {
-    "name": "Srinath Mirdoddi b Sujay Y",
+    "name": "Srinath Mirdoddi",
     "r": 0,
     "b": 4,
     "f4": 0,
@@ -6469,7 +7757,7 @@
     "dis": "b Sujay Y"
    },
    {
-    "name": "Raja Vasamsetty lbw b Tarundeep Singh G",
+    "name": "Raja Vasamsetty",
     "r": 7,
     "b": 10,
     "f4": 0,
@@ -6478,7 +7766,7 @@
     "dis": "lbw b Tarundeep Singh G"
    },
    {
-    "name": "Mahesh Peddiredla c Tarundeep Singh G b Sujay Y",
+    "name": "Mahesh Peddiredla",
     "r": 51,
     "b": 38,
     "f4": 3,
@@ -6487,7 +7775,7 @@
     "dis": "c Tarundeep Singh G b Sujay Y"
    },
    {
-    "name": "Pranav Reddy Ala run out ( Tarundeep Singh G )",
+    "name": "Pranav Reddy Ala",
     "r": 0,
     "b": 0,
     "f4": 0,
@@ -6496,7 +7784,7 @@
     "dis": "run out ( Tarundeep Singh G )"
    },
    {
-    "name": "Sanjay Kadithi run out ( Aneesh Reddy D )",
+    "name": "Sanjay Kadithi",
     "r": 4,
     "b": 8,
     "f4": 0,
@@ -6505,7 +7793,7 @@
     "dis": "run out ( Aneesh Reddy D )"
    },
    {
-    "name": "Sreekanth Reddy Kypa c Ankur D b Vishnu M",
+    "name": "Sreekanth Reddy Kypa",
     "r": 5,
     "b": 7,
     "f4": 1,
@@ -6514,7 +7802,7 @@
     "dis": "c Ankur D b Vishnu M"
    },
    {
-    "name": "Ajith Kumaar Ayna Sankar c Aalap D b Nitin A",
+    "name": "Ajith Kumaar Ayna Sankar",
     "r": 0,
     "b": 2,
     "f4": 0,
@@ -6523,7 +7811,7 @@
     "dis": "c Aalap D b Nitin A"
    },
    {
-    "name": "Mithun Dama c Ankur D b Nitin A",
+    "name": "Mithun Dama",
     "r": 0,
     "b": 1,
     "f4": 0,
@@ -6532,7 +7820,7 @@
     "dis": "c Ankur D b Nitin A"
    },
    {
-    "name": "Sriram Kumar Maddu c Tanay S b Sujay Y",
+    "name": "Sriram Kumar Maddu",
     "r": 8,
     "b": 9,
     "f4": 0,
@@ -6541,7 +7829,7 @@
     "dis": "c \u2020 Tanay S b Sujay Y"
    },
    {
-    "name": "Gowtham Reddy Cheedepudi c Sujay Y b Aalap D",
+    "name": "Gowtham Reddy Cheedepudi",
     "r": 2,
     "b": 11,
     "f4": 0,
@@ -6550,7 +7838,7 @@
     "dis": "c Sujay Y b Aalap D"
    },
    {
-    "name": "Gowtham Reddy Palnati not out",
+    "name": "Gowtham Reddy Palnati",
     "r": 0,
     "b": 2,
     "f4": 0,
@@ -6561,42 +7849,42 @@
   ],
   "bowling": [
    {
-    "name": "",
+    "name": "Mithun Dama",
     "o": 4.0,
     "m": 0,
     "r": 18,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Gowtham Reddy Cheedepudi",
     "o": 3.0,
     "m": 0,
     "r": 29,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Mahesh Peddiredla",
     "o": 3.0,
     "m": 0,
     "r": 36,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Raja Vasamsetty",
     "o": 4.0,
     "m": 0,
     "r": 33,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Sreekanth Reddy Kypa",
     "o": 4.0,
     "m": 0,
     "r": 37,
     "w": 2
    },
    {
-    "name": "",
+    "name": "Brooke Shears",
     "o": 2.0,
     "m": 0,
     "r": 21,
@@ -6605,19 +7893,19 @@
   ],
   "fielding": [
    {
-    "name": "Gowtham Reddy Cheedepudi c Sujay Y b Aalap D",
+    "name": "Gowtham Reddy Cheedepudi",
     "ct": 1,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Gowtham Reddy Palnati not out",
+    "name": "Gowtham Reddy Palnati",
     "ct": 1,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Raja Vasamsetty lbw b Tarundeep Singh G",
+    "name": "Raja Vasamsetty",
     "ct": 1,
     "st": 0,
     "ro": 0
@@ -6646,7 +7934,7 @@
   },
   "batting": [
    {
-    "name": "Saketh Perala c Arun K b Shashank V",
+    "name": "Saketh Perala",
     "r": 4,
     "b": 11,
     "f4": 0,
@@ -6655,7 +7943,7 @@
     "dis": "c Arun K b Shashank V"
    },
    {
-    "name": "Pranav Reddy Ala lbw b Shashank V",
+    "name": "Pranav Reddy Ala",
     "r": 1,
     "b": 6,
     "f4": 0,
@@ -6664,7 +7952,7 @@
     "dis": "lbw b Shashank V"
    },
    {
-    "name": "Raja Vasamsetty b Harish Kumar G",
+    "name": "Raja Vasamsetty",
     "r": 3,
     "b": 16,
     "f4": 0,
@@ -6673,7 +7961,7 @@
     "dis": "b Harish Kumar G"
    },
    {
-    "name": "Ajith Kumaar Ayna Sankar lbw b Rajgopal N",
+    "name": "Ajith Kumaar Ayna Sankar",
     "r": 1,
     "b": 4,
     "f4": 0,
@@ -6682,7 +7970,7 @@
     "dis": "lbw b Rajgopal N"
    },
    {
-    "name": "Gowtham Reddy Cheedepudi b Harish Kumar G",
+    "name": "Gowtham Reddy Cheedepudi",
     "r": 0,
     "b": 1,
     "f4": 0,
@@ -6691,7 +7979,7 @@
     "dis": "b Harish Kumar G"
    },
    {
-    "name": "SREEKANTH REDDY KYPA b Rajgopal N",
+    "name": "Sreekanth Reddy Kypa",
     "r": 0,
     "b": 2,
     "f4": 0,
@@ -6700,7 +7988,7 @@
     "dis": "b Rajgopal N"
    },
    {
-    "name": "Gowtham P run out ( Rajgopal N )",
+    "name": "Gowtham P",
     "r": 2,
     "b": 6,
     "f4": 0,
@@ -6709,7 +7997,7 @@
     "dis": "run out ( Rajgopal N )"
    },
    {
-    "name": "Brooke Shears run out ( Yaswanth A )",
+    "name": "Brooke Shears",
     "r": 11,
     "b": 46,
     "f4": 0,
@@ -6718,7 +8006,7 @@
     "dis": "run out ( Yaswanth A )"
    },
    {
-    "name": "Sriram Kumar Maddu b Rajgopal N",
+    "name": "Sriram Kumar Maddu",
     "r": 0,
     "b": 1,
     "f4": 0,
@@ -6727,7 +8015,7 @@
     "dis": "b Rajgopal N"
    },
    {
-    "name": "Jay Mehta c Arun K b Rajgopal N",
+    "name": "Jay Mehta",
     "r": 0,
     "b": 2,
     "f4": 0,
@@ -6736,7 +8024,7 @@
     "dis": "c Arun K b Rajgopal N"
    },
    {
-    "name": "Mithun Dama not out",
+    "name": "Mithun Dama",
     "r": 17,
     "b": 25,
     "f4": 0,
@@ -6747,56 +8035,56 @@
   ],
   "bowling": [
    {
-    "name": "",
+    "name": "Mithun Dama",
     "o": 3.0,
     "m": 0,
     "r": 11,
     "w": 2
    },
    {
-    "name": "",
+    "name": "Jay Mehta",
     "o": 3.0,
     "m": 0,
     "r": 10,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Gowtham Reddy Cheedepudi",
     "o": 3.0,
     "m": 0,
     "r": 7,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Ajith Kumaar Ayna Sankar",
     "o": 2.0,
     "m": 0,
     "r": 8,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Sreekanth Reddy Kypa",
     "o": 1.0,
     "m": 0,
     "r": 3,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Sriram Kumar Maddu",
     "o": 2.0,
     "m": 0,
     "r": 9,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Saketh Perala",
     "o": 1.0,
     "m": 0,
     "r": 4,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Lochan Akkaraju",
     "o": 0.1,
     "m": 0,
     "r": 2,
@@ -6827,7 +8115,7 @@
   },
   "batting": [
    {
-    "name": "Srinath Mirdoddi c Haider B b Nabeel M",
+    "name": "Srinath Mirdoddi",
     "r": 11,
     "b": 13,
     "f4": 0,
@@ -6836,7 +8124,7 @@
     "dis": "c \u2020 Haider B b Nabeel M"
    },
    {
-    "name": "Raja Vasamsetty c Waqas Y b Mayank P",
+    "name": "Raja Vasamsetty",
     "r": 2,
     "b": 4,
     "f4": 0,
@@ -6845,7 +8133,7 @@
     "dis": "c Waqas Y b Mayank P"
    },
    {
-    "name": "Mahesh Peddiredla lbw b Mayank P",
+    "name": "Mahesh Peddiredla",
     "r": 0,
     "b": 1,
     "f4": 0,
@@ -6854,7 +8142,7 @@
     "dis": "lbw b Mayank P"
    },
    {
-    "name": "Sreekanth Reddy Kypa c Waqas Y b Mohammad M",
+    "name": "Sreekanth Reddy Kypa",
     "r": 12,
     "b": 12,
     "f4": 2,
@@ -6863,7 +8151,7 @@
     "dis": "c Waqas Y b Mohammad M"
    },
    {
-    "name": "Jaswanth Dharmavarapu b Mayank P",
+    "name": "Jaswanth Dharmavarapu",
     "r": 1,
     "b": 6,
     "f4": 0,
@@ -6872,7 +8160,7 @@
     "dis": "b Mayank P"
    },
    {
-    "name": "Pranav Reddy Ala run out ( Haider B )",
+    "name": "Pranav Reddy Ala",
     "r": 0,
     "b": 1,
     "f4": 0,
@@ -6881,7 +8169,7 @@
     "dis": "run out ( Haider B )"
    },
    {
-    "name": "Mani Rathnam Thigulla St Haider B b Chaitanya K",
+    "name": "Mani Rathnam Thigulla",
     "r": 19,
     "b": 15,
     "f4": 3,
@@ -6890,7 +8178,7 @@
     "dis": "St Haider B b Chaitanya K"
    },
    {
-    "name": "Sanjay Kadithi run out ( Gurpreet S )",
+    "name": "Sanjay Kadithi",
     "r": 13,
     "b": 11,
     "f4": 1,
@@ -6899,7 +8187,7 @@
     "dis": "run out ( Gurpreet S )"
    },
    {
-    "name": "Gowtham Reddy Palnati c Nabeel M b Chaitanya K",
+    "name": "Gowtham Reddy Palnati",
     "r": 1,
     "b": 2,
     "f4": 0,
@@ -6908,7 +8196,7 @@
     "dis": "c Nabeel M b Chaitanya K"
    },
    {
-    "name": "Mithun Dama not out",
+    "name": "Mithun Dama",
     "r": 5,
     "b": 5,
     "f4": 1,
@@ -6917,7 +8205,7 @@
     "dis": "not out"
    },
    {
-    "name": "Sasidhar Reddy Kurre c Haider B b Chaitanya K",
+    "name": "Sasidhar Reddy Kurre",
     "r": 0,
     "b": 3,
     "f4": 0,
@@ -6928,42 +8216,42 @@
   ],
   "bowling": [
    {
-    "name": "",
+    "name": "Mithun Dama",
     "o": 4.0,
     "m": 0,
     "r": 21,
     "w": 2
    },
    {
-    "name": "",
+    "name": "Gowtham Reddy Cheedepudi",
     "o": 1.0,
     "m": 0,
     "r": 14,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Jaswanth Dharmavarapu",
     "o": 4.0,
     "m": 0,
     "r": 22,
     "w": 2
    },
    {
-    "name": "",
+    "name": "Mani Rathnam Thigulla",
     "o": 3.0,
     "m": 0,
     "r": 22,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Mahesh Peddiredla",
     "o": 4.0,
     "m": 0,
     "r": 23,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Raja Vasamsetty",
     "o": 4.0,
     "m": 0,
     "r": 30,
@@ -6972,19 +8260,19 @@
   ],
   "fielding": [
    {
-    "name": "Mahesh Peddiredla lbw b Mayank P",
+    "name": "Mahesh Peddiredla",
     "ct": 4,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Sreekanth Reddy Kypa c Waqas Y b Mohammad M",
+    "name": "Sreekanth Reddy Kypa",
     "ct": 1,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Jaswanth Dharmavarapu b Mayank P",
+    "name": "Jaswanth Dharmavarapu",
     "ct": 0,
     "st": 0,
     "ro": 1
@@ -7013,7 +8301,7 @@
   },
   "batting": [
    {
-    "name": "Raja Vasamsetty not out",
+    "name": "Raja Vasamsetty",
     "r": 80,
     "b": 62,
     "f4": 6,
@@ -7022,7 +8310,7 @@
     "dis": "not out"
    },
    {
-    "name": "Srinath Mirdoddi c Adarsh V b Arhaan P",
+    "name": "Srinath Mirdoddi",
     "r": 13,
     "b": 11,
     "f4": 2,
@@ -7031,7 +8319,7 @@
     "dis": "c Adarsh V b Arhaan P"
    },
    {
-    "name": "Mahesh Peddiredla c Krrish S b Adarsh V",
+    "name": "Mahesh Peddiredla",
     "r": 3,
     "b": 9,
     "f4": 0,
@@ -7040,7 +8328,7 @@
     "dis": "c Krrish S b Adarsh V"
    },
    {
-    "name": "Sanjay Kadithi Retired Out",
+    "name": "Sanjay Kadithi",
     "r": 22,
     "b": 24,
     "f4": 0,
@@ -7049,7 +8337,7 @@
     "dis": "Retired Out"
    },
    {
-    "name": "Sreekanth Reddy Kypa c Saad M b Dhimaan B",
+    "name": "Sreekanth Reddy Kypa",
     "r": 2,
     "b": 3,
     "f4": 0,
@@ -7058,7 +8346,7 @@
     "dis": "c Saad M b Dhimaan B"
    },
    {
-    "name": "Prosenroyal Vellanki c Adarsh V b Saad M",
+    "name": "Prosenroyal Vellanki",
     "r": 0,
     "b": 2,
     "f4": 0,
@@ -7067,7 +8355,7 @@
     "dis": "c Adarsh V b Saad M"
    },
    {
-    "name": "Mani Rathnam Thigulla not out",
+    "name": "Mani Rathnam Thigulla",
     "r": 9,
     "b": 9,
     "f4": 1,
@@ -7076,8 +8364,65 @@
     "dis": "not out"
    }
   ],
-  "bowling": [],
-  "fielding": []
+  "bowling": [
+   {
+    "name": "Mani Rathnam Thigulla",
+    "o": 3.0,
+    "m": 0,
+    "r": 30,
+    "w": 1
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "o": 2.0,
+    "m": 0,
+    "r": 15,
+    "w": 0
+   },
+   {
+    "name": "Mithun Dama",
+    "o": 4.0,
+    "m": 0,
+    "r": 39,
+    "w": 2
+   },
+   {
+    "name": "Mahesh Peddiredla",
+    "o": 2.1,
+    "m": 0,
+    "r": 15,
+    "w": 0
+   },
+   {
+    "name": "Sriram Kumar Maddu",
+    "o": 2.0,
+    "m": 0,
+    "r": 15,
+    "w": 0
+   },
+   {
+    "name": "Prosenroyal Vellanki",
+    "o": 2.0,
+    "m": 0,
+    "r": 12,
+    "w": 0
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "o": 2.0,
+    "m": 0,
+    "r": 17,
+    "w": 0
+   }
+  ],
+  "fielding": [
+   {
+    "name": "Gowtham Reddy Palnati",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   }
+  ]
  },
  {
   "id": "farmingtoncc_6087",
@@ -7101,7 +8446,7 @@
   },
   "batting": [
    {
-    "name": "Pranav Reddy Ala c Syam K b Mahesh K",
+    "name": "Pranav Reddy Ala",
     "r": 3,
     "b": 8,
     "f4": 0,
@@ -7110,7 +8455,7 @@
     "dis": "c Syam K b Mahesh K"
    },
    {
-    "name": "Saketh Perala c Syam K b Vijai k",
+    "name": "Saketh Perala",
     "r": 10,
     "b": 13,
     "f4": 1,
@@ -7119,7 +8464,7 @@
     "dis": "c Syam K b Vijai k"
    },
    {
-    "name": "Mahesh Peddiredla c Krishna Mohan R b Ramana B",
+    "name": "Mahesh Peddiredla",
     "r": 14,
     "b": 30,
     "f4": 0,
@@ -7128,7 +8473,7 @@
     "dis": "c Krishna Mohan R b Ramana B"
    },
    {
-    "name": "Ajith Kumaar Ayna Sankar c&b Nikhil R",
+    "name": "Ajith Kumaar Ayna Sankar",
     "r": 12,
     "b": 21,
     "f4": 0,
@@ -7137,7 +8482,7 @@
     "dis": "c&b Nikhil R"
    },
    {
-    "name": "SREEKANTH REDDY KYPA lbw b Nikhil R",
+    "name": "Sreekanth Reddy Kypa",
     "r": 0,
     "b": 2,
     "f4": 0,
@@ -7146,7 +8491,7 @@
     "dis": "lbw b Nikhil R"
    },
    {
-    "name": "Gowtham P run out ( Syam K )",
+    "name": "Gowtham P",
     "r": 4,
     "b": 9,
     "f4": 0,
@@ -7155,7 +8500,7 @@
     "dis": "run out ( Syam K )"
    },
    {
-    "name": "Sriram Kumar Maddu c&b Syam K",
+    "name": "Sriram Kumar Maddu",
     "r": 1,
     "b": 3,
     "f4": 0,
@@ -7164,7 +8509,7 @@
     "dis": "c&b Syam K"
    },
    {
-    "name": "Sasidhar Reddy Kurre lbw b Mahesh K",
+    "name": "Sasidhar Reddy Kurre",
     "r": 4,
     "b": 5,
     "f4": 0,
@@ -7173,7 +8518,7 @@
     "dis": "lbw b Mahesh K"
    },
    {
-    "name": "Mithun Dama run out ( Bala hari krishna B )",
+    "name": "Mithun Dama",
     "r": 11,
     "b": 9,
     "f4": 2,
@@ -7182,7 +8527,7 @@
     "dis": "run out ( Bala hari krishna B )"
    },
    {
-    "name": "Sanjay Kadithi c Nikhil R b Syam K",
+    "name": "Sanjay Kadithi",
     "r": 3,
     "b": 8,
     "f4": 0,
@@ -7191,7 +8536,7 @@
     "dis": "c Nikhil R b Syam K"
    },
    {
-    "name": "Brooke Shears not out",
+    "name": "Brooke Shears",
     "r": 1,
     "b": 7,
     "f4": 0,
@@ -7202,35 +8547,35 @@
   ],
   "bowling": [
    {
-    "name": "",
+    "name": "Mithun Dama",
     "o": 3.4,
     "m": 1,
     "r": 11,
     "w": 3
    },
    {
-    "name": "",
+    "name": "Sreekanth Reddy Kypa",
     "o": 2.0,
     "m": 0,
     "r": 8,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Ajith Kumaar Ayna Sankar",
     "o": 3.0,
     "m": 0,
     "r": 12,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Mahesh Peddiredla",
     "o": 4.0,
     "m": 0,
     "r": 9,
     "w": 4
    },
    {
-    "name": "",
+    "name": "Saketh Perala",
     "o": 1.0,
     "m": 0,
     "r": 2,
@@ -7239,13 +8584,202 @@
   ],
   "fielding": [
    {
-    "name": "SREEKANTH REDDY KYPA lbw b Nikhil R",
+    "name": "Sreekanth Reddy Kypa",
     "ct": 1,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Mithun Dama run out ( Bala hari krishna B )",
+    "name": "Mithun Dama",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   }
+  ]
+ },
+ {
+  "id": "MichCA_5067",
+  "url": "https://cricclubs.com/MichCA/viewScorecard.do?matchId=5067&clubId=2119",
+  "league": "Michigan Cricket Association",
+  "series": "2025 T20 - Division II",
+  "date": "2025-08-17",
+  "opponent": "MIGR Single Malt GRSM",
+  "batted_first": false,
+  "result": "L",
+  "margin": "by 18 Runs",
+  "us": {
+   "r": 108,
+   "w": 8,
+   "o": 20.0
+  },
+  "them": {
+   "r": 126,
+   "w": 10,
+   "o": 20.0
+  },
+  "batting": [
+   {
+    "name": "Raja Vasamsetty",
+    "r": 0,
+    "b": 2,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c Mularajsinh R b John J"
+   },
+   {
+    "name": "Srinath Mirdoddi",
+    "r": 15,
+    "b": 27,
+    "f4": 1,
+    "f6": 0,
+    "out": true,
+    "dis": "c Raghu Kumar P b Paranjothi G"
+   },
+   {
+    "name": "Mahesh Peddiredla",
+    "r": 19,
+    "b": 17,
+    "f4": 1,
+    "f6": 1,
+    "out": true,
+    "dis": "c Raghu Kumar P b Ananda R"
+   },
+   {
+    "name": "Pranav Reddy Ala",
+    "r": 26,
+    "b": 28,
+    "f4": 1,
+    "f6": 0,
+    "out": true,
+    "dis": "c Ronnie F b Ananda R"
+   },
+   {
+    "name": "Sanjeev Murali",
+    "r": 17,
+    "b": 22,
+    "f4": 1,
+    "f6": 0,
+    "out": true,
+    "dis": "c Ronnie F b Ananda R"
+   },
+   {
+    "name": "Sasidhar Reddy Kurre",
+    "r": 5,
+    "b": 4,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "run out ( Ananda R )"
+   },
+   {
+    "name": "Gowtham Reddy Palnati",
+    "r": 6,
+    "b": 7,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "run out ( Raghu Kumar P )"
+   },
+   {
+    "name": "Sai Abhiram Nibhanupudi",
+    "r": 8,
+    "b": 8,
+    "f4": 0,
+    "f6": 0,
+    "out": false,
+    "dis": "not out"
+   },
+   {
+    "name": "Mithun Dama",
+    "r": 0,
+    "b": 3,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c John J b Raghu Kumar P"
+   },
+   {
+    "name": "Brooke Shears",
+    "r": 2,
+    "b": 3,
+    "f4": 0,
+    "f6": 0,
+    "out": false,
+    "dis": "not out"
+   }
+  ],
+  "bowling": [
+   {
+    "name": "Mithun Dama",
+    "o": 4.0,
+    "m": 0,
+    "r": 20,
+    "w": 1
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "o": 4.0,
+    "m": 0,
+    "r": 19,
+    "w": 2
+   },
+   {
+    "name": "Srinath Mirdoddi",
+    "o": 4.0,
+    "m": 0,
+    "r": 24,
+    "w": 4
+   },
+   {
+    "name": "Mahesh Peddiredla",
+    "o": 4.0,
+    "m": 0,
+    "r": 34,
+    "w": 0
+   },
+   {
+    "name": "Srikanth Boyina",
+    "o": 2.0,
+    "m": 0,
+    "r": 11,
+    "w": 0
+   },
+   {
+    "name": "Brooke Shears",
+    "o": 2.0,
+    "m": 0,
+    "r": 18,
+    "w": 1
+   }
+  ],
+  "fielding": [
+   {
+    "name": "Pranav Reddy Ala",
+    "ct": 2,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Srinath Mirdoddi",
+    "ct": 0,
+    "st": 0,
+    "ro": 1
+   },
+   {
+    "name": "Mithun Dama",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Brooke Shears",
+    "ct": 0,
+    "st": 0,
+    "ro": 1
+   },
+   {
+    "name": "Sai Abhiram Nibhanupudi",
     "ct": 1,
     "st": 0,
     "ro": 0
@@ -7274,7 +8808,7 @@
   },
   "batting": [
    {
-    "name": "Pranav Reddy Ala lbw b Fazeel S",
+    "name": "Pranav Reddy Ala",
     "r": 1,
     "b": 5,
     "f4": 0,
@@ -7283,7 +8817,7 @@
     "dis": "lbw b Fazeel S"
    },
    {
-    "name": "Srinath Mirdoddi lbw b Fazeel S",
+    "name": "Srinath Mirdoddi",
     "r": 18,
     "b": 10,
     "f4": 3,
@@ -7292,7 +8826,7 @@
     "dis": "lbw b Fazeel S"
    },
    {
-    "name": "Mahesh Peddiredla c Ateeq A b Hamza A",
+    "name": "Mahesh Peddiredla",
     "r": 7,
     "b": 8,
     "f4": 0,
@@ -7301,7 +8835,7 @@
     "dis": "c Ateeq A b Hamza A"
    },
    {
-    "name": "Raja Vasamsetty c Shahid Ali khan m b Taher S",
+    "name": "Raja Vasamsetty",
     "r": 20,
     "b": 22,
     "f4": 2,
@@ -7310,7 +8844,7 @@
     "dis": "c Shahid Ali khan m b Taher S"
    },
    {
-    "name": "Sreekanth Reddy Kypa b Ateeq A",
+    "name": "Sreekanth Reddy Kypa",
     "r": 33,
     "b": 29,
     "f4": 4,
@@ -7319,7 +8853,7 @@
     "dis": "b Ateeq A"
    },
    {
-    "name": "Mithun Dama c Shaheer M b Taher S",
+    "name": "Mithun Dama",
     "r": 6,
     "b": 10,
     "f4": 0,
@@ -7328,7 +8862,7 @@
     "dis": "c Shaheer M b Taher S"
    },
    {
-    "name": "Gowtham Reddy Palnati run out ( Ateeq A )",
+    "name": "Gowtham Reddy Palnati",
     "r": 12,
     "b": 14,
     "f4": 0,
@@ -7337,7 +8871,7 @@
     "dis": "run out ( Ateeq A )"
    },
    {
-    "name": "Sai Abhiram Nibhanupudi c Fazeel S b Ateeq A",
+    "name": "Sai Abhiram Nibhanupudi",
     "r": 6,
     "b": 9,
     "f4": 0,
@@ -7346,7 +8880,7 @@
     "dis": "c Fazeel S b Ateeq A"
    },
    {
-    "name": "Rama Naidu Ramisetti c Afzal Hussain M b Younus Ali M",
+    "name": "Rama Naidu Ramisetti",
     "r": 3,
     "b": 3,
     "f4": 0,
@@ -7355,7 +8889,7 @@
     "dis": "c Afzal Hussain M b Younus Ali M"
    },
    {
-    "name": "Brooke Shears not out",
+    "name": "Brooke Shears",
     "r": 0,
     "b": 1,
     "f4": 0,
@@ -7364,7 +8898,7 @@
     "dis": "not out"
    },
    {
-    "name": "Sasidhar Reddy Kurre c Imtiyaz M b Younus Ali M",
+    "name": "Sasidhar Reddy Kurre",
     "r": 0,
     "b": 1,
     "f4": 0,
@@ -7375,56 +8909,56 @@
   ],
   "bowling": [
    {
-    "name": "",
+    "name": "Mithun Dama",
     "o": 2.0,
     "m": 0,
     "r": 15,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Sreekanth Reddy Kypa",
     "o": 1.4,
     "m": 0,
     "r": 23,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Raja Vasamsetty",
     "o": 1.5,
     "m": 0,
     "r": 21,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Mahesh Peddiredla",
     "o": 2.0,
     "m": 0,
     "r": 17,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Pranav Reddy Ala",
     "o": 0.2,
     "m": 0,
     "r": 5,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Brooke Shears",
     "o": 2.0,
     "m": 0,
     "r": 17,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Srikanth Boyina",
     "o": 2.3,
     "m": 0,
     "r": 24,
     "w": 2
    },
    {
-    "name": "",
+    "name": "Sai Abhiram Nibhanupudi",
     "o": 0.1,
     "m": 0,
     "r": 5,
@@ -7433,13 +8967,13 @@
   ],
   "fielding": [
    {
-    "name": "Pranav Reddy Ala lbw b Fazeel S",
+    "name": "Pranav Reddy Ala",
     "ct": 1,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Gowtham Reddy Palnati run out ( Ateeq A )",
+    "name": "Gowtham Reddy Palnati",
     "ct": 1,
     "st": 0,
     "ro": 0
@@ -7468,7 +9002,7 @@
   },
   "batting": [
    {
-    "name": "Raja Vasamsetty c Krishna K b Satish Kumar B",
+    "name": "Raja Vasamsetty",
     "r": 0,
     "b": 1,
     "f4": 0,
@@ -7477,7 +9011,7 @@
     "dis": "c Krishna K b Satish Kumar B"
    },
    {
-    "name": "Pranav Reddy Ala c Sudha Kiran G b Krishna Chaitanya S",
+    "name": "Pranav Reddy Ala",
     "r": 41,
     "b": 38,
     "f4": 4,
@@ -7486,7 +9020,7 @@
     "dis": "c Sudha Kiran G b Krishna Chaitanya S"
    },
    {
-    "name": "Mahesh Peddiredla c Sudha Kiran G b Ravi Teja Y",
+    "name": "Mahesh Peddiredla",
     "r": 47,
     "b": 25,
     "f4": 6,
@@ -7495,7 +9029,7 @@
     "dis": "c Sudha Kiran G b Ravi Teja Y"
    },
    {
-    "name": "Srinath Mirdoddi c Krishna K b Hasith R",
+    "name": "Srinath Mirdoddi",
     "r": 12,
     "b": 16,
     "f4": 1,
@@ -7504,7 +9038,7 @@
     "dis": "c Krishna K b Hasith R"
    },
    {
-    "name": "Sreekanth Reddy Kypa c Ravi Teja Y b Sudha Kiran G",
+    "name": "Sreekanth Reddy Kypa",
     "r": 22,
     "b": 19,
     "f4": 2,
@@ -7513,7 +9047,7 @@
     "dis": "c Ravi Teja Y b Sudha Kiran G"
    },
    {
-    "name": "Gowtham Reddy Cheedepudi b Hasith R",
+    "name": "Gowtham Reddy Cheedepudi",
     "r": 7,
     "b": 7,
     "f4": 0,
@@ -7522,7 +9056,7 @@
     "dis": "b Hasith R"
    },
    {
-    "name": "Mithun Dama run out ( Vikram S )",
+    "name": "Mithun Dama",
     "r": 3,
     "b": 8,
     "f4": 0,
@@ -7531,7 +9065,7 @@
     "dis": "run out ( Vikram S )"
    },
    {
-    "name": "Sai Abhiram Nibhanupudi c Ravi Teja Y b Hasith R",
+    "name": "Sai Abhiram Nibhanupudi",
     "r": 2,
     "b": 4,
     "f4": 0,
@@ -7540,7 +9074,7 @@
     "dis": "c Ravi Teja Y b Hasith R"
    },
    {
-    "name": "Sasidhar Reddy Kurre not out",
+    "name": "Sasidhar Reddy Kurre",
     "r": 3,
     "b": 3,
     "f4": 0,
@@ -7549,7 +9083,7 @@
     "dis": "not out"
    },
    {
-    "name": "Gowtham Reddy Palnati not out",
+    "name": "Gowtham Reddy Palnati",
     "r": 0,
     "b": 0,
     "f4": 0,
@@ -7560,42 +9094,42 @@
   ],
   "bowling": [
    {
-    "name": "",
+    "name": "Gowtham Reddy Cheedepudi",
     "o": 4.0,
     "m": 0,
     "r": 36,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Mithun Dama",
     "o": 4.0,
     "m": 0,
     "r": 18,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Raja Vasamsetty",
     "o": 2.0,
     "m": 0,
     "r": 16,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Mahesh Peddiredla",
     "o": 4.0,
     "m": 0,
     "r": 16,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Sreekanth Reddy Kypa",
     "o": 3.0,
     "m": 0,
     "r": 18,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Brooke Shears",
     "o": 3.0,
     "m": 0,
     "r": 27,
@@ -7604,31 +9138,31 @@
   ],
   "fielding": [
    {
-    "name": "Raja Vasamsetty c Krishna K b Satish Kumar B",
+    "name": "Raja Vasamsetty",
     "ct": 1,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Gowtham Reddy Palnati not out",
+    "name": "Gowtham Reddy Palnati",
     "ct": 2,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Mahesh Peddiredla c Sudha Kiran G b Ravi Teja Y",
+    "name": "Mahesh Peddiredla",
     "ct": 1,
     "st": 0,
     "ro": 1
    },
    {
-    "name": "Mithun Dama run out ( Vikram S )",
+    "name": "Mithun Dama",
     "ct": 1,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Srinath Mirdoddi c Krishna K b Hasith R",
+    "name": "Srinath Mirdoddi",
     "ct": 0,
     "st": 0,
     "ro": 1
@@ -7657,7 +9191,7 @@
   },
   "batting": [
    {
-    "name": "Raja Vasamsetty b Hamza C",
+    "name": "Raja Vasamsetty",
     "r": 35,
     "b": 29,
     "f4": 0,
@@ -7666,7 +9200,7 @@
     "dis": "b Hamza C"
    },
    {
-    "name": "Srinath Mirdoddi c&b Hasan M",
+    "name": "Srinath Mirdoddi",
     "r": 1,
     "b": 10,
     "f4": 0,
@@ -7675,7 +9209,7 @@
     "dis": "c&b Hasan M"
    },
    {
-    "name": "Mahesh Peddiredla c Fahad B b Hamza C",
+    "name": "Mahesh Peddiredla",
     "r": 27,
     "b": 30,
     "f4": 2,
@@ -7684,7 +9218,7 @@
     "dis": "c Fahad B b Hamza C"
    },
    {
-    "name": "Sreekanth Reddy Kypa c Raza M b Fahad B",
+    "name": "Sreekanth Reddy Kypa",
     "r": 18,
     "b": 17,
     "f4": 3,
@@ -7693,7 +9227,7 @@
     "dis": "c Raza M b Fahad B"
    },
    {
-    "name": "Gowtham Reddy Cheedepudi lbw b Hamza C",
+    "name": "Gowtham Reddy Cheedepudi",
     "r": 0,
     "b": 1,
     "f4": 0,
@@ -7702,7 +9236,7 @@
     "dis": "lbw b Hamza C"
    },
    {
-    "name": "Gowtham Reddy Palnati c Fahad B b Arya S",
+    "name": "Gowtham Reddy Palnati",
     "r": 3,
     "b": 9,
     "f4": 0,
@@ -7711,7 +9245,7 @@
     "dis": "c Fahad B b Arya S"
    },
    {
-    "name": "Sasidhar Reddy Kurre c&b Arya S",
+    "name": "Sasidhar Reddy Kurre",
     "r": 0,
     "b": 1,
     "f4": 0,
@@ -7720,7 +9254,7 @@
     "dis": "c&b Arya S"
    },
    {
-    "name": "Rama Naidu Ramisetti run out ( Fahad B )",
+    "name": "Rama Naidu Ramisetti",
     "r": 3,
     "b": 5,
     "f4": 0,
@@ -7729,7 +9263,7 @@
     "dis": "run out ( Fahad B )"
    },
    {
-    "name": "Mithun Dama lbw b Fahad B",
+    "name": "Mithun Dama",
     "r": 4,
     "b": 4,
     "f4": 0,
@@ -7738,7 +9272,7 @@
     "dis": "lbw b Fahad B"
    },
    {
-    "name": "Lochan Akkaraju not out",
+    "name": "Lochan Akkaraju",
     "r": 2,
     "b": 8,
     "f4": 0,
@@ -7747,7 +9281,7 @@
     "dis": "not out"
    },
    {
-    "name": "Brooke Shears c&b Bilal H",
+    "name": "Brooke Shears",
     "r": 0,
     "b": 5,
     "f4": 0,
@@ -7758,49 +9292,49 @@
   ],
   "bowling": [
    {
-    "name": "",
+    "name": "Gowtham Reddy Cheedepudi",
     "o": 2.0,
     "m": 0,
     "r": 19,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Mithun Dama",
     "o": 4.0,
     "m": 0,
     "r": 23,
     "w": 2
    },
    {
-    "name": "",
+    "name": "Sreekanth Reddy Kypa",
     "o": 2.0,
     "m": 0,
     "r": 25,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Raja Vasamsetty",
     "o": 3.0,
     "m": 0,
     "r": 15,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Mahesh Peddiredla",
     "o": 3.0,
     "m": 0,
     "r": 9,
     "w": 3
    },
    {
-    "name": "",
+    "name": "Lochan Akkaraju",
     "o": 2.0,
     "m": 0,
     "r": 12,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Brooke Shears",
     "o": 4.0,
     "m": 0,
     "r": 9,
@@ -7809,37 +9343,37 @@
   ],
   "fielding": [
    {
-    "name": "Lochan Akkaraju not out",
+    "name": "Lochan Akkaraju",
     "ct": 2,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Mahesh Peddiredla c Fahad B b Hamza C",
+    "name": "Mahesh Peddiredla",
     "ct": 2,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Raja Vasamsetty b Hamza C",
+    "name": "Raja Vasamsetty",
     "ct": 1,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Gowtham Reddy Palnati c Fahad B b Arya S",
+    "name": "Gowtham Reddy Palnati",
     "ct": 0,
     "st": 1,
     "ro": 0
    },
    {
-    "name": "Sreekanth Reddy Kypa c Raza M b Fahad B",
+    "name": "Sreekanth Reddy Kypa",
     "ct": 1,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Mithun Dama lbw b Fahad B",
+    "name": "Mithun Dama",
     "ct": 1,
     "st": 0,
     "ro": 0
@@ -7868,7 +9402,7 @@
   },
   "batting": [
    {
-    "name": "Srinath Mirdoddi c Narendra Nath A b Srinath B",
+    "name": "Srinath Mirdoddi",
     "r": 32,
     "b": 25,
     "f4": 3,
@@ -7877,7 +9411,7 @@
     "dis": "c \u2020 Narendra Nath A b Srinath B"
    },
    {
-    "name": "Pranav Reddy Ala c Srinath B b Viqhar Ahmed M",
+    "name": "Pranav Reddy Ala",
     "r": 4,
     "b": 8,
     "f4": 0,
@@ -7886,7 +9420,7 @@
     "dis": "c Srinath B b Viqhar Ahmed M"
    },
    {
-    "name": "Mahesh Peddiredla not out",
+    "name": "Mahesh Peddiredla",
     "r": 22,
     "b": 20,
     "f4": 1,
@@ -7895,7 +9429,7 @@
     "dis": "not out"
    },
    {
-    "name": "Sanjeev Murali c Suman Reddy P b Pranay A",
+    "name": "Sanjeev Murali",
     "r": 4,
     "b": 10,
     "f4": 0,
@@ -7904,7 +9438,7 @@
     "dis": "c Suman Reddy P b Pranay A"
    },
    {
-    "name": "Sreekanth Reddy Kypa not out",
+    "name": "Sreekanth Reddy Kypa",
     "r": 14,
     "b": 7,
     "f4": 1,
@@ -7915,49 +9449,49 @@
   ],
   "bowling": [
    {
-    "name": "",
+    "name": "Gowtham Reddy Cheedepudi",
     "o": 4.0,
     "m": 0,
     "r": 18,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Mithun Dama",
     "o": 4.0,
     "m": 0,
     "r": 16,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Sreekanth Reddy Kypa",
     "o": 4.0,
     "m": 0,
     "r": 14,
     "w": 2
    },
    {
-    "name": "",
+    "name": "Mahesh Peddiredla",
     "o": 4.0,
     "m": 0,
     "r": 16,
     "w": 3
    },
    {
-    "name": "",
+    "name": "Pranav Reddy Ala",
     "o": 1.0,
     "m": 0,
     "r": 7,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Srinath Mirdoddi",
     "o": 2.0,
     "m": 0,
     "r": 7,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Srikanth Boyina",
     "o": 1.0,
     "m": 0,
     "r": 11,
@@ -7966,14 +9500,20 @@
   ],
   "fielding": [
    {
-    "name": "Mahesh Peddiredla not out",
+    "name": "Mahesh Peddiredla",
     "ct": 0,
     "st": 0,
     "ro": 1
    },
    {
-    "name": "Sreekanth Reddy Kypa not out",
+    "name": "Sreekanth Reddy Kypa",
     "ct": 1,
+    "st": 0,
+    "ro": 1
+   },
+   {
+    "name": "Mithun Dama",
+    "ct": 0,
     "st": 0,
     "ro": 1
    }
@@ -8001,7 +9541,7 @@
   },
   "batting": [
    {
-    "name": "Raja Vasamsetty c Iftakar N b Shahriar H",
+    "name": "Raja Vasamsetty",
     "r": 36,
     "b": 26,
     "f4": 5,
@@ -8010,7 +9550,7 @@
     "dis": "c Iftakar N b Shahriar H"
    },
    {
-    "name": "Srinath Mirdoddi lbw b Shahriar H",
+    "name": "Srinath Mirdoddi",
     "r": 21,
     "b": 18,
     "f4": 1,
@@ -8019,7 +9559,7 @@
     "dis": "lbw b Shahriar H"
    },
    {
-    "name": "Mahesh Peddiredla c Amir H b Shahriar H",
+    "name": "Mahesh Peddiredla",
     "r": 0,
     "b": 2,
     "f4": 0,
@@ -8028,7 +9568,7 @@
     "dis": "c Amir H b Shahriar H"
    },
    {
-    "name": "Sreekanth Reddy Kypa c Akib C b Iftakar N",
+    "name": "Sreekanth Reddy Kypa",
     "r": 6,
     "b": 5,
     "f4": 1,
@@ -8037,7 +9577,7 @@
     "dis": "c Akib C b Iftakar N"
    },
    {
-    "name": "Pranav Reddy Ala b Sadikul I",
+    "name": "Pranav Reddy Ala",
     "r": 27,
     "b": 26,
     "f4": 2,
@@ -8046,7 +9586,7 @@
     "dis": "b Sadikul I"
    },
    {
-    "name": "Gowtham Reddy Cheedepudi c Salman S b Amir H",
+    "name": "Gowtham Reddy Cheedepudi",
     "r": 18,
     "b": 18,
     "f4": 3,
@@ -8055,7 +9595,7 @@
     "dis": "c Salman S b Amir H"
    },
    {
-    "name": "Gowtham Reddy Palnati c Amir H b Sadikul I",
+    "name": "Gowtham Reddy Palnati",
     "r": 2,
     "b": 5,
     "f4": 0,
@@ -8064,7 +9604,7 @@
     "dis": "c Amir H b Sadikul I"
    },
    {
-    "name": "Sanjeev Murali not out",
+    "name": "Sanjeev Murali",
     "r": 9,
     "b": 10,
     "f4": 0,
@@ -8073,7 +9613,7 @@
     "dis": "not out"
    },
    {
-    "name": "Sasidhar Reddy Kurre run out ( Chy M )",
+    "name": "Sasidhar Reddy Kurre",
     "r": 12,
     "b": 10,
     "f4": 1,
@@ -8084,35 +9624,35 @@
   ],
   "bowling": [
    {
-    "name": "",
+    "name": "Gowtham Reddy Cheedepudi",
     "o": 4.0,
     "m": 0,
     "r": 30,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Mithun Dama",
     "o": 4.0,
     "m": 0,
     "r": 17,
     "w": 3
    },
    {
-    "name": "",
+    "name": "Raja Vasamsetty",
     "o": 4.0,
     "m": 0,
     "r": 38,
     "w": 1
    },
    {
-    "name": "",
+    "name": "Mahesh Peddiredla",
     "o": 2.0,
     "m": 0,
     "r": 23,
     "w": 0
    },
    {
-    "name": "",
+    "name": "Sreekanth Reddy Kypa",
     "o": 2.2,
     "m": 0,
     "r": 37,
@@ -8121,13 +9661,25 @@
   ],
   "fielding": [
    {
-    "name": "Sasidhar Reddy Kurre run out ( Chy M )",
+    "name": "Sasidhar Reddy Kurre",
     "ct": 1,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Gowtham Reddy Palnati c Amir H b Sadikul I",
+    "name": "Mithun Dama",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "ct": 2,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Gowtham Reddy Palnati",
     "ct": 1,
     "st": 0,
     "ro": 0
