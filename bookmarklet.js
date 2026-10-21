@@ -74,47 +74,86 @@
   const add = (c, league) => {
     if (!TEAM.test(c.card)) return 0;
     const k = matchKey(c.href);
-    if (!wanted.has(k)) wanted.set(k, { url: c.href, league, card: c.card });
+    if (wanted.has(k)) return 0;
+    wanted.set(k, { url: c.href, league, card: c.card });
     return 1;
   };
 
   try {
+    say("Checking what is already saved…");
+    let known = {};
+    try {
+      const r = await fetch("https://raw.githubusercontent.com/" + CFG.repo + "/main/data/index.json?t=" + Date.now());
+      if (r.ok) known = await r.json();
+    } catch (e) { known = {}; }
+    const FINAL = /won by|abandon|no result|tied|cancel|forfeit|conceded|walkover/i;
+    const clubOf = u => (new URL(u, location.href).pathname.split("/").filter(Boolean)[0] || "").toLowerCase();
+
+    function seriesIds(doc, base, club) {
+      const ids = new Set();
+      for (const a of doc.querySelectorAll('a[href*="league="]')) {
+        const href = a.getAttribute("href") || "";
+        const m = href.match(/[?&]league=(\d+)/);
+        if (m && m[1] !== "0" && clubOf(new URL(href, base).href) === club) ids.add(m[1]);
+      }
+      for (const o of doc.querySelectorAll("option")) {
+        const v = (o.getAttribute("value") || "").trim();
+        const m = v.match(/(?:^|[?&]league=)(\d+)$/);
+        const sel = o.closest("select");
+        const hint = ((sel && (sel.getAttribute("name") || "") + (sel.getAttribute("id") || "")) || "") + " " + (o.textContent || "");
+        if (m && m[1] !== "0" && /league|series|20\d\d/i.test(hint)) ids.add(m[1]);
+      }
+      return ids;
+    }
+
     for (const src of CFG.sources) {
-      const club = new URL(src.url).pathname.split("/").filter(Boolean)[0];
-      const entry = { league: src.league, url: src.url, found: 0, error: null };
+      const club = clubOf(src.url);
+      const clubPath = new URL(src.url).pathname.split("/").filter(Boolean)[0];
+      const entry = { league: src.league, url: src.url, found: 0, series: 0, error: null };
+      const tried = new Set();
+      const ids = new Set();
+      const scan = async u => {
+        if (tried.has(u)) return;
+        tried.add(u);
+        const doc = parse(await get(u));
+        for (const c of cardsIn(doc, u)) entry.found += add(c, src.league);
+        seriesIds(doc, u, club).forEach(i => ids.add(i));
+      };
       say("Reading results for " + esc(src.league) + "…");
       try {
-        const tried = [];
-        const lists = /listMatches/.test(src.url) ? [src.url]
-          : ["https://" + location.host + "/" + club + "/listMatches.do?league=0&clubId=" + src.club_id];
-        for (const u of lists) {
-          tried.push(u);
-          const doc = parse(await get(u));
-          for (const c of cardsIn(doc, u)) entry.found += add(c, src.league);
+        const main = /listMatches/.test(src.url) ? src.url
+          : "https://" + location.host + "/" + clubPath + "/listMatches.do?league=0&clubId=" + src.club_id;
+        await scan(main);
+        await scan("https://" + location.host + "/" + clubPath);
+        if (clubOf(location.href) === club) {
+          seriesIds(document, location.href, club).forEach(i => ids.add(i));
+          const m = location.search.match(/[?&]league=(\d+)/);
+          if (m && m[1] !== "0") ids.add(m[1]);
         }
-        if (!entry.found) {
-          const home = "https://" + location.host + "/" + club;
-          const doc = parse(await get(home));
-          const links = [...new Set([...doc.querySelectorAll('a[href*="listMatches"]')]
-            .map(a => new URL(a.getAttribute("href"), home).href))].filter(u => !tried.includes(u)).slice(0, 12);
-          for (const u of links) {
-            const d2 = parse(await get(u));
-            for (const c of cardsIn(d2, u)) entry.found += add(c, src.league);
-            await sleep(600);
-          }
+        const list = [...ids].sort((a, b) => b - a).slice(0, 120);
+        entry.series = list.length;
+        let n = 0;
+        for (const id of list) {
+          n++;
+          say("Checking " + esc(src.league) + " series " + n + " of " + list.length + "…");
+          try { await scan("https://" + location.host + "/" + clubPath + "/listMatches.do?league=" + id + "&clubId=" + src.club_id); }
+          catch (e) { /* one series failing should not stop the rest */ }
+          await sleep(350);
         }
-        if (!entry.found) entry.error = "No Squad Eleven matches found on the results page";
+        if (!entry.found) entry.error = "No Squad Eleven matches found";
       } catch (e) { entry.error = String(e.message || e).slice(0, 300); }
       sources.push(entry);
     }
 
-    const here = location.pathname.split("/").filter(Boolean)[0] || "";
-    const hereSrc = CFG.sources.find(s => new URL(s.url).pathname.split("/").filter(Boolean)[0].toLowerCase() === here.toLowerCase());
+    const here = clubOf(location.href);
+    const hereSrc = CFG.sources.find(s => clubOf(s.url) === here);
     let extra = 0;
     for (const c of cardsIn(document, location.href)) extra += add(c, hereSrc ? hereSrc.league : "Other");
     if (extra) sources.push({ league: "This page", url: location.href, found: extra, error: null });
 
-    const items = [...wanted.entries()];
+    const saved = [...wanted.keys()].filter(k => known[k] && FINAL.test(known[k].card || ""));
+    const items = [...wanted.entries()].filter(([k]) => !saved.includes(k));
+    const total = items.length;
     const matches = {};
     let done = 0, failed = 0;
     async function worker() {
@@ -123,11 +162,20 @@
         try { matches[k] = { ...w, html: slim(await get(w.url)) }; }
         catch (e) { failed++; }
         done++;
-        say("Downloading scorecards: " + done + " of " + wanted.size + (failed ? " (" + failed + " failed)" : "") + "…");
+        say("Downloading new scorecards: " + done + " of " + total + (failed ? " (" + failed + " failed)" : "") + "…");
         await sleep(400);
       }
     }
     await Promise.all([worker(), worker(), worker()]);
+
+    const close = "<a href='#' style='color:#bbb;margin-left:10px' onclick='this.closest(\"div\").remove();return false'>Close</a>";
+    const problems = sources.filter(s => s.error).map(s => "<br>⚠️ " + esc(s.league) + ": " + esc(s.error)).join("");
+    const summary = "Found " + wanted.size + " Squad Eleven matches (" + saved.length + " already saved, " +
+      Object.keys(matches).length + " new)." + problems;
+    if (!Object.keys(matches).length) {
+      say(summary + "<br><br>Everything is already up to date, so there is nothing to upload." + "<br>" + close);
+      return;
+    }
 
     const bundle = { version: 1, generated: new Date().toISOString(), sources, matches };
     const blob = new Blob([JSON.stringify(bundle)], { type: "application/json" });
@@ -137,12 +185,10 @@
     document.body.appendChild(a);
     a.click();
 
-    const problems = sources.filter(s => s.error).map(s => "<br>⚠️ " + esc(s.league) + ": " + esc(s.error)).join("");
-    say("Saved <b>squad-data.json</b> with " + Object.keys(matches).length + " matches." + problems +
+    say(summary + "<br>Saved <b>squad-data.json</b>." +
       "<br><br>Next: upload it to GitHub and the dashboard updates in about a minute.<br>" +
       "<a href='https://github.com/" + CFG.repo + "/upload/main' target='_blank' rel='noopener' " +
-      "style='display:inline-block;margin-top:8px;background:#2ea043;color:#fff;padding:6px 12px;border-radius:8px;text-decoration:none'>Open GitHub upload</a> " +
-      "<a href='#' style='color:#bbb;margin-left:10px' onclick='this.closest(\"div\").remove();return false'>Close</a>");
+      "style='display:inline-block;margin-top:8px;background:#2ea043;color:#fff;padding:6px 12px;border-radius:8px;text-decoration:none'>Open GitHub upload</a> " + close);
   } catch (e) {
     say("Something went wrong: " + esc(e.message || e) + "<br><a href='#' style='color:#bbb' onclick='this.closest(\"div\").remove();return false'>Close</a>");
   } finally {
