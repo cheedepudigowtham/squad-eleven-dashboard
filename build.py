@@ -86,9 +86,32 @@ def innings_team(table, header):
     return ws(m.group(1)) if m else label
 
 
+def player_name(cell, dis):
+    """CricClubs puts the name and the dismissal in the same cell; the name is the bold/linked part."""
+    for tag in ("b", "a"):
+        t = cell.find(tag)
+        if t and clean_name(t.get_text(" ")):
+            return clean_name(t.get_text(" "))
+    n, d = clean_name(cell.get_text(" ")), clean_name(dis)
+    if d and n.lower().endswith(d.lower()):
+        n = n[: -len(d)].strip()
+    return n
+
+
+def total_from_row(text, runs):
+    """'Total (10 wickets, 20 overs)' or '(all out, 19.2 overs)' -> {'r', 'w', 'o'}."""
+    if runs is None:
+        return None
+    w = re.search(r"(\d+)\s*wkts?|(\d+)\s*wickets?", text, re.I)
+    wk = int(w.group(1) or w.group(2)) if w else (10 if re.search(r"all out", text, re.I) else 0)
+    o = re.search(r"([\d.]+)\s*(?:overs?|ov)\b", text, re.I)
+    return {"r": int(runs), "w": wk, "o": float(o.group(1)) if o else None}
+
+
 def parse_tables(soup, team_re):
-    """Returns our batting rows, our bowling rows, and the opponent's dismissal texts."""
+    """Returns our batting rows, our bowling rows, the opponent's dismissal texts and innings totals."""
     batting, bowling, opp_dismissals = [], [], []
+    totals = {}
     seen = set()
     last_batting_is_us = None
     for table in soup.find_all("table"):
@@ -101,8 +124,8 @@ def parse_tables(soup, team_re):
         kind = table_kind(header)
         if not kind:
             continue
-        body = [row_cells(r) for r in rows[1:]]
-        sig = (kind, tuple(clean_name(r[0]) for r in body if r))
+        body = [(row_cells(r), r.find_all(["td", "th"], recursive=False)) for r in rows[1:]]
+        sig = (kind, tuple(tuple(t) for t, _ in body))
         if sig in seen:  # duplicate copy of the same table (mobile view)
             continue
         seen.add(sig)
@@ -111,17 +134,21 @@ def parse_tables(soup, team_re):
             team = innings_team(table, header)
             is_us = bool(team_re.search(team))
             last_batting_is_us = is_us
-            for r in body:
-                if len(r) < 3 or SKIP_ROWS.match(r[0]):
+            for r, cells in body:
+                if len(r) < 3:
+                    continue
+                if re.match(r"^total", r[0], re.I):
+                    totals.setdefault(is_us, total_from_row(" ".join(r[:2]), from_end(header, r, "R")))
+                    continue
+                if SKIP_ROWS.match(r[0]):
                     continue
                 runs, balls = from_end(header, r, "R"), from_end(header, r, "B")
                 if runs is None or balls is None:
                     continue
-                name = clean_name(r[0])
                 dis = clean_dismissal(r[1]) if len(r) > 1 else ""
                 if is_us:
                     batting.append({
-                        "name": name, "r": int(runs), "b": int(balls),
+                        "name": player_name(cells[0], dis), "r": int(runs), "b": int(balls),
                         "f4": int(from_end(header, r, "4s") or 0),
                         "f6": int(from_end(header, r, "6s") or 0),
                         "out": not re.search(r"not out|retired hurt|^$", dis, re.I),
@@ -134,16 +161,16 @@ def parse_tables(soup, team_re):
             # so it is ours when the side batting was the opponent.
             if last_batting_is_us is not False:
                 continue
-            for r in body:
+            for r, cells in body:
                 if len(r) < 4 or SKIP_ROWS.match(r[0]):
                     continue
                 o, w, runs = from_end(header, r, "O"), from_end(header, r, "W"), from_end(header, r, "R")
-                if o is None or w is None or runs is None:
+                name = next((clean_name(c) for c in r[:2] if clean_name(c) and num(clean_name(c)) is None), "")
+                if o is None or w is None or runs is None or not name:
                     continue
-                bowling.append({"name": clean_name(r[0]), "o": o,
-                                "m": int(from_end(header, r, "M") or 0),
+                bowling.append({"name": name, "o": o, "m": int(from_end(header, r, "M") or 0),
                                 "r": int(runs), "w": int(w)})
-    return batting, bowling, opp_dismissals
+    return batting, bowling, opp_dismissals, totals
 
 
 def resolve(abbr, roster):
@@ -245,17 +272,39 @@ def parse_match(key, meta, team_re):
                 series = ws(line)
                 break
 
-    batting, bowling, opp_dis = parse_tables(soup, team_re)
-    roster = sorted({p["name"] for p in batting} | {p["name"] for p in bowling})
+    batting, bowling, opp_dis, totals = parse_tables(soup, team_re)
+    if not scores:
+        # Header shows "Team 126/10 20 /20 ov"; the batting tables' Total rows are the fallback.
+        found = []
+        for t in teams:
+            sm = re.search(re.escape(t) + r"\s*(\d+)\s*/\s*(\d+)\s*\(?\s*([\d.]+)\s*(?:/\s*[\d.]+\s*)?ov", text, re.I)
+            found.append({"r": int(sm.group(1)), "w": int(sm.group(2)), "o": float(sm.group(3))} if sm else None)
+        tot = [totals.get(True), totals.get(False)] if us_idx == 0 else [totals.get(False), totals.get(True)]
+        scores = [found[i] or tot[i] for i in range(2)]
     return {
         "id": key, "url": meta.get("url", ""), "league": meta.get("league", ""),
         "series": series, "date": date, "opponent": opponent,
         "batted_first": us_idx == 0, "result": result, "margin": margin,
-        "us": scores[us_idx] if scores else None,
-        "them": scores[1 - us_idx] if scores else None,
-        "batting": batting, "bowling": bowling,
-        "fielding": fielding(opp_dis, roster),
+        "us": scores[us_idx], "them": scores[1 - us_idx],
+        "batting": batting, "bowling": bowling, "_opp_dis": opp_dis,
     }
+
+
+def tidy_names(matches):
+    """One spelling per player (SREEKANTH REDDY KYPA -> Sreekanth Reddy Kypa), then credit fielders."""
+    best = {}
+    for m in matches:
+        for p in m["batting"] + m["bowling"]:
+            k = p["name"].lower()
+            if k not in best or (best[k].isupper() and not p["name"].isupper()):
+                best[k] = p["name"]
+    show = {k: (v.title() if v.isupper() else v) for k, v in best.items()}
+    for m in matches:
+        for p in m["batting"] + m["bowling"]:
+            p["name"] = show[p["name"].lower()]
+    roster = sorted(set(show.values()))
+    for m in matches:
+        m["fielding"] = fielding(m.pop("_opp_dis", []), roster)
 
 
 def bookmarklet(cfg):
@@ -289,6 +338,7 @@ def main():
                 problems.append(f"{key}: result found but no player tables")
             matches.append(m)
     matches.sort(key=lambda m: m["date"], reverse=True)
+    tidy_names(matches)
 
     OUT_JSON.parent.mkdir(parents=True, exist_ok=True)
     OUT_JSON.write_text(json.dumps(matches, indent=1), encoding="utf-8")
