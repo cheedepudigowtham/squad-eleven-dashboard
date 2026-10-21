@@ -1,8 +1,13 @@
 name: Update dashboard
 
 on:
-  schedule:
-    - cron: "17 11 * * *"   # every day around 7am Michigan time
+  push:
+    paths:
+      - "squad-data.json"   # runs when you upload a new squad-data.json
+      - "config.json"
+      - "template.html"
+      - "build.py"
+      - "bookmarklet.js"
   workflow_dispatch:        # adds a "Run workflow" button in the Actions tab
 
 permissions:
@@ -23,17 +28,17 @@ jobs:
         with:
           python-version: "3.12"
       - name: Install
+        run: pip install beautifulsoup4 lxml
+      - name: Import uploaded data and build the page
         run: |
-          pip install -r requirements.txt
-          python -m playwright install --with-deps chromium
-      - name: Pull CricClubs data and build the page
-        run: python update.py
-      - name: Save downloaded scorecards
+          python import_bundle.py
+          python build.py
+      - name: Save imported scorecards
         run: |
           git config user.name "dashboard-bot"
           git config user.email "dashboard-bot@users.noreply.github.com"
           git add data
-          git diff --cached --quiet || git commit -m "Update CricClubs data"
+          git diff --cached --quiet || git commit -m "Import CricClubs data"
           git push
       - uses: actions/upload-pages-artifact@v3
         with:
