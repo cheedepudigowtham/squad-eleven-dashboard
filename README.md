@@ -1,62 +1,44 @@
 # Squad Eleven Dashboard
 
 One page with Squad Eleven's results, batting, bowling and fielding from
-**Michigan Cricket Association** and **Farmington CC** on CricClubs.
-It updates itself every morning and lives at a free link you can share with the team.
+**Michigan Cricket Association** and **Farmington CC** on CricClubs, at a free link
+you can share with the team.
+
+## Updating it (after each match, about 1 minute)
+
+CricClubs blocks automated servers (Cloudflare), so the data is collected by a
+bookmark button that runs in **your own browser**.
+
+1. **One time only:** open your dashboard, expand **How to update this dashboard** and drag the green
+   **Squad Eleven Update** button to your bookmarks bar.
+2. Open any CricClubs page, e.g. cricclubs.com/MichCA, and click **Squad Eleven Update**.
+   A box shows progress, then `squad-data.json` downloads.
+3. Click **Open GitHub upload** in that box, drag in `squad-data.json`, click **Commit changes**.
+4. About a minute later the dashboard is updated.
+
+Old seasons missing? Open that season's results page on CricClubs and click the button there;
+the matches on the page you are viewing are added too.
 
 ## How it works
 
-1. `scrape.py` opens each CricClubs results link in `config.json`, finds every
-   Squad Eleven match and saves its scorecard into `data/raw/`. Saved scorecards
-   are reused, so each run only downloads new games.
-2. `build.py` reads those scorecards and builds `site/index.html`, the dashboard.
-3. GitHub runs both every day and publishes the page with GitHub Pages (free).
-
-## One-time setup (about 10 minutes, no coding)
-
-1. **Make a free GitHub account** at github.com if you don't have one.
-2. **Create a repository**: click **New**, name it `squad-eleven-dashboard`,
-   choose **Public** (free Pages needs public; CricClubs stats are public anyway), click **Create**.
-3. **Upload the files**: on the new repo page click **uploading an existing file**,
-   then drag in everything from this folder.
-   - The `.github` folder is hidden on Mac/Windows and is often skipped. Check it's there
-     after uploading. If not: **Add file → Create new file**, type the name
-     `.github/workflows/update.yml`, paste in the contents of that file and commit.
-4. **Turn on Pages**: **Settings → Pages → Source: GitHub Actions**.
-5. **Allow the bot to save data**: **Settings → Actions → General → Workflow permissions →
-   Read and write permissions → Save**.
-6. **Run it the first time**: **Actions** tab → **Update dashboard** → **Run workflow**.
-   After about 3 minutes your dashboard is live at
-   `https://<your-github-username>.github.io/squad-eleven-dashboard/`
-
-From then on it refreshes every day around 7am. You can press **Run workflow** any time,
-for example right after a match.
+- `bookmarklet.js`: the button. It reads the results pages in `config.json`, downloads every
+  Squad Eleven scorecard and saves them into `squad-data.json`.
+- Uploading `squad-data.json` starts the GitHub workflow (`.github/workflows/update.yml`), which runs
+  `import_bundle.py` (saves the scorecards into `data/`) and `build.py` (builds the page) and publishes it.
+- Matches from earlier uploads are kept, so a partial upload never loses data.
 
 ## Changing what it reads
 
-Everything is in `config.json` (edit it on GitHub with the pencil icon):
+Edit `config.json` on GitHub (pencil icon); the dashboard rebuilds automatically.
+After changing `sources` or `team_aliases`, drag the button to your bookmarks bar again
+(delete the old one), because the button carries these settings.
 
-- `sources`: CricClubs results links, one per league. Paste any results/match-list link
-  from CricClubs. If older games are missing, add the results link for that specific series too.
-- `team_aliases`: the ways the team is named on CricClubs. Add any new spelling.
-- `extra_scorecards`: paste single scorecard links here to force-include a match.
+- `sources`: one CricClubs link per league, with its `club_id`.
+- `team_aliases`: the ways the team is named on CricClubs.
 - `seasons_from`: ignore matches before this year.
 
-## If the update can't read CricClubs
+## Files for running it on a computer you own (optional)
 
-CricClubs sometimes blocks automated browsers. The run log (Actions tab → latest run →
-"Pull CricClubs data") will say so, and the dashboard shows a yellow notice while
-keeping the last saved data. The fix is to run it once from your own computer:
-
-```
-pip install -r requirements.txt
-python -m playwright install chromium
-python update.py --headed
-```
-
-This opens a visible Chrome window. Then open `site/index.html` to check it, and upload the
-new files in `data/raw/` to GitHub so the daily run builds from them.
-
-## Run it locally only (no GitHub)
-
-Same three commands as above, then open `site/index.html` in your browser.
+`scrape.py` and `update.py` collect the data with an automated browser instead of the button
+(`pip install -r requirements.txt`, `python -m playwright install chromium`, `python update.py --headed`).
+They don't work from GitHub's servers because CricClubs blocks them.

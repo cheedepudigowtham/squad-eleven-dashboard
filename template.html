@@ -85,6 +85,14 @@ dialog::backdrop { background: rgb(0 0 0 / .45); }
 .mini b { display: block; font-size: 20px; }
 .mini small { color: var(--text-2); font-size: 11px; text-transform: uppercase; }
 footer { color: var(--muted); font-size: 12px; margin-top: 8px; }
+.how ol { margin: 6px 0 0; padding-left: 20px; color: var(--text-2); }
+.how li { margin: 6px 0; }
+.bm { display: inline-block; background: var(--accent); color: #fff; font-weight: 700; padding: 8px 14px; border-radius: 10px;
+  text-decoration: none; cursor: grab; box-shadow: 0 1px 0 rgb(0 0 0 / .15); }
+:root[data-theme="dark"] .bm { color: #0b0b0b; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .bm { color: #0b0b0b; } }
+.empty { text-align: center; padding: 28px 16px; color: var(--text-2); }
+.empty b { display: block; color: var(--text); font-size: 18px; margin-bottom: 4px; }
 @media (max-width: 760px) {
   .kpis { grid-template-columns: repeat(2, 1fr); }
   .grid2 { grid-template-columns: 1fr; }
@@ -129,6 +137,19 @@ footer { color: var(--muted); font-size: 12px; margin-top: 8px; }
     <div class="scroll"><table id="results"></table></div>
   </div>
 
+  <details class="card how" id="how">
+    <summary><b>How to update this dashboard</b></summary>
+    <p style="margin:10px 0 6px">Drag this button to your browser's bookmarks bar (one time only):
+      <a class="bm" id="bm" href="#" onclick="alert('Drag this button to your bookmarks bar, then click it while you are on cricclubs.com.');return false">Squad Eleven Update</a></p>
+    <ol>
+      <li>Open <a href="https://cricclubs.com/MichCA" target="_blank" rel="noopener">cricclubs.com/MichCA</a> (any CricClubs page works).</li>
+      <li>Click <b>Squad Eleven Update</b> in your bookmarks bar. A box shows progress, then <b>squad-data.json</b> downloads.</li>
+      <li>Click <b>Open GitHub upload</b> in that box, drag in <b>squad-data.json</b> and click <b>Commit changes</b>.</li>
+      <li>About a minute later, refresh this page.</li>
+    </ol>
+    <p class="muted" style="margin:8px 0 0">Can't see the bookmarks bar? Press Ctrl+Shift+B (Windows) or Cmd+Shift+B (Mac).</p>
+  </details>
+
   <footer id="foot"></footer>
 </div>
 
@@ -148,10 +169,12 @@ const score = s => s ? `${s.r}/${s.w} (${s.o})` : "–";
 const all = DATA.matches;
 $("#team").textContent = DATA.team;
 document.title = `${DATA.team} Dashboard`;
-$("#updated").textContent = `Updated ${new Date(DATA.generated).toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" })} · from CricClubs`;
+if (DATA.bookmarklet) $("#bm").href = DATA.bookmarklet;
+if (!all.length) $("#how").open = true;
+$("#updated").textContent = `Updated ${new Date(DATA.status?.time || DATA.generated).toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" })} · from CricClubs`;
 if (DATA.demo) $("#banner").innerHTML = `<div class="banner">Demo data – the real numbers appear after the first CricClubs update runs.</div>`;
 const failed = (DATA.status?.sources || []).filter(s => s.error);
-if (failed.length && !DATA.demo) $("#banner").innerHTML = `<div class="banner">Last update couldn't read: ${failed.map(s => esc(s.league)).join(", ")}. Showing the most recent saved data.</div>`;
+if (failed.length && !DATA.demo) $("#banner").innerHTML = `<div class="banner">Last update had a problem with ${failed.map(s => esc(s.league)).join(", ")}${all.length ? ". Showing the most recent saved data." : "."}</div>`;
 
 // ---------- filters ----------
 const uniq = a => [...new Set(a.filter(Boolean))];
@@ -317,6 +340,11 @@ dlg.addEventListener("click", e => { if (e.target === dlg) dlg.close(); });
 
 // ---------- render ----------
 function render() {
+  if (!all.length) {
+    if ($("#kpis")) $("#kpis").outerHTML = `<div class="card empty"><b>No match data yet</b>Follow "How to update this dashboard" below to load Squad Eleven's matches from CricClubs.</div>`;
+    for (const el of [$(".grid2"), $("#stats").closest(".card"), $("#results").closest(".card"), $(".filters")]) el.style.display = "none";
+    return;
+  }
   const ms = filtered();
   current = players(ms);
   kpis(ms);

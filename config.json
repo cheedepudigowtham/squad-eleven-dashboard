@@ -8,13 +8,16 @@
   "sources": [
     {
       "league": "Michigan Cricket Association",
-      "url": "https://cricclubs.com/MichCA/listMatches.do?league=0&clubId=2119"
+      "url": "https://cricclubs.com/MichCA/listMatches.do?league=0&clubId=2119",
+      "club_id": 2119
     },
     {
       "league": "Farmington CC",
-      "url": "https://cricclubs.com/farmingtoncc"
+      "url": "https://cricclubs.com/farmingtoncc",
+      "club_id": 27071
     }
   ],
   "extra_scorecards": [],
-  "seasons_from": 2025
+  "seasons_from": 2025,
+  "github_repo": "cheedepudigowtham/squad-eleven-dashboard"
 }

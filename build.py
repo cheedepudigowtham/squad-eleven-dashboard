@@ -8,6 +8,7 @@ import json
 import pathlib
 import re
 from datetime import datetime, timezone
+from urllib.parse import quote
 
 from bs4 import BeautifulSoup
 
@@ -234,7 +235,8 @@ def parse_match(key, meta, team_re):
     series = ""
     for h in soup.find_all(["h2", "h3", "h4", "h5"]):
         t = ws(h.get_text(" "))
-        if re.match(r"^20\d\d\b", t) and "won" not in t.lower() and len(t) < 80:
+        if (re.search(r"\b20\d\d\b", t) and len(t) < 80 and not re.search(r"won by|\d+/\d+/|\sv(s)?\s", t, re.I)
+                and re.search(r"t20|t30|f40|f15|trophy|cup|league|division|series|glt|premier|contenders|challengers|champions", t, re.I)):
             series = t
             break
     if not series:
@@ -254,6 +256,17 @@ def parse_match(key, meta, team_re):
         "batting": batting, "bowling": bowling,
         "fielding": fielding(opp_dis, roster),
     }
+
+
+def bookmarklet(cfg):
+    """The 'Squad Eleven Update' button, as a javascript: link with config.json baked in."""
+    src = (ROOT / "bookmarklet.js").read_text(encoding="utf-8")
+    conf = {"aliases": cfg["team_aliases"], "repo": cfg.get("github_repo", ""),
+            "sources": [{"league": s["league"], "url": s["url"], "club_id": s.get("club_id", "")} for s in cfg["sources"]]}
+    src = src.replace("__CONFIG__", json.dumps(conf))
+    src = re.sub(r"/\*.*?\*/", "", src, flags=re.S)
+    src = "\n".join(line.strip() for line in src.splitlines() if line.strip())
+    return "javascript:" + quote(src, safe="")
 
 
 def main():
@@ -277,9 +290,11 @@ def main():
             matches.append(m)
     matches.sort(key=lambda m: m["date"], reverse=True)
 
+    OUT_JSON.parent.mkdir(parents=True, exist_ok=True)
     OUT_JSON.write_text(json.dumps(matches, indent=1), encoding="utf-8")
     data = {"team": cfg["team_name"], "generated": datetime.now(timezone.utc).isoformat(timespec="minutes"),
-            "status": status, "matches": matches}
+            "status": status, "matches": matches, "bookmarklet": bookmarklet(cfg),
+            "repo": cfg.get("github_repo", "")}
     page = (ROOT / "template.html").read_text(encoding="utf-8")
     page = page.replace("/*__DATA__*/null", json.dumps(data).replace("</", "<\\/"))
     SITE.mkdir(exist_ok=True)
