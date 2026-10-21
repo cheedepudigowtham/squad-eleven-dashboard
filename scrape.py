@@ -45,7 +45,9 @@ JS_CARDS = r"""() => {
 }"""
 
 FINISHED = re.compile(r"won by|match tied|tied|no result|abandon|cancel|forfeit|conceded", re.I)
-BLOCKED = re.compile(r"access denied|captcha|are you a robot|attention required|verify you are human", re.I)
+BLOCKED = re.compile(r"access denied|captcha|are you a robot|attention required|verify you are human|"
+                     r"just a moment|checking your browser|cf-chl|challenge-platform|request unsuccessful|incapsula", re.I)
+DEBUG = ROOT / "data" / "debug"
 
 
 def load_config():
@@ -67,6 +69,29 @@ def open_page(page, url):
     except Exception:
         pass
     page.wait_for_timeout(1500)
+    # Bot-check pages often clear themselves after a few seconds.
+    for _ in range(10):
+        if not BLOCKED.search(page.title() + page.content()[:5000]):
+            break
+        page.wait_for_timeout(2000)
+
+
+def save_debug(page, name):
+    """Keep a copy of what the browser saw, so problems can be diagnosed from the repo."""
+    DEBUG.mkdir(parents=True, exist_ok=True)
+    slug = re.sub(r"[^A-Za-z0-9]+", "_", name)
+    try:
+        (DEBUG / f"{slug}.html").write_text(page.content(), encoding="utf-8")
+        page.screenshot(path=str(DEBUG / f"{slug}.png"), full_page=False)
+        info = page.evaluate("""() => ({
+          url: location.href, title: document.title,
+          scorecard_links: document.querySelectorAll('a[href*="viewScorecard"]').length,
+          match_list_links: [...document.querySelectorAll('a[href*="listMatches"]')].slice(0, 15).map(a => [a.innerText.trim(), a.href]),
+          text_start: document.body ? document.body.innerText.slice(0, 1500) : ''
+        })""")
+        (DEBUG / f"{slug}.json").write_text(json.dumps(info, indent=1), encoding="utf-8")
+    except Exception as e:
+        (DEBUG / f"{slug}.json").write_text(json.dumps({"error": str(e)}), encoding="utf-8")
 
 
 def expand_results(page):
@@ -119,13 +144,20 @@ def main(headed=False):
                 html = page.content()
                 if BLOCKED.search(html) and "viewScorecard" not in html:
                     raise RuntimeError("CricClubs showed a bot-check page instead of results")
-                for c in page.evaluate(JS_CARDS):
+                cards = page.evaluate(JS_CARDS)
+                entry["scorecard_links_on_page"] = len(cards)
+                entry["page_title"] = page.title()
+                for c in cards:
                     if team_re.search(c["card"]):
                         wanted.append({"url": urljoin(src["url"], c["href"]),
                                        "league": src["league"], "card": c["card"]})
                         entry["found"] += 1
+                if not entry["found"]:
+                    entry["error"] = (f"No Squad Eleven matches found ({len(cards)} scorecard links on the page, "
+                                      f"page title: {page.title()!r})")
             except Exception as e:  # keep going with the other leagues
                 entry["error"] = str(e)[:300]
+            save_debug(page, src["league"])
             status["sources"].append(entry)
             print(f"[{src['league']}] {entry['found']} Squad Eleven matches"
                   + (f"  ERROR: {entry['error']}" if entry["error"] else ""))
