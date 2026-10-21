@@ -1,17 +1,17 @@
 {
- "time": "2026-10-21T20:34+00:00",
+ "time": "2026-10-21T20:40+00:00",
  "sources": [
   {
    "league": "Michigan Cricket Association",
    "url": "https://cricclubs.com/MichCA/listMatches.do?league=0&clubId=2119",
    "found": 0,
-   "error": null
+   "error": "CricClubs showed a bot-check page instead of results"
   },
   {
    "league": "Farmington CC",
    "url": "https://cricclubs.com/farmingtoncc",
    "found": 0,
-   "error": null
+   "error": "CricClubs showed a bot-check page instead of results"
   }
  ],
  "new": 0
