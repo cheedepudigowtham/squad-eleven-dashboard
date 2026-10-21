@@ -1,0 +1,20 @@
+{
+  "team_name": "Squad Eleven",
+  "team_aliases": [
+    "Squad Eleven",
+    "The Squad Cricket Club",
+    "TSXI"
+  ],
+  "sources": [
+    {
+      "league": "Michigan Cricket Association",
+      "url": "https://cricclubs.com/MichCA/listMatches.do?league=0&clubId=2119"
+    },
+    {
+      "league": "Farmington CC",
+      "url": "https://cricclubs.com/farmingtoncc"
+    }
+  ],
+  "extra_scorecards": [],
+  "seasons_from": 2025
+}
