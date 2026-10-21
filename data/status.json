@@ -1,19 +1,732 @@
 {
- "time": "2026-10-21T21:46:37.729Z",
+ "time": "2026-10-21T22:05:46.315Z",
  "sources": [
   {
    "league": "Michigan Cricket Association",
    "url": "https://cricclubs.com/MichCA/listMatches.do?league=0&clubId=2119",
-   "found": 33,
+   "found": 49,
+   "series": 53,
+   "years": {
+    "2023": 0,
+    "2024": 13,
+    "2025": 12,
+    "2026": 24
+   },
+   "pages": [
+    {
+     "u": "/MichCA/listMatches.do?league=0&clubId=2119",
+     "links": 1000,
+     "squad": 33
+    },
+    {
+     "u": "/MichCA",
+     "links": 6,
+     "squad": 0
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=0&clubId=2119&year=2026",
+     "links": 610,
+     "squad": 24
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=0&clubId=2119&year=2025",
+     "links": 559,
+     "squad": 12
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=0&clubId=2119&year=2024",
+     "links": 548,
+     "squad": 13
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=0&clubId=2119&year=2023",
+     "links": 513,
+     "squad": 0
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=147&clubId=2119",
+     "links": 60,
+     "squad": 6
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=146&clubId=2119",
+     "links": 18,
+     "squad": 0
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=143&clubId=2119",
+     "links": 108,
+     "squad": 9
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=138&clubId=2119",
+     "links": 424,
+     "squad": 9
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=135&clubId=2119",
+     "links": 47,
+     "squad": 3
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=134&clubId=2119",
+     "links": 1,
+     "squad": 0
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=131&clubId=2119",
+     "links": 104,
+     "squad": 0
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=121&clubId=2119",
+     "links": 407,
+     "squad": 9
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=119&clubId=2119",
+     "links": 51,
+     "squad": 4
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=118&clubId=2119",
+     "links": 19,
+     "squad": 0
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=117&clubId=2119",
+     "links": 10,
+     "squad": 0
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=116&clubId=2119",
+     "links": 195,
+     "squad": 9
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=115&clubId=2119",
+     "links": 121,
+     "squad": 0
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=114&clubId=2119",
+     "links": 77,
+     "squad": 0
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=113&clubId=2119",
+     "links": 393,
+     "squad": 9
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=112&clubId=2119",
+     "links": 75,
+     "squad": 0
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=111&clubId=2119",
+     "links": 12,
+     "squad": 0
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=110&clubId=2119",
+     "links": 10,
+     "squad": 0
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=106&clubId=2119",
+     "links": 363,
+     "squad": 0
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=105&clubId=2119",
+     "links": 79,
+     "squad": 0
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=104&clubId=2119",
+     "links": 49,
+     "squad": 0
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=103&clubId=2119",
+     "links": 6,
+     "squad": 0
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=101&clubId=2119",
+     "links": 11,
+     "squad": 0
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=100&clubId=2119",
+     "links": 79,
+     "squad": 0
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=96&clubId=2119",
+     "links": 349,
+     "squad": 0
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=95&clubId=2119",
+     "links": 48,
+     "squad": 0
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=94&clubId=2119",
+     "links": 11,
+     "squad": 0
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=93&clubId=2119",
+     "links": 15,
+     "squad": 0
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=89&clubId=2119",
+     "links": 301,
+     "squad": 0
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=88&clubId=2119",
+     "links": 88,
+     "squad": 0
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=87&clubId=2119",
+     "links": 37,
+     "squad": 0
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=86&clubId=2119",
+     "links": 6,
+     "squad": 0
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=83&clubId=2119",
+     "links": 126,
+     "squad": 0
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=82&clubId=2119",
+     "links": 12,
+     "squad": 0
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=81&clubId=2119",
+     "links": 12,
+     "squad": 0
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=80&clubId=2119",
+     "links": 4,
+     "squad": 0
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=79&clubId=2119",
+     "links": 15,
+     "squad": 0
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=75&clubId=2119",
+     "links": 307,
+     "squad": 0
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=74&clubId=2119",
+     "links": 102,
+     "squad": 0
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=70&clubId=2119",
+     "links": 85,
+     "squad": 0
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=59&clubId=2119",
+     "links": 459,
+     "squad": 0
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=58&clubId=2119",
+     "links": 49,
+     "squad": 0
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=57&clubId=2119",
+     "links": 383,
+     "squad": 0
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=56&clubId=2119",
+     "links": 327,
+     "squad": 0
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=55&clubId=2119",
+     "links": 266,
+     "squad": 0
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=54&clubId=2119",
+     "links": 68,
+     "squad": 0
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=53&clubId=2119",
+     "links": 119,
+     "squad": 0
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=52&clubId=2119",
+     "links": 88,
+     "squad": 0
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=51&clubId=2119",
+     "links": 27,
+     "squad": 0
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=50&clubId=2119",
+     "links": 33,
+     "squad": 0
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=49&clubId=2119",
+     "links": 45,
+     "squad": 0
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=48&clubId=2119",
+     "links": 34,
+     "squad": 0
+    },
+    {
+     "u": "/MichCA/listMatches.do?league=38&clubId=2119",
+     "links": 21,
+     "squad": 0
+    }
+   ],
    "error": null
   },
   {
    "league": "Farmington CC",
    "url": "https://cricclubs.com/farmingtoncc",
-   "found": 25,
+   "found": 44,
+   "series": 80,
+   "years": {
+    "2023": 0,
+    "2024": 10,
+    "2025": 17,
+    "2026": 17
+   },
+   "pages": [
+    {
+     "u": "/farmingtoncc/listMatches.do?league=0&clubId=27071",
+     "links": 1000,
+     "squad": 25
+    },
+    {
+     "u": "/farmingtoncc",
+     "links": 24,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=0&clubId=27071&year=2026",
+     "links": 659,
+     "squad": 17
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=0&clubId=27071&year=2025",
+     "links": 876,
+     "squad": 17
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=0&clubId=27071&year=2024",
+     "links": 1000,
+     "squad": 10
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=0&clubId=27071&year=2023",
+     "links": 790,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=167&clubId=27071",
+     "links": 76,
+     "squad": 6
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=166&clubId=27071",
+     "links": 50,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=165&clubId=27071",
+     "links": 20,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=164&clubId=27071",
+     "links": 146,
+     "squad": 6
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=163&clubId=27071",
+     "links": 7,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=162&clubId=27071",
+     "links": 23,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=158&clubId=27071",
+     "links": 127,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=157&clubId=27071",
+     "links": 126,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=156&clubId=27071",
+     "links": 35,
+     "squad": 5
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=155&clubId=27071",
+     "links": 39,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=151&clubId=27071",
+     "links": 139,
+     "squad": 6
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=150&clubId=27071",
+     "links": 60,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=149&clubId=27071",
+     "links": 39,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=141&clubId=27071",
+     "links": 197,
+     "squad": 8
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=140&clubId=27071",
+     "links": 8,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=139&clubId=27071",
+     "links": 36,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=138&clubId=27071",
+     "links": 32,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=137&clubId=27071",
+     "links": 24,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=134&clubId=27071",
+     "links": 125,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=133&clubId=27071",
+     "links": 23,
+     "squad": 4
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=130&clubId=27071",
+     "links": 127,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=129&clubId=27071",
+     "links": 34,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=124&clubId=27071",
+     "links": 163,
+     "squad": 7
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=123&clubId=27071",
+     "links": 60,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=122&clubId=27071",
+     "links": 55,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=121&clubId=27071",
+     "links": 14,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=120&clubId=27071",
+     "links": 3,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=119&clubId=27071",
+     "links": 24,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=116&clubId=27071",
+     "links": 226,
+     "squad": 8
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=115&clubId=27071",
+     "links": 7,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=114&clubId=27071",
+     "links": 34,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=111&clubId=27071",
+     "links": 38,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=110&clubId=27071",
+     "links": 17,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=106&clubId=27071",
+     "links": 166,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=105&clubId=27071",
+     "links": 39,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=104&clubId=27071",
+     "links": 127,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=103&clubId=27071",
+     "links": 48,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=102&clubId=27071",
+     "links": 55,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=101&clubId=27071",
+     "links": 12,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=100&clubId=27071",
+     "links": 120,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=99&clubId=27071",
+     "links": 60,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=98&clubId=27071",
+     "links": 229,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=97&clubId=27071",
+     "links": 30,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=95&clubId=27071",
+     "links": 32,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=91&clubId=27071",
+     "links": 183,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=86&clubId=27071",
+     "links": 35,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=85&clubId=27071",
+     "links": 73,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=82&clubId=27071",
+     "links": 123,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=81&clubId=27071",
+     "links": 60,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=77&clubId=27071",
+     "links": 217,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=76&clubId=27071",
+     "links": 25,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=75&clubId=27071",
+     "links": 15,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=71&clubId=27071",
+     "links": 169,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=70&clubId=27071",
+     "links": 60,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=69&clubId=27071",
+     "links": 55,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=68&clubId=27071",
+     "links": 51,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=67&clubId=27071",
+     "links": 50,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=66&clubId=27071",
+     "links": 61,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=65&clubId=27071",
+     "links": 83,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=64&clubId=27071",
+     "links": 86,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=63&clubId=27071",
+     "links": 71,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=62&clubId=27071",
+     "links": 35,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=61&clubId=27071",
+     "links": 7,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=60&clubId=27071",
+     "links": 13,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=59&clubId=27071",
+     "links": 6,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=58&clubId=27071",
+     "links": 168,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=57&clubId=27071",
+     "links": 96,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=56&clubId=27071",
+     "links": 196,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=55&clubId=27071",
+     "links": 167,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=54&clubId=27071",
+     "links": 149,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=53&clubId=27071",
+     "links": 81,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=52&clubId=27071",
+     "links": 53,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=51&clubId=27071",
+     "links": 155,
+     "squad": 0
+    },
+    {
+     "u": "/farmingtoncc/listMatches.do?league=50&clubId=27071",
+     "links": 97,
+     "squad": 0
+    }
+   ],
    "error": null
   }
  ],
- "new": 0,
+ "new": 35,
  "via": "button"
 }

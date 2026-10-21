@@ -9685,5 +9685,5658 @@
     "ro": 0
    }
   ]
+ },
+ {
+  "id": "MichCA_4728",
+  "url": "https://cricclubs.com/MichCA/viewScorecard.do?matchId=4728&clubId=2119",
+  "league": "Michigan Cricket Association",
+  "series": "2025 T20 - Division II",
+  "date": "2025-06-01",
+  "opponent": "Odia CA Lancers ODCL",
+  "batted_first": true,
+  "result": "W",
+  "margin": "by 6 Runs",
+  "us": {
+   "r": 116,
+   "w": 10,
+   "o": 20.0
+  },
+  "them": {
+   "r": 110,
+   "w": 5,
+   "o": 20.0
+  },
+  "batting": [
+   {
+    "name": "Raja Vasamsetty",
+    "r": 0,
+    "b": 1,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c \u2020 Ashok J b Sudhakar D"
+   },
+   {
+    "name": "Srinath Mirdoddi",
+    "r": 6,
+    "b": 10,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c Mustafa M b Pavan C"
+   },
+   {
+    "name": "Mahesh Peddiredla",
+    "r": 23,
+    "b": 14,
+    "f4": 2,
+    "f6": 0,
+    "out": true,
+    "dis": "c Pavan C b Mohan C"
+   },
+   {
+    "name": "Sanjeev Murali",
+    "r": 2,
+    "b": 11,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c Girija R b Gayadhar S"
+   },
+   {
+    "name": "Pranav Reddy Ala",
+    "r": 4,
+    "b": 10,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c \u2020 Ashok J b Girija R"
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "r": 36,
+    "b": 26,
+    "f4": 2,
+    "f6": 2,
+    "out": true,
+    "dis": "c&b Siddartha R"
+   },
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "r": 15,
+    "b": 24,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "b Mustafa M"
+   },
+   {
+    "name": "Lochan Akkaraju",
+    "r": 1,
+    "b": 2,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c Siddartha R b Girija R"
+   },
+   {
+    "name": "Gowtham Reddy Palnati",
+    "r": 0,
+    "b": 3,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c Pavan C b Siddartha R"
+   },
+   {
+    "name": "Mithun Dama",
+    "r": 17,
+    "b": 19,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "run out ( Mohan C )"
+   },
+   {
+    "name": "Sasidhar Reddy Kurre",
+    "r": 0,
+    "b": 0,
+    "f4": 0,
+    "f6": 0,
+    "out": false,
+    "dis": "not out"
+   }
+  ],
+  "bowling": [
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "o": 4.0,
+    "m": 0,
+    "r": 15,
+    "w": 0
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "o": 4.0,
+    "m": 0,
+    "r": 26,
+    "w": 0
+   },
+   {
+    "name": "Mithun Dama",
+    "o": 4.0,
+    "m": 0,
+    "r": 19,
+    "w": 0
+   },
+   {
+    "name": "Mahesh Peddiredla",
+    "o": 4.0,
+    "m": 0,
+    "r": 16,
+    "w": 2
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "o": 4.0,
+    "m": 0,
+    "r": 30,
+    "w": 1
+   }
+  ],
+  "fielding": [
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "ct": 1,
+    "st": 0,
+    "ro": 1
+   },
+   {
+    "name": "Pranav Reddy Ala",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   }
+  ]
+ },
+ {
+  "id": "MichCA_4690",
+  "url": "https://cricclubs.com/MichCA/viewScorecard.do?matchId=4690&clubId=2119",
+  "league": "Michigan Cricket Association",
+  "series": "2025 T20 - Division II",
+  "date": "2025-05-18",
+  "opponent": "Rising Stars CC RIST",
+  "batted_first": false,
+  "result": "L",
+  "margin": "by 18 Runs",
+  "us": {
+   "r": 146,
+   "w": 8,
+   "o": 20.0
+  },
+  "them": {
+   "r": 164,
+   "w": 5,
+   "o": 20.0
+  },
+  "batting": [
+   {
+    "name": "Raja Vasamsetty",
+    "r": 20,
+    "b": 22,
+    "f4": 2,
+    "f6": 0,
+    "out": true,
+    "dis": "lbw b Forhad A"
+   },
+   {
+    "name": "Srinath Mirdoddi",
+    "r": 16,
+    "b": 9,
+    "f4": 0,
+    "f6": 2,
+    "out": true,
+    "dis": "b Attique Ur Rehman A"
+   },
+   {
+    "name": "Saketh Nandhan",
+    "r": 15,
+    "b": 22,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "run out ( Salman F )"
+   },
+   {
+    "name": "Sanjeev Murali",
+    "r": 3,
+    "b": 8,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c Arian H b Forhad A"
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "r": 52,
+    "b": 32,
+    "f4": 2,
+    "f6": 4,
+    "out": false,
+    "dis": "not out"
+   },
+   {
+    "name": "Pranav Reddy Ala",
+    "r": 12,
+    "b": 20,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "b Rana C"
+   },
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "r": 2,
+    "b": 2,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "run out ( Atikur R )"
+   },
+   {
+    "name": "Mithun Dama",
+    "r": 0,
+    "b": 3,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "b Attique Ur Rehman A"
+   },
+   {
+    "name": "Gowtham Reddy Palnati",
+    "r": 0,
+    "b": 2,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "run out ( Attique Ur Rehman A )"
+   },
+   {
+    "name": "Lochan Akkaraju",
+    "r": 0,
+    "b": 1,
+    "f4": 0,
+    "f6": 0,
+    "out": false,
+    "dis": "not out"
+   }
+  ],
+  "bowling": [
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "o": 4.0,
+    "m": 0,
+    "r": 31,
+    "w": 2
+   },
+   {
+    "name": "Lochan Akkaraju",
+    "o": 1.0,
+    "m": 0,
+    "r": 15,
+    "w": 0
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "o": 4.0,
+    "m": 0,
+    "r": 24,
+    "w": 0
+   },
+   {
+    "name": "Saketh Nandhan",
+    "o": 4.0,
+    "m": 0,
+    "r": 19,
+    "w": 0
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "o": 2.0,
+    "m": 0,
+    "r": 27,
+    "w": 0
+   },
+   {
+    "name": "Mithun Dama",
+    "o": 1.0,
+    "m": 0,
+    "r": 7,
+    "w": 0
+   },
+   {
+    "name": "Pranav Reddy Ala",
+    "o": 4.0,
+    "m": 0,
+    "r": 39,
+    "w": 2
+   }
+  ],
+  "fielding": [
+   {
+    "name": "Raja Vasamsetty",
+    "ct": 0,
+    "st": 0,
+    "ro": 1
+   },
+   {
+    "name": "Mithun Dama",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Gowtham Reddy Palnati",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "ct": 2,
+    "st": 0,
+    "ro": 0
+   }
+  ]
+ },
+ {
+  "id": "MichCA_4629",
+  "url": "https://cricclubs.com/MichCA/viewScorecard.do?matchId=4629&clubId=2119",
+  "league": "Michigan Cricket Association",
+  "series": "2025 T20 - Division II",
+  "date": "2025-05-04",
+  "opponent": "Majestic Lions CC MLCC",
+  "batted_first": false,
+  "result": "NR",
+  "margin": "No result",
+  "us": {
+   "r": 0,
+   "w": 0,
+   "o": 0.0
+  },
+  "them": {
+   "r": 0,
+   "w": 0,
+   "o": 0.0
+  },
+  "batting": [],
+  "bowling": [],
+  "fielding": []
+ },
+ {
+  "id": "farmingtoncc_5810",
+  "url": "https://cricclubs.com/farmingtoncc/viewScorecard.do?matchId=5810&clubId=27071",
+  "league": "Farmington CC",
+  "series": "FCC Spirit Cup 2025",
+  "date": "2025-04-27",
+  "opponent": "Detroit Eagles",
+  "batted_first": true,
+  "result": "W",
+  "margin": "by 35 Runs",
+  "us": {
+   "r": 164,
+   "w": 4,
+   "o": 20.0
+  },
+  "them": {
+   "r": 129,
+   "w": 6,
+   "o": 20.0
+  },
+  "batting": [
+   {
+    "name": "Srinath Mirdoddi",
+    "r": 0,
+    "b": 1,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "lbw b Varun Sai M"
+   },
+   {
+    "name": "Pranav Reddy Ala",
+    "r": 45,
+    "b": 48,
+    "f4": 4,
+    "f6": 1,
+    "out": true,
+    "dis": "c Akash K b Pavan K Reddy Y"
+   },
+   {
+    "name": "Rakesh Indla",
+    "r": 6,
+    "b": 16,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c Pavan K Reddy Y b Deepu P"
+   },
+   {
+    "name": "Gowtham P",
+    "r": 2,
+    "b": 9,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "run out ( Deepu P )"
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "r": 82,
+    "b": 41,
+    "f4": 9,
+    "f6": 3,
+    "out": false,
+    "dis": "not out"
+   },
+   {
+    "name": "Shyam Kuchhadiya",
+    "r": 6,
+    "b": 7,
+    "f4": 0,
+    "f6": 0,
+    "out": false,
+    "dis": "not out"
+   }
+  ],
+  "bowling": [
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "o": 4.0,
+    "m": 0,
+    "r": 24,
+    "w": 3
+   },
+   {
+    "name": "Lochan Akkaraju",
+    "o": 3.0,
+    "m": 0,
+    "r": 10,
+    "w": 0
+   },
+   {
+    "name": "Mani Rathnam Thigulla",
+    "o": 4.0,
+    "m": 0,
+    "r": 22,
+    "w": 3
+   },
+   {
+    "name": "Srinath Mirdoddi",
+    "o": 2.0,
+    "m": 0,
+    "r": 16,
+    "w": 0
+   },
+   {
+    "name": "Pranav Reddy Ala",
+    "o": 2.0,
+    "m": 0,
+    "r": 22,
+    "w": 0
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "o": 4.0,
+    "m": 0,
+    "r": 21,
+    "w": 0
+   },
+   {
+    "name": "Gowtham P",
+    "o": 1.0,
+    "m": 0,
+    "r": 14,
+    "w": 0
+   }
+  ],
+  "fielding": [
+   {
+    "name": "Gowtham P",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Shyam Kuchhadiya",
+    "ct": 2,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Srinath Mirdoddi",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   }
+  ]
+ },
+ {
+  "id": "farmingtoncc_5804",
+  "url": "https://cricclubs.com/farmingtoncc/viewScorecard.do?matchId=5804&clubId=27071",
+  "league": "Farmington CC",
+  "series": "FCC Spirit Cup 2025",
+  "date": "2025-04-26",
+  "opponent": "OCCC",
+  "batted_first": false,
+  "result": "L",
+  "margin": "by 1 Run",
+  "us": {
+   "r": 148,
+   "w": 10,
+   "o": 19.5
+  },
+  "them": {
+   "r": 149,
+   "w": 4,
+   "o": 20.0
+  },
+  "batting": [
+   {
+    "name": "Raja Vasamsetty",
+    "r": 10,
+    "b": 12,
+    "f4": 1,
+    "f6": 0,
+    "out": true,
+    "dis": "c Vamsi K b Vijay Kumar M"
+   },
+   {
+    "name": "Srinath Mirdoddi",
+    "r": 45,
+    "b": 28,
+    "f4": 2,
+    "f6": 3,
+    "out": true,
+    "dis": "c Manoj Paul D b Vijay Kumar M"
+   },
+   {
+    "name": "Saketh Perala",
+    "r": 10,
+    "b": 6,
+    "f4": 2,
+    "f6": 0,
+    "out": true,
+    "dis": "c Vijay Kumar M b Vikram C"
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "r": 36,
+    "b": 27,
+    "f4": 3,
+    "f6": 1,
+    "out": true,
+    "dis": "c Pankil D b Kartheek D"
+   },
+   {
+    "name": "Pranav Reddy Ala",
+    "r": 5,
+    "b": 9,
+    "f4": 1,
+    "f6": 0,
+    "out": true,
+    "dis": "c Manoj Paul D b Kartheek D"
+   },
+   {
+    "name": "Rakesh Indla",
+    "r": 8,
+    "b": 23,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c \u2020 Surendra G b Kartheek D"
+   },
+   {
+    "name": "Gowtham P",
+    "r": 5,
+    "b": 7,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c \u2020 Surendra G b Vijay Kumar M"
+   },
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "r": 2,
+    "b": 2,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "run out ( Narasimha M )"
+   },
+   {
+    "name": "Sriram Kumar Maddu",
+    "r": 6,
+    "b": 3,
+    "f4": 0,
+    "f6": 0,
+    "out": false,
+    "dis": "not out"
+   },
+   {
+    "name": "Lochan Akkaraju",
+    "r": 1,
+    "b": 1,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "run out ( Pankil D )"
+   },
+   {
+    "name": "Sai Thota",
+    "r": 0,
+    "b": 1,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "run out ( Vijay Kumar M )"
+   }
+  ],
+  "bowling": [
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "o": 4.0,
+    "m": 0,
+    "r": 29,
+    "w": 1
+   },
+   {
+    "name": "Lochan Akkaraju",
+    "o": 4.0,
+    "m": 0,
+    "r": 33,
+    "w": 3
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "o": 2.0,
+    "m": 0,
+    "r": 20,
+    "w": 0
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "o": 4.0,
+    "m": 0,
+    "r": 25,
+    "w": 0
+   },
+   {
+    "name": "Saketh Perala",
+    "o": 4.0,
+    "m": 0,
+    "r": 23,
+    "w": 0
+   },
+   {
+    "name": "Pranav Reddy Ala",
+    "o": 1.0,
+    "m": 0,
+    "r": 12,
+    "w": 0
+   },
+   {
+    "name": "Sriram Kumar Maddu",
+    "o": 1.0,
+    "m": 0,
+    "r": 6,
+    "w": 0
+   }
+  ],
+  "fielding": [
+   {
+    "name": "Raja Vasamsetty",
+    "ct": 2,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Gowtham P",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   }
+  ]
+ },
+ {
+  "id": "farmingtoncc_5767",
+  "url": "https://cricclubs.com/farmingtoncc/viewScorecard.do?matchId=5767&clubId=27071",
+  "league": "Farmington CC",
+  "series": "FCC Spirit Cup 2025",
+  "date": "2025-04-19",
+  "opponent": "Michigan Warriors",
+  "batted_first": false,
+  "result": "L",
+  "margin": "by 98 Runs",
+  "us": {
+   "r": 28,
+   "w": 10,
+   "o": 9.5
+  },
+  "them": {
+   "r": 126,
+   "w": 10,
+   "o": 20.0
+  },
+  "batting": [
+   {
+    "name": "Raja Vasamsetty",
+    "r": 0,
+    "b": 3,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c Wajahat M b Hassan K"
+   },
+   {
+    "name": "Srinath Mirdoddi",
+    "r": 0,
+    "b": 1,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "b Louhith U"
+   },
+   {
+    "name": "Pranav Reddy Ala",
+    "r": 0,
+    "b": 4,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "b Hassan K"
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "r": 0,
+    "b": 4,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c \u2020 Abdul Wasey M b Louhith U"
+   },
+   {
+    "name": "Gowtham P",
+    "r": 0,
+    "b": 3,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "lbw b Louhith U"
+   },
+   {
+    "name": "Shyam Kuchhadiya",
+    "r": 5,
+    "b": 17,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "b Louhith U"
+   },
+   {
+    "name": "Lochan Akkaraju",
+    "r": 4,
+    "b": 6,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "b Khaled S"
+   },
+   {
+    "name": "Narendra Nath Alaparthi",
+    "r": 0,
+    "b": 2,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "b Louhith U"
+   },
+   {
+    "name": "Mani Rathnam Thigulla",
+    "r": 6,
+    "b": 15,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c Louhith U b Zohair K"
+   },
+   {
+    "name": "Sasidhar Reddy Kurre",
+    "r": 3,
+    "b": 3,
+    "f4": 0,
+    "f6": 0,
+    "out": false,
+    "dis": "not out"
+   },
+   {
+    "name": "Srikanth Boyina",
+    "r": 0,
+    "b": 2,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c&b Zohair K"
+   }
+  ],
+  "bowling": [
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "o": 3.0,
+    "m": 1,
+    "r": 14,
+    "w": 1
+   },
+   {
+    "name": "Lochan Akkaraju",
+    "o": 2.0,
+    "m": 0,
+    "r": 15,
+    "w": 0
+   },
+   {
+    "name": "Mani Rathnam Thigulla",
+    "o": 4.0,
+    "m": 0,
+    "r": 32,
+    "w": 1
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "o": 4.0,
+    "m": 0,
+    "r": 22,
+    "w": 3
+   },
+   {
+    "name": "Pranav Reddy Ala",
+    "o": 4.0,
+    "m": 0,
+    "r": 22,
+    "w": 0
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "o": 3.0,
+    "m": 0,
+    "r": 21,
+    "w": 3
+   }
+  ],
+  "fielding": [
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "ct": 2,
+    "st": 0,
+    "ro": 1
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Mani Rathnam Thigulla",
+    "ct": 0,
+    "st": 0,
+    "ro": 1
+   },
+   {
+    "name": "Lochan Akkaraju",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   }
+  ]
+ },
+ {
+  "id": "farmingtoncc_5748",
+  "url": "https://cricclubs.com/farmingtoncc/viewScorecard.do?matchId=5748&clubId=27071",
+  "league": "Farmington CC",
+  "series": "FCC Spirit Cup 2025",
+  "date": "2025-04-13",
+  "opponent": "Kings XI",
+  "batted_first": true,
+  "result": "W",
+  "margin": "by 2 Runs",
+  "us": {
+   "r": 127,
+   "w": 10,
+   "o": 19.2
+  },
+  "them": {
+   "r": 125,
+   "w": 8,
+   "o": 20.0
+  },
+  "batting": [
+   {
+    "name": "Raja Vasamsetty",
+    "r": 49,
+    "b": 39,
+    "f4": 2,
+    "f6": 3,
+    "out": true,
+    "dis": "c Deepak U b Vijay R"
+   },
+   {
+    "name": "Saketh Perala",
+    "r": 23,
+    "b": 28,
+    "f4": 1,
+    "f6": 0,
+    "out": true,
+    "dis": "c Sanjay E b Vijay R"
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "r": 13,
+    "b": 9,
+    "f4": 1,
+    "f6": 1,
+    "out": true,
+    "dis": "c Satya K b Vijay R"
+   },
+   {
+    "name": "Pranav Reddy Ala",
+    "r": 8,
+    "b": 10,
+    "f4": 0,
+    "f6": 1,
+    "out": true,
+    "dis": "c Vijay R b VIJAY S"
+   },
+   {
+    "name": "Rakesh Indla",
+    "r": 0,
+    "b": 3,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "lbw b Vijay R"
+   },
+   {
+    "name": "Gowtham P",
+    "r": 3,
+    "b": 5,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "b Satya K"
+   },
+   {
+    "name": "Brooke Shears",
+    "r": 0,
+    "b": 2,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c&b Satya K"
+   },
+   {
+    "name": "Shyam Kuchhadiya",
+    "r": 0,
+    "b": 3,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "lbw b VIJAY S"
+   },
+   {
+    "name": "Sriram Kumar Maddu",
+    "r": 8,
+    "b": 11,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "lbw b Chaitanya K"
+   },
+   {
+    "name": "Sasidhar Reddy Kurre",
+    "r": 6,
+    "b": 7,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c \u2020 Bhuvan B b Deepak S"
+   },
+   {
+    "name": "Mani Rathnam Thigulla",
+    "r": 0,
+    "b": 0,
+    "f4": 0,
+    "f6": 0,
+    "out": false,
+    "dis": "not out"
+   },
+   {
+    "name": "Lochan Akkaraju",
+    "r": 0,
+    "b": 0,
+    "f4": 0,
+    "f6": 0,
+    "out": false,
+    "dis": "not out"
+   }
+  ],
+  "bowling": [
+   {
+    "name": "Lochan Akkaraju",
+    "o": 2.0,
+    "m": 0,
+    "r": 24,
+    "w": 0
+   },
+   {
+    "name": "Mani Rathnam Thigulla",
+    "o": 4.0,
+    "m": 0,
+    "r": 13,
+    "w": 1
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "o": 4.0,
+    "m": 0,
+    "r": 23,
+    "w": 0
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "o": 4.0,
+    "m": 0,
+    "r": 22,
+    "w": 4
+   },
+   {
+    "name": "Rakesh Indla",
+    "o": 1.0,
+    "m": 0,
+    "r": 8,
+    "w": 0
+   },
+   {
+    "name": "Pranav Reddy Ala",
+    "o": 1.0,
+    "m": 0,
+    "r": 10,
+    "w": 0
+   },
+   {
+    "name": "Sriram Kumar Maddu",
+    "o": 4.0,
+    "m": 0,
+    "r": 24,
+    "w": 2
+   }
+  ],
+  "fielding": [
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "ct": 2,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Gowtham P",
+    "ct": 2,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Shyam Kuchhadiya",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Sasidhar Reddy Kurre",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Mani Rathnam Thigulla",
+    "ct": 0,
+    "st": 0,
+    "ro": 1
+   }
+  ]
+ },
+ {
+  "id": "farmingtoncc_5583",
+  "url": "https://cricclubs.com/farmingtoncc/viewScorecard.do?matchId=5583&clubId=27071",
+  "league": "Farmington CC",
+  "series": "FCC Winter Trophy 2024-25 - Winter Contenders 2025",
+  "date": "2025-02-08",
+  "opponent": "Deccan Tigers",
+  "batted_first": false,
+  "result": "L",
+  "margin": "by 107 Runs",
+  "us": {
+   "r": 50,
+   "w": 10,
+   "o": 11.5
+  },
+  "them": {
+   "r": 157,
+   "w": 4,
+   "o": 20.0
+  },
+  "batting": [
+   {
+    "name": "Raja Vasamsetty",
+    "r": 17,
+    "b": 20,
+    "f4": 1,
+    "f6": 1,
+    "out": true,
+    "dis": "c Fareed S b Ateeq A"
+   },
+   {
+    "name": "Pranav Reddy Ala",
+    "r": 8,
+    "b": 6,
+    "f4": 2,
+    "f6": 0,
+    "out": true,
+    "dis": "c \u2020 Shahid Ali khan m b Farhaan S"
+   },
+   {
+    "name": "Gowtham P",
+    "r": 3,
+    "b": 11,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "b Hamza A"
+   },
+   {
+    "name": "Shyam Kuchhadiya",
+    "r": 0,
+    "b": 1,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "b Ateeq A"
+   },
+   {
+    "name": "Sai Abhiram Nibhanupudi",
+    "r": 1,
+    "b": 6,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c \u2020 Shahid Ali khan m b Hamza A"
+   },
+   {
+    "name": "Ketan Joshi",
+    "r": 2,
+    "b": 2,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "run out ( Ateeq A )"
+   },
+   {
+    "name": "Sriram Kumar Maddu",
+    "r": 8,
+    "b": 9,
+    "f4": 0,
+    "f6": 1,
+    "out": true,
+    "dis": "c \u2020 Fazeel S b Zohair K"
+   },
+   {
+    "name": "Jay Mehta",
+    "r": 4,
+    "b": 11,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c \u2020 Shahid Ali khan m b Zohair K"
+   },
+   {
+    "name": "Srinath Mirdoddi",
+    "r": 1,
+    "b": 2,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "b Imtiaz S"
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "r": 2,
+    "b": 3,
+    "f4": 0,
+    "f6": 0,
+    "out": false,
+    "dis": "not out"
+   },
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "r": 0,
+    "b": 2,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "lbw b Imtiaz S"
+   }
+  ],
+  "bowling": [
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "o": 4.0,
+    "m": 0,
+    "r": 38,
+    "w": 0
+   },
+   {
+    "name": "Mani Rathnam Thigulla",
+    "o": 4.0,
+    "m": 0,
+    "r": 32,
+    "w": 1
+   },
+   {
+    "name": "Ketan Joshi",
+    "o": 3.0,
+    "m": 0,
+    "r": 18,
+    "w": 2
+   },
+   {
+    "name": "Jay Mehta",
+    "o": 2.0,
+    "m": 0,
+    "r": 21,
+    "w": 0
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "o": 3.0,
+    "m": 0,
+    "r": 17,
+    "w": 0
+   },
+   {
+    "name": "Sriram Kumar Maddu",
+    "o": 2.0,
+    "m": 0,
+    "r": 18,
+    "w": 0
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "o": 2.0,
+    "m": 0,
+    "r": 13,
+    "w": 0
+   }
+  ],
+  "fielding": [
+   {
+    "name": "Sai Abhiram Nibhanupudi",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Mani Rathnam Thigulla",
+    "ct": 0,
+    "st": 0,
+    "ro": 1
+   },
+   {
+    "name": "Gowtham P",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Pranav Reddy Ala",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   }
+  ]
+ },
+ {
+  "id": "farmingtoncc_5559",
+  "url": "https://cricclubs.com/farmingtoncc/viewScorecard.do?matchId=5559&clubId=27071",
+  "league": "Farmington CC",
+  "series": "FCC Winter Trophy 2024-25 - Winter Contenders 2025",
+  "date": "2025-02-01",
+  "opponent": "Marvels",
+  "batted_first": false,
+  "result": "W",
+  "margin": "by 4 Runs (D/L)",
+  "us": {
+   "r": 117,
+   "w": 6,
+   "o": 18.0
+  },
+  "them": {
+   "r": 128,
+   "w": 9,
+   "o": 20.0
+  },
+  "batting": [
+   {
+    "name": "Raja Vasamsetty",
+    "r": 35,
+    "b": 37,
+    "f4": 6,
+    "f6": 0,
+    "out": true,
+    "dis": "b Sudhakar D"
+   },
+   {
+    "name": "Pranav Reddy Ala",
+    "r": 38,
+    "b": 34,
+    "f4": 3,
+    "f6": 3,
+    "out": true,
+    "dis": "c Piyush R b Manoj K"
+   },
+   {
+    "name": "Sai Abhiram Nibhanupudi",
+    "r": 10,
+    "b": 7,
+    "f4": 0,
+    "f6": 1,
+    "out": true,
+    "dis": "c Shiva Ganesh C b Mohan R"
+   },
+   {
+    "name": "Srinath Mirdoddi",
+    "r": 0,
+    "b": 1,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "b Manoj K"
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "r": 6,
+    "b": 6,
+    "f4": 1,
+    "f6": 0,
+    "out": true,
+    "dis": "c Avinash c b Piyush R"
+   },
+   {
+    "name": "Jay Mehta",
+    "r": 16,
+    "b": 16,
+    "f4": 0,
+    "f6": 2,
+    "out": true,
+    "dis": "c Piyush R b Manoj K"
+   },
+   {
+    "name": "Sriram Kumar Maddu",
+    "r": 5,
+    "b": 8,
+    "f4": 0,
+    "f6": 0,
+    "out": false,
+    "dis": "not out"
+   }
+  ],
+  "bowling": [
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "o": 2.0,
+    "m": 0,
+    "r": 15,
+    "w": 1
+   },
+   {
+    "name": "Mani Rathnam Thigulla",
+    "o": 2.0,
+    "m": 0,
+    "r": 28,
+    "w": 0
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "o": 3.0,
+    "m": 0,
+    "r": 16,
+    "w": 0
+   },
+   {
+    "name": "Jay Mehta",
+    "o": 4.0,
+    "m": 0,
+    "r": 25,
+    "w": 2
+   },
+   {
+    "name": "Sriram Kumar Maddu",
+    "o": 4.0,
+    "m": 0,
+    "r": 17,
+    "w": 1
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "o": 4.0,
+    "m": 0,
+    "r": 16,
+    "w": 4
+   },
+   {
+    "name": "Sai Abhiram Nibhanupudi",
+    "o": 1.0,
+    "m": 0,
+    "r": 10,
+    "w": 0
+   }
+  ],
+  "fielding": [
+   {
+    "name": "Sai Abhiram Nibhanupudi",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Mani Rathnam Thigulla",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Pranav Reddy Ala",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Shyam Kuchhadiya",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "ct": 0,
+    "st": 0,
+    "ro": 1
+   }
+  ]
+ },
+ {
+  "id": "farmingtoncc_5524",
+  "url": "https://cricclubs.com/farmingtoncc/viewScorecard.do?matchId=5524&clubId=27071",
+  "league": "Farmington CC",
+  "series": "FCC Winter Trophy 2024-25 - Winter Contenders 2025",
+  "date": "2025-01-18",
+  "opponent": "Heroes",
+  "batted_first": true,
+  "result": "W",
+  "margin": "by 69 Runs",
+  "us": {
+   "r": 154,
+   "w": 3,
+   "o": 20.0
+  },
+  "them": {
+   "r": 85,
+   "w": 10,
+   "o": 16.3
+  },
+  "batting": [
+   {
+    "name": "Saketh Perala",
+    "r": 79,
+    "b": 54,
+    "f4": 5,
+    "f6": 4,
+    "out": true,
+    "dis": "b Siddartha R"
+   },
+   {
+    "name": "Pranav Reddy Ala",
+    "r": 35,
+    "b": 33,
+    "f4": 3,
+    "f6": 2,
+    "out": true,
+    "dis": "c Anil Reddy G b Siddartha R"
+   },
+   {
+    "name": "Srinath Mirdoddi",
+    "r": 24,
+    "b": 23,
+    "f4": 3,
+    "f6": 0,
+    "out": false,
+    "dis": "not out"
+   },
+   {
+    "name": "Ketan Joshi",
+    "r": 1,
+    "b": 5,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c \u2020 Abdul Wasey M b Durga prasad P"
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "r": 4,
+    "b": 7,
+    "f4": 0,
+    "f6": 0,
+    "out": false,
+    "dis": "not out"
+   }
+  ],
+  "bowling": [
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "o": 2.0,
+    "m": 0,
+    "r": 10,
+    "w": 1
+   },
+   {
+    "name": "Mani Rathnam Thigulla",
+    "o": 2.3,
+    "m": 0,
+    "r": 13,
+    "w": 2
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "o": 2.0,
+    "m": 0,
+    "r": 11,
+    "w": 1
+   },
+   {
+    "name": "Ketan Joshi",
+    "o": 4.0,
+    "m": 0,
+    "r": 13,
+    "w": 3
+   },
+   {
+    "name": "Saketh Perala",
+    "o": 2.0,
+    "m": 0,
+    "r": 13,
+    "w": 1
+   },
+   {
+    "name": "Sriram Kumar Maddu",
+    "o": 1.0,
+    "m": 0,
+    "r": 8,
+    "w": 0
+   },
+   {
+    "name": "Sai Abhiram Nibhanupudi",
+    "o": 1.0,
+    "m": 0,
+    "r": 6,
+    "w": 1
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "o": 1.0,
+    "m": 0,
+    "r": 2,
+    "w": 1
+   },
+   {
+    "name": "Srinath Mirdoddi",
+    "o": 1.0,
+    "m": 0,
+    "r": 9,
+    "w": 0
+   }
+  ],
+  "fielding": [
+   {
+    "name": "Ketan Joshi",
+    "ct": 2,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "ct": 2,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Gowtham P",
+    "ct": 0,
+    "st": 1,
+    "ro": 0
+   },
+   {
+    "name": "Srinath Mirdoddi",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   }
+  ]
+ },
+ {
+  "id": "farmingtoncc_5498",
+  "url": "https://cricclubs.com/farmingtoncc/viewScorecard.do?matchId=5498&clubId=27071",
+  "league": "Farmington CC",
+  "series": "FCC Winter Trophy 2024-25 - Winter Contenders 2025",
+  "date": "2025-01-10",
+  "opponent": "Michigan Knights",
+  "batted_first": true,
+  "result": "W",
+  "margin": "by 21 Runs",
+  "us": {
+   "r": 118,
+   "w": 7,
+   "o": 18.0
+  },
+  "them": {
+   "r": 97,
+   "w": 9,
+   "o": 18.0
+  },
+  "batting": [
+   {
+    "name": "Vidya Nand Tiwari",
+    "r": 2,
+    "b": 6,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c \u2020 Sahil N b Ankit S"
+   },
+   {
+    "name": "Pranav Reddy Ala",
+    "r": 6,
+    "b": 16,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "b Rohit Venkatesh R"
+   },
+   {
+    "name": "Srinath Mirdoddi",
+    "r": 6,
+    "b": 12,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "b Akshat R"
+   },
+   {
+    "name": "Ketan Joshi",
+    "r": 3,
+    "b": 5,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "lbw b Akshat R"
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "r": 4,
+    "b": 4,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "run out ( Nalin P )"
+   },
+   {
+    "name": "Sai Abhiram Nibhanupudi",
+    "r": 22,
+    "b": 22,
+    "f4": 1,
+    "f6": 0,
+    "out": false,
+    "dis": "not out"
+   },
+   {
+    "name": "Shyam Kuchhadiya",
+    "r": 18,
+    "b": 8,
+    "f4": 3,
+    "f6": 0,
+    "out": true,
+    "dis": "b Prasad B"
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "r": 20,
+    "b": 22,
+    "f4": 1,
+    "f6": 1,
+    "out": true,
+    "dis": "run out ( Rohit Venkatesh R )"
+   },
+   {
+    "name": "Sriram Kumar Maddu",
+    "r": 24,
+    "b": 14,
+    "f4": 1,
+    "f6": 2,
+    "out": false,
+    "dis": "not out"
+   }
+  ],
+  "bowling": [
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "o": 3.0,
+    "m": 0,
+    "r": 13,
+    "w": 0
+   },
+   {
+    "name": "Mani Rathnam Thigulla",
+    "o": 4.0,
+    "m": 0,
+    "r": 15,
+    "w": 2
+   },
+   {
+    "name": "Jay Mehta",
+    "o": 3.0,
+    "m": 0,
+    "r": 21,
+    "w": 1
+   },
+   {
+    "name": "Ketan Joshi",
+    "o": 4.0,
+    "m": 0,
+    "r": 13,
+    "w": 4
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "o": 3.0,
+    "m": 0,
+    "r": 25,
+    "w": 1
+   },
+   {
+    "name": "Sriram Kumar Maddu",
+    "o": 1.0,
+    "m": 0,
+    "r": 10,
+    "w": 1
+   }
+  ],
+  "fielding": [
+   {
+    "name": "Srinath Mirdoddi",
+    "ct": 2,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Jay Mehta",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Shyam Kuchhadiya",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   }
+  ]
+ },
+ {
+  "id": "farmingtoncc_5466",
+  "url": "https://cricclubs.com/farmingtoncc/viewScorecard.do?matchId=5466&clubId=27071",
+  "league": "Farmington CC",
+  "series": "FCC Winter Trophy 2024-25 - Winter Contenders 2025",
+  "date": "2024-12-13",
+  "opponent": "Lions CC",
+  "batted_first": false,
+  "result": "W",
+  "margin": "by 6 Wickets",
+  "us": {
+   "r": 131,
+   "w": 4,
+   "o": 16.0
+  },
+  "them": {
+   "r": 130,
+   "w": 6,
+   "o": 20.0
+  },
+  "batting": [
+   {
+    "name": "Saketh Perala",
+    "r": 87,
+    "b": 60,
+    "f4": 2,
+    "f6": 9,
+    "out": false,
+    "dis": "not out"
+   },
+   {
+    "name": "Pranav Reddy Ala",
+    "r": 2,
+    "b": 7,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "run out ( Younus Ali M )"
+   },
+   {
+    "name": "Sai Abhiram Nibhanupudi",
+    "r": 3,
+    "b": 7,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "b Younus Ali M"
+   },
+   {
+    "name": "Srinath Mirdoddi",
+    "r": 14,
+    "b": 22,
+    "f4": 1,
+    "f6": 0,
+    "out": true,
+    "dis": "b Younus Ali M"
+   },
+   {
+    "name": "Gowtham P",
+    "r": 1,
+    "b": 3,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "lbw b Shaheer M"
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "r": 1,
+    "b": 1,
+    "f4": 0,
+    "f6": 0,
+    "out": false,
+    "dis": "not out"
+   }
+  ],
+  "bowling": [
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "o": 4.0,
+    "m": 0,
+    "r": 23,
+    "w": 0
+   },
+   {
+    "name": "Mani Rathnam Thigulla",
+    "o": 4.0,
+    "m": 0,
+    "r": 26,
+    "w": 2
+   },
+   {
+    "name": "Sriram Kumar Maddu",
+    "o": 2.0,
+    "m": 0,
+    "r": 20,
+    "w": 0
+   },
+   {
+    "name": "Saketh Perala",
+    "o": 4.0,
+    "m": 0,
+    "r": 17,
+    "w": 2
+   },
+   {
+    "name": "Sai Abhiram Nibhanupudi",
+    "o": 3.0,
+    "m": 0,
+    "r": 16,
+    "w": 1
+   },
+   {
+    "name": "Srinath Mirdoddi",
+    "o": 3.0,
+    "m": 0,
+    "r": 28,
+    "w": 0
+   }
+  ],
+  "fielding": [
+   {
+    "name": "Gowtham P",
+    "ct": 1,
+    "st": 0,
+    "ro": 1
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Shyam Kuchhadiya",
+    "ct": 1,
+    "st": 1,
+    "ro": 0
+   },
+   {
+    "name": "Mani Rathnam Thigulla",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   }
+  ]
+ },
+ {
+  "id": "farmingtoncc_5438",
+  "url": "https://cricclubs.com/farmingtoncc/viewScorecard.do?matchId=5438&clubId=27071",
+  "league": "Farmington CC",
+  "series": "FCC Winter Trophy 2024-25 - Winter Contenders 2025",
+  "date": "2024-12-06",
+  "opponent": "Dearborn Badgers",
+  "batted_first": false,
+  "result": "W",
+  "margin": "by 1 Wicket",
+  "us": {
+   "r": 147,
+   "w": 9,
+   "o": 19.4
+  },
+  "them": {
+   "r": 144,
+   "w": 6,
+   "o": 20.0
+  },
+  "batting": [
+   {
+    "name": "Saketh Perala",
+    "r": 6,
+    "b": 5,
+    "f4": 1,
+    "f6": 0,
+    "out": true,
+    "dis": "c \u2020 Anil B b Mohan C"
+   },
+   {
+    "name": "Pranav Reddy Ala",
+    "r": 51,
+    "b": 29,
+    "f4": 6,
+    "f6": 3,
+    "out": true,
+    "dis": "c Raghu B b Mohan C"
+   },
+   {
+    "name": "Sai Abhiram Nibhanupudi",
+    "r": 13,
+    "b": 26,
+    "f4": 2,
+    "f6": 0,
+    "out": true,
+    "dis": "c Nishanth Paul D b Naveen B"
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "r": 4,
+    "b": 7,
+    "f4": 1,
+    "f6": 0,
+    "out": true,
+    "dis": "c \u2020 Anil B b Naveen B"
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "r": 8,
+    "b": 6,
+    "f4": 0,
+    "f6": 1,
+    "out": true,
+    "dis": "run out ( Ananth I / Anil B )"
+   },
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "r": 11,
+    "b": 9,
+    "f4": 1,
+    "f6": 1,
+    "out": true,
+    "dis": "run out ( Vijay B / Anil B )"
+   },
+   {
+    "name": "Srinath Mirdoddi",
+    "r": 24,
+    "b": 18,
+    "f4": 1,
+    "f6": 2,
+    "out": false,
+    "dis": "not out"
+   },
+   {
+    "name": "Gowtham P",
+    "r": 1,
+    "b": 4,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "run out ( Vijay B / Anil B )"
+   },
+   {
+    "name": "Jay Mehta",
+    "r": 14,
+    "b": 7,
+    "f4": 0,
+    "f6": 2,
+    "out": true,
+    "dis": "c \u2020 Anil B b Mohan C"
+   },
+   {
+    "name": "Shyam Kuchhadiya",
+    "r": 0,
+    "b": 1,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "b Mohan C"
+   },
+   {
+    "name": "Mani Rathnam Thigulla",
+    "r": 6,
+    "b": 6,
+    "f4": 1,
+    "f6": 0,
+    "out": false,
+    "dis": "not out"
+   }
+  ],
+  "bowling": [
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "o": 4.0,
+    "m": 0,
+    "r": 28,
+    "w": 0
+   },
+   {
+    "name": "Mani Rathnam Thigulla",
+    "o": 4.0,
+    "m": 0,
+    "r": 32,
+    "w": 0
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "o": 4.0,
+    "m": 0,
+    "r": 31,
+    "w": 0
+   },
+   {
+    "name": "Jay Mehta",
+    "o": 4.0,
+    "m": 0,
+    "r": 30,
+    "w": 2
+   },
+   {
+    "name": "Saketh Perala",
+    "o": 4.0,
+    "m": 0,
+    "r": 23,
+    "w": 1
+   }
+  ],
+  "fielding": [
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "ct": 0,
+    "st": 0,
+    "ro": 1
+   },
+   {
+    "name": "Shyam Kuchhadiya",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Pranav Reddy Ala",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Gowtham P",
+    "ct": 0,
+    "st": 0,
+    "ro": 1
+   },
+   {
+    "name": "Jay Mehta",
+    "ct": 0,
+    "st": 0,
+    "ro": 1
+   }
+  ]
+ },
+ {
+  "id": "farmingtoncc_5345",
+  "url": "https://cricclubs.com/farmingtoncc/viewScorecard.do?matchId=5345&clubId=27071",
+  "league": "Farmington CC",
+  "series": "FCC Colors Trophy 2024 - Colors Challengers 2024",
+  "date": "2024-10-26",
+  "opponent": "Warriors",
+  "batted_first": false,
+  "result": "L",
+  "margin": "by 81 Runs",
+  "us": {
+   "r": 134,
+   "w": 7,
+   "o": 20.0
+  },
+  "them": {
+   "r": 215,
+   "w": 10,
+   "o": 19.5
+  },
+  "batting": [
+   {
+    "name": "Gowtham P",
+    "r": 10,
+    "b": 8,
+    "f4": 1,
+    "f6": 0,
+    "out": true,
+    "dis": "b Sai Abhiram N"
+   },
+   {
+    "name": "Pranav Reddy Ala",
+    "r": 4,
+    "b": 14,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "b Ketan J"
+   },
+   {
+    "name": "Srinath Mirdoddi",
+    "r": 13,
+    "b": 7,
+    "f4": 1,
+    "f6": 1,
+    "out": true,
+    "dis": "c Vidya Nand T b Himanshu G"
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "r": 40,
+    "b": 21,
+    "f4": 3,
+    "f6": 3,
+    "out": true,
+    "dis": "b Ketan J"
+   },
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "r": 38,
+    "b": 37,
+    "f4": 2,
+    "f6": 2,
+    "out": false,
+    "dis": "not out"
+   },
+   {
+    "name": "Sriram Kumar Maddu",
+    "r": 17,
+    "b": 23,
+    "f4": 0,
+    "f6": 1,
+    "out": true,
+    "dis": "c Himanshu G b Ketan J"
+   },
+   {
+    "name": "Brooke Shears",
+    "r": 3,
+    "b": 7,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c Sai Abhiram N b Krushal D"
+   },
+   {
+    "name": "Sai Gadde",
+    "r": 0,
+    "b": 5,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c&b Himanshu G"
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "r": 1,
+    "b": 1,
+    "f4": 0,
+    "f6": 0,
+    "out": false,
+    "dis": "not out"
+   }
+  ],
+  "bowling": [
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "o": 4.0,
+    "m": 0,
+    "r": 45,
+    "w": 2
+   },
+   {
+    "name": "Srinath Mirdoddi",
+    "o": 3.0,
+    "m": 0,
+    "r": 44,
+    "w": 0
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "o": 4.0,
+    "m": 0,
+    "r": 34,
+    "w": 0
+   },
+   {
+    "name": "Sriram Kumar Maddu",
+    "o": 4.0,
+    "m": 0,
+    "r": 31,
+    "w": 3
+   },
+   {
+    "name": "Pranav Reddy Ala",
+    "o": 1.5,
+    "m": 0,
+    "r": 22,
+    "w": 2
+   },
+   {
+    "name": "Brooke Shears",
+    "o": 3.0,
+    "m": 0,
+    "r": 39,
+    "w": 0
+   }
+  ],
+  "fielding": [
+   {
+    "name": "Gowtham P",
+    "ct": 1,
+    "st": 0,
+    "ro": 1
+   },
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Brooke Shears",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "ct": 0,
+    "st": 0,
+    "ro": 1
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   }
+  ]
+ },
+ {
+  "id": "farmingtoncc_5317",
+  "url": "https://cricclubs.com/farmingtoncc/viewScorecard.do?matchId=5317&clubId=27071",
+  "league": "Farmington CC",
+  "series": "FCC Colors Trophy 2024 - Colors Challengers 2024",
+  "date": "2024-10-19",
+  "opponent": "Local Boys",
+  "batted_first": true,
+  "result": "L",
+  "margin": "by 8 Wickets",
+  "us": {
+   "r": 226,
+   "w": 5,
+   "o": 20.0
+  },
+  "them": {
+   "r": 227,
+   "w": 2,
+   "o": 15.3
+  },
+  "batting": [
+   {
+    "name": "Saketh Perala",
+    "r": 89,
+    "b": 33,
+    "f4": 4,
+    "f6": 11,
+    "out": true,
+    "dis": "c Abdul G b Sujay S"
+   },
+   {
+    "name": "Pranav Reddy Ala",
+    "r": 35,
+    "b": 27,
+    "f4": 2,
+    "f6": 4,
+    "out": true,
+    "dis": "c Sathishkumar P b Vivekanand A"
+   },
+   {
+    "name": "Srinath Mirdoddi",
+    "r": 13,
+    "b": 18,
+    "f4": 1,
+    "f6": 0,
+    "out": true,
+    "dis": "b Vivekanand A"
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "r": 39,
+    "b": 26,
+    "f4": 1,
+    "f6": 3,
+    "out": true,
+    "dis": "c Shaik M b Manoj Prabhakar S"
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "r": 27,
+    "b": 14,
+    "f4": 3,
+    "f6": 2,
+    "out": true,
+    "dis": "c Sathishkumar P b Vivekanand A"
+   },
+   {
+    "name": "Ajith Kumaar Ayna Sankar",
+    "r": 0,
+    "b": 0,
+    "f4": 0,
+    "f6": 0,
+    "out": false,
+    "dis": "not out"
+   },
+   {
+    "name": "Sriram Kumar Maddu",
+    "r": 16,
+    "b": 4,
+    "f4": 1,
+    "f6": 2,
+    "out": false,
+    "dis": "not out"
+   }
+  ],
+  "bowling": [
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "o": 3.0,
+    "m": 0,
+    "r": 46,
+    "w": 1
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "o": 1.0,
+    "m": 0,
+    "r": 24,
+    "w": 0
+   },
+   {
+    "name": "Saketh Perala",
+    "o": 3.3,
+    "m": 0,
+    "r": 49,
+    "w": 0
+   },
+   {
+    "name": "Brooke Shears",
+    "o": 2.0,
+    "m": 0,
+    "r": 48,
+    "w": 0
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "o": 4.0,
+    "m": 0,
+    "r": 21,
+    "w": 1
+   },
+   {
+    "name": "Sriram Kumar Maddu",
+    "o": 1.0,
+    "m": 0,
+    "r": 25,
+    "w": 0
+   },
+   {
+    "name": "Srinath Mirdoddi",
+    "o": 1.0,
+    "m": 0,
+    "r": 14,
+    "w": 0
+   }
+  ],
+  "fielding": [
+   {
+    "name": "Gowtham P",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   }
+  ]
+ },
+ {
+  "id": "farmingtoncc_5283",
+  "url": "https://cricclubs.com/farmingtoncc/viewScorecard.do?matchId=5283&clubId=27071",
+  "league": "Farmington CC",
+  "series": "FCC Colors Trophy 2024 - Colors Challengers 2024",
+  "date": "2024-10-11",
+  "opponent": "Royal Hoonkars",
+  "batted_first": false,
+  "result": "W",
+  "margin": "by 9 Wickets",
+  "us": {
+   "r": 95,
+   "w": 1,
+   "o": 10.3
+  },
+  "them": {
+   "r": 93,
+   "w": 10,
+   "o": 17.5
+  },
+  "batting": [
+   {
+    "name": "Saketh Perala",
+    "r": 60,
+    "b": 40,
+    "f4": 1,
+    "f6": 8,
+    "out": false,
+    "dis": "not out"
+   },
+   {
+    "name": "Pranav Reddy Ala",
+    "r": 7,
+    "b": 9,
+    "f4": 1,
+    "f6": 0,
+    "out": true,
+    "dis": "b Ravi G"
+   },
+   {
+    "name": "Raghuram Ganti",
+    "r": 11,
+    "b": 15,
+    "f4": 1,
+    "f6": 0,
+    "out": false,
+    "dis": "not out"
+   }
+  ],
+  "bowling": [
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "o": 3.0,
+    "m": 0,
+    "r": 23,
+    "w": 1
+   },
+   {
+    "name": "Jay Mehta",
+    "o": 3.0,
+    "m": 0,
+    "r": 14,
+    "w": 3
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "o": 4.0,
+    "m": 0,
+    "r": 7,
+    "w": 1
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "o": 3.0,
+    "m": 0,
+    "r": 18,
+    "w": 3
+   },
+   {
+    "name": "Saketh Perala",
+    "o": 3.0,
+    "m": 0,
+    "r": 14,
+    "w": 1
+   },
+   {
+    "name": "Sriram Kumar Maddu",
+    "o": 1.5,
+    "m": 0,
+    "r": 17,
+    "w": 1
+   }
+  ],
+  "fielding": [
+   {
+    "name": "Srinath Mirdoddi",
+    "ct": 2,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Yashwanth Gatla",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Raghuram Ganti",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Jay Mehta",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   }
+  ]
+ },
+ {
+  "id": "farmingtoncc_5253",
+  "url": "https://cricclubs.com/farmingtoncc/viewScorecard.do?matchId=5253&clubId=27071",
+  "league": "Farmington CC",
+  "series": "FCC Colors Trophy 2024 - Colors Challengers 2024",
+  "date": "2024-10-05",
+  "opponent": "Michigan Avengers",
+  "batted_first": true,
+  "result": "L",
+  "margin": "by 3 Wickets",
+  "us": {
+   "r": 46,
+   "w": 10,
+   "o": 17.5
+  },
+  "them": {
+   "r": 47,
+   "w": 7,
+   "o": 17.2
+  },
+  "batting": [
+   {
+    "name": "Raja Vasamsetty",
+    "r": 3,
+    "b": 7,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c Roshan K b Raghavendra C"
+   },
+   {
+    "name": "Saketh Perala",
+    "r": 4,
+    "b": 9,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c Rajeshwar S b Satyajit D"
+   },
+   {
+    "name": "Ajith Kumaar Ayna Sankar",
+    "r": 6,
+    "b": 11,
+    "f4": 0,
+    "f6": 0,
+    "out": false,
+    "dis": "not out"
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "r": 0,
+    "b": 3,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c \u2020 Md Omar A b Ramesh N"
+   },
+   {
+    "name": "Yashwanth Gatla",
+    "r": 0,
+    "b": 10,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c Roshan K b Lav A"
+   },
+   {
+    "name": "Brooke Shears",
+    "r": 11,
+    "b": 24,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c \u2020 Md Omar A b Lav A"
+   },
+   {
+    "name": "Sriram Kumar Maddu",
+    "r": 8,
+    "b": 24,
+    "f4": 1,
+    "f6": 0,
+    "out": true,
+    "dis": "c Raghavendra C b Anupam D"
+   },
+   {
+    "name": "Jay Mehta",
+    "r": 1,
+    "b": 4,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c Lav A b Raghavendra C"
+   },
+   {
+    "name": "Sai Thota",
+    "r": 0,
+    "b": 6,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c Anupam D b Ramesh N"
+   },
+   {
+    "name": "Gowtham P",
+    "r": 0,
+    "b": 2,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "lbw b Ramesh N"
+   },
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "r": 0,
+    "b": 2,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "b Ramesh N"
+   }
+  ],
+  "bowling": [
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "o": 3.0,
+    "m": 0,
+    "r": 9,
+    "w": 1
+   },
+   {
+    "name": "Jay Mehta",
+    "o": 2.2,
+    "m": 0,
+    "r": 6,
+    "w": 1
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "o": 4.0,
+    "m": 0,
+    "r": 14,
+    "w": 2
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "o": 4.0,
+    "m": 2,
+    "r": 7,
+    "w": 2
+   },
+   {
+    "name": "Saketh Perala",
+    "o": 2.0,
+    "m": 0,
+    "r": 7,
+    "w": 0
+   },
+   {
+    "name": "Sriram Kumar Maddu",
+    "o": 2.0,
+    "m": 0,
+    "r": 4,
+    "w": 1
+   }
+  ],
+  "fielding": [
+   {
+    "name": "Ajith Kumaar Ayna Sankar",
+    "ct": 2,
+    "st": 0,
+    "ro": 0
+   }
+  ]
+ },
+ {
+  "id": "farmingtoncc_5233",
+  "url": "https://cricclubs.com/farmingtoncc/viewScorecard.do?matchId=5233&clubId=27071",
+  "league": "Farmington CC",
+  "series": "FCC Colors Trophy 2024 - Colors Challengers 2024",
+  "date": "2024-09-29",
+  "opponent": "Gujarat Warriors",
+  "batted_first": false,
+  "result": "W",
+  "margin": "by 2 Wickets",
+  "us": {
+   "r": 69,
+   "w": 8,
+   "o": 20.0
+  },
+  "them": {
+   "r": 67,
+   "w": 10,
+   "o": 18.1
+  },
+  "batting": [
+   {
+    "name": "Raja Vasamsetty",
+    "r": 20,
+    "b": 39,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "b Chintan P"
+   },
+   {
+    "name": "Saketh Perala",
+    "r": 9,
+    "b": 18,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c Gopal P b Bhavin P"
+   },
+   {
+    "name": "Raghuram Ganti",
+    "r": 8,
+    "b": 18,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "run out ( Archil K )"
+   },
+   {
+    "name": "Yashwanth Gatla",
+    "r": 9,
+    "b": 22,
+    "f4": 1,
+    "f6": 0,
+    "out": true,
+    "dis": "St Kevin P b prakashbhai c"
+   },
+   {
+    "name": "Gowtham P",
+    "r": 3,
+    "b": 13,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c Tirth P b Kevin P"
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "r": 0,
+    "b": 1,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c prakashbhai c b Kevin P"
+   },
+   {
+    "name": "Pranav Reddy Ala",
+    "r": 5,
+    "b": 7,
+    "f4": 0,
+    "f6": 0,
+    "out": false,
+    "dis": "not out"
+   },
+   {
+    "name": "Sriram Kumar Maddu",
+    "r": 1,
+    "b": 2,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "St Gopal P b Kevin P"
+   },
+   {
+    "name": "Sai Thota",
+    "r": 0,
+    "b": 1,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c \u2020 Gopal P b Kevin P"
+   },
+   {
+    "name": "Brooke Shears",
+    "r": 3,
+    "b": 2,
+    "f4": 0,
+    "f6": 0,
+    "out": false,
+    "dis": "not out"
+   }
+  ],
+  "bowling": [
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "o": 4.0,
+    "m": 0,
+    "r": 7,
+    "w": 1
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "o": 4.0,
+    "m": 0,
+    "r": 20,
+    "w": 2
+   },
+   {
+    "name": "Sriram Kumar Maddu",
+    "o": 2.1,
+    "m": 0,
+    "r": 13,
+    "w": 1
+   },
+   {
+    "name": "Brooke Shears",
+    "o": 4.0,
+    "m": 0,
+    "r": 16,
+    "w": 1
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "o": 4.0,
+    "m": 0,
+    "r": 11,
+    "w": 5
+   }
+  ],
+  "fielding": [
+   {
+    "name": "Sriram Kumar Maddu",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Pranav Reddy Ala",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Saketh Perala",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   }
+  ]
+ },
+ {
+  "id": "MichCA_4610",
+  "url": "https://cricclubs.com/MichCA/viewScorecard.do?matchId=4610&clubId=2119",
+  "league": "Michigan Cricket Association",
+  "series": "2024 GLT",
+  "date": "2024-09-21",
+  "opponent": "Detroit Royals Cricket Club DRCC",
+  "batted_first": false,
+  "result": "L",
+  "margin": "by 23 Runs",
+  "us": {
+   "r": 178,
+   "w": 7,
+   "o": 20.0
+  },
+  "them": {
+   "r": 201,
+   "w": 8,
+   "o": 20.0
+  },
+  "batting": [
+   {
+    "name": "Srinath Mirdoddi",
+    "r": 36,
+    "b": 32,
+    "f4": 1,
+    "f6": 1,
+    "out": true,
+    "dis": "lbw b Tayefur R"
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "r": 30,
+    "b": 22,
+    "f4": 3,
+    "f6": 1,
+    "out": true,
+    "dis": "c Syed H b Tayefur R"
+   },
+   {
+    "name": "Ajith Kumaar Ayna Sankar",
+    "r": 31,
+    "b": 22,
+    "f4": 2,
+    "f6": 1,
+    "out": true,
+    "dis": "c Arif I b Abdul M"
+   },
+   {
+    "name": "Ramakanth Reddy Banoori",
+    "r": 9,
+    "b": 8,
+    "f4": 2,
+    "f6": 0,
+    "out": true,
+    "dis": "c Abdul M b Syed H"
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "r": 26,
+    "b": 18,
+    "f4": 1,
+    "f6": 2,
+    "out": true,
+    "dis": "c \u2020 Ashraful A b Syed H"
+   },
+   {
+    "name": "Prosenroyal Vellanki",
+    "r": 4,
+    "b": 3,
+    "f4": 1,
+    "f6": 0,
+    "out": true,
+    "dis": "b Abdul M"
+   },
+   {
+    "name": "Sanjay Kadithi",
+    "r": 8,
+    "b": 9,
+    "f4": 0,
+    "f6": 0,
+    "out": false,
+    "dis": "not out"
+   },
+   {
+    "name": "Sai Thota",
+    "r": 0,
+    "b": 1,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c \u2020 Ashraful A b Syed H"
+   },
+   {
+    "name": "Sriram Kumar Maddu",
+    "r": 6,
+    "b": 6,
+    "f4": 0,
+    "f6": 0,
+    "out": false,
+    "dis": "not out"
+   }
+  ],
+  "bowling": [
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "o": 4.0,
+    "m": 0,
+    "r": 33,
+    "w": 0
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "o": 4.0,
+    "m": 0,
+    "r": 42,
+    "w": 1
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "o": 3.0,
+    "m": 0,
+    "r": 31,
+    "w": 0
+   },
+   {
+    "name": "Brooke Shears",
+    "o": 1.0,
+    "m": 0,
+    "r": 22,
+    "w": 0
+   },
+   {
+    "name": "Sriram Kumar Maddu",
+    "o": 4.0,
+    "m": 0,
+    "r": 37,
+    "w": 1
+   },
+   {
+    "name": "Prosenroyal Vellanki",
+    "o": 4.0,
+    "m": 0,
+    "r": 35,
+    "w": 4
+   }
+  ],
+  "fielding": [
+   {
+    "name": "Raja Vasamsetty",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "ct": 2,
+    "st": 0,
+    "ro": 1
+   },
+   {
+    "name": "Sanjay Kadithi",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Gowtham Reddy Palnati",
+    "ct": 2,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Prosenroyal Vellanki",
+    "ct": 0,
+    "st": 0,
+    "ro": 1
+   }
+  ]
+ },
+ {
+  "id": "farmingtoncc_5192",
+  "url": "https://cricclubs.com/farmingtoncc/viewScorecard.do?matchId=5192&clubId=27071",
+  "league": "Farmington CC",
+  "series": "FCC Colors Trophy 2024 - Colors Challengers 2024",
+  "date": "2024-09-21",
+  "opponent": "MI Knights",
+  "batted_first": false,
+  "result": "L",
+  "margin": "by 22 Runs",
+  "us": {
+   "r": 70,
+   "w": 10,
+   "o": 16.0
+  },
+  "them": {
+   "r": 92,
+   "w": 10,
+   "o": 17.5
+  },
+  "batting": [
+   {
+    "name": "Raja Vasamsetty",
+    "r": 4,
+    "b": 6,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "lbw b Ankit S"
+   },
+   {
+    "name": "Saketh Perala",
+    "r": 23,
+    "b": 32,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "run out ( Shivesh S )"
+   },
+   {
+    "name": "Yashwanth Gatla",
+    "r": 6,
+    "b": 16,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c Preetham K b Akshat R"
+   },
+   {
+    "name": "Srinath Mirdoddi",
+    "r": 0,
+    "b": 4,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "b Akshat R"
+   },
+   {
+    "name": "Gowtham P",
+    "r": 5,
+    "b": 7,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "b Harsha V"
+   },
+   {
+    "name": "Brooke Shears",
+    "r": 3,
+    "b": 9,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "b Akshat R"
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "r": 6,
+    "b": 4,
+    "f4": 0,
+    "f6": 1,
+    "out": true,
+    "dis": "c Shivesh S b Ankit S"
+   },
+   {
+    "name": "Pranav Reddy Ala",
+    "r": 1,
+    "b": 2,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "run out ( Srujan H )"
+   },
+   {
+    "name": "Ajith Kumaar Ayna Sankar",
+    "r": 1,
+    "b": 3,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c Kapil D b Anuj N"
+   },
+   {
+    "name": "Sriram Kumar Maddu",
+    "r": 5,
+    "b": 8,
+    "f4": 0,
+    "f6": 0,
+    "out": false,
+    "dis": "not out"
+   },
+   {
+    "name": "Sai Thota",
+    "r": 3,
+    "b": 7,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c Akshat R b Ankit S"
+   }
+  ],
+  "bowling": [
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "o": 4.0,
+    "m": 0,
+    "r": 14,
+    "w": 2
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "o": 2.0,
+    "m": 0,
+    "r": 11,
+    "w": 0
+   },
+   {
+    "name": "Srinath Mirdoddi",
+    "o": 2.5,
+    "m": 0,
+    "r": 10,
+    "w": 3
+   },
+   {
+    "name": "Brooke Shears",
+    "o": 4.0,
+    "m": 0,
+    "r": 23,
+    "w": 3
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "o": 2.0,
+    "m": 0,
+    "r": 10,
+    "w": 1
+   },
+   {
+    "name": "Sriram Kumar Maddu",
+    "o": 3.0,
+    "m": 0,
+    "r": 24,
+    "w": 0
+   }
+  ],
+  "fielding": [
+   {
+    "name": "Sriram Kumar Maddu",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Saketh Perala",
+    "ct": 2,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Pranav Reddy Ala",
+    "ct": 1,
+    "st": 0,
+    "ro": 1
+   },
+   {
+    "name": "Gowtham P",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   }
+  ]
+ },
+ {
+  "id": "MichCA_4584",
+  "url": "https://cricclubs.com/MichCA/viewScorecard.do?matchId=4584&clubId=2119",
+  "league": "Michigan Cricket Association",
+  "series": "2024 GLT",
+  "date": "2024-09-14",
+  "opponent": "South Lyon Cricket Club SLCC",
+  "batted_first": false,
+  "result": "W",
+  "margin": "by 4 Wickets",
+  "us": {
+   "r": 118,
+   "w": 6,
+   "o": 17.5
+  },
+  "them": {
+   "r": 117,
+   "w": 10,
+   "o": 18.0
+  },
+  "batting": [
+   {
+    "name": "Srinath Mirdoddi",
+    "r": 19,
+    "b": 21,
+    "f4": 1,
+    "f6": 0,
+    "out": true,
+    "dis": "c Deepak R b Krishna Chaitanya S"
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "r": 27,
+    "b": 16,
+    "f4": 3,
+    "f6": 1,
+    "out": true,
+    "dis": "c Krishna Chaitanya S b Sudha Kiran G"
+   },
+   {
+    "name": "Mahesh Peddiredla",
+    "r": 27,
+    "b": 27,
+    "f4": 1,
+    "f6": 1,
+    "out": true,
+    "dis": "c Guru N b Deepak R"
+   },
+   {
+    "name": "Ramakanth Reddy Banoori",
+    "r": 18,
+    "b": 21,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c Deepak R b Ravitej P"
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "r": 0,
+    "b": 1,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "b Deepak R"
+   },
+   {
+    "name": "Sai Thota",
+    "r": 0,
+    "b": 3,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "lbw b Deepak R"
+   },
+   {
+    "name": "Ajith Kumaar Ayna Sankar",
+    "r": 16,
+    "b": 15,
+    "f4": 0,
+    "f6": 1,
+    "out": false,
+    "dis": "not out"
+   },
+   {
+    "name": "Sriram Kumar Maddu",
+    "r": 1,
+    "b": 3,
+    "f4": 0,
+    "f6": 0,
+    "out": false,
+    "dis": "not out"
+   }
+  ],
+  "bowling": [
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "o": 2.0,
+    "m": 0,
+    "r": 18,
+    "w": 1
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "o": 2.0,
+    "m": 0,
+    "r": 26,
+    "w": 0
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "o": 4.0,
+    "m": 0,
+    "r": 29,
+    "w": 2
+   },
+   {
+    "name": "Srinath Mirdoddi",
+    "o": 2.0,
+    "m": 0,
+    "r": 21,
+    "w": 0
+   },
+   {
+    "name": "Mahesh Peddiredla",
+    "o": 4.0,
+    "m": 1,
+    "r": 7,
+    "w": 4
+   },
+   {
+    "name": "Sriram Kumar Maddu",
+    "o": 2.0,
+    "m": 0,
+    "r": 9,
+    "w": 2
+   },
+   {
+    "name": "Brooke Shears",
+    "o": 2.0,
+    "m": 0,
+    "r": 6,
+    "w": 1
+   }
+  ],
+  "fielding": [
+   {
+    "name": "Ramakanth Reddy Banoori",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "ct": 3,
+    "st": 0,
+    "ro": 0
+   }
+  ]
+ },
+ {
+  "id": "farmingtoncc_5153",
+  "url": "https://cricclubs.com/farmingtoncc/viewScorecard.do?matchId=5153&clubId=27071",
+  "league": "Farmington CC",
+  "series": "FCC Colors Trophy 2024 - Colors Challengers 2024",
+  "date": "2024-09-14",
+  "opponent": "Fearless Eleven",
+  "batted_first": true,
+  "result": "W",
+  "margin": "by 13 Runs",
+  "us": {
+   "r": 85,
+   "w": 10,
+   "o": 16.3
+  },
+  "them": {
+   "r": 72,
+   "w": 10,
+   "o": 16.5
+  },
+  "batting": [
+   {
+    "name": "Saketh Perala",
+    "r": 0,
+    "b": 2,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c \u2020 Vineeth G b Srikanth Reddy C"
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "r": 23,
+    "b": 25,
+    "f4": 1,
+    "f6": 1,
+    "out": true,
+    "dis": "c \u2020 Vineeth G b Chinku R"
+   },
+   {
+    "name": "Srinath Mirdoddi",
+    "r": 8,
+    "b": 8,
+    "f4": 0,
+    "f6": 1,
+    "out": true,
+    "dis": "c Srikanth Reddy C b Harsha R"
+   },
+   {
+    "name": "Pavan Kanapala",
+    "r": 17,
+    "b": 19,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c Narsa R b Kittu R"
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "r": 0,
+    "b": 1,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "lbw b Kittu R"
+   },
+   {
+    "name": "Yashwanth Gatla",
+    "r": 2,
+    "b": 4,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c \u2020 Vineeth G b Harsha R"
+   },
+   {
+    "name": "Ajith Kumaar Ayna Sankar",
+    "r": 15,
+    "b": 19,
+    "f4": 1,
+    "f6": 1,
+    "out": true,
+    "dis": "b Srikanth Reddy C"
+   },
+   {
+    "name": "Jay Mehta",
+    "r": 9,
+    "b": 11,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c \u2020 Vineeth G b Chinku R"
+   },
+   {
+    "name": "Sriram Kumar Maddu",
+    "r": 0,
+    "b": 2,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "b Chinku R"
+   },
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "r": 3,
+    "b": 4,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c \u2020 Vineeth G b Raheel S"
+   },
+   {
+    "name": "Gowtham P",
+    "r": 0,
+    "b": 4,
+    "f4": 0,
+    "f6": 0,
+    "out": false,
+    "dis": "not out"
+   }
+  ],
+  "bowling": [
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "o": 2.0,
+    "m": 1,
+    "r": 6,
+    "w": 0
+   },
+   {
+    "name": "Jay Mehta",
+    "o": 2.5,
+    "m": 0,
+    "r": 12,
+    "w": 3
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "o": 3.0,
+    "m": 0,
+    "r": 12,
+    "w": 1
+   },
+   {
+    "name": "Srinath Mirdoddi",
+    "o": 1.0,
+    "m": 0,
+    "r": 17,
+    "w": 0
+   },
+   {
+    "name": "Brooke Shears",
+    "o": 4.0,
+    "m": 0,
+    "r": 19,
+    "w": 3
+   },
+   {
+    "name": "Pavan Kanapala",
+    "o": 4.0,
+    "m": 1,
+    "r": 6,
+    "w": 3
+   }
+  ],
+  "fielding": [
+   {
+    "name": "Gowtham P",
+    "ct": 2,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   }
+  ]
+ },
+ {
+  "id": "farmingtoncc_5151",
+  "url": "https://cricclubs.com/farmingtoncc/viewScorecard.do?matchId=5151&clubId=27071",
+  "league": "Farmington CC",
+  "series": "FCC Colors Trophy 2024 - Colors Challengers 2024",
+  "date": "2024-09-12",
+  "opponent": "Warriors",
+  "batted_first": true,
+  "result": "L",
+  "margin": "by 7 Wickets",
+  "us": {
+   "r": 47,
+   "w": 10,
+   "o": 16.3
+  },
+  "them": {
+   "r": 51,
+   "w": 3,
+   "o": 7.0
+  },
+  "batting": [
+   {
+    "name": "Srinath Mirdoddi",
+    "r": 0,
+    "b": 2,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c&b Darshan S"
+   },
+   {
+    "name": "Saketh Perala",
+    "r": 3,
+    "b": 5,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c&b Sai Abhiram N"
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "r": 0,
+    "b": 4,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c Aditya G b Darshan S"
+   },
+   {
+    "name": "Pavan Kanapala",
+    "r": 0,
+    "b": 1,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c Darshan S b Sai Abhiram N"
+   },
+   {
+    "name": "Yashwanth Gatla",
+    "r": 4,
+    "b": 10,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "b Sai Abhiram N"
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "r": 16,
+    "b": 15,
+    "f4": 1,
+    "f6": 1,
+    "out": true,
+    "dis": "c Pratik C b Kunal D"
+   },
+   {
+    "name": "Sai Thota",
+    "r": 5,
+    "b": 9,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "b Ketan J"
+   },
+   {
+    "name": "Jay Mehta",
+    "r": 1,
+    "b": 5,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c Sampath M b Kunal D"
+   },
+   {
+    "name": "Ajith Kumaar Ayna Sankar",
+    "r": 4,
+    "b": 22,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c&b Pratik C"
+   },
+   {
+    "name": "Sriram Kumar Maddu",
+    "r": 6,
+    "b": 16,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "b Pratik C"
+   },
+   {
+    "name": "Brooke Shears",
+    "r": 1,
+    "b": 10,
+    "f4": 0,
+    "f6": 0,
+    "out": false,
+    "dis": "not out"
+   }
+  ],
+  "bowling": [
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "o": 1.0,
+    "m": 0,
+    "r": 7,
+    "w": 0
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "o": 2.0,
+    "m": 0,
+    "r": 11,
+    "w": 0
+   },
+   {
+    "name": "Jay Mehta",
+    "o": 2.0,
+    "m": 0,
+    "r": 10,
+    "w": 3
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "o": 1.0,
+    "m": 0,
+    "r": 10,
+    "w": 0
+   },
+   {
+    "name": "Pavan Kanapala",
+    "o": 1.0,
+    "m": 0,
+    "r": 13,
+    "w": 0
+   }
+  ],
+  "fielding": [
+   {
+    "name": "Saketh Perala",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   }
+  ]
+ },
+ {
+  "id": "MichCA_4583",
+  "url": "https://cricclubs.com/MichCA/viewScorecard.do?matchId=4583&clubId=2119",
+  "league": "Michigan Cricket Association",
+  "series": "2024 GLT",
+  "date": "2024-09-08",
+  "opponent": "MIGR Friends Club MIGR",
+  "batted_first": false,
+  "result": "L",
+  "margin": "by 1 Run",
+  "us": {
+   "r": 142,
+   "w": 8,
+   "o": 20.0
+  },
+  "them": {
+   "r": 143,
+   "w": 8,
+   "o": 20.0
+  },
+  "batting": [
+   {
+    "name": "Srinath Mirdoddi",
+    "r": 21,
+    "b": 29,
+    "f4": 1,
+    "f6": 0,
+    "out": true,
+    "dis": "c \u2020 Chinmay K b Paranjothi G"
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "r": 23,
+    "b": 24,
+    "f4": 1,
+    "f6": 0,
+    "out": true,
+    "dis": "c Atharwa K b Pradeep V"
+   },
+   {
+    "name": "Mahesh Peddiredla",
+    "r": 33,
+    "b": 24,
+    "f4": 4,
+    "f6": 0,
+    "out": true,
+    "dis": "lbw b Paranjothi G"
+   },
+   {
+    "name": "Ramakanth Reddy Banoori",
+    "r": 6,
+    "b": 7,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c Kaashyap K b Rameshkumar R"
+   },
+   {
+    "name": "Ajith Kumaar Ayna Sankar",
+    "r": 0,
+    "b": 1,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c Pradeep V b Vijaykumar G"
+   },
+   {
+    "name": "Prosenroyal Vellanki",
+    "r": 26,
+    "b": 20,
+    "f4": 1,
+    "f6": 1,
+    "out": true,
+    "dis": "c Atharwa K b John J"
+   },
+   {
+    "name": "Sai Thota",
+    "r": 3,
+    "b": 4,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "run out ( Vijaykumar G )"
+   },
+   {
+    "name": "Sriram Kumar Maddu",
+    "r": 2,
+    "b": 5,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "run out ( Mularajsinh R / Paranjothi G )"
+   },
+   {
+    "name": "Sanjay Kadithi",
+    "r": 5,
+    "b": 5,
+    "f4": 0,
+    "f6": 0,
+    "out": false,
+    "dis": "not out"
+   },
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "r": 3,
+    "b": 2,
+    "f4": 0,
+    "f6": 0,
+    "out": false,
+    "dis": "not out"
+   }
+  ],
+  "bowling": [
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "o": 4.0,
+    "m": 0,
+    "r": 29,
+    "w": 0
+   },
+   {
+    "name": "Prosenroyal Vellanki",
+    "o": 4.0,
+    "m": 0,
+    "r": 21,
+    "w": 1
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "o": 4.0,
+    "m": 0,
+    "r": 24,
+    "w": 5
+   },
+   {
+    "name": "Sriram Kumar Maddu",
+    "o": 1.0,
+    "m": 0,
+    "r": 11,
+    "w": 0
+   },
+   {
+    "name": "Mahesh Peddiredla",
+    "o": 3.0,
+    "m": 0,
+    "r": 23,
+    "w": 1
+   },
+   {
+    "name": "Brooke Shears",
+    "o": 4.0,
+    "m": 0,
+    "r": 35,
+    "w": 0
+   }
+  ],
+  "fielding": [
+   {
+    "name": "Gowtham Reddy Palnati",
+    "ct": 1,
+    "st": 0,
+    "ro": 1
+   },
+   {
+    "name": "Sai Thota",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   }
+  ]
+ },
+ {
+  "id": "MichCA_4536",
+  "url": "https://cricclubs.com/MichCA/viewScorecard.do?matchId=4536&clubId=2119",
+  "league": "Michigan Cricket Association",
+  "series": "2024 GLT",
+  "date": "2024-08-24",
+  "opponent": "Quick Gun QKGN",
+  "batted_first": true,
+  "result": "L",
+  "margin": "by 6 Wickets",
+  "us": {
+   "r": 104,
+   "w": 8,
+   "o": 20.0
+  },
+  "them": {
+   "r": 105,
+   "w": 4,
+   "o": 18.1
+  },
+  "batting": [
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "r": 4,
+    "b": 5,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c Aakash N b Koushik T"
+   },
+   {
+    "name": "Srinath Mirdoddi",
+    "r": 12,
+    "b": 8,
+    "f4": 2,
+    "f6": 0,
+    "out": true,
+    "dis": "c Krishna karthik A b Vivek S"
+   },
+   {
+    "name": "Sai Thota",
+    "r": 4,
+    "b": 5,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c&b Aakash N"
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "r": 6,
+    "b": 12,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c \u2020 Mahesh S b Koushik T"
+   },
+   {
+    "name": "Gowtham Reddy Palnati",
+    "r": 2,
+    "b": 12,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c \u2020 Mahesh S b Mangeshwar V"
+   },
+   {
+    "name": "Mahesh Peddiredla",
+    "r": 23,
+    "b": 23,
+    "f4": 1,
+    "f6": 1,
+    "out": true,
+    "dis": "c Tharun Kumar V b Bharath M"
+   },
+   {
+    "name": "Ramakanth Reddy Banoori",
+    "r": 28,
+    "b": 26,
+    "f4": 1,
+    "f6": 0,
+    "out": false,
+    "dis": "Retired Hurt"
+   },
+   {
+    "name": "Sanjay Kadithi",
+    "r": 1,
+    "b": 14,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c Tharun Kumar V b Mangeshwar V"
+   },
+   {
+    "name": "Prosenroyal Vellanki",
+    "r": 15,
+    "b": 14,
+    "f4": 0,
+    "f6": 0,
+    "out": false,
+    "dis": "not out"
+   },
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "r": 1,
+    "b": 1,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "run out ( Santosh R / Vivek S )"
+   },
+   {
+    "name": "Brooke Shears",
+    "r": 0,
+    "b": 0,
+    "f4": 0,
+    "f6": 0,
+    "out": false,
+    "dis": "not out"
+   }
+  ],
+  "bowling": [
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "o": 4.0,
+    "m": 0,
+    "r": 26,
+    "w": 0
+   },
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "o": 3.0,
+    "m": 0,
+    "r": 17,
+    "w": 0
+   },
+   {
+    "name": "Prosenroyal Vellanki",
+    "o": 4.0,
+    "m": 0,
+    "r": 19,
+    "w": 2
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "o": 3.0,
+    "m": 0,
+    "r": 17,
+    "w": 1
+   },
+   {
+    "name": "Mahesh Peddiredla",
+    "o": 3.1,
+    "m": 0,
+    "r": 19,
+    "w": 0
+   },
+   {
+    "name": "Brooke Shears",
+    "o": 1.0,
+    "m": 0,
+    "r": 6,
+    "w": 0
+   }
+  ],
+  "fielding": [
+   {
+    "name": "Mahesh Peddiredla",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "ct": 0,
+    "st": 0,
+    "ro": 1
+   }
+  ]
+ },
+ {
+  "id": "MichCA_4493",
+  "url": "https://cricclubs.com/MichCA/viewScorecard.do?matchId=4493&clubId=2119",
+  "league": "Michigan Cricket Association",
+  "series": "2024 T20 - Division II",
+  "date": "2024-08-11",
+  "opponent": "Rochester Hills CC RHCC",
+  "batted_first": true,
+  "result": "W",
+  "margin": "by 52 Runs",
+  "us": {
+   "r": 160,
+   "w": 2,
+   "o": 20.0
+  },
+  "them": {
+   "r": 108,
+   "w": 8,
+   "o": 20.0
+  },
+  "batting": [
+   {
+    "name": "Raja Vasamsetty",
+    "r": 61,
+    "b": 54,
+    "f4": 2,
+    "f6": 1,
+    "out": false,
+    "dis": "not out"
+   },
+   {
+    "name": "Saketh Nandhan",
+    "r": 10,
+    "b": 8,
+    "f4": 1,
+    "f6": 0,
+    "out": true,
+    "dis": "c \u2020 Abhijith P b Shrikanth G"
+   },
+   {
+    "name": "Mahesh Peddiredla",
+    "r": 60,
+    "b": 46,
+    "f4": 4,
+    "f6": 0,
+    "out": true,
+    "dis": "c Shrikanth G b Virendra S"
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "r": 16,
+    "b": 12,
+    "f4": 0,
+    "f6": 1,
+    "out": false,
+    "dis": "not out"
+   }
+  ],
+  "bowling": [
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "o": 2.0,
+    "m": 0,
+    "r": 9,
+    "w": 1
+   },
+   {
+    "name": "Srinath Mirdoddi",
+    "o": 3.0,
+    "m": 0,
+    "r": 10,
+    "w": 1
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "o": 2.0,
+    "m": 0,
+    "r": 11,
+    "w": 0
+   },
+   {
+    "name": "Brooke Shears",
+    "o": 4.0,
+    "m": 0,
+    "r": 23,
+    "w": 2
+   },
+   {
+    "name": "Pavan Kanapala",
+    "o": 4.0,
+    "m": 0,
+    "r": 23,
+    "w": 3
+   },
+   {
+    "name": "Mahesh Peddiredla",
+    "o": 1.0,
+    "m": 0,
+    "r": 8,
+    "w": 0
+   },
+   {
+    "name": "Nikhil Nune",
+    "o": 4.0,
+    "m": 0,
+    "r": 23,
+    "w": 1
+   }
+  ],
+  "fielding": [
+   {
+    "name": "Raja Vasamsetty",
+    "ct": 2,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Brooke Shears",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Srinath Mirdoddi",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Saketh Nandhan",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   }
+  ]
+ },
+ {
+  "id": "MichCA_4370",
+  "url": "https://cricclubs.com/MichCA/viewScorecard.do?matchId=4370&clubId=2119",
+  "league": "Michigan Cricket Association",
+  "series": "2024 T20 - Division II",
+  "date": "2024-07-21",
+  "opponent": "Odia CA Lancers ODCL",
+  "batted_first": true,
+  "result": "L",
+  "margin": "by 5 Wickets",
+  "us": {
+   "r": 134,
+   "w": 9,
+   "o": 20.0
+  },
+  "them": {
+   "r": 135,
+   "w": 5,
+   "o": 18.3
+  },
+  "batting": [
+   {
+    "name": "Saketh Nandhan",
+    "r": 23,
+    "b": 33,
+    "f4": 1,
+    "f6": 0,
+    "out": true,
+    "dis": "c Sudhakar D b Siva K"
+   },
+   {
+    "name": "Mahesh Peddiredla",
+    "r": 3,
+    "b": 3,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "lbw b Sudhakar D"
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "r": 23,
+    "b": 27,
+    "f4": 4,
+    "f6": 0,
+    "out": true,
+    "dis": "c Karthik M b Siva K"
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "r": 36,
+    "b": 20,
+    "f4": 4,
+    "f6": 1,
+    "out": true,
+    "dis": "run out ( Mustafa M )"
+   },
+   {
+    "name": "Ramakanth Reddy Banoori",
+    "r": 3,
+    "b": 5,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "b Mustafa M"
+   },
+   {
+    "name": "Srinath Mirdoddi",
+    "r": 18,
+    "b": 12,
+    "f4": 3,
+    "f6": 0,
+    "out": true,
+    "dis": "c Madhu K b Mustafa M"
+   },
+   {
+    "name": "Rakesh Ind",
+    "r": 0,
+    "b": 1,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "b Madhu K"
+   },
+   {
+    "name": "Brooke Shears",
+    "r": 6,
+    "b": 6,
+    "f4": 1,
+    "f6": 0,
+    "out": true,
+    "dis": "c Rajaraj R b Madhu K"
+   },
+   {
+    "name": "Yashwanth Gatla",
+    "r": 7,
+    "b": 8,
+    "f4": 1,
+    "f6": 0,
+    "out": true,
+    "dis": "run out ( Siva K )"
+   },
+   {
+    "name": "Gowtham Reddy Palnati",
+    "r": 2,
+    "b": 5,
+    "f4": 0,
+    "f6": 0,
+    "out": false,
+    "dis": "not out"
+   }
+  ],
+  "bowling": [
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "o": 4.0,
+    "m": 0,
+    "r": 19,
+    "w": 2
+   },
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "o": 4.0,
+    "m": 0,
+    "r": 36,
+    "w": 1
+   },
+   {
+    "name": "Mahesh Peddiredla",
+    "o": 4.0,
+    "m": 0,
+    "r": 25,
+    "w": 0
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "o": 3.3,
+    "m": 0,
+    "r": 27,
+    "w": 1
+   },
+   {
+    "name": "Brooke Shears",
+    "o": 3.0,
+    "m": 0,
+    "r": 28,
+    "w": 1
+   }
+  ],
+  "fielding": [
+   {
+    "name": "Ramakanth Reddy Banoori",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "ct": 2,
+    "st": 0,
+    "ro": 0
+   }
+  ]
+ },
+ {
+  "id": "MichCA_4355",
+  "url": "https://cricclubs.com/MichCA/viewScorecard.do?matchId=4355&clubId=2119",
+  "league": "Michigan Cricket Association",
+  "series": "2024 T20 - Division II",
+  "date": "2024-07-14",
+  "opponent": "Michigan Bengals CC Warriors MBCW",
+  "batted_first": false,
+  "result": "W",
+  "margin": "by 5 Wickets",
+  "us": {
+   "r": 75,
+   "w": 5,
+   "o": 13.1
+  },
+  "them": {
+   "r": 72,
+   "w": 6,
+   "o": 20.0
+  },
+  "batting": [
+   {
+    "name": "Saketh Nandhan",
+    "r": 3,
+    "b": 14,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "b Golam M"
+   },
+   {
+    "name": "Mahesh Peddiredla",
+    "r": 0,
+    "b": 1,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c \u2020 SAIF S b Wasif J"
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "r": 41,
+    "b": 38,
+    "f4": 3,
+    "f6": 1,
+    "out": false,
+    "dis": "not out"
+   },
+   {
+    "name": "Ramakanth Reddy Banoori",
+    "r": 1,
+    "b": 4,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c \u2020 Sazzad A b Avishak B"
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "r": 8,
+    "b": 8,
+    "f4": 1,
+    "f6": 0,
+    "out": true,
+    "dis": "lbw b Avishak B"
+   },
+   {
+    "name": "Srinath Mirdoddi",
+    "r": 17,
+    "b": 14,
+    "f4": 0,
+    "f6": 1,
+    "out": true,
+    "dis": "c Golam M b Avishak B"
+   },
+   {
+    "name": "Sai Thota",
+    "r": 0,
+    "b": 0,
+    "f4": 0,
+    "f6": 0,
+    "out": false,
+    "dis": "not out"
+   }
+  ],
+  "bowling": [
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "o": 4.0,
+    "m": 0,
+    "r": 7,
+    "w": 0
+   },
+   {
+    "name": "Brooke Shears",
+    "o": 4.0,
+    "m": 0,
+    "r": 19,
+    "w": 1
+   },
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "o": 4.0,
+    "m": 0,
+    "r": 17,
+    "w": 0
+   },
+   {
+    "name": "Mahesh Peddiredla",
+    "o": 4.0,
+    "m": 0,
+    "r": 19,
+    "w": 2
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "o": 4.0,
+    "m": 0,
+    "r": 9,
+    "w": 3
+   }
+  ],
+  "fielding": [
+   {
+    "name": "Yashwanth Gatla",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Srinath Mirdoddi",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   }
+  ]
+ },
+ {
+  "id": "MichCA_4284",
+  "url": "https://cricclubs.com/MichCA/viewScorecard.do?matchId=4284&clubId=2119",
+  "league": "Michigan Cricket Association",
+  "series": "2024 T20 - Division II",
+  "date": "2024-06-23",
+  "opponent": "Michigan International CA Thunderbirds MICA",
+  "batted_first": false,
+  "result": "L",
+  "margin": "by 19 Runs",
+  "us": {
+   "r": 122,
+   "w": 10,
+   "o": 19.3
+  },
+  "them": {
+   "r": 141,
+   "w": 7,
+   "o": 20.0
+  },
+  "batting": [
+   {
+    "name": "Saketh Nandhan",
+    "r": 20,
+    "b": 26,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c Harsha P b Manoj Prabhakar S"
+   },
+   {
+    "name": "Srinath Mirdoddi",
+    "r": 0,
+    "b": 5,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c Manoj Prabhakar S b Bhoopal Reddy N"
+   },
+   {
+    "name": "Mahesh Peddiredla",
+    "r": 29,
+    "b": 32,
+    "f4": 1,
+    "f6": 0,
+    "out": true,
+    "dis": "St Likhit R b Umesh B"
+   },
+   {
+    "name": "Ramakanth Reddy Banoori",
+    "r": 11,
+    "b": 15,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c&b Umesh B"
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "r": 17,
+    "b": 13,
+    "f4": 2,
+    "f6": 0,
+    "out": true,
+    "dis": "c Srinivasan E b Bhoopal Reddy N"
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "r": 10,
+    "b": 7,
+    "f4": 1,
+    "f6": 0,
+    "out": true,
+    "dis": "c \u2020 Likhit R b SANTHUR R"
+   },
+   {
+    "name": "Rakesh Ind",
+    "r": 0,
+    "b": 2,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c Karthik T b SANTHUR R"
+   },
+   {
+    "name": "Yashwanth Gatla",
+    "r": 2,
+    "b": 5,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c Suvineeth R b Umesh B"
+   },
+   {
+    "name": "Gowtham Reddy Palnati",
+    "r": 0,
+    "b": 2,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "lbw b SANTHUR R"
+   },
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "r": 7,
+    "b": 5,
+    "f4": 0,
+    "f6": 0,
+    "out": false,
+    "dis": "not out"
+   },
+   {
+    "name": "Hareesh Girinadhuni",
+    "r": 0,
+    "b": 6,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "b Bhoopal Reddy N"
+   }
+  ],
+  "bowling": [
+   {
+    "name": "Mahesh Peddiredla",
+    "o": 4.0,
+    "m": 0,
+    "r": 23,
+    "w": 1
+   },
+   {
+    "name": "Ramakanth Reddy Banoori",
+    "o": 4.0,
+    "m": 0,
+    "r": 34,
+    "w": 0
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "o": 4.0,
+    "m": 0,
+    "r": 29,
+    "w": 2
+   },
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "o": 4.0,
+    "m": 0,
+    "r": 23,
+    "w": 1
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "o": 4.0,
+    "m": 0,
+    "r": 32,
+    "w": 2
+   }
+  ],
+  "fielding": [
+   {
+    "name": "Gowtham Reddy Palnati",
+    "ct": 0,
+    "st": 1,
+    "ro": 0
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "ct": 1,
+    "st": 0,
+    "ro": 1
+   }
+  ]
+ },
+ {
+  "id": "MichCA_4241",
+  "url": "https://cricclubs.com/MichCA/viewScorecard.do?matchId=4241&clubId=2119",
+  "league": "Michigan Cricket Association",
+  "series": "2024 T20 - Division II",
+  "date": "2024-06-16",
+  "opponent": "Hurricanes Cricket Club Heroes HCCH",
+  "batted_first": false,
+  "result": "L",
+  "margin": "by 49 Runs",
+  "us": {
+   "r": 121,
+   "w": 9,
+   "o": 20.0
+  },
+  "them": {
+   "r": 170,
+   "w": 5,
+   "o": 20.0
+  },
+  "batting": [
+   {
+    "name": "Saketh Nandhan",
+    "r": 6,
+    "b": 10,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c Anil Reddy G b Gopi N"
+   },
+   {
+    "name": "Rakesh Ind",
+    "r": 10,
+    "b": 16,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c Hari P b Eswara Rao V"
+   },
+   {
+    "name": "Srinath Mirdoddi",
+    "r": 0,
+    "b": 2,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c Eswara Rao V b Ranjith P"
+   },
+   {
+    "name": "Ramakanth Reddy Banoori",
+    "r": 8,
+    "b": 13,
+    "f4": 1,
+    "f6": 0,
+    "out": true,
+    "dis": "b Gopi N"
+   },
+   {
+    "name": "Yashwanth Gatla",
+    "r": 12,
+    "b": 13,
+    "f4": 1,
+    "f6": 0,
+    "out": true,
+    "dis": "lbw b Gopi N"
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "r": 12,
+    "b": 8,
+    "f4": 1,
+    "f6": 1,
+    "out": true,
+    "dis": "c&b Eswara Rao V"
+   },
+   {
+    "name": "Gowtham Reddy Palnati",
+    "r": 0,
+    "b": 3,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "lbw b Eswara Rao V"
+   },
+   {
+    "name": "Satyajeet Shinde",
+    "r": 35,
+    "b": 35,
+    "f4": 3,
+    "f6": 0,
+    "out": true,
+    "dis": "c Gopi N b Vikash D"
+   },
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "r": 6,
+    "b": 16,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c&b Amith S"
+   },
+   {
+    "name": "Sai Thota",
+    "r": 10,
+    "b": 6,
+    "f4": 1,
+    "f6": 0,
+    "out": false,
+    "dis": "not out"
+   }
+  ],
+  "bowling": [
+   {
+    "name": "Sachin Bamane",
+    "o": 1.0,
+    "m": 0,
+    "r": 6,
+    "w": 0
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "o": 4.0,
+    "m": 0,
+    "r": 35,
+    "w": 1
+   },
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "o": 4.0,
+    "m": 0,
+    "r": 39,
+    "w": 1
+   },
+   {
+    "name": "Sai Thota",
+    "o": 2.0,
+    "m": 0,
+    "r": 24,
+    "w": 0
+   },
+   {
+    "name": "Rakesh Ind",
+    "o": 4.0,
+    "m": 0,
+    "r": 25,
+    "w": 1
+   },
+   {
+    "name": "Ramakanth Reddy Banoori",
+    "o": 4.0,
+    "m": 0,
+    "r": 19,
+    "w": 1
+   },
+   {
+    "name": "Srinath Mirdoddi",
+    "o": 1.0,
+    "m": 0,
+    "r": 19,
+    "w": 0
+   }
+  ],
+  "fielding": [
+   {
+    "name": "Ramakanth Reddy Banoori",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Saketh Nandhan",
+    "ct": 0,
+    "st": 0,
+    "ro": 1
+   }
+  ]
+ },
+ {
+  "id": "MichCA_4228",
+  "url": "https://cricclubs.com/MichCA/viewScorecard.do?matchId=4228&clubId=2119",
+  "league": "Michigan Cricket Association",
+  "series": "2024 T20 - Division II",
+  "date": "2024-06-09",
+  "opponent": "Michigan Dreamers MIDS",
+  "batted_first": true,
+  "result": "L",
+  "margin": "by 4 Wickets",
+  "us": {
+   "r": 90,
+   "w": 9,
+   "o": 20.0
+  },
+  "them": {
+   "r": 91,
+   "w": 6,
+   "o": 19.4
+  },
+  "batting": [
+   {
+    "name": "Saketh Nandhan",
+    "r": 18,
+    "b": 31,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c Chy M b Shakil A"
+   },
+   {
+    "name": "Srinath Mirdoddi",
+    "r": 1,
+    "b": 5,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "b Kabir A"
+   },
+   {
+    "name": "Mahesh Peddiredla",
+    "r": 7,
+    "b": 11,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c \u2020 Chy M b Mahbub R"
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "r": 21,
+    "b": 31,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "b Mahbub R"
+   },
+   {
+    "name": "Yashwanth Gatla",
+    "r": 0,
+    "b": 1,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "b Salman S"
+   },
+   {
+    "name": "Brooke Shears",
+    "r": 11,
+    "b": 25,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "St Chy M b Musaddique Ahmed C"
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "r": 9,
+    "b": 8,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "run out ( Ruhul A / Chy M )"
+   },
+   {
+    "name": "Rakesh Ind",
+    "r": 2,
+    "b": 4,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "run out ( Amir H )"
+   },
+   {
+    "name": "Gowtham Reddy Palnati",
+    "r": 2,
+    "b": 4,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "run out ( Mahbub R )"
+   },
+   {
+    "name": "Sai Thota",
+    "r": 0,
+    "b": 0,
+    "f4": 0,
+    "f6": 0,
+    "out": false,
+    "dis": "not out"
+   }
+  ],
+  "bowling": [
+   {
+    "name": "Sachin Bamane",
+    "o": 4.0,
+    "m": 0,
+    "r": 11,
+    "w": 0
+   },
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "o": 1.0,
+    "m": 0,
+    "r": 11,
+    "w": 0
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "o": 3.0,
+    "m": 0,
+    "r": 23,
+    "w": 0
+   },
+   {
+    "name": "Brooke Shears",
+    "o": 4.0,
+    "m": 0,
+    "r": 10,
+    "w": 3
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "o": 4.0,
+    "m": 0,
+    "r": 15,
+    "w": 1
+   },
+   {
+    "name": "Mahesh Peddiredla",
+    "o": 3.4,
+    "m": 0,
+    "r": 19,
+    "w": 2
+   }
+  ],
+  "fielding": [
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "ct": 2,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Gowtham Reddy Palnati",
+    "ct": 1,
+    "st": 1,
+    "ro": 0
+   },
+   {
+    "name": "Mahesh Peddiredla",
+    "ct": 0,
+    "st": 1,
+    "ro": 0
+   }
+  ]
+ },
+ {
+  "id": "MichCA_4192",
+  "url": "https://cricclubs.com/MichCA/viewScorecard.do?matchId=4192&clubId=2119",
+  "league": "Michigan Cricket Association",
+  "series": "2024 T20 - Division II",
+  "date": "2024-06-02",
+  "opponent": "Troy CA Stars TCAS",
+  "batted_first": false,
+  "result": "L",
+  "margin": "by 26 Runs",
+  "us": {
+   "r": 89,
+   "w": 10,
+   "o": 17.5
+  },
+  "them": {
+   "r": 115,
+   "w": 8,
+   "o": 20.0
+  },
+  "batting": [
+   {
+    "name": "Srinath Mirdoddi",
+    "r": 4,
+    "b": 8,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c Krishna Chaitanya D b Ram K"
+   },
+   {
+    "name": "Saketh Nandhan",
+    "r": 9,
+    "b": 17,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "b Rohit G"
+   },
+   {
+    "name": "Mahesh Peddiredla",
+    "r": 8,
+    "b": 9,
+    "f4": 1,
+    "f6": 0,
+    "out": true,
+    "dis": "c \u2020 Krishna karthik A b Mularajsinh R"
+   },
+   {
+    "name": "Ramakanth Reddy Banoori",
+    "r": 14,
+    "b": 22,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c Mularajsinh R b Rohit G"
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "r": 13,
+    "b": 23,
+    "f4": 1,
+    "f6": 0,
+    "out": true,
+    "dis": "c Varadarajan B b Nayan P"
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "r": 17,
+    "b": 18,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "lbw b Krishna karthik A"
+   },
+   {
+    "name": "Brooke Shears",
+    "r": 0,
+    "b": 2,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c \u2020 Rohit G b Nayan P"
+   },
+   {
+    "name": "Daara Sahu",
+    "r": 4,
+    "b": 6,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "run out ( Krishna karthik A )"
+   },
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "r": 0,
+    "b": 1,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "b Krishna karthik A"
+   },
+   {
+    "name": "Gowtham Reddy Palnati",
+    "r": 0,
+    "b": 1,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "run out ( Rohit G )"
+   },
+   {
+    "name": "Sai Thota",
+    "r": 1,
+    "b": 1,
+    "f4": 0,
+    "f6": 0,
+    "out": false,
+    "dis": "not out"
+   }
+  ],
+  "bowling": [
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "o": 3.0,
+    "m": 0,
+    "r": 22,
+    "w": 0
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "o": 3.0,
+    "m": 0,
+    "r": 27,
+    "w": 0
+   },
+   {
+    "name": "Srinath Mirdoddi",
+    "o": 1.0,
+    "m": 0,
+    "r": 10,
+    "w": 0
+   },
+   {
+    "name": "Sachin Bamane",
+    "o": 4.0,
+    "m": 0,
+    "r": 14,
+    "w": 2
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "o": 1.0,
+    "m": 0,
+    "r": 2,
+    "w": 0
+   },
+   {
+    "name": "Brooke Shears",
+    "o": 4.0,
+    "m": 0,
+    "r": 14,
+    "w": 1
+   },
+   {
+    "name": "Mahesh Peddiredla",
+    "o": 4.0,
+    "m": 0,
+    "r": 23,
+    "w": 0
+   }
+  ],
+  "fielding": [
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "ct": 0,
+    "st": 0,
+    "ro": 1
+   },
+   {
+    "name": "Gowtham Reddy Palnati",
+    "ct": 0,
+    "st": 0,
+    "ro": 1
+   },
+   {
+    "name": "Mahesh Peddiredla",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Sachin Bamane",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "ct": 0,
+    "st": 0,
+    "ro": 2
+   }
+  ]
+ },
+ {
+  "id": "MichCA_4145",
+  "url": "https://cricclubs.com/MichCA/viewScorecard.do?matchId=4145&clubId=2119",
+  "league": "Michigan Cricket Association",
+  "series": "2024 T20 - Division II",
+  "date": "2024-05-19",
+  "opponent": "Detroit Super Kings CC Bulls DSKB",
+  "batted_first": false,
+  "result": "W",
+  "margin": "by 6 Wickets",
+  "us": {
+   "r": 129,
+   "w": 4,
+   "o": 18.4
+  },
+  "them": {
+   "r": 128,
+   "w": 4,
+   "o": 20.0
+  },
+  "batting": [
+   {
+    "name": "Raja Vasamsetty",
+    "r": 15,
+    "b": 20,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c Priyesh G b Prasenna G"
+   },
+   {
+    "name": "Srinath Mirdoddi",
+    "r": 7,
+    "b": 7,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c Tharun Kumar V b Mangeshwar V"
+   },
+   {
+    "name": "Rakesh Ind",
+    "r": 14,
+    "b": 20,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "lbw b Priyesh G"
+   },
+   {
+    "name": "Ramakanth Reddy Banoori",
+    "r": 33,
+    "b": 30,
+    "f4": 0,
+    "f6": 1,
+    "out": false,
+    "dis": "not out"
+   },
+   {
+    "name": "Brooke Shears",
+    "r": 8,
+    "b": 18,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c Shakthi P b Priyesh G"
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "r": 38,
+    "b": 17,
+    "f4": 0,
+    "f6": 4,
+    "out": false,
+    "dis": "not out"
+   }
+  ],
+  "bowling": [
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "o": 3.0,
+    "m": 0,
+    "r": 17,
+    "w": 0
+   },
+   {
+    "name": "Raghavendra Chandrappa",
+    "o": 4.0,
+    "m": 0,
+    "r": 28,
+    "w": 0
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "o": 4.0,
+    "m": 0,
+    "r": 23,
+    "w": 0
+   },
+   {
+    "name": "Brooke Shears",
+    "o": 4.0,
+    "m": 0,
+    "r": 19,
+    "w": 1
+   },
+   {
+    "name": "Sachin Bamane",
+    "o": 3.0,
+    "m": 0,
+    "r": 22,
+    "w": 1
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "o": 2.0,
+    "m": 0,
+    "r": 12,
+    "w": 0
+   }
+  ],
+  "fielding": [
+   {
+    "name": "Yashwanth Gatla",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   }
+  ]
+ },
+ {
+  "id": "MichCA_4085",
+  "url": "https://cricclubs.com/MichCA/viewScorecard.do?matchId=4085&clubId=2119",
+  "league": "Michigan Cricket Association",
+  "series": "2024 T20 - Division II",
+  "date": "2024-05-05",
+  "opponent": "South Peninsula Cricket Association SPCA",
+  "batted_first": false,
+  "result": "W",
+  "margin": "by 9 Wickets",
+  "us": {
+   "r": 100,
+   "w": 1,
+   "o": 15.2
+  },
+  "them": {
+   "r": 97,
+   "w": 10,
+   "o": 19.3
+  },
+  "batting": [
+   {
+    "name": "Srinath Mirdoddi",
+    "r": 6,
+    "b": 13,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c \u2020 Srikanth K b Vyasa Krishna B"
+   },
+   {
+    "name": "Saketh Nandhan",
+    "r": 45,
+    "b": 38,
+    "f4": 0,
+    "f6": 2,
+    "out": false,
+    "dis": "not out"
+   },
+   {
+    "name": "Mahesh Peddiredla",
+    "r": 43,
+    "b": 43,
+    "f4": 1,
+    "f6": 0,
+    "out": false,
+    "dis": "not out"
+   }
+  ],
+  "bowling": [
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "o": 2.0,
+    "m": 0,
+    "r": 11,
+    "w": 1
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "o": 3.3,
+    "m": 0,
+    "r": 16,
+    "w": 1
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "o": 4.0,
+    "m": 0,
+    "r": 24,
+    "w": 0
+   },
+   {
+    "name": "Rakesh Ind",
+    "o": 2.0,
+    "m": 0,
+    "r": 11,
+    "w": 1
+   },
+   {
+    "name": "Mahesh Peddiredla",
+    "o": 4.0,
+    "m": 0,
+    "r": 23,
+    "w": 2
+   },
+   {
+    "name": "Brooke Shears",
+    "o": 4.0,
+    "m": 1,
+    "r": 12,
+    "w": 3
+   }
+  ],
+  "fielding": [
+   {
+    "name": "Gowtham Reddy Palnati",
+    "ct": 2,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Brooke Shears",
+    "ct": 0,
+    "st": 0,
+    "ro": 1
+   },
+   {
+    "name": "Ramakanth Reddy Banoori",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   }
+  ]
  }
 ]
