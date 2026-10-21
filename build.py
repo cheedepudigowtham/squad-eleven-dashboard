@@ -310,7 +310,7 @@ def tidy_names(matches):
 def bookmarklet(cfg):
     """The 'Squad Eleven Update' button, as a javascript: link with config.json baked in."""
     src = (ROOT / "bookmarklet.js").read_text(encoding="utf-8")
-    conf = {"aliases": cfg["team_aliases"], "repo": cfg.get("github_repo", ""),
+    conf = {"aliases": cfg["team_aliases"], "repo": cfg.get("github_repo", ""), "from": cfg.get("seasons_from", 2023),
             "sources": [{"league": s["league"], "url": s["url"], "club_id": s.get("club_id", "")} for s in cfg["sources"]]}
     src = src.replace("__CONFIG__", json.dumps(conf))
     src = re.sub(r"/\*.*?\*/", "", src, flags=re.S)
