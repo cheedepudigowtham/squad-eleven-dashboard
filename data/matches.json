@@ -555,12 +555,12 @@
    },
    {
     "name": "Ashok Kumar Kotagari",
-    "ct": 1,
+    "ct": 2,
     "st": 0,
     "ro": 0
    },
    {
-    "name": "Srikanth",
+    "name": "Srikanth Boyina",
     "ct": 1,
     "st": 0,
     "ro": 0
@@ -1304,7 +1304,7 @@
   ],
   "fielding": [
    {
-    "name": "Srikanth",
+    "name": "Srikanth Boyina",
     "ct": 1,
     "st": 0,
     "ro": 0
@@ -3718,7 +3718,7 @@
   ],
   "fielding": [
    {
-    "name": "Srikanth",
+    "name": "Srikanth Boyina",
     "ct": 1,
     "st": 0,
     "ro": 0
@@ -4266,7 +4266,7 @@
     "ro": 0
    },
    {
-    "name": "Srikanth",
+    "name": "Srikanth Boyina",
     "ct": 1,
     "st": 0,
     "ro": 0
@@ -6704,7 +6704,7 @@
     "ro": 0
    },
    {
-    "name": "Srikanth",
+    "name": "Srikanth Boyina",
     "ct": 1,
     "st": 0,
     "ro": 0
@@ -6853,6 +6853,178 @@
     "ct": 1,
     "st": 0,
     "ro": 1
+   }
+  ]
+ },
+ {
+  "id": "farmingtoncc_6377",
+  "url": "https://cricclubs.com/farmingtoncc/viewScorecard.do?matchId=6377&clubId=27071",
+  "league": "Farmington CC",
+  "series": "1947 FCC Winter Trophy 2025-26 - Winter Challengers 2026",
+  "date": "2026-01-16",
+  "opponent": "BLACC OG's",
+  "batted_first": false,
+  "result": "L",
+  "margin": "by 33 Runs",
+  "us": {
+   "r": 120,
+   "w": 7,
+   "o": 20.0
+  },
+  "them": {
+   "r": 153,
+   "w": 7,
+   "o": 20.0
+  },
+  "batting": [
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "r": 15,
+    "b": 15,
+    "f4": 1,
+    "f6": 1,
+    "out": true,
+    "dis": "b Praveer A"
+   },
+   {
+    "name": "Sriram Kumar Maddu",
+    "r": 51,
+    "b": 42,
+    "f4": 4,
+    "f6": 3,
+    "out": true,
+    "dis": "c \u2020 Rakesh P b Nani Y"
+   },
+   {
+    "name": "Pranav Reddy Ala",
+    "r": 6,
+    "b": 15,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c Praveer A b Abhishek S"
+   },
+   {
+    "name": "Sai Abhiram Nibhanupudi",
+    "r": 14,
+    "b": 21,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c \u2020 Rakesh P b Anish K"
+   },
+   {
+    "name": "Ajith Kumaar Ayna Sankar",
+    "r": 2,
+    "b": 6,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "b Nani Y"
+   },
+   {
+    "name": "Jeevan Ciravandla",
+    "r": 0,
+    "b": 5,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "b Swarna Rahul M"
+   },
+   {
+    "name": "Mani Rathnam Thigulla",
+    "r": 17,
+    "b": 14,
+    "f4": 1,
+    "f6": 1,
+    "out": true,
+    "dis": "b Anish K"
+   },
+   {
+    "name": "Gowtham P",
+    "r": 2,
+    "b": 4,
+    "f4": 0,
+    "f6": 0,
+    "out": false,
+    "dis": "not out"
+   },
+   {
+    "name": "Mithun Dama",
+    "r": 4,
+    "b": 1,
+    "f4": 1,
+    "f6": 0,
+    "out": false,
+    "dis": "not out"
+   }
+  ],
+  "bowling": [
+   {
+    "name": "Mithun Dama",
+    "o": 4.0,
+    "m": 0,
+    "r": 18,
+    "w": 1
+   },
+   {
+    "name": "Mani Rathnam Thigulla",
+    "o": 4.0,
+    "m": 0,
+    "r": 34,
+    "w": 1
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "o": 4.0,
+    "m": 0,
+    "r": 24,
+    "w": 1
+   },
+   {
+    "name": "Lochan Akkaraju",
+    "o": 4.0,
+    "m": 0,
+    "r": 41,
+    "w": 1
+   },
+   {
+    "name": "Sriram Kumar Maddu",
+    "o": 4.0,
+    "m": 0,
+    "r": 36,
+    "w": 0
+   }
+  ],
+  "dnb": [
+   "Lochan Akkaraju",
+   "Brooke Shears",
+   "Srikanth Boyina"
+  ],
+  "fielding": [
+   {
+    "name": "Sai Abhiram Nibhanupudi",
+    "ct": 0,
+    "st": 0,
+    "ro": 2
+   },
+   {
+    "name": "Pranav Reddy Ala",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Ajith Kumaar Ayna Sankar",
+    "ct": 0,
+    "st": 0,
+    "ro": 1
+   },
+   {
+    "name": "Mithun Dama",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
    }
   ]
  },
@@ -9088,7 +9260,7 @@
     "ro": 0
    },
    {
-    "name": "Srikanth",
+    "name": "Srikanth Boyina",
     "ct": 1,
     "st": 0,
     "ro": 0
@@ -11175,13 +11347,199 @@
     "ro": 0
    },
    {
-    "name": "Rakesh I",
+    "name": "Rakesh Indla",
     "ct": 1,
     "st": 0,
     "ro": 0
    },
    {
     "name": "Mani Rathnam Thigulla",
+    "ct": 0,
+    "st": 0,
+    "ro": 1
+   }
+  ]
+ },
+ {
+  "id": "farmingtoncc_5619",
+  "url": "https://cricclubs.com/farmingtoncc/viewScorecard.do?matchId=5619&clubId=27071",
+  "league": "Farmington CC",
+  "series": "FCC Winter Trophy 2024-25 - Winter Contenders 2025",
+  "date": "2025-02-21",
+  "opponent": "Titans",
+  "batted_first": false,
+  "result": "L",
+  "margin": "Super Over",
+  "us": {
+   "r": 123,
+   "w": 7,
+   "o": 20.0
+  },
+  "them": {
+   "r": 123,
+   "w": 9,
+   "o": 20.0
+  },
+  "batting": [
+   {
+    "name": "Raja Vasamsetty",
+    "r": 18,
+    "b": 12,
+    "f4": 3,
+    "f6": 0,
+    "out": true,
+    "dis": "c \u2020 Raja P b Neil P"
+   },
+   {
+    "name": "Pranav Reddy Ala",
+    "r": 6,
+    "b": 14,
+    "f4": 1,
+    "f6": 0,
+    "out": true,
+    "dis": "b Miral P"
+   },
+   {
+    "name": "Srinath Mirdoddi",
+    "r": 15,
+    "b": 12,
+    "f4": 1,
+    "f6": 1,
+    "out": true,
+    "dis": "c \u2020 Raja P b Neil P"
+   },
+   {
+    "name": "Ketan Joshi",
+    "r": 0,
+    "b": 4,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c \u2020 Raja P b Gurpreet S"
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "r": 43,
+    "b": 44,
+    "f4": 3,
+    "f6": 1,
+    "out": false,
+    "dis": "not out"
+   },
+   {
+    "name": "Sai Abhiram Nibhanupudi",
+    "r": 4,
+    "b": 6,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c \u2020 Raja P b Miral P"
+   },
+   {
+    "name": "Jay Mehta",
+    "r": 19,
+    "b": 20,
+    "f4": 2,
+    "f6": 0,
+    "out": true,
+    "dis": "b Murali Krishna M"
+   },
+   {
+    "name": "Sriram Kumar Maddu",
+    "r": 2,
+    "b": 6,
+    "f4": 0,
+    "f6": 0,
+    "out": true,
+    "dis": "c \u2020 Raja P b Gurpreet S"
+   },
+   {
+    "name": "Mani Rathnam Thigulla",
+    "r": 3,
+    "b": 3,
+    "f4": 0,
+    "f6": 0,
+    "out": false,
+    "dis": "not out"
+   }
+  ],
+  "bowling": [
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "o": 3.0,
+    "m": 0,
+    "r": 17,
+    "w": 0
+   },
+   {
+    "name": "Mani Rathnam Thigulla",
+    "o": 4.0,
+    "m": 0,
+    "r": 20,
+    "w": 2
+   },
+   {
+    "name": "Jay Mehta",
+    "o": 2.0,
+    "m": 0,
+    "r": 20,
+    "w": 1
+   },
+   {
+    "name": "Ketan Joshi",
+    "o": 2.0,
+    "m": 0,
+    "r": 7,
+    "w": 0
+   },
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "o": 4.0,
+    "m": 0,
+    "r": 18,
+    "w": 2
+   },
+   {
+    "name": "Sriram Kumar Maddu",
+    "o": 3.0,
+    "m": 0,
+    "r": 26,
+    "w": 1
+   },
+   {
+    "name": "Raja Vasamsetty",
+    "o": 2.0,
+    "m": 0,
+    "r": 13,
+    "w": 1
+   }
+  ],
+  "dnb": [
+   "Gowtham P",
+   "Shyam Kuchhadiya",
+   "Gowtham Reddy Cheedepudi"
+  ],
+  "fielding": [
+   {
+    "name": "Sreekanth Reddy Kypa",
+    "ct": 0,
+    "st": 0,
+    "ro": 1
+   },
+   {
+    "name": "Gowtham Reddy Cheedepudi",
+    "ct": 2,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Shyam Kuchhadiya",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Ketan Joshi",
     "ct": 0,
     "st": 0,
     "ro": 1
@@ -13813,7 +14171,7 @@
   ],
   "fielding": [
    {
-    "name": "Pavan K",
+    "name": "Pavan Kanapala",
     "ct": 2,
     "st": 0,
     "ro": 0
@@ -14007,7 +14365,7 @@
   ],
   "fielding": [
    {
-    "name": "Pavan K",
+    "name": "Pavan Kanapala",
     "ct": 1,
     "st": 0,
     "ro": 0
@@ -14514,7 +14872,7 @@
     "ro": 0
    },
    {
-    "name": "Pavan K",
+    "name": "Pavan Kanapala",
     "ct": 1,
     "st": 0,
     "ro": 0
@@ -15396,7 +15754,7 @@
     "ro": 0
    },
    {
-    "name": "Rakesh I",
+    "name": "Rakesh Ind",
     "ct": 1,
     "st": 0,
     "ro": 0
@@ -15747,7 +16105,7 @@
     "ro": 0
    },
    {
-    "name": "Rakesh I",
+    "name": "Rakesh Ind",
     "ct": 0,
     "st": 0,
     "ro": 2
