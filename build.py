@@ -301,7 +301,14 @@ def parse_match(key, meta, team_re):
     date = f"{dm.group(3)}-{dm.group(1)}-{dm.group(2)}" if dm else ""
 
     series = ""
-    for h in soup.find_all(["h2", "h3", "h4", "h5"]):
+    # Scorecard header: <strong>Quik IV 2025-26</strong> <h3>League</h3> <span>02/07/2026</span>
+    date_el = soup.find(string=re.compile(r"^\s*\d{2}/\d{2}/\d{4}\s*$"))
+    if date_el:
+        for prev in date_el.find_all_previous(string=True, limit=8):
+            if prev.parent and prev.parent.name in ("strong", "b") and prev.strip() and not re.search(r"\d+/\d+", prev):
+                series = ws(prev)
+                break
+    for h in ([] if series else soup.find_all(["h2", "h3", "h4", "h5"])):
         t = ws(h.get_text(" "))
         if (re.search(r"\b20\d\d\b", t) and len(t) < 80 and not re.search(r"won by|\d+/\d+/|\sv(s)?\s", t, re.I)
                 and re.search(r"t20|t30|f40|f15|trophy|cup|league|division|series|glt|premier|contenders|challengers|champions", t, re.I)):
