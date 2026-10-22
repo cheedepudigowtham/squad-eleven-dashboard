@@ -4,6 +4,7 @@ Reads data/raw/*.html (saved by scrape.py), pulls out the result, scores,
 batting, bowling and fielding for Squad Eleven, writes data/matches.json,
 and builds site/index.html from template.html.
 """
+import collections
 import json
 import pathlib
 import re
@@ -111,7 +112,7 @@ def total_from_row(text, runs):
 def parse_tables(soup, team_re):
     """Returns our batting rows, our bowling rows, the opponent's dismissal texts and innings totals."""
     batting, bowling, opp_dismissals = [], [], []
-    totals, dnb = {}, []
+    totals, dnb, keeper = {}, [], None
     for t in soup.find_all(string=re.compile(r"did not bat", re.I)):
         el = t.parent
         txt = ws(el.get_text(" "))
@@ -153,6 +154,8 @@ def parse_tables(soup, team_re):
                 if runs is None or balls is None:
                     continue
                 dis = clean_dismissal(r[1]) if len(r) > 1 else ""
+                if is_us and "†" in cells[0].get_text(" "):
+                    keeper = player_name(cells[0], dis)
                 if is_us:
                     batting.append({
                         "name": player_name(cells[0], dis), "r": int(runs), "b": int(balls),
@@ -177,7 +180,7 @@ def parse_tables(soup, team_re):
                     continue
                 bowling.append({"name": name, "o": o, "m": int(from_end(header, r, "M") or 0),
                                 "r": int(runs), "w": int(w)})
-    return batting, bowling, opp_dismissals, totals, list(dict.fromkeys(dnb))
+    return batting, bowling, opp_dismissals, totals, list(dict.fromkeys(dnb)), keeper
 
 
 def resolve(abbr, roster):
@@ -211,20 +214,31 @@ def resolve(abbr, roster):
     return None
 
 
-def fielding(opp_dismissals, roster):
+def fielding(opp_dismissals, roster, squad=(), our_keeper=None):
+    """Credit catches, stumpings and run outs. The day's XI is checked first, then the whole squad."""
     tally = {}
 
     def add(who, kind):
-        full = resolve(who, roster) or clean_name(re.sub(r"\bsub\b|\(sub\)", "", who))
+        full = (resolve(who, sorted(set(squad))) or resolve(who, roster)
+                or clean_name(re.sub(r"\bsub\b|\(sub\)", "", who)))
         if full and not re.fullmatch(r"[\d\s.]*", full):
             tally.setdefault(full, {"name": full, "ct": 0, "st": 0, "ro": 0})[kind] += 1
 
+    # "c † b X" = caught by the keeper with no name; use the name the keeper has elsewhere in the innings.
+    kept = collections.Counter(m.group(1).strip() for d in opp_dismissals
+                               if (m := re.match(r"(?:c|[Ss]t)\s*[†+]\s*([^†+]+?)\s+b\s+", d)))
+    keeper = kept.most_common(1)[0][0] if kept else our_keeper
     for d in opp_dismissals:
-        if m := re.match(r"c\s*&\s*b\s+(.+)", d, re.I):
+        if re.match(r"c\s*[†+]\s*b\s+", d):
+            if keeper:
+                add(keeper, "ct")
+            continue
+        # Initials are capitals ("c Srikanth B b Mithun D"), so only a lowercase "b" means bowled.
+        if m := re.match(r"c\s*&\s*b\s+(.+)", d):
             add(m.group(1), "ct")
-        elif m := re.match(r"c\s+[†+]?\s*(.+?)\s+b\s+", d, re.I):
+        elif m := re.match(r"c\s+[†+]?\s*(.+?)\s+b\s+", d):
             add(m.group(1), "ct")
-        elif m := re.match(r"st\s+[†+]?\s*(.+?)\s+b\s+", d, re.I):
+        elif m := re.match(r"[Ss]t\s+[†+]?\s*(.+?)\s+b\s+", d):
             add(m.group(1), "st")
         elif m := re.search(r"run\s*out\s*\(\s*[†+]?([^)/]+)", d, re.I):
             add(m.group(1), "ro")
@@ -262,9 +276,18 @@ def parse_match(key, meta, team_re):
         return None
     opponent = teams[1 - us_idx]
 
-    result_src = desc or text
-    rm = re.search(r"(.+?)\s+won by\s+([\d]+\s+(?:runs?|wickets?)(?:\s*\(D/?L\))?)", result_src, re.I)
-    if rm:
+    won = r"(.+?)\s+won by\s+([\d]+\s+(?:runs?|wickets?)(?:\s*\(D/?L\))?)"
+    result_src = desc if re.search(r"won by|super over|tied|no result|abandon", desc, re.I) else text
+    rm = re.search(won, result_src, re.I)
+    if rm and result_src is text:
+        # Page text: the winner's name sits right before "won by", after the score line.
+        rm2 = re.search(r"(" + "|".join(re.escape(t) for t in teams) + r")\s+won by\s+([\d]+\s+(?:runs?|wickets?)(?:\s*\(D/?L\))?)", text, re.I)
+        rm = rm2 or rm
+    so = re.search(r"super over\.?\s*winner\s*:?\s*(.+?)(?:;|$|\s+info\b)", result_src, re.I)
+    if so:
+        result = "W" if team_re.search(so.group(1)) else "L"
+        margin = "Super Over"
+    elif rm:
         result = "W" if team_re.search(rm.group(1)) else "L"
         margin = "by " + rm.group(2)
     elif re.search(r"\btied\b", result_src, re.I):
@@ -290,7 +313,7 @@ def parse_match(key, meta, team_re):
                 series = ws(line)
                 break
 
-    batting, bowling, opp_dis, totals, dnb = parse_tables(soup, team_re)
+    batting, bowling, opp_dis, totals, dnb, keeper = parse_tables(soup, team_re)
     if not scores:
         # Header shows "Team 126/10 20 /20 ov"; the batting tables' Total rows are the fallback.
         found = []
@@ -304,7 +327,7 @@ def parse_match(key, meta, team_re):
         "series": series, "date": date, "opponent": opponent,
         "batted_first": us_idx == 0, "result": result, "margin": margin,
         "us": scores[us_idx], "them": scores[1 - us_idx],
-        "batting": batting, "bowling": bowling, "dnb": dnb, "_opp_dis": opp_dis,
+        "batting": batting, "bowling": bowling, "dnb": dnb, "_opp_dis": opp_dis, "_keeper": keeper,
     }
 
 
@@ -323,7 +346,9 @@ def tidy_names(matches):
         m["dnb"] = [show[n.lower()] for n in m.get("dnb", [])]
     roster = sorted(set(show.values()))
     for m in matches:
-        m["fielding"] = fielding(m.pop("_opp_dis", []), roster)
+        squad = [p["name"] for p in m["batting"] + m["bowling"]] + m["dnb"]
+        keeper = m.pop("_keeper", None)
+        m["fielding"] = fielding(m.pop("_opp_dis", []), roster, squad, show.get(keeper.lower(), keeper) if keeper else None)
 
 
 def bookmarklet(cfg):
