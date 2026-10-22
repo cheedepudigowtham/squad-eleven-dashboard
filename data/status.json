@@ -1,11 +1,11 @@
 {
- "time": "2026-10-21T22:05:46.315Z",
+ "time": "2026-10-22T13:37:53.136Z",
  "sources": [
   {
    "league": "Michigan Cricket Association",
    "url": "https://cricclubs.com/MichCA/listMatches.do?league=0&clubId=2119",
    "found": 49,
-   "series": 53,
+   "series": 50,
    "years": {
     "2023": 0,
     "2024": 13,
@@ -96,21 +96,6 @@
     {
      "u": "/MichCA/listMatches.do?league=117&clubId=2119",
      "links": 10,
-     "squad": 0
-    },
-    {
-     "u": "/MichCA/listMatches.do?league=116&clubId=2119",
-     "links": 195,
-     "squad": 9
-    },
-    {
-     "u": "/MichCA/listMatches.do?league=115&clubId=2119",
-     "links": 121,
-     "squad": 0
-    },
-    {
-     "u": "/MichCA/listMatches.do?league=114&clubId=2119",
-     "links": 77,
      "squad": 0
     },
     {
