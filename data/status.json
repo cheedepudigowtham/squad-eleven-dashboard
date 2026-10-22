@@ -1,5 +1,5 @@
 {
- "time": "2026-10-22T13:37:53.136Z",
+ "time": "2026-10-22T13:55:34.698Z",
  "sources": [
   {
    "league": "Michigan Cricket Association",
@@ -299,19 +299,19 @@
   {
    "league": "Farmington CC",
    "url": "https://cricclubs.com/farmingtoncc",
-   "found": 44,
+   "found": 54,
    "series": 80,
    "years": {
     "2023": 0,
     "2024": 10,
-    "2025": 17,
-    "2026": 17
+    "2025": 21,
+    "2026": 23
    },
    "pages": [
     {
      "u": "/farmingtoncc/listMatches.do?league=0&clubId=27071",
      "links": 1000,
-     "squad": 25
+     "squad": 35
     },
     {
      "u": "/farmingtoncc",
@@ -321,12 +321,12 @@
     {
      "u": "/farmingtoncc/listMatches.do?league=0&clubId=27071&year=2026",
      "links": 659,
-     "squad": 17
+     "squad": 23
     },
     {
      "u": "/farmingtoncc/listMatches.do?league=0&clubId=27071&year=2025",
      "links": 876,
-     "squad": 17
+     "squad": 21
     },
     {
      "u": "/farmingtoncc/listMatches.do?league=0&clubId=27071&year=2024",
@@ -396,7 +396,7 @@
     {
      "u": "/farmingtoncc/listMatches.do?league=150&clubId=27071",
      "links": 60,
-     "squad": 0
+     "squad": 10
     },
     {
      "u": "/farmingtoncc/listMatches.do?league=149&clubId=27071",
@@ -712,6 +712,6 @@
    "error": null
   }
  ],
- "new": 0,
+ "new": 10,
  "via": "button"
 }
