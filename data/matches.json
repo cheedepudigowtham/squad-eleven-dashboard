@@ -164,6 +164,9 @@
     "w": 0
    }
   ],
+  "dnb": [
+   "Pavan K Reddy Yannam"
+  ],
   "fielding": [
    {
     "name": "Gowtham P",
@@ -323,6 +326,12 @@
     "r": 26,
     "w": 1
    }
+  ],
+  "dnb": [
+   "Lochan Akkaraju",
+   "Prosenroyal Vellanki",
+   "Ruturaj Patil",
+   "Gowtham Reddy Cheedepudi"
   ],
   "fielding": [
    {
@@ -536,6 +545,7 @@
     "w": 0
    }
   ],
+  "dnb": [],
   "fielding": [
    {
     "name": "Gowtham Reddy Cheedepudi",
@@ -545,6 +555,12 @@
    },
    {
     "name": "Ashok Kumar Kotagari",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Srikanth",
     "ct": 1,
     "st": 0,
     "ro": 0
@@ -697,6 +713,13 @@
     "r": 13,
     "w": 1
    }
+  ],
+  "dnb": [
+   "Sai Thota",
+   "Pavan K Reddy Yannam",
+   "Sriram Kumar Maddu",
+   "Srikanth Boyina",
+   "Gowtham Reddy Cheedepudi"
   ],
   "fielding": [
    {
@@ -896,6 +919,9 @@
     "w": 3
    }
   ],
+  "dnb": [
+   "Lochan Akkaraju"
+  ],
   "fielding": [
    {
     "name": "Srikanth Jaina",
@@ -1072,6 +1098,12 @@
     "r": 12,
     "w": 2
    }
+  ],
+  "dnb": [
+   "Lochan Akkaraju",
+   "Sai Thota",
+   "Sriram Kumar Maddu",
+   "Gowtham Reddy Cheedepudi"
   ],
   "fielding": [
    {
@@ -1267,7 +1299,16 @@
     "w": 0
    }
   ],
+  "dnb": [
+   "Gowtham Reddy Cheedepudi"
+  ],
   "fielding": [
+   {
+    "name": "Srikanth",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
    {
     "name": "Srikanth Jaina",
     "ct": 1,
@@ -1310,6 +1351,20 @@
   },
   "batting": [],
   "bowling": [],
+  "dnb": [
+   "Manoj Paul Dasari",
+   "Sanjeev Murali",
+   "Pranav Reddy Ala",
+   "Srinath Mirdoddi",
+   "Ajith Kumaar Ayna Sankar",
+   "Sreekanth Reddy Kypa",
+   "Mahesh Peddiredla",
+   "Abhinav Cholleti",
+   "Srikanth Boyina",
+   "Gowtham Reddy Cheedepudi",
+   "Srikanth Jaina",
+   "Ashok Kumar Kotagari"
+  ],
   "fielding": []
  },
  {
@@ -1458,6 +1513,11 @@
     "r": 7,
     "w": 0
    }
+  ],
+  "dnb": [
+   "Lochan Akkaraju",
+   "Srikanth Boyina",
+   "Gowtham Reddy Cheedepudi"
   ],
   "fielding": [
    {
@@ -1638,6 +1698,7 @@
     "w": 0
    }
   ],
+  "dnb": [],
   "fielding": [
    {
     "name": "Prosenroyal Vellanki",
@@ -1751,6 +1812,17 @@
     "r": 19,
     "w": 1
    }
+  ],
+  "dnb": [
+   "Lochan Akkaraju",
+   "Prosenroyal Vellanki",
+   "Ruturaj Patil",
+   "Gowtham Reddy Palnati",
+   "Ajith Kumaar Ayna Sankar",
+   "Srikanth Boyina",
+   "Gowtham Reddy Cheedepudi",
+   "Mithun Dama",
+   "Jeevan Ciravandla"
   ],
   "fielding": [
    {
@@ -1939,6 +2011,9 @@
     "w": 0
    }
   ],
+  "dnb": [
+   "Mahesh Peddiredla"
+  ],
   "fielding": [
    {
     "name": "Raja Vasamsetty",
@@ -2073,6 +2148,14 @@
     "r": 7,
     "w": 1
    }
+  ],
+  "dnb": [
+   "Prosenroyal Vellanki",
+   "Ruturaj Patil",
+   "Sai Abhiram Nibhanupudi",
+   "Mahesh Peddiredla",
+   "Srikanth Boyina",
+   "Jeevan Ciravandla"
   ],
   "fielding": [
    {
@@ -2279,6 +2362,9 @@
     "r": 35,
     "w": 3
    }
+  ],
+  "dnb": [
+   "Lochan Akkaraju"
   ],
   "fielding": [
    {
@@ -2492,6 +2578,9 @@
     "w": 0
    }
   ],
+  "dnb": [
+   "Sachin Bamane"
+  ],
   "fielding": []
  },
  {
@@ -2636,6 +2725,13 @@
     "r": 26,
     "w": 0
    }
+  ],
+  "dnb": [
+   "Lochan Akkaraju",
+   "Sanjeev Murali",
+   "Sachin Bamane",
+   "Sriram Kumar Maddu",
+   "Srikanth Boyina"
   ],
   "fielding": [
    {
@@ -2817,6 +2913,9 @@
     "r": 26,
     "w": 2
    }
+  ],
+  "dnb": [
+   "Lochan Akkaraju"
   ],
   "fielding": [
    {
@@ -3011,6 +3110,14 @@
     "r": 2,
     "w": 0
    }
+  ],
+  "dnb": [
+   "Brooke Shears",
+   "Sai Abhiram Nibhanupudi",
+   "Atharv Dalvi",
+   "Srikanth Boyina",
+   "Gowtham Reddy Cheedepudi",
+   "Jeevan Ciravandla"
   ],
   "fielding": [
    {
@@ -3216,6 +3323,9 @@
     "w": 0
    }
   ],
+  "dnb": [
+   "Brooke Shears"
+  ],
   "fielding": [
    {
     "name": "Ajith Kumaar Ayna Sankar",
@@ -3385,6 +3495,13 @@
     "r": 2,
     "w": 1
    }
+  ],
+  "dnb": [
+   "Lochan Akkaraju",
+   "Brooke Shears",
+   "Gowtham Reddy Palnati",
+   "Atharv Dalvi",
+   "Gowtham Reddy Cheedepudi"
   ],
   "fielding": [
    {
@@ -3596,7 +3713,16 @@
     "w": 0
    }
   ],
+  "dnb": [
+   "Sachin Bamane"
+  ],
   "fielding": [
+   {
+    "name": "Srikanth",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
    {
     "name": "Ajith Kumaar Ayna Sankar",
     "ct": 2,
@@ -3627,6 +3753,20 @@
   },
   "batting": [],
   "bowling": [],
+  "dnb": [
+   "Lochan Akkaraju",
+   "Sanjeev Murali",
+   "Raja Vasamsetty",
+   "Brooke Shears",
+   "Srinath Mirdoddi",
+   "Sriram Kumar Maddu",
+   "Sai Abhiram Nibhanupudi",
+   "Ajith Kumaar Ayna Sankar",
+   "Sreekanth Reddy Kypa",
+   "Gowtham Reddy Cheedepudi",
+   "Mithun Dama",
+   "Srikanth Jaina"
+  ],
   "fielding": []
  },
  {
@@ -3778,6 +3918,10 @@
     "w": 2
    }
   ],
+  "dnb": [
+   "Lochan Akkaraju",
+   "Gowtham Reddy Cheedepudi"
+  ],
   "fielding": [
    {
     "name": "Srikanth Jaina",
@@ -3916,6 +4060,15 @@
     "r": 5,
     "w": 1
    }
+  ],
+  "dnb": [
+   "Lokesh Dahiya",
+   "Raja Vasamsetty",
+   "Brooke Shears",
+   "Sriram Kumar Maddu",
+   "Srikanth Boyina",
+   "Gowtham Reddy Cheedepudi",
+   "Mithun Dama"
   ],
   "fielding": [
    {
@@ -4080,6 +4233,13 @@
     "w": 2
    }
   ],
+  "dnb": [
+   "Sachin Bamane",
+   "Sriram Kumar Maddu",
+   "Sai Abhiram Nibhanupudi",
+   "Gowtham Reddy Palnati",
+   "Gowtham Reddy Cheedepudi"
+  ],
   "fielding": [
    {
     "name": "Gowtham Reddy Palnati",
@@ -4101,6 +4261,12 @@
    },
    {
     "name": "Sachin Bamane",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Srikanth",
     "ct": 1,
     "st": 0,
     "ro": 0
@@ -4286,6 +4452,9 @@
     "w": 0
    }
   ],
+  "dnb": [
+   "Charan Teja Kothakonda"
+  ],
   "fielding": []
  },
  {
@@ -4310,6 +4479,20 @@
   },
   "batting": [],
   "bowling": [],
+  "dnb": [
+   "Lochan Akkaraju",
+   "Madhu Babu Jampala",
+   "Raja Vasamsetty",
+   "Brooke Shears",
+   "Srinath Mirdoddi",
+   "Sriram Kumar Maddu",
+   "Sai Abhiram Nibhanupudi",
+   "Gowtham Reddy Palnati",
+   "Srikanth Boyina",
+   "Mithun Dama",
+   "Jeevan Ciravandla",
+   "Srikanth Jaina"
+  ],
   "fielding": []
  },
  {
@@ -4422,6 +4605,15 @@
     "r": 14,
     "w": 1
    }
+  ],
+  "dnb": [
+   "Lochan Akkaraju",
+   "Sachin Bamane",
+   "Sriram Kumar Maddu",
+   "Sai Abhiram Nibhanupudi",
+   "Gowtham Reddy Palnati",
+   "Gowtham Reddy Cheedepudi",
+   "Mithun Dama"
   ],
   "fielding": [
    {
@@ -4629,6 +4821,9 @@
     "w": 0
    }
   ],
+  "dnb": [
+   "Charan Teja Kothakonda"
+  ],
   "fielding": [
    {
     "name": "Pranav Reddy Ala",
@@ -4788,6 +4983,12 @@
     "r": 12,
     "w": 1
    }
+  ],
+  "dnb": [
+   "Sriram Kumar Maddu",
+   "Srikanth Boyina",
+   "Gowtham Reddy Cheedepudi",
+   "Charan Teja Kothakonda"
   ],
   "fielding": [
    {
@@ -5002,6 +5203,9 @@
     "w": 0
    }
   ],
+  "dnb": [
+   "Lochan Akkaraju"
+  ],
   "fielding": [
    {
     "name": "Pranav Reddy Ala",
@@ -5155,6 +5359,14 @@
     "r": 12,
     "w": 0
    }
+  ],
+  "dnb": [
+   "Lochan Akkaraju",
+   "Sachin Bamane",
+   "Suman Reddy Pasunuri",
+   "Gowtham P",
+   "Gowtham Reddy Cheedepudi",
+   "Charan Teja Kothakonda"
   ],
   "fielding": [
    {
@@ -5319,6 +5531,13 @@
     "r": 14,
     "w": 0
    }
+  ],
+  "dnb": [
+   "Lochan Akkaraju",
+   "Gowtham P",
+   "Srikanth Boyina",
+   "Gowtham Reddy Cheedepudi",
+   "Charan Teja Kothakonda"
   ],
   "fielding": [
    {
@@ -5519,6 +5738,9 @@
     "r": 9,
     "w": 0
    }
+  ],
+  "dnb": [
+   "Sachin Bamane"
   ],
   "fielding": [
    {
@@ -5737,6 +5959,7 @@
     "w": 1
    }
   ],
+  "dnb": [],
   "fielding": [
    {
     "name": "Mani Rathnam Thigulla",
@@ -5925,6 +6148,11 @@
     "w": 0
    }
   ],
+  "dnb": [
+   "Lochan Akkaraju",
+   "Mani Rathnam Thigulla",
+   "Charan Teja Kothakonda"
+  ],
   "fielding": [
    {
     "name": "Pranav Reddy Ala",
@@ -6090,6 +6318,12 @@
     "r": 9,
     "w": 1
    }
+  ],
+  "dnb": [
+   "Lochan Akkaraju",
+   "Sai Abhiram Nibhanupudi",
+   "Ramesh Pathlavat",
+   "Charan Teja Kothakonda"
   ],
   "fielding": [
    {
@@ -6281,6 +6515,10 @@
     "w": 1
    }
   ],
+  "dnb": [
+   "Lochan Akkaraju",
+   "Brooke Shears"
+  ],
   "fielding": [
    {
     "name": "Sreekanth Reddy Kypa",
@@ -6451,9 +6689,22 @@
     "w": 0
    }
   ],
+  "dnb": [
+   "Lochan Akkaraju",
+   "Mani Rathnam Thigulla",
+   "Gowtham P",
+   "Srikanth Boyina",
+   "Mithun Dama"
+  ],
   "fielding": [
    {
     "name": "Pranav Reddy Ala",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Srikanth",
     "ct": 1,
     "st": 0,
     "ro": 0
@@ -6580,6 +6831,15 @@
     "r": 19,
     "w": 2
    }
+  ],
+  "dnb": [
+   "Raja Vasamsetty",
+   "Pranav Reddy Ala",
+   "Sai Abhiram Nibhanupudi",
+   "Ajith Kumaar Ayna Sankar",
+   "Mani Rathnam Thigulla",
+   "Srikanth Boyina",
+   "Mithun Dama"
   ],
   "fielding": [
    {
@@ -6768,6 +7028,9 @@
     "w": 0
    }
   ],
+  "dnb": [
+   "Mithun Dama"
+  ],
   "fielding": [
    {
     "name": "Mithun Dama",
@@ -6932,6 +7195,9 @@
     "r": 12,
     "w": 0
    }
+  ],
+  "dnb": [
+   "Sai Thota"
   ],
   "fielding": [
    {
@@ -7132,6 +7398,9 @@
     "r": 15,
     "w": 0
    }
+  ],
+  "dnb": [
+   "Srikanth Boyina"
   ],
   "fielding": [
    {
@@ -7345,6 +7614,9 @@
     "w": 0
    }
   ],
+  "dnb": [
+   "Brooke Shears"
+  ],
   "fielding": [
    {
     "name": "Ajith Kumaar Ayna Sankar",
@@ -7537,6 +7809,9 @@
     "w": 2
    }
   ],
+  "dnb": [
+   "Srikanth Boyina"
+  ],
   "fielding": [
    {
     "name": "Sreekanth Reddy Kypa",
@@ -7698,6 +7973,11 @@
     "r": 22,
     "w": 3
    }
+  ],
+  "dnb": [
+   "Brooke Shears",
+   "Sanjay Kadithi",
+   "Gowtham Reddy Cheedepudi"
   ],
   "fielding": [
    {
@@ -7890,6 +8170,9 @@
     "r": 21,
     "w": 1
    }
+  ],
+  "dnb": [
+   "Brooke Shears"
   ],
   "fielding": [
    {
@@ -8091,6 +8374,9 @@
     "w": 0
    }
   ],
+  "dnb": [
+   "Lochan Akkaraju"
+  ],
   "fielding": []
  },
  {
@@ -8258,6 +8544,9 @@
     "w": 1
    }
   ],
+  "dnb": [
+   "Gowtham Reddy Cheedepudi"
+  ],
   "fielding": [
    {
     "name": "Mahesh Peddiredla",
@@ -8414,6 +8703,13 @@
     "r": 17,
     "w": 0
    }
+  ],
+  "dnb": [
+   "Sriram Kumar Maddu",
+   "Gowtham Reddy Palnati",
+   "Shyam Kuchhadiya",
+   "Srikanth Boyina",
+   "Mithun Dama"
   ],
   "fielding": [
    {
@@ -8581,6 +8877,9 @@
     "r": 2,
     "w": 1
    }
+  ],
+  "dnb": [
+   "Srikanth Boyina"
   ],
   "fielding": [
    {
@@ -8753,6 +9052,10 @@
     "w": 1
    }
   ],
+  "dnb": [
+   "Saketh Nandhan",
+   "Srikanth Boyina"
+  ],
   "fielding": [
    {
     "name": "Pranav Reddy Ala",
@@ -8780,6 +9083,12 @@
    },
    {
     "name": "Sai Abhiram Nibhanupudi",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Srikanth",
     "ct": 1,
     "st": 0,
     "ro": 0
@@ -8965,6 +9274,9 @@
     "w": 0
    }
   ],
+  "dnb": [
+   "Srikanth Boyina"
+  ],
   "fielding": [
    {
     "name": "Pranav Reddy Ala",
@@ -9135,6 +9447,10 @@
     "r": 27,
     "w": 1
    }
+  ],
+  "dnb": [
+   "Brooke Shears",
+   "Srikanth Boyina"
   ],
   "fielding": [
    {
@@ -9341,6 +9657,9 @@
     "w": 3
    }
   ],
+  "dnb": [
+   "Saketh Nandhan"
+  ],
   "fielding": [
    {
     "name": "Lochan Akkaraju",
@@ -9497,6 +9816,15 @@
     "r": 11,
     "w": 1
    }
+  ],
+  "dnb": [
+   "Rama Naidu Ramisetti",
+   "Gowtham Reddy Palnati",
+   "Shyam Kuchhadiya",
+   "Sasidhar Reddy Kurre",
+   "Srikanth Boyina",
+   "Gowtham Reddy Cheedepudi",
+   "Mithun Dama"
   ],
   "fielding": [
    {
@@ -9658,6 +9986,11 @@
     "r": 37,
     "w": 0
    }
+  ],
+  "dnb": [
+   "Shyam Kuchhadiya",
+   "Srikanth Boyina",
+   "Mithun Dama"
   ],
   "fielding": [
    {
@@ -9844,6 +10177,9 @@
     "w": 1
    }
   ],
+  "dnb": [
+   "Brooke Shears"
+  ],
   "fielding": [
    {
     "name": "Gowtham Reddy Cheedepudi",
@@ -10022,6 +10358,10 @@
     "w": 2
    }
   ],
+  "dnb": [
+   "Shyam Kuchhadiya",
+   "Srikanth Boyina"
+  ],
   "fielding": [
    {
     "name": "Raja Vasamsetty",
@@ -10071,6 +10411,20 @@
   },
   "batting": [],
   "bowling": [],
+  "dnb": [
+   "Lochan Akkaraju",
+   "Raja Vasamsetty",
+   "Pranav Reddy Ala",
+   "Srinath Mirdoddi",
+   "Sai Abhiram Nibhanupudi",
+   "Gowtham Reddy Palnati",
+   "Sreekanth Reddy Kypa",
+   "Rakesh Ind",
+   "Shyam Kuchhadiya",
+   "Sasidhar Reddy Kurre",
+   "Srikanth Boyina",
+   "Gowtham Reddy Cheedepudi"
+  ],
   "fielding": []
  },
  {
@@ -10199,6 +10553,13 @@
     "r": 14,
     "w": 0
    }
+  ],
+  "dnb": [
+   "Lochan Akkaraju",
+   "Mani Rathnam Thigulla",
+   "Sasidhar Reddy Kurre",
+   "Srikanth Boyina",
+   "Gowtham Reddy Cheedepudi"
   ],
   "fielding": [
    {
@@ -10393,6 +10754,9 @@
     "w": 0
    }
   ],
+  "dnb": [
+   "Srikanth Boyina"
+  ],
   "fielding": [
    {
     "name": "Raja Vasamsetty",
@@ -10572,6 +10936,9 @@
     "r": 21,
     "w": 3
    }
+  ],
+  "dnb": [
+   "Gowtham Reddy Cheedepudi"
   ],
   "fielding": [
    {
@@ -10781,6 +11148,7 @@
     "w": 2
    }
   ],
+  "dnb": [],
   "fielding": [
    {
     "name": "Sreekanth Reddy Kypa",
@@ -10802,6 +11170,12 @@
    },
    {
     "name": "Sasidhar Reddy Kurre",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Rakesh I",
     "ct": 1,
     "st": 0,
     "ro": 0
@@ -10986,6 +11360,9 @@
     "w": 0
    }
   ],
+  "dnb": [
+   "Mani Rathnam Thigulla"
+  ],
   "fielding": [
    {
     "name": "Sai Abhiram Nibhanupudi",
@@ -11148,6 +11525,13 @@
     "r": 10,
     "w": 0
    }
+  ],
+  "dnb": [
+   "Pavan Kanapala",
+   "Mani Rathnam Thigulla",
+   "Gowtham P",
+   "Shyam Kuchhadiya",
+   "Gowtham Reddy Cheedepudi"
   ],
   "fielding": [
    {
@@ -11313,6 +11697,15 @@
     "r": 9,
     "w": 0
    }
+  ],
+  "dnb": [
+   "Raja Vasamsetty",
+   "Sriram Kumar Maddu",
+   "Sai Abhiram Nibhanupudi",
+   "Mani Rathnam Thigulla",
+   "Gowtham P",
+   "Shyam Kuchhadiya",
+   "Gowtham Reddy Cheedepudi"
   ],
   "fielding": [
    {
@@ -11488,6 +11881,11 @@
     "w": 1
    }
   ],
+  "dnb": [
+   "Jay Mehta",
+   "Mani Rathnam Thigulla",
+   "Gowtham Reddy Cheedepudi"
+  ],
   "fielding": [
    {
     "name": "Srinath Mirdoddi",
@@ -11628,6 +12026,14 @@
     "r": 28,
     "w": 0
    }
+  ],
+  "dnb": [
+   "Raja Vasamsetty",
+   "Vidya Nand Tiwari",
+   "Sriram Kumar Maddu",
+   "Mani Rathnam Thigulla",
+   "Suraj Kotha",
+   "Shyam Kuchhadiya"
   ],
   "fielding": [
    {
@@ -11814,6 +12220,9 @@
     "w": 1
    }
   ],
+  "dnb": [
+   "Vidya Nand Tiwari"
+  ],
   "fielding": [
    {
     "name": "Sreekanth Reddy Kypa",
@@ -11994,6 +12403,10 @@
     "w": 0
    }
   ],
+  "dnb": [
+   "Jeevan Neelapu",
+   "Komal Gurrala"
+  ],
   "fielding": [
    {
     "name": "Gowtham P",
@@ -12024,6 +12437,12 @@
     "ct": 1,
     "st": 0,
     "ro": 0
+   },
+   {
+    "name": "Komal Gurrala",
+    "ct": 0,
+    "st": 0,
+    "ro": 1
    }
   ]
  },
@@ -12163,6 +12582,13 @@
     "w": 0
    }
   ],
+  "dnb": [
+   "Pavan Kanapala",
+   "Brooke Shears",
+   "Yashwanth Gatla",
+   "Gowtham P",
+   "Gowtham Reddy Cheedepudi"
+  ],
   "fielding": [
    {
     "name": "Gowtham P",
@@ -12264,6 +12690,17 @@
     "r": 17,
     "w": 1
    }
+  ],
+  "dnb": [
+   "Sai Thota",
+   "Raja Vasamsetty",
+   "Jay Mehta",
+   "Srinath Mirdoddi",
+   "Yashwanth Gatla",
+   "Sriram Kumar Maddu",
+   "Gowtham P",
+   "Sreekanth Reddy Kypa",
+   "Gowtham Reddy Cheedepudi"
   ],
   "fielding": [
    {
@@ -12457,6 +12894,9 @@
     "w": 1
    }
   ],
+  "dnb": [
+   "Pavan Kanapala"
+  ],
   "fielding": [
    {
     "name": "Ajith Kumaar Ayna Sankar",
@@ -12614,6 +13054,10 @@
     "r": 11,
     "w": 5
    }
+  ],
+  "dnb": [
+   "Jay Mehta",
+   "Gowtham Reddy Cheedepudi"
   ],
   "fielding": [
    {
@@ -12794,6 +13238,11 @@
     "r": 35,
     "w": 4
    }
+  ],
+  "dnb": [
+   "Brooke Shears",
+   "Gowtham Reddy Palnati",
+   "Gowtham Reddy Cheedepudi"
   ],
   "fielding": [
    {
@@ -12993,6 +13442,9 @@
     "w": 0
    }
   ],
+  "dnb": [
+   "Gowtham Reddy Cheedepudi"
+  ],
   "fielding": [
    {
     "name": "Sriram Kumar Maddu",
@@ -13170,6 +13622,11 @@
     "r": 6,
     "w": 1
    }
+  ],
+  "dnb": [
+   "Brooke Shears",
+   "Gowtham Reddy Palnati",
+   "Gowtham Reddy Cheedepudi"
   ],
   "fielding": [
    {
@@ -13351,7 +13808,16 @@
     "w": 3
    }
   ],
+  "dnb": [
+   "Brooke Shears"
+  ],
   "fielding": [
+   {
+    "name": "Pavan K",
+    "ct": 2,
+    "st": 0,
+    "ro": 0
+   },
    {
     "name": "Gowtham P",
     "ct": 2,
@@ -13536,7 +14002,16 @@
     "w": 0
    }
   ],
+  "dnb": [
+   "Gowtham Reddy Cheedepudi"
+  ],
   "fielding": [
+   {
+    "name": "Pavan K",
+    "ct": 1,
+    "st": 0,
+    "ro": 0
+   },
    {
     "name": "Saketh Perala",
     "ct": 1,
@@ -13700,6 +14175,10 @@
     "r": 35,
     "w": 0
    }
+  ],
+  "dnb": [
+   "Brooke Shears",
+   "Gowtham Reddy Palnati"
   ],
   "fielding": [
    {
@@ -13887,6 +14366,7 @@
     "w": 0
    }
   ],
+  "dnb": [],
   "fielding": [
    {
     "name": "Mahesh Peddiredla",
@@ -14017,10 +14497,25 @@
     "w": 1
    }
   ],
+  "dnb": [
+   "Rohit Alladi",
+   "Pavan Kanapala",
+   "Brooke Shears",
+   "Srinath Mirdoddi",
+   "Gowtham Reddy Palnati",
+   "Nikhil Nune",
+   "Gowtham Reddy Cheedepudi"
+  ],
   "fielding": [
    {
     "name": "Raja Vasamsetty",
     "ct": 2,
+    "st": 0,
+    "ro": 0
+   },
+   {
+    "name": "Pavan K",
+    "ct": 1,
     "st": 0,
     "ro": 0
    },
@@ -14205,6 +14700,9 @@
     "w": 1
    }
   ],
+  "dnb": [
+   "Gowtham Reddy Cheedepudi"
+  ],
   "fielding": [
    {
     "name": "Ramakanth Reddy Banoori",
@@ -14341,6 +14839,12 @@
     "r": 9,
     "w": 3
    }
+  ],
+  "dnb": [
+   "Brooke Shears",
+   "Yashwanth Gatla",
+   "Gowtham Reddy Palnati",
+   "Gowtham Reddy Cheedepudi"
   ],
   "fielding": [
    {
@@ -14515,6 +15019,7 @@
     "w": 2
    }
   ],
+  "dnb": [],
   "fielding": [
    {
     "name": "Gowtham Reddy Palnati",
@@ -14693,6 +15198,9 @@
     "w": 0
    }
   ],
+  "dnb": [
+   "Sachin Bamane"
+  ],
   "fielding": [
    {
     "name": "Ramakanth Reddy Banoori",
@@ -14864,6 +15372,10 @@
     "w": 2
    }
   ],
+  "dnb": [
+   "Sachin Bamane",
+   "Gowtham Reddy Cheedepudi"
+  ],
   "fielding": [
    {
     "name": "Sreekanth Reddy Kypa",
@@ -14881,6 +15393,12 @@
     "name": "Mahesh Peddiredla",
     "ct": 0,
     "st": 1,
+    "ro": 0
+   },
+   {
+    "name": "Rakesh I",
+    "ct": 1,
+    "st": 0,
     "ro": 0
    }
   ]
@@ -15057,6 +15575,9 @@
     "w": 0
    }
   ],
+  "dnb": [
+   "Sachin Bamane"
+  ],
   "fielding": [
    {
     "name": "Gowtham Reddy Cheedepudi",
@@ -15210,12 +15731,26 @@
     "w": 0
    }
   ],
+  "dnb": [
+   "Sai Thota",
+   "Raghavendra Chandrappa",
+   "Sachin Bamane",
+   "Yashwanth Gatla",
+   "Gowtham Reddy Palnati",
+   "Gowtham Reddy Cheedepudi"
+  ],
   "fielding": [
    {
     "name": "Yashwanth Gatla",
     "ct": 1,
     "st": 0,
     "ro": 0
+   },
+   {
+    "name": "Rakesh I",
+    "ct": 0,
+    "st": 0,
+    "ro": 2
    }
   ]
  },
@@ -15311,6 +15846,17 @@
     "r": 12,
     "w": 3
    }
+  ],
+  "dnb": [
+   "Sai Thota",
+   "Ramakanth Reddy Banoori",
+   "Raja Vasamsetty",
+   "Brooke Shears",
+   "Yashwanth Gatla",
+   "Gowtham Reddy Palnati",
+   "Sreekanth Reddy Kypa",
+   "Rakesh Ind",
+   "Gowtham Reddy Cheedepudi"
   ],
   "fielding": [
    {
