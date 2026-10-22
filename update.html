@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Update Squad Eleven Dashboard</title>
+<style>
+:root { color-scheme: light; --bg: #f6f5f1; --surface: #fcfcfb; --line: #dedcd4; --text: #0b0b0b; --text-2: #52514e; --accent: #bf4d0c; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { color-scheme: dark; --bg: #121211; --surface: #1a1a19; --line: #34332f; --text: #f0efec; --text-2: #c3c2b7; --accent: #f2873f; } }
+:root[data-theme="dark"] { color-scheme: dark; --bg: #121211; --surface: #1a1a19; --line: #34332f; --text: #f0efec; --text-2: #c3c2b7; --accent: #f2873f; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 15px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+.wrap { max-width: 720px; margin: 0 auto; padding: 24px 16px 48px; }
+h1 { font-size: 24px; margin: 0 0 4px; }
+.sub { color: var(--text-2); margin: 0 0 18px; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 18px; margin-bottom: 14px; }
+.bm { display: inline-block; background: var(--accent); color: var(--surface); font-weight: 700; padding: 10px 16px; border-radius: 10px; text-decoration: none; cursor: grab; }
+ol { padding-left: 20px; margin: 8px 0 0; } li { margin: 8px 0; }
+a { color: var(--accent); } .muted { color: var(--text-2); font-size: 14px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Update the dashboard</h1>
+  <p class="sub">For whoever keeps the dashboard up to date. <a href="./">Back to the dashboard</a></p>
+  <div class="card">
+    <b>One time:</b> drag this button to your browser's bookmarks bar.
+    <p><a class="bm" id="bm" href="__BOOKMARKLET__" onclick="alert('Drag this button to your bookmarks bar, then click it while you are on cricclubs.com.');return false">Squad Eleven Update</a></p>
+    <p class="muted">Can't see the bookmarks bar? Press Ctrl+Shift+B (Windows) or Cmd+Shift+B (Mac). If you get a new version of the button, delete the old bookmark first.</p>
+  </div>
+  <div class="card">
+    <b>After each match:</b>
+    <ol>
+      <li>Open <a href="https://cricclubs.com/MichCA" target="_blank" rel="noopener">cricclubs.com/MichCA</a> (any CricClubs page works).</li>
+      <li>Click <b>Squad Eleven Update</b> in your bookmarks bar. A box shows progress, then <b>squad-data.json</b> downloads.</li>
+      <li>Click <b>Open GitHub upload</b> in that box, drag in <b>squad-data.json</b> and click <b>Commit changes</b>.</li>
+      <li>About a minute later, refresh the dashboard.</li>
+    </ol>
+  </div>
+</div>
+</body>
+</html>

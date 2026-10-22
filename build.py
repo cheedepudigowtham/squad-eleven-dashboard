@@ -111,7 +111,14 @@ def total_from_row(text, runs):
 def parse_tables(soup, team_re):
     """Returns our batting rows, our bowling rows, the opponent's dismissal texts and innings totals."""
     batting, bowling, opp_dismissals = [], [], []
-    totals = {}
+    totals, dnb = {}, []
+    for t in soup.find_all(string=re.compile(r"did not bat", re.I)):
+        el = t.parent
+        txt = ws(el.get_text(" "))
+        team_el = el.find_previous(string=re.compile(r"innings", re.I))
+        if team_el and team_re.search(ws(team_el)):
+            names = re.sub(r"^.*?did not bat\s*:?", "", txt, flags=re.I)
+            dnb += [clean_name(n) for n in re.split(r",|;", names) if clean_name(n)]
     seen = set()
     last_batting_is_us = None
     for table in soup.find_all("table"):
@@ -170,7 +177,7 @@ def parse_tables(soup, team_re):
                     continue
                 bowling.append({"name": name, "o": o, "m": int(from_end(header, r, "M") or 0),
                                 "r": int(runs), "w": int(w)})
-    return batting, bowling, opp_dismissals, totals
+    return batting, bowling, opp_dismissals, totals, list(dict.fromkeys(dnb))
 
 
 def resolve(abbr, roster):
@@ -190,15 +197,26 @@ def resolve(abbr, roster):
             hits.append(full)
         elif len(a) == 1 and (f[0] == a[0] or f[-1] == a[0]):
             hits.append(full)
-    return hits[0] if len(hits) == 1 else None
+    if len(hits) == 1:
+        return hits[0]
+    if not hits and len(a) >= 2:
+        # Same words in another order, e.g. "Boyina S" for "Srikanth Boyina" or "Srikanth B" for "Boyina Srikanth".
+        for full in roster:
+            f = full.lower().split()
+            rest = list(f)
+            if all(t in rest and not rest.remove(t) for t in a[:-1]) and any(t.startswith(a[-1]) for t in rest):
+                hits.append(full)
+        if len(hits) == 1:
+            return hits[0]
+    return None
 
 
 def fielding(opp_dismissals, roster):
     tally = {}
 
     def add(who, kind):
-        full = resolve(who, roster)
-        if full:
+        full = resolve(who, roster) or clean_name(re.sub(r"\bsub\b|\(sub\)", "", who))
+        if full and not re.fullmatch(r"[\d\s.]*", full):
             tally.setdefault(full, {"name": full, "ct": 0, "st": 0, "ro": 0})[kind] += 1
 
     for d in opp_dismissals:
@@ -272,7 +290,7 @@ def parse_match(key, meta, team_re):
                 series = ws(line)
                 break
 
-    batting, bowling, opp_dis, totals = parse_tables(soup, team_re)
+    batting, bowling, opp_dis, totals, dnb = parse_tables(soup, team_re)
     if not scores:
         # Header shows "Team 126/10 20 /20 ov"; the batting tables' Total rows are the fallback.
         found = []
@@ -286,7 +304,7 @@ def parse_match(key, meta, team_re):
         "series": series, "date": date, "opponent": opponent,
         "batted_first": us_idx == 0, "result": result, "margin": margin,
         "us": scores[us_idx], "them": scores[1 - us_idx],
-        "batting": batting, "bowling": bowling, "_opp_dis": opp_dis,
+        "batting": batting, "bowling": bowling, "dnb": dnb, "_opp_dis": opp_dis,
     }
 
 
@@ -294,14 +312,15 @@ def tidy_names(matches):
     """One spelling per player (SREEKANTH REDDY KYPA -> Sreekanth Reddy Kypa), then credit fielders."""
     best = {}
     for m in matches:
-        for p in m["batting"] + m["bowling"]:
-            k = p["name"].lower()
-            if k not in best or (best[k].isupper() and not p["name"].isupper()):
-                best[k] = p["name"]
+        for n in [p["name"] for p in m["batting"] + m["bowling"]] + m.get("dnb", []):
+            k = n.lower()
+            if k not in best or (best[k].isupper() and not n.isupper()):
+                best[k] = n
     show = {k: (v.title() if v.isupper() else v) for k, v in best.items()}
     for m in matches:
         for p in m["batting"] + m["bowling"]:
             p["name"] = show[p["name"].lower()]
+        m["dnb"] = [show[n.lower()] for n in m.get("dnb", [])]
     roster = sorted(set(show.values()))
     for m in matches:
         m["fielding"] = fielding(m.pop("_opp_dis", []), roster)
@@ -349,6 +368,8 @@ def main():
     page = page.replace("/*__DATA__*/null", json.dumps(data).replace("</", "<\\/"))
     SITE.mkdir(exist_ok=True)
     (SITE / "index.html").write_text(page, encoding="utf-8")
+    upd = (ROOT / "update.html").read_text(encoding="utf-8")
+    (SITE / "update.html").write_text(upd.replace("__BOOKMARKLET__", bookmarklet(cfg).replace("&", "&amp;").replace('"', "&quot;")), encoding="utf-8")
 
     print(f"Built site/index.html with {len(matches)} matches.")
     for p in problems:

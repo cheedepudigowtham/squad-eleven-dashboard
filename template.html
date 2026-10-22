@@ -9,7 +9,7 @@
   color-scheme: light;
   --bg: #f6f5f1; --surface: #fcfcfb; --surface-2: #efeee9; --line: #dedcd4;
   --text: #0b0b0b; --text-2: #52514e; --muted: #7a7973;
-  --accent: #1f6f43; --series-1: #2a78d6;
+  --accent: #bf4d0c; --series-1: #eb6834;
   --win: #157a3c; --win-bg: #e3f3e8; --loss: #b8312f; --loss-bg: #fbe7e6; --nr: #5e5d58; --nr-bg: #ecebe6;
 }
 @media (prefers-color-scheme: dark) {
@@ -17,7 +17,7 @@
     color-scheme: dark;
     --bg: #121211; --surface: #1a1a19; --surface-2: #232321; --line: #34332f;
     --text: #f0efec; --text-2: #c3c2b7; --muted: #929088;
-    --accent: #5cc48a; --series-1: #3987e5;
+    --accent: #f2873f; --series-1: #e8692c;
     --win: #6fd394; --win-bg: #183424; --loss: #f08a87; --loss-bg: #3a1d1c; --nr: #b5b3aa; --nr-bg: #2b2b28;
   }
 }
@@ -25,11 +25,11 @@
   color-scheme: dark;
   --bg: #121211; --surface: #1a1a19; --surface-2: #232321; --line: #34332f;
   --text: #f0efec; --text-2: #c3c2b7; --muted: #929088;
-  --accent: #5cc48a; --series-1: #3987e5;
+  --accent: #f2873f; --series-1: #e8692c;
   --win: #6fd394; --win-bg: #183424; --loss: #f08a87; --loss-bg: #3a1d1c; --nr: #b5b3aa; --nr-bg: #2b2b28;
 }
 * { box-sizing: border-box; }
-body { margin: 0; background: var(--bg); color: var(--text);
+body { margin: 0; border-top: 5px solid var(--series-1); background: var(--bg); color: var(--text);
   font: 15px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
 .wrap { max-width: 1120px; margin: 0 auto; padding: 20px 16px 48px; }
 header { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 12px; margin-bottom: 16px; }
@@ -93,7 +93,43 @@ footer { color: var(--muted); font-size: 12px; margin-top: 8px; }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .bm { color: #0b0b0b; } }
 .empty { text-align: center; padding: 28px 16px; color: var(--text-2); }
 .empty b { display: block; color: var(--text); font-size: 18px; margin-bottom: 4px; }
+.views { display: flex; gap: 6px; margin: 0 0 16px; border-bottom: 1px solid var(--line); }
+.views a { padding: 8px 14px; color: var(--text-2); text-decoration: none; font-weight: 600; border-bottom: 2px solid transparent; margin-bottom: -1px; }
+.views a[aria-current="page"] { color: var(--text); border-bottom-color: var(--accent); }
+.back { display: inline-block; margin-bottom: 12px; color: var(--text-2); text-decoration: none; font-size: 14px; }
+.back:hover { color: var(--text); }
+.phead { display: flex; align-items: center; gap: 14px; margin-bottom: 16px; }
+.phead h2 { margin: 0; font-size: 24px; }
+.avatar { flex: none; width: 52px; height: 52px; border-radius: 50%; display: grid; place-items: center; font-weight: 700;
+  background: var(--accent); color: var(--surface); font-size: 18px; letter-spacing: .02em; }
+.avatar.sm { width: 38px; height: 38px; font-size: 14px; }
+.tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+.tag { font-size: 12px; padding: 2px 8px; border-radius: 999px; background: var(--surface-2); color: var(--text-2); }
+.kpis.k6 { grid-template-columns: repeat(6, 1fr); }
+.kpi .note { display: block; color: var(--muted); font-size: 12px; margin-top: 2px; }
+.sec-label { font-size: 12px; text-transform: uppercase; letter-spacing: .05em; color: var(--text-2); margin: 4px 0 8px; font-weight: 600; }
+.plist { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 10px; }
+.pcard { display: flex; gap: 12px; align-items: center; background: var(--surface); border: 1px solid var(--line); border-radius: 12px;
+  padding: 12px; text-decoration: none; color: var(--text); }
+.pcard:hover { border-color: var(--accent); }
+.pcard b { display: block; }
+.pcard small { color: var(--text-2); font-size: 12px; }
+.ptools { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
+.ptools input { font: inherit; font-size: 14px; padding: 7px 10px; border-radius: 8px; border: 1px solid var(--line);
+  background: var(--surface); color: var(--text); flex: 1 1 200px; min-width: 0; }
+.best { list-style: none; margin: 0; padding: 0; }
+.best li { display: flex; justify-content: space-between; gap: 10px; padding: 7px 0; border-bottom: 1px solid var(--line); font-size: 14px; }
+.best li span:last-child { color: var(--text-2); text-align: right; }
+.best b { font-variant-numeric: tabular-nums; }
+.cols text { fill: var(--text-2); font-size: 11px; }
+.cols rect.bar { fill: var(--series-1); }
+.cols rect.hit { fill: transparent; }
+.cols g:hover rect.bar { opacity: .8; }
+.cols .avg { stroke: var(--text-2); stroke-dasharray: 4 4; }
+.cols .base { stroke: var(--line); }
+.empty-note { color: var(--muted); font-size: 14px; padding: 8px 0; }
 @media (max-width: 760px) {
+  .kpis.k6 { grid-template-columns: repeat(2, 1fr); }
   .kpis { grid-template-columns: repeat(2, 1fr); }
   .grid2 { grid-template-columns: 1fr; }
   .mini { grid-template-columns: repeat(2, 1fr); }
@@ -114,8 +150,13 @@ footer { color: var(--muted); font-size: 12px; margin-top: 8px; }
       <select id="fSeries" aria-label="Series"></select>
     </div>
   </header>
+  <nav class="views" aria-label="Views">
+    <a href="#" data-v="team">Team</a>
+    <a href="#players" data-v="players">Players</a>
+  </nav>
   <div id="banner"></div>
 
+  <div id="teamView">
   <section class="kpis" id="kpis"></section>
 
   <div class="grid2">
@@ -136,19 +177,21 @@ footer { color: var(--muted); font-size: 12px; margin-top: 8px; }
     <h2>Results</h2>
     <div class="scroll"><table id="results"></table></div>
   </div>
+  </div>
 
-  <details class="card how" id="how">
-    <summary><b>How to update this dashboard</b></summary>
-    <p style="margin:10px 0 6px">Drag this button to your browser's bookmarks bar (one time only):
-      <a class="bm" id="bm" href="#" onclick="alert('Drag this button to your bookmarks bar, then click it while you are on cricclubs.com.');return false">Squad Eleven Update</a></p>
-    <ol>
-      <li>Open <a href="https://cricclubs.com/MichCA" target="_blank" rel="noopener">cricclubs.com/MichCA</a> (any CricClubs page works).</li>
-      <li>Click <b>Squad Eleven Update</b> in your bookmarks bar. A box shows progress, then <b>squad-data.json</b> downloads.</li>
-      <li>Click <b>Open GitHub upload</b> in that box, drag in <b>squad-data.json</b> and click <b>Commit changes</b>.</li>
-      <li>About a minute later, refresh this page.</li>
-    </ol>
-    <p class="muted" style="margin:8px 0 0">Can't see the bookmarks bar? Press Ctrl+Shift+B (Windows) or Cmd+Shift+B (Mac).</p>
-  </details>
+  <div id="playersView" hidden>
+    <div class="ptools">
+      <input id="pSearch" type="search" placeholder="Search players" aria-label="Search players">
+      <select id="pSort" aria-label="Sort players">
+        <option value="mat">Most matches</option><option value="runs">Most runs</option>
+        <option value="wk">Most wickets</option><option value="dis">Most catches</option><option value="name">Name</option>
+      </select>
+    </div>
+    <div class="plist" id="plist"></div>
+  </div>
+
+  <div id="playerView" hidden></div>
+
 
   <footer id="foot"></footer>
 </div>
@@ -169,8 +212,6 @@ const score = s => s ? `${s.r}/${s.w} (${s.o})` : "–";
 const all = DATA.matches;
 $("#team").textContent = DATA.team;
 document.title = `${DATA.team} Dashboard`;
-if (DATA.bookmarklet) $("#bm").href = DATA.bookmarklet;
-if (!all.length) $("#how").open = true;
 $("#updated").textContent = `Updated ${new Date(DATA.status?.time || DATA.generated).toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" })} · from CricClubs`;
 if (DATA.demo) $("#banner").innerHTML = `<div class="banner">Demo data – the real numbers appear after the first CricClubs update runs.</div>`;
 const failed = (DATA.status?.sources || []).filter(s => s.error);
@@ -218,6 +259,7 @@ function players(ms) {
       if (b.w > p.best[0] || (b.w === p.best[0] && b.r < p.best[1])) p.best = [b.w, b.r];
       (seen[b.name] ??= { m }).bowl = b;
     }
+    for (const n of m.dnb || []) { get(n).m.add(m.id); seen[n] ??= { m }; }
     for (const f of m.fielding) {
       const p = get(f.name); p.m.add(m.id); p.ct += f.ct; p.st += f.st; p.ro += f.ro;
       (seen[f.name] ??= { m }).field = f;
@@ -308,7 +350,7 @@ function results(ms) {
 }
 
 // ---------- player profile ----------
-function profile(name) {
+function profileDialog(name) {
   const p = current.find(x => x.name === name); if (!p) return;
   const log = [...p.log].reverse();
   const maxR = Math.max(1, ...p.log.map(e => e.bat?.r || 0));
@@ -341,7 +383,7 @@ dlg.addEventListener("click", e => { if (e.target === dlg) dlg.close(); });
 // ---------- render ----------
 function render() {
   if (!all.length) {
-    if ($("#kpis")) $("#kpis").outerHTML = `<div class="card empty"><b>No match data yet</b>Follow "How to update this dashboard" below to load Squad Eleven's matches from CricClubs.</div>`;
+    if ($("#kpis")) $("#kpis").outerHTML = `<div class="card empty"><b>No match data yet</b>Open <a href="update.html">update.html</a> on this site to load Squad Eleven's matches from CricClubs.</div>`;
     for (const el of [$(".grid2"), $("#stats").closest(".card"), $("#results").closest(".card"), $(".filters")]) el.style.display = "none";
     return;
   }
@@ -354,10 +396,195 @@ function render() {
     p => `<b>${esc(p.name)}</b><br>${p.wk} wkts · ${overs(p.bb)} ov · econ ${fmt(p.econ, 2)}`);
   statsTable();
   results(ms);
-  $("#foot").textContent = `${all.length} matches loaded across ${uniq(all.map(m => m.league)).length} leagues. Click any player for their match-by-match record.`;
+  $("#foot").textContent = `${all.length} matches loaded across ${uniq(all.map(m => m.league)).length} leagues. Click any player, or open the Players tab, for their full page.`;
 }
+// ---------- player pages ----------
+function profile(name) { location.hash = "player=" + encodeURIComponent(name); }
+const initials = n => n.split(/\s+/).filter(Boolean).slice(0, 2).map(w => w[0].toUpperCase()).join("");
+const year = m => m.date.slice(0, 4);
+const shortTeam = t => t.replace(/\s+[A-Z]{2,5}$/, "");
+let careerCache = null;
+const career = () => (careerCache ??= players(all));
+
+function sumUp(entries) {
+  const s = { mat: entries.length, inn: 0, no: 0, runs: 0, bf: 0, hs: -1, hsNo: false, f50: 0, f100: 0, f4: 0, f6: 0,
+    bb: 0, rc: 0, wk: 0, best: null, ct: 0, st: 0, ro: 0 };
+  for (const e of entries) {
+    if (e.bat) { const b = e.bat; s.inn++; s.runs += b.r; s.bf += b.b; s.f4 += b.f4; s.f6 += b.f6; if (!b.out) s.no++;
+      if (b.r > s.hs || (b.r === s.hs && !b.out)) { s.hs = b.r; s.hsNo = !b.out; }
+      if (b.r >= 100) s.f100++; else if (b.r >= 50) s.f50++; }
+    if (e.bowl) { const b = e.bowl; s.bb += balls(b.o); s.rc += b.r; s.wk += b.w;
+      if (!s.best || b.w > s.best[0] || (b.w === s.best[0] && b.r < s.best[1])) s.best = [b.w, b.r]; }
+    if (e.field) { s.ct += e.field.ct; s.st += e.field.st; s.ro += e.field.ro; }
+  }
+  s.avg = s.inn - s.no ? s.runs / (s.inn - s.no) : null; s.sr = s.bf ? s.runs / s.bf * 100 : null;
+  s.econ = s.bb ? s.rc / s.bb * 6 : null; s.bavg = s.wk ? s.rc / s.wk : null;
+  s.hsText = s.inn ? s.hs + (s.hsNo ? "*" : "") : "–"; s.bestText = s.best ? `${s.best[0]}/${s.best[1]}` : "–";
+  return s;
+}
+
+function howOut(d, out) {
+  if (!out) return "Not out";
+  if (/^c\s*&\s*b|^c\s/i.test(d)) return "Caught";
+  if (/^st\s/i.test(d)) return "Stumped";
+  if (/^lbw/i.test(d)) return "LBW";
+  if (/run\s*out/i.test(d)) return "Run out";
+  if (/^b\s/i.test(d)) return "Bowled";
+  if (/retired/i.test(d)) return "Retired";
+  return "Other";
+}
+
+function cols(svg, items, opts = {}) {
+  const W = svg.clientWidth || 520, H = 150, top = 14, bottom = 22, left = 4;
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`); svg.setAttribute("height", H);
+  if (!items.length) { svg.outerHTML = `<div class="empty-note">${esc(opts.empty || "No data yet")}</div>`; return; }
+  const max = Math.max(1, ...items.map(i => i.v)), ph = H - top - bottom, step = (W - left) / items.length;
+  const bw = Math.max(3, Math.min(26, step - 3));
+  const y = v => top + ph - v / max * ph;
+  let h = `<line class="base" x1="0" x2="${W}" y1="${top + ph}" y2="${top + ph}"/>`;
+  h += `<text x="${W}" y="${top - 3}" text-anchor="end">max ${max}</text>`;
+  if (opts.avg != null && isFinite(opts.avg)) h += `<line class="avg" x1="0" x2="${W}" y1="${y(opts.avg)}" y2="${y(opts.avg)}"/>` +
+    "";
+  items.forEach((it, i) => {
+    const x = left + i * step + (step - bw) / 2, bh = Math.max(it.v ? 2 : 0, top + ph - y(it.v));
+    h += `<g data-i="${i}"><rect class="hit" x="${left + i * step}" y="0" width="${step}" height="${H}"/>` +
+      `<rect class="bar" x="${x}" y="${top + ph - bh}" width="${bw}" height="${bh}" rx="3"/></g>`;
+  });
+  h += `<text x="${left}" y="${H - 5}">${esc(items[0].label)}</text><text x="${W}" y="${H - 5}" text-anchor="end">${esc(items.at(-1).label)}</text>`;
+  svg.innerHTML = h;
+  svg.querySelectorAll("g[data-i]").forEach(g => { const it = items[g.dataset.i];
+    g.onmousemove = e => showTip(e, it.tip); g.onmouseleave = hideTip; });
+}
+
+function hbars(svg, rows) {
+  const total = rows.reduce((a, r) => a + r.v, 0);
+  bars(svg, rows, r => r.v, r => `<b>${esc(r.name)}</b><br>${r.v} of ${total} innings (${Math.round(r.v / total * 100)}%)`);
+  svg.querySelectorAll("g").forEach(g => g.onclick = null);
+  svg.querySelectorAll("g").forEach(g => g.style.cursor = "default");
+}
+
+function showPlayer(name) {
+  const p = career().find(x => x.name === name);
+  const v = $("#playerView");
+  if (!p) { v.innerHTML = `<a class="back" href="#players">← All players</a><div class="card empty"><b>Player not found</b>${esc(name)}</div>`; return; }
+  const log = [...p.log].sort((a, b) => a.m.date.localeCompare(b.m.date));
+  const c = sumUp(log);
+  const leagues = [...new Set(log.map(e => e.m.league))];
+  const yrs = [...new Set(log.map(e => year(e.m)))].sort();
+  const bowler = c.bb > 0, batter = c.inn > 0;
+  const tile = (k, val, note) => `<div class="kpi"><small>${k}</small><b>${val}</b>${note ? `<span class="note">${note}</span>` : ""}</div>`;
+
+  // season x league
+  const groups = {};
+  for (const e of log) (groups[year(e.m) + "|" + e.m.league] ??= []).push(e);
+  const seasonRows = Object.entries(groups).sort((a, b) => b[0].localeCompare(a[0])).map(([k, es]) => {
+    const [y, lg] = k.split("|"), s = sumUp(es);
+    return `<tr><td class="l">${y}</td><td class="l muted">${esc(lg)}</td><td>${s.mat}</td><td>${s.inn}</td><td>${s.runs}</td><td>${s.hsText}</td>
+      <td>${fmt(s.avg)}</td><td>${fmt(s.sr)}</td>${bowler ? `<td>${s.bb ? overs(s.bb) : "–"}</td><td>${s.wk}</td><td>${s.bestText}</td><td>${fmt(s.econ, 2)}</td>` : ""}<td>${s.ct + s.st}</td></tr>`;
+  }).join("");
+
+  // dismissals
+  const outs = {};
+  for (const e of log) if (e.bat) { const t = howOut(e.bat.dis || "", e.bat.out); outs[t] = (outs[t] || 0) + 1; }
+  const outRows = Object.entries(outs).map(([name, v]) => ({ name, v })).sort((a, b) => b.v - a.v);
+
+  // bests
+  const bestInn = log.filter(e => e.bat).sort((a, b) => b.bat.r - a.bat.r || a.bat.b - b.bat.b).slice(0, 5);
+  const bestBowl = log.filter(e => e.bowl && e.bowl.w).sort((a, b) => b.bowl.w - a.bowl.w || a.bowl.r - b.bowl.r).slice(0, 5);
+  const li = (main, sub) => `<li><span><b>${main}</b></span><span>${sub}</span></li>`;
+
+  // opponents
+  const opp = {};
+  for (const e of log) (opp[shortTeam(e.m.opponent)] ??= []).push(e);
+  const oppRows = Object.entries(opp).map(([o, es]) => ({ o, s: sumUp(es) }))
+    .sort((a, b) => b.s.runs - a.s.runs || b.s.wk - a.s.wk).slice(0, 12)
+    .map(({ o, s }) => `<tr><td class="l">${esc(o)}</td><td>${s.mat}</td><td>${s.runs}</td><td>${fmt(s.avg)}</td><td>${s.hsText}</td>${bowler ? `<td>${s.wk}</td>` : ""}<td>${s.ct + s.st}</td></tr>`).join("");
+
+  const recent = log.filter(e => e.bat).slice(-25);
+  const recentW = log.filter(e => e.bowl).slice(-25);
+
+  v.innerHTML = `<a class="back" href="#players">← All players</a>
+    <div class="phead"><div class="avatar">${esc(initials(name))}</div><div><h2>${esc(name)}</h2>
+      <div class="tags">${leagues.map(l => `<span class="tag">${esc(l)}</span>`).join("")}
+      <span class="tag">${yrs.length > 1 ? yrs[0] + "–" + yrs.at(-1) : yrs[0] || ""}</span>
+      <span class="tag">${p.mat} matches</span></div></div></div>
+
+    ${batter ? `<div class="sec-label">Batting</div>
+    <section class="kpis k6">${tile("Runs", c.runs, `${c.inn} innings`)}${tile("Average", fmt(c.avg), `${c.no} not out`)}
+      ${tile("Strike rate", fmt(c.sr, 0))}${tile("High score", c.hsText)}${tile("50s / 100s", `${c.f50} / ${c.f100}`)}${tile("4s / 6s", `${c.f4} / ${c.f6}`)}</section>` : ""}
+    <div class="sec-label">${bowler ? "Bowling & fielding" : "Fielding"}</div>
+    <section class="kpis k6">${bowler ? tile("Wickets", c.wk, `${overs(c.bb)} overs`) + tile("Best", c.bestText) +
+      tile("Economy", fmt(c.econ, 2)) + tile("Bowl avg", fmt(c.bavg)) : ""}${tile("Catches", c.ct)}${bowler ? tile("Stumpings / run outs", `${c.st} / ${c.ro}`) : tile("Stumpings", c.st) + tile("Run outs", c.ro)}</section>
+
+    <div class="card"><h2>Season by season</h2><div class="scroll"><table>
+      <thead><tr><th class="l">Season</th><th class="l">League</th><th>M</th><th>Inn</th><th>Runs</th><th>HS</th><th>Avg</th><th>SR</th>${bowler ? "<th>Overs</th><th>Wkts</th><th>Best</th><th>Econ</th>" : ""}<th>Ct</th></tr></thead>
+      <tbody>${seasonRows}</tbody></table></div></div>
+
+    <div class="${batter && bowler ? "grid2" : ""}">
+      ${batter ? `<div class="card"><h2>Runs per innings</h2><div class="sub" style="margin:-6px 0 8px">Last ${recent.length} innings, oldest → newest · dashed line = average (${fmt(c.avg)})</div><svg class="cols" id="pcRuns" width="100%"></svg></div>` : ""}
+      ${bowler ? `<div class="card"><h2>Wickets per match</h2><div class="sub" style="margin:-6px 0 8px">Last ${recentW.length} matches bowled, oldest → newest</div><svg class="cols" id="pcWk" width="100%"></svg></div>` : ""}
+    </div>
+    <div class="grid2">
+      <div class="card"><h2>How they get out</h2><svg class="bars" id="pcOut"></svg></div>
+      <div class="card"><h2>Best performances</h2>
+        <div class="sec-label">Top innings</div><ul class="best">${bestInn.map(e => li(`${e.bat.r}${e.bat.out ? "" : "*"} (${e.bat.b})`, `v ${esc(shortTeam(e.m.opponent))} · ${fmtDate(e.m.date)}`)).join("") || "<li class='muted'>No innings yet</li>"}</ul>
+        ${bowler ? `<div class="sec-label" style="margin-top:14px">Best bowling</div><ul class="best">${bestBowl.map(e => li(`${e.bowl.w}/${e.bowl.r} (${e.bowl.o})`, `v ${esc(shortTeam(e.m.opponent))} · ${fmtDate(e.m.date)}`)).join("") || "<li class='muted'>No wickets yet</li>"}</ul>` : ""}
+      </div>
+    </div>
+
+    <div class="card"><h2>Against opponents</h2><div class="scroll"><table>
+      <thead><tr><th class="l">Opponent</th><th>M</th><th>Runs</th><th>Avg</th><th>HS</th>${bowler ? "<th>Wkts</th>" : ""}<th>Ct</th></tr></thead><tbody>${oppRows}</tbody></table></div></div>
+
+    <div class="card"><h2>Match by match</h2><div class="scroll"><table>
+      <thead><tr><th class="l">Date</th><th class="l">Opponent</th><th class="l">Competition</th><th>Batting</th><th class="l">How out</th><th>Bowling</th><th>Fielding</th><th class="l">Result</th></tr></thead>
+      <tbody>${[...log].reverse().map(e => `<tr><td class="l">${fmtDate(e.m.date)}</td><td class="l">${esc(shortTeam(e.m.opponent))}</td>
+        <td class="l muted">${esc(e.m.series || e.m.league)}</td>
+        <td>${e.bat ? `${e.bat.r}${e.bat.out ? "" : "*"} (${e.bat.b})` : "–"}</td>
+        <td class="l muted">${e.bat ? esc(e.bat.dis || howOut("", e.bat.out)) : ""}</td>
+        <td>${e.bowl ? `${e.bowl.w}/${e.bowl.r} (${e.bowl.o})` : "–"}</td>
+        <td>${e.field ? [e.field.ct && e.field.ct + " ct", e.field.st && e.field.st + " st", e.field.ro && e.field.ro + " ro"].filter(Boolean).join(", ") : "–"}</td>
+        <td class="l"><span class="chip ${e.m.result}">${e.m.result}</span></td></tr>`).join("")}</tbody></table></div></div>`;
+
+  if (batter) cols($("#pcRuns"), recent.map(e => ({ v: e.bat.r, label: fmtDate(e.m.date),
+    tip: `<b>${e.bat.r}${e.bat.out ? "" : "*"} (${e.bat.b})</b><br>v ${esc(shortTeam(e.m.opponent))}<br>${fmtDate(e.m.date)}` })),
+    { avg: c.avg, empty: "No innings yet" });
+  if (bowler) cols($("#pcWk"), recentW.map(e => ({ v: e.bowl.w, label: fmtDate(e.m.date),
+    tip: `<b>${e.bowl.w}/${e.bowl.r}</b> (${e.bowl.o} ov)<br>v ${esc(shortTeam(e.m.opponent))}<br>${fmtDate(e.m.date)}` })),
+    { empty: "Hasn't bowled yet" });
+  if (outRows.length) hbars($("#pcOut"), outRows); else $("#pcOut").outerHTML = `<div class="empty-note">No innings yet</div>`;
+  window.scrollTo(0, 0);
+}
+
+function showPlayers() {
+  const q = $("#pSearch").value.trim().toLowerCase(), k = $("#pSort").value;
+  const list = career().filter(p => p.name.toLowerCase().includes(q))
+    .sort((a, b) => k === "name" ? a.name.localeCompare(b.name) : (b[k] - a[k]) || a.name.localeCompare(b.name));
+  $("#plist").innerHTML = list.map(p => `<a class="pcard" href="#player=${encodeURIComponent(p.name)}">
+      <div class="avatar sm">${esc(initials(p.name))}</div>
+      <div><b>${esc(p.name)}</b><small>${[p.mat + " matches", p.runs + " runs", p.wk && p.wk + " wkts", p.ct && p.ct + " catches"].filter(Boolean).join(" · ")}</small></div></a>`).join("") ||
+    `<div class="empty-note">No players match "${esc(q)}"</div>`;
+}
+$("#pSearch").oninput = showPlayers;
+$("#pSort").onchange = showPlayers;
+
+function route() {
+  const h = decodeURIComponent(location.hash.slice(1));
+  const view = h.startsWith("player=") ? "player" : h === "players" ? "players" : "team";
+  $("#teamView").hidden = view !== "team";
+  $("#playersView").hidden = view !== "players";
+  $("#playerView").hidden = view !== "player";
+  $(".filters").style.visibility = view === "team" && all.length ? "visible" : "hidden";
+  document.querySelectorAll(".views a").forEach(a => a.setAttribute("aria-current", a.dataset.v === (view === "player" ? "players" : view) ? "page" : "false"));
+  hideTip();
+  if (view === "players") showPlayers();
+  if (view === "player") showPlayer(h.slice(7));
+  document.title = view === "player" ? `${h.slice(7)} · ${DATA.team}` : `${DATA.team} Dashboard`;
+}
+addEventListener("hashchange", route);
+
 render();
-addEventListener("resize", () => { clearTimeout(window._rt); window._rt = setTimeout(render, 150); });
+route();
+addEventListener("resize", () => { clearTimeout(window._rt); window._rt = setTimeout(() => { render(); if (!$("#playerView").hidden) route(); }, 150); });
 </script>
 </body>
 </html>
